@@ -1,0 +1,27 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Keep compiled PDF
+!Paper/main.pdf
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS (iCloud)
+.DS_Store
+._*
+.AppleDouble
+.LSOverrideIcon

@@ -16,6 +16,9 @@
 # Keep compiled PDF
 !Paper/main.pdf
 
+# Word temp/lock files
+~$*
+
 # Windows
 Thumbs.db
 Desktop.ini

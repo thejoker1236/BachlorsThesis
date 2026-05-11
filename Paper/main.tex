@@ -1,45 +1,186 @@
 \documentclass[12pt,a4paper,oneside]{book}
+
+% --- Encoding and language ---
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
 \usepackage{csquotes}
+
+% --- Font: Times New Roman 12pt (FOM Leitfaden §5.2.2) ---
+\usepackage{mathptmx}
+
+% --- Page geometry (FOM Leitfaden §5.2.1) ---
+% left 4cm, right 2cm, top 4cm, bottom 2cm
 \usepackage[left=4cm,right=2cm,top=4cm,bottom=2cm]{geometry}
+
+% --- Line spacing: 1.5x (FOM Leitfaden §5.2.2) ---
 \usepackage{setspace}
+\onehalfspacing
+
+% --- Paragraph spacing: 0pt before, 6pt after; no indent (FOM Leitfaden §5.3) ---
+\usepackage{parskip}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+% --- Heading spacing: 12pt before, 6pt after (FOM Leitfaden §5.2.3) ---
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{12pt}{6pt}
+\titlespacing*{\subsubsection}{0pt}{12pt}{6pt}
+
+% --- Graphics ---
 \usepackage{graphicx}
+
+% --- Better justification ---
+\usepackage{microtype}
+
+% --- Hyperlinks (hidden) ---
 \usepackage[hidelinks]{hyperref}
+
+% --- Bibliography: footnote style (Litzinger Hinweise §7) ---
 \usepackage[style=footnote-dw,backend=biber]{biblatex}
 \addbibresource{references.bib}
 
-\onehalfspacing
-
+% ============================================================
 \begin{document}
+% ============================================================
 
+% ============================================================
+% FRONT MATTER — Roman numerals (i, ii, iii …)
+% Titelblatt carries no page number.
+% ============================================================
 \frontmatter
+
+% --- Titelblatt ---
+\begin{titlepage}
+\thispagestyle{empty}
+\singlespacing
+\begin{center}
+  % FOM logo
+  \includegraphics[width=4.5cm]{pic/fom_logo}\\[0.7cm]
+
+  {\large\bfseries FOM Hochschule für Oekonomie \& Management}\\[0.15cm]
+  {\normalsize Studienzentrum Frankfurt}\\[0.9cm]
+
+  {\large\bfseries Bachelor-Thesis}\\[0.25cm]
+  {\normalsize zur Erlangung des Grades eines}\\[0.1cm]
+  {\normalsize Bachelor of Science (B.Sc.)}\\[0.7cm]
+
+  {\normalsize Modul:}\\[0.05cm]
+  {\normalsize Vorbereitungsseminar zur Bachelor-Thesis}\\[0.25cm]
+  {\normalsize über zum Thema:}\\[0.25cm]
+  {\large\bfseries
+    Wie funktionieren KI-gestützte Monitoring-Systeme als digitale\\[0.1cm]
+    Informationssysteme und inwiefern ermöglichen sie datenbasierte\\[0.1cm]
+    Analyse und Beeinflussung von Verhalten?}\\[0.5cm]
+  {\normalsize von}\\[0.1cm]
+  {\normalsize Meshan Fernando}\\[1cm]
+\end{center}
+
+\noindent
+\begin{tabular}{@{}p{4.5cm}p{9cm}@{}}
+  Erstgutachter:  & (Prof.\ Dr.\ Dieter Litzinger) Oliver Bach \\[0.2cm]
+  Matrikelnummer: & 617993 \\[0.2cm]
+  Modul:          & Vorbereitungsseminar zur Bachelor-Thesis \\[0.2cm]
+  Abgabedatum     & 28/02/2026 \\[0.2cm]
+  Wörteranzahl    & \\
+\end{tabular}
+
+\end{titlepage}
+
+% --- Inhaltsverzeichnis ---
 \tableofcontents
 
+% --- Abbildungsverzeichnis (include once figures are added) ---
+\listoffigures
+
+% --- Tabellenverzeichnis (include once tables are added) ---
+\listoftables
+
+% ============================================================
+% MAIN MATTER — Arabic numerals starting at 1
+% ============================================================
 \mainmatter
 
 \chapter{Einleitung}
 \section{Problemstellung}
-\section{Zielsetzung}
-\section{Forschungsfrage}
+\section{Zielsetzung und Forschungsfrage}
 \section{Aufbau der Arbeit}
 
-\chapter{Grundlagen}
-\section{Bla Grundlagen 1}
-\section{Bla Grundlagen 2}
-\section{Stand der Forschung}
+\chapter{Theoretische und technologische Grundlagen}
+\section{Künstliche Intelligenz und Machine Learning}
+\subsection{Grundbegriffe}
+\subsection{Überwachungsrelevante Verfahren}
+\section{Digitale Informationssysteme}
+\subsection{Systemarchitekturen}
+\subsection{Datenflüsse und Entscheidungslogiken}
+\section{Monitoring- und Bewertungssysteme}
+\subsection{Datenerfassung}
+\subsection{Analyse und Modellbildung}
+\subsection{Algorithmische Bewertung}
 
-\chapter{Umsetzung}
-\section{Methodik}
-\section{Durchführung}
-\section{Ergebnisse}
+\chapter{KI-gestützte Monitoring-Systeme in digitalen Informationsumgebungen}
+\section{Datenerfassung und digitale Verhaltensanalyse}
+\subsection{Social Media}
+\subsection{Plattformökosysteme}
+\subsection{Digitale Fußabdrücke}
+\section{Algorithmische Bewertungs- und Selektionsmechanismen}
+\subsection{Personalisierung}
+\subsection{Ranking-Algorithmen}
+\subsection{Reputations- und Scoring-Systeme}
+\section{Strukturelle Merkmale und Systemarchitekturen}
+\subsection{Mehrstufige Analyseprozesse}
+\subsection{Datenintegration}
+\subsection{Entscheidungsunterstützung}
 
-\chapter{Fazit}
-\section{Zusammenfassung}
-\section{Ausblick}
+\chapter{Sozioökonomische Implikationen}
+\section{Auswirkungen auf Informationsumgebungen}
+\section{Verhaltensdynamiken und Personalisierungseffekte}
+\section{Ökonomische Steuerungsmechanismen und Plattformlogiken}
+\section{Governance- und Entscheidungsstrukturen}
 
+\chapter{Kritische Betrachtung}
+\section{Grenzen der technologischen Analyse}
+\section{Grenzen der Literaturbasis}
+\section{Aussagekraft und methodische Limitationen}
+\section{Normative vs.\ empirische Perspektiven}
+
+\chapter{Fazit und Ausblick}
+
+% ============================================================
+% BACK MATTER
+% ============================================================
 \backmatter
-\printbibliography
+
+% --- Literaturverzeichnis ---
+% No section number, but listed in the TOC (FOM Leitfaden §5.1 "Nachspann")
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+\printbibliography[title={Literaturverzeichnis}]
+
+% --- Eigenständigkeitserklärung ---
+% No page number. NOT listed in the TOC. (FOM Leitfaden §7.2)
+\clearpage
+\thispagestyle{empty}
+
+{\large\bfseries Ehrenwörtliche Erklärung}
+
+\vspace{1em}
+Hiermit versichere ich, dass die vorliegende Arbeit von mir selbstständig und ohne
+unerlaubte Hilfe angefertigt worden ist, insbesondere, dass ich alle Stellen, die wörtlich
+oder annähernd wörtlich aus Veröffentlichungen entnommen sind, durch Zitate als solche
+gekennzeichnet habe. Ich versichere auch, dass die von mir eingereichte schriftliche Version
+mit der digitalen Version übereinstimmt. Weiterhin erkläre ich, dass die Arbeit in gleicher
+oder ähnlicher Form noch keiner Prüfungsbehörde/Prüfungsstelle vorgelegen hat. Ich erkläre
+mich damit einverstanden, dass die Arbeit der Öffentlichkeit zugänglich gemacht wird. Ich
+erkläre mich damit einverstanden, dass die Digitalversion dieser Arbeit zwecks
+Plagiatsprüfung auf die Server externer Anbieter hochgeladen werden darf. Die
+Plagiatsprüfung stellt keine Zurverfügungstellung für die Öffentlichkeit dar.
+
+\vspace{3cm}
+\noindent
+\begin{tabular}{p{6cm}p{6cm}}
+  \rule{5cm}{0.4pt} & \rule{6cm}{0.4pt} \\[0.3cm]
+  (Ort, Datum)      & (Eigenhändige Unterschrift) \\
+\end{tabular}
 
 \end{document}

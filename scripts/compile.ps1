@@ -3,7 +3,8 @@ Get-Process msedge -ErrorAction SilentlyContinue |
     Where-Object { $_.MainWindowTitle -like "*main.pdf*" } |
     ForEach-Object { $_.CloseMainWindow() | Out-Null }
 
-Push-Location $PSScriptRoot
+$paperDir = "$PSScriptRoot\..\Paper"
+Push-Location $paperDir
 
 pdflatex main.tex
 biber main
@@ -13,4 +14,4 @@ pdflatex main.tex
 Pop-Location
 
 # Open compiled PDF in Edge
-Start-Process "msedge" "$PSScriptRoot\main.pdf"
+Start-Process "msedge" "$paperDir\main.pdf"

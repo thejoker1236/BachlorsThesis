@@ -28,3 +28,6 @@ Desktop.ini
 ._*
 .AppleDouble
 .LSOverrideIcon
+
+# Claude Code local settings
+.claude/settings.local.json

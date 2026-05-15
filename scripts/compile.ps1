@@ -4,14 +4,18 @@ Get-Process msedge -ErrorAction SilentlyContinue |
     ForEach-Object { $_.CloseMainWindow() | Out-Null }
 
 $paperDir = "$PSScriptRoot\..\Paper"
+
 Push-Location $paperDir
 
-pdflatex main.tex
-biber main
-pdflatex main.tex
-pdflatex main.tex
+try {
+    pdflatex -interaction=nonstopmode main.tex
+    biber main
+    pdflatex -interaction=nonstopmode main.tex
+    pdflatex -interaction=nonstopmode main.tex
 
-Pop-Location
-
-# Open compiled PDF in Edge
-Start-Process "msedge" "$paperDir\main.pdf"
+    # Open compiled PDF in Edge
+    Start-Process "msedge" "$paperDir\main.pdf"
+}
+finally {
+    Pop-Location
+}

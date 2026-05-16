@@ -10,12 +10,18 @@
 \usepackage{mathptmx}
 
 % --- Page geometry (FOM Leitfaden §5.2.1) ---
-% left 4cm, right 2cm, top 4cm, bottom 2cm
-\usepackage[left=4cm,right=2cm,top=4cm,bottom=2cm]{geometry}
+% left 4cm, right 2cm, top 2.5cm, bottom 2cm
+\usepackage[left=4cm,right=2cm,top=2.5cm,bottom=2cm]{geometry}
 
 % --- Line spacing: 1.5x (FOM Leitfaden §5.2.2) ---
 \usepackage{setspace}
 \onehalfspacing
+
+% --- Footnotes: 10pt, single-line spacing (FOM Leitfaden §5.2.2) ---
+\usepackage[hang,flushmargin]{footmisc}
+\renewcommand{\footnotesize}{\fontsize{10pt}{12pt}\selectfont}
+\let\oldfootnote\footnote
+\renewcommand{\footnote}[1]{\oldfootnote{\begin{spacing}{1.0}#1\end{spacing}}}
 
 % --- Paragraph spacing: 0pt before, 6pt after; no indent (FOM Leitfaden §5.3) ---
 \usepackage{parskip}
@@ -24,6 +30,7 @@
 
 % --- Heading spacing: 12pt before, 6pt after (FOM Leitfaden §5.2.3) ---
 \usepackage{titlesec}
+\titlespacing*{\chapter}{0pt}{0pt}{12pt}
 \titlespacing*{\section}{0pt}{12pt}{6pt}
 \titlespacing*{\subsection}{0pt}{12pt}{6pt}
 \titlespacing*{\subsubsection}{0pt}{12pt}{6pt}
@@ -31,14 +38,15 @@
 % --- Graphics ---
 \usepackage{graphicx}
 
-% --- Better justification ---
+% --- Text alignment: justified (default in LaTeX, microtype improves it) ---
 \usepackage{microtype}
+\usepackage{ragged2e}
 
 % --- Hyperlinks (hidden) ---
 \usepackage[hidelinks]{hyperref}
 
-% --- Bibliography: footnote style (Litzinger Hinweise §7) ---
-\usepackage[style=footnote-dw,backend=biber]{biblatex}
+% --- Bibliography: author-title with ibid (Litzinger Hinweise §7) ---
+\usepackage[style=authortitle-ibid,backend=biber]{biblatex}
 \addbibresource{references.bib}
 
 % ============================================================
@@ -57,33 +65,34 @@
 \singlespacing
 \begin{center}
   % FOM logo
-  \includegraphics[width=4.5cm]{pic/fom_logo}\\[0.7cm]
+  \includegraphics[width=3cm]{pic/fom_logo}\\[0.5cm]
 
-  {\large\bfseries FOM Hochschule für Oekonomie \& Management}\\[0.15cm]
-  {\normalsize Studienzentrum Frankfurt}\\[0.9cm]
+  {\Large\bfseries FOM Hochschule für Oekonomie \& Management}\\[0.2cm]
+  {\normalsize Hochschulzentrum Frankfurt a.\,M.}\\[1.2cm]
 
-  {\large\bfseries Bachelor-Thesis}\\[0.25cm]
-  {\normalsize zur Erlangung des Grades eines}\\[0.1cm]
-  {\normalsize Bachelor of Science (B.Sc.)}\\[0.7cm]
+  {\Large\bfseries Bachelor-Thesis}\\[0.3cm]
+  {\normalsize im Studiengang Wirtschaftsinformatik}\\[1cm]
 
-  {\normalsize Modul:}\\[0.05cm]
-  {\normalsize Vorbereitungsseminar zur Bachelor-Thesis}\\[0.25cm]
-  {\normalsize über zum Thema:}\\[0.25cm]
-  {\large\bfseries
+  {\normalsize zur Erlangung des Grades eines}\\[0.2cm]
+  {\large Bachelor of Science (B.Sc.)}\\[1.2cm]
+
+  {\normalsize über das Thema}\\[0.4cm]
+  {\Large\bfseries
     Wie funktionieren KI-gestützte Monitoring-Systeme als digitale\\[0.1cm]
-    Informationssysteme und inwiefern ermöglichen sie datenbasierte\\[0.1cm]
-    Analyse und Beeinflussung von Verhalten?}\\[0.5cm]
-  {\normalsize von}\\[0.1cm]
-  {\normalsize Meshan Fernando}\\[1cm]
+    Informationssysteme und inwiefern ermöglichen sie datenbasierte Analyse\\[0.1cm]
+    und Beeinflussung von Verhalten?}\\[1.5cm]
+
+  {\normalsize von}\\[0.3cm]
+  {\large Meshan Fernando}
 \end{center}
+
+\vfill
 
 \noindent
 \begin{tabular}{@{}p{4.5cm}p{9cm}@{}}
-  Erstgutachter:  & (Prof.\ Dr.\ Dieter Litzinger) Oliver Bach \\[0.2cm]
-  Matrikelnummer: & 617993 \\[0.2cm]
-  Modul:          & Vorbereitungsseminar zur Bachelor-Thesis \\[0.2cm]
-  Abgabedatum     & 28/02/2026 \\[0.2cm]
-  Wörteranzahl    & \\
+  Erstgutachter/in  & Dr. phil. Patrick Hedfeld \\[0.2cm]
+  Matrikelnummer    & 617993 \\[0.2cm]
+  Abgabedatum       & \ifnum\day<10 0\fi\the\day.\ifnum\month<10 0\fi\the\month.\the\year \\
 \end{tabular}
 
 \end{titlepage}
@@ -103,7 +112,12 @@
 \mainmatter
 
 \chapter{Einleitung}
-dd
+In den heutigen Zeitalter werden die Menschen immer digitaler und verbringen mehr Zeit mit
+dem Internet. Insbesondere die ...
+
+
+Test
+
 \section{Problemstellung}
 \section{Zielsetzung und Forschungsfrage}
 \section{Aufbau der Arbeit}

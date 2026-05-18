@@ -11,7 +11,7 @@
 
 % --- Page geometry (FOM Leitfaden §5.2.1) ---
 % left 4cm, right 2cm, top 2.5cm, bottom 2cm
-\usepackage[left=4cm,right=2cm,top=2.5cm,bottom=2cm]{geometry}
+\usepackage[left=4cm,right=2cm,top=2.5cm,bottom=2cm,headheight=14.5pt]{geometry}
 
 % --- Line spacing: 1.5x (FOM Leitfaden §5.2.2) ---
 \usepackage{setspace}
@@ -28,8 +28,13 @@
 \setlength{\parskip}{6pt}
 \setlength{\parindent}{0pt}
 
-% --- Heading spacing: 12pt before, 6pt after (FOM Leitfaden §5.2.3) ---
+% --- Heading format and spacing (FOM Leitfaden §5.2.3) ---
 \usepackage{titlesec}
+% Chapter: "1 Titel" — suppress the "Kapitel" word, same 12pt bold font as body
+\titleformat{\chapter}[hang]{\normalfont\normalsize\bfseries}{\thechapter}{1em}{}
+\titleformat{\section}[hang]{\normalfont\normalsize\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}[hang]{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}[hang]{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
 \titlespacing*{\chapter}{0pt}{0pt}{12pt}
 \titlespacing*{\section}{0pt}{12pt}{6pt}
 \titlespacing*{\subsection}{0pt}{12pt}{6pt}
@@ -42,8 +47,47 @@
 \usepackage{microtype}
 \usepackage{ragged2e}
 
+% --- Page numbering: top center ---
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead[C]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% --- TOC styling (dotted leaders, numbering format) ---
+\usepackage[titles]{tocloft}
+% Chapter entries: "1." style with dotted leaders
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftchapaftersnum}{.}
+\setlength{\cftchapnumwidth}{2em}
+\setlength{\cftbeforechapskip}{0pt}  % No extra spacing between chapters
+% Section entries: "1.1" indented
+\setlength{\cftsecindent}{2em}
+\setlength{\cftsecnumwidth}{2.5em}
+% Subsection entries: "1.1.1" further indented
+\setlength{\cftsubsecindent}{4.5em}
+\setlength{\cftsubsecnumwidth}{3.2em}
+% Remove bold from chapter entries in TOC
+\renewcommand{\cftchappresnum}{}
+
 % --- Hyperlinks (hidden) ---
 \usepackage[hidelinks]{hyperref}
+
+% --- Abkürzungsverzeichnis ---
+\usepackage[printonlyused]{acronym}
+
+% --- Formelverzeichnis (list of equations) ---
+\usepackage{float}
+\newfloat{myequation}{htbp}{equ}[chapter]
+\floatname{myequation}{Formel}
+\newcommand{\listofmyequations}{\listof{myequation}{Formelverzeichnis}}
 
 % --- Bibliography: author-title with ibid (Litzinger Hinweise §7) ---
 \usepackage[style=authortitle-ibid,backend=biber]{biblatex}
@@ -54,10 +98,10 @@
 % ============================================================
 
 % ============================================================
-% FRONT MATTER — Roman numerals (i, ii, iii …)
-% Titelblatt carries no page number.
+% FRONT MATTER — Roman numerals (I, II, III …)
+% Titelblatt is page I but carries no visible page number.
 % ============================================================
-\frontmatter
+\pagenumbering{Roman}  % Uppercase Roman numerals, starts at I
 
 % --- Titelblatt ---
 \begin{titlepage}
@@ -96,14 +140,45 @@
 \end{tabular}
 
 \end{titlepage}
+\setcounter{page}{2}  % title page = I, TOC starts at II
 
 % --- Inhaltsverzeichnis ---
 \tableofcontents
 
-% --- Abbildungsverzeichnis (include once figures are added) ---
+% --- Front matter TOC entries with Roman numbering ---
+\newcounter{frontchap}
+\setcounter{frontchap}{0}
+\newcommand{\frontchapter}[1]{%
+  \stepcounter{frontchap}%
+  \addcontentsline{toc}{chapter}{\protect\numberline{\Roman{frontchap}}#1}%
+}
+
+% --- Abbildungsverzeichnis ---
+\cleardoublepage
+\frontchapter{Abbildungsverzeichnis}
+\renewcommand{\listfigurename}{\Roman{frontchap}~Abbildungsverzeichnis}
 \listoffigures
 
-% --- Tabellenverzeichnis (include once tables are added) ---
+% --- Abkürzungsverzeichnis ---
+\cleardoublepage
+\frontchapter{Abkürzungsverzeichnis}
+\chapter*{\Roman{frontchap}~Abkürzungsverzeichnis}
+\begin{acronym}[XXXXX]
+  \acro{KI}{Künstliche Intelligenz}
+  \acro{ML}{Machine Learning}
+  \acro{API}{Application Programming Interface}
+  % Weitere Abkürzungen hier ergänzen
+\end{acronym}
+
+% --- Formelverzeichnis ---
+\cleardoublepage
+\frontchapter{Formelverzeichnis}
+\listof{myequation}{\Roman{frontchap}~Formelverzeichnis}
+
+% --- Tabellenverzeichnis ---
+\cleardoublepage
+\frontchapter{Tabellenverzeichnis}
+\renewcommand{\listtablename}{\Roman{frontchap}~Tabellenverzeichnis}
 \listoftables
 
 % ============================================================

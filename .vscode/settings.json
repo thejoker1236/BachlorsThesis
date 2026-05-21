@@ -4,5 +4,17 @@
     "markdown",
     "plaintext",
     "latex"
-  ]
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|%|^\\s*\\*)\\s*($TAGS)",
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "HACK",
+    "BUG"
+  ],
+  "latex-workshop.formatting.latex": "latexindent",
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop",
+    "editor.formatOnSave": true
+  }
 }

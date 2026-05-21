@@ -1,5 +1,5 @@
 $thesisRepo = "C:\Users\MF\repos\BachlorsThesis"
-$projectDir = "C:\Users\MF\iCloudDrive\Uni\Bachlorsproject"
+$projectDir = "D:\iCloudDrive\Uni\Bachlorsproject\"
 $oneNote    = "C:\Program Files\Microsoft Office\root\Office16\ONENOTE.EXE"
 
 wt `

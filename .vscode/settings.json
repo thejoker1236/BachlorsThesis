@@ -13,8 +13,11 @@
     "BUG"
   ],
   "latex-workshop.formatting.latex": "latexindent",
+  "rewrap.wrappingColumn": 80,
   "[latex]": {
     "editor.defaultFormatter": "James-Yu.latex-workshop",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
   }
 }

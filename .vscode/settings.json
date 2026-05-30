@@ -17,7 +17,6 @@
   "[latex]": {
     "editor.defaultFormatter": "James-Yu.latex-workshop",
     "editor.formatOnSave": true,
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 80
+    "editor.wordWrap": "on"
   }
 }

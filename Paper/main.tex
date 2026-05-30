@@ -23,6 +23,10 @@
 \let\oldfootnote\footnote
 \renewcommand{\footnote}[1]{\oldfootnote{{\setstretch{1.0}#1}}}
 
+% --- Continuous footnote numbering across chapters ---
+\usepackage{chngcntr}
+\counterwithout{footnote}{chapter}
+
 % --- Paragraph spacing: 0pt before, 6pt after; no indent (FOM Leitfaden §5.3) ---
 \usepackage{parskip}
 \setlength{\parskip}{6pt}
@@ -134,39 +138,39 @@
 
 % --- Titelblatt ---
 \begin{titlepage}
-  \thispagestyle{empty}
-  \singlespacing
-  \begin{center}
-    % FOM logo
-    \includegraphics[width=3cm]{pic/fom_logo}\\[0.5cm]
+    \thispagestyle{empty}
+    \singlespacing
+    \begin{center}
+        % FOM logo
+        \includegraphics[width=3cm]{pic/fom_logo}\\[0.5cm]
 
-    {\Large\bfseries FOM Hochschule für Oekonomie \& Management}\\[0.2cm]
-    {\normalsize Hochschulzentrum Frankfurt a.\,M.}\\[1.2cm]
+        {\Large\bfseries FOM Hochschule für Oekonomie \& Management}\\[0.2cm]
+        {\normalsize Hochschulzentrum Frankfurt a.\,M.}\\[1.2cm]
 
-    {\Large\bfseries Bachelor-Thesis}\\[0.3cm]
-    {\normalsize im Studiengang Wirtschaftsinformatik}\\[1cm]
+        {\Large\bfseries Bachelor-Thesis}\\[0.3cm]
+        {\normalsize im Studiengang Wirtschaftsinformatik}\\[1cm]
 
-    {\normalsize zur Erlangung des Grades eines}\\[0.2cm]
-    {\large Bachelor of Science (B.Sc.)}\\[1.2cm]
+        {\normalsize zur Erlangung des Grades eines}\\[0.2cm]
+        {\large Bachelor of Science (B.Sc.)}\\[1.2cm]
 
-    {\normalsize über das Thema}\\[0.4cm]
-    {\Large\bfseries
-      Wie funktionieren KI-gestützte Monitoring-Systeme als digitale
-      Informationssysteme und inwiefern ermöglichen sie datenbasierte Analyse
-      und Beeinflussung von Verhalten?}
+        {\normalsize über das Thema}\\[0.4cm]
+        {\Large\bfseries
+            Wie funktionieren KI-gestützte Monitoring-Systeme als digitale
+            Informationssysteme und inwiefern ermöglichen sie datenbasierte Analyse
+            und Beeinflussung von Verhalten?}
 
-    {\normalsize von}\\[0.3cm]
-    {\large Meshan Fernando}
-  \end{center}
+        {\normalsize von}\\[0.3cm]
+        {\large Meshan Fernando}
+    \end{center}
 
-  \vfill
+    \vfill
 
-  \noindent
-  \begin{tabular}{@{}p{4.5cm}p{9cm}@{}}
-    Erstgutachter/in & Dr. phil. Patrick Hedfeld                                           \\[0.2cm]
-    Matrikelnummer   & 617993                                                              \\[0.2cm]
-    Abgabedatum      & \ifnum\day<10 0\fi\the\day.\ifnum\month<10 0\fi\the\month.\the\year \\
-  \end{tabular}
+    \noindent
+    \begin{tabular}{@{}p{4.5cm}p{9cm}@{}}
+        Erstgutachter/in & Dr. phil. Patrick Hedfeld                                           \\[0.2cm]
+        Matrikelnummer   & 617993                                                              \\[0.2cm]
+        Abgabedatum      & \ifnum\day<10 0\fi\the\day.\ifnum\month<10 0\fi\the\month.\the\year \\
+    \end{tabular}
 
 \end{titlepage}
 \setcounter{page}{2}  % title page = I, TOC starts at II
@@ -178,8 +182,8 @@
 \newcounter{frontchap}
 \setcounter{frontchap}{0}
 \newcommand{\frontchapter}[1]{%
-  \stepcounter{frontchap}%
-  \addcontentsline{toc}{chapter}{\protect\numberline{\Roman{frontchap}}#1}%
+    \stepcounter{frontchap}%
+    \addcontentsline{toc}{chapter}{\protect\numberline{\Roman{frontchap}}#1}%
 }
 
 % --- Abbildungsverzeichnis ---
@@ -193,14 +197,14 @@
 \frontchapter{Abkürzungsverzeichnis}
 \chapter*{\Roman{frontchap}~Abkürzungsverzeichnis}
 \begin{acronym}[DSGVO]
-  \acro{AI}{Artificial Intelligence}
-  \acro{API}{Application Programming Interface}
-  \acro{DSGVO}{Datenschutz-Grundverordnung}
-  \acro{GDPR}{General Data Protection Regulation}
-  \acro{KI}{Künstliche Intelligenz}
-  \acro{ML}{Machine Learning}
-  \acro{NLP}{Natural Language Processing}
-  \acro{SCS}{Social Credit System}
+    \acro{AI}{Artificial Intelligence}
+    \acro{API}{Application Programming Interface}
+    \acro{DSGVO}{Datenschutz-Grundverordnung}
+    \acro{GDPR}{General Data Protection Regulation}
+    \acro{KI}{Künstliche Intelligenz}
+    \acro{ML}{Machine Learning}
+    \acro{NLP}{Natural Language Processing}
+    \acro{SCS}{Social Credit System}
 \end{acronym}
 
 % --- Formelverzeichnis ---
@@ -258,8 +262,8 @@ Plagiatsprüfung stellt keine Zurverfügungstellung für die Öffentlichkeit dar
 \vspace{3cm}
 \noindent
 \begin{tabular}{p{6cm}p{6cm}}
-  \rule{5cm}{0.4pt} & \rule{6cm}{0.4pt}           \\[0.3cm]
-  (Ort, Datum)      & (Eigenhändige Unterschrift) \\
+    \rule{5cm}{0.4pt} & \rule{6cm}{0.4pt}           \\[0.3cm]
+    (Ort, Datum)      & (Eigenhändige Unterschrift) \\
 \end{tabular}
 
 \end{document}

@@ -1,9 +1,32 @@
 \chapter{Theoretische und technologische Grundlagen}
 
 \section{Künstliche Intelligenz und Machine Learning}
+
+Dieses Kapitel vermittelt die technologischen Grundlagen, die für das Verständnis von KI-gestütztem Monitoring und algorithmischer Governance notwendig sind.
+
 \subsection{Grundbegriffe}
+
+Künstliche Intelligenz (KI) befasst sich im Kern mit der Frage, wie Maschinen eine Welt, die weit größer und komplizierter ist als sie selbst, wahrnehmen, verstehen, vorhersagen und manipulieren können.\vglfootcite[1\,ff.]{RussellNorvig2021} Ein zentrales Konzept ist hierbei der rationale Agent, der seine Umwelt durch Sensoren wahrnimmt und über Aktuatoren darauf einwirkt. Ein solcher Agent gilt als rational, wenn er für jede mögliche Wahrnehmungssequenz eine Aktion wählt, die unter Berücksichtigung seines Wissens das erwartete Leistungsmaß maximiert.\vglfootcite[34]{RussellNorvig2021}
+
+Machine Learning (ML) ist ein Teilbereich der KI, der es Systemen ermöglicht, sich an neue Umstände anzupassen sowie Muster in Daten zu erkennen und zu extrapolieren.\footnote{TODO: Quelle einfügen} Die Quellen unterscheiden dabei drei wesentliche Lernparadigmen:
+
+\begin{itemize}
+    \item \textbf{Überwachtes Lernen (Supervised Learning):} Das System lernt Funktionen auf Basis von markierten Beispieldaten (Inputs und Zielvorgaben).
+    \item \textbf{Unüberwachtes Lernen (Unsupervised Learning):} Hierbei werden Kategorien oder Strukturen in Sammlungen nicht etikettierter Daten erkannt, beispielsweise durch Clustering.
+    \item \textbf{Bestärkendes Lernen (Reinforcement Learning):} Ein Agent lernt durch Interaktion mit einer Umgebung, indem er für seine Aktionen Belohnungen oder Bestrafungen erhält, um eine optimale Strategie zu entwickeln.
+\end{itemize}
+
 \subsection{Überwachungs- und Analyseverfahren}
+
+Monitoring in digitalen Ökosystemen basiert auf der Interpretation von Sensordaten, die Aspekte der Umgebung in eine für Computer verwertbare Form übersetzen.\footnote{TODO: Quelle einfügen} Ein wesentliches Verfahren ist die Datenassoziation, bei der mehrere Beobachtungen kombiniert werden, um Objekte in einer komplexen Welt konsistent zu verfolgen.
+
+Für die Analyse werden häufig Hidden-Markov-Modelle (HMM) eingesetzt, die sich besonders für zeitliche oder dynamische Prozesse eignen, bei denen die eigentlichen Zustände nicht direkt beobachtbar (\enquote{hidden}) sind, sondern nur über stochastisch abhängige Beobachtungen erschlossen werden können.\footnote{TODO: Quelle einfügen} Im Bereich des unüberwachten Lernens spielt die Ausreißererkennung (Outlier Detection) eine wichtige Rolle, um Datenpunkte zu identifizieren, die durch Rauschen, Messfehler oder ungewöhnliches Verhalten stark von der Norm abweichen.\footnote{TODO: Quelle einfügen}
+
 \subsection{Empfehlungssysteme und Predictive Analytics}
+
+Predictive Analytics nutzt maschinelle Intelligenz, um Vorhersagen über menschliches Verhalten zu erstellen, wobei diese Vorhersagen umso wertvoller werden, je näher sie der Gewissheit kommen.\footnote{TODO: Quelle einfügen} Diese Systeme basieren oft auf Wahrscheinlichkeitsmodellen wie Bayesschen Netzen, die Abhängigkeiten zwischen Variablen darstellen, um auch unter Unsicherheit fundierte Schlüsse ziehen zu können.\footnote{TODO: Quelle einfügen}
+
+Empfehlungssysteme sind eine spezifische Anwendung, bei der Algorithmen die Präferenzen eines Nutzers mit denen anderer abgleichen, um relevante Informationen oder kulturelle Inhalte vorzuschlagen.\footnote{TODO: Quelle einfügen} In der Logik des sogenannten Überwachungskapitalismus werden solche Systeme genutzt, um aus \enquote{Verhaltensüberschüssen} Vorhersageprodukte zu fertigen, die in speziellen Märkten für zukünftiges Verhalten gehandelt werden.\footnote{TODO: Quelle einfügen} Das Ziel ist hierbei oft nicht nur die Vorhersage, sondern die Verhaltensmodifikation, um garantierte kommerzielle Ergebnisse zu erzielen.\footnote{TODO: Quelle einfügen}
 
 \section{Digitale Informationssysteme}
 \subsection{Systemarchitekturen}

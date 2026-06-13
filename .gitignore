@@ -13,6 +13,7 @@
 *.run.xml
 *.synctex.gz
 *.toc
+*-SAVE-ERROR
 
 # Keep compiled PDF
 !Paper/main.pdf

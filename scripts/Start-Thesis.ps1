@@ -9,4 +9,4 @@ wt `
 
 Start-Process -FilePath $oneNote
 
-Start-Process -FilePath "kiro" -ArgumentList "`"$thesisRepo`""
+& kiro $thesisRepo

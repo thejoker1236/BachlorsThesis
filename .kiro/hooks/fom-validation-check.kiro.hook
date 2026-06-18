@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "FOM Guideline Validation",
+  "description": "Validates thesis document against FOM Hochschule guidelines before compilation",
+  "version": "1",
+  "when": {
+    "type": "promptSubmit"
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "powershell -File \".\\scripts\\compile.ps1\" -ValidateOnly"
+  }
+}

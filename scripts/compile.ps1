@@ -78,6 +78,112 @@ function Write-Log {
     }
 }
 
+function Test-FOMCompliance {
+    Write-Stage "Validating FOM Hochschule guidelines compliance"
+    Write-Log "Checking document compliance with FOM requirements"
+    
+    try {
+        $mainPath = Join-Path $paperDir $mainDoc
+        Write-Log "Main document path: $mainPath"
+        
+        if (-not (Test-Path $mainPath)) {
+            Write-ErrorMsg "Main document not found for validation: $mainPath"
+            return $false
+        }
+        
+        $content = Get-Content $mainPath -Raw -ErrorAction Stop
+    $violations = @()
+    
+    # Check 1: Page margins (§5.2.1)
+    Write-Log "Checking page margins..."
+    if ($content -match '\\usepackage\[([^\]]+)\]\{geometry\}') {
+        $geometryOptions = $matches[1]
+        
+        $expectedMargins = @{
+            'left' = '4cm'
+            'right' = '2cm'
+            'top' = '2.5cm'
+            'bottom' = '2cm'
+        }
+        
+        foreach ($margin in $expectedMargins.Keys) {
+            if ($geometryOptions -notmatch "$margin=$($expectedMargins[$margin])") {
+                $violations += "Margin '$margin' should be $($expectedMargins[$margin]) (FOM §5.2.1)"
+            }
+        }
+        
+        if ($violations.Count -eq 0) {
+            Write-Log "✓ Page margins are correct"
+        }
+    } else {
+        $violations += "geometry package not found - cannot verify margins (FOM §5.2.1)"
+    }
+    
+    # Check 2: Font settings (§5.2.2)
+    Write-Log "Checking font settings..."
+    
+    # Check for Times New Roman (mathptmx package)
+    if ($content -notmatch '\\usepackage\{mathptmx\}') {
+        $violations += "Times New Roman font (mathptmx package) not configured (FOM §5.2.2)"
+    } else {
+        Write-Log "✓ Times New Roman font configured"
+    }
+    
+    # Check for 1.5 line spacing
+    if ($content -notmatch '\\onehalfspacing|\\setstretch\{1\.5\}') {
+        $violations += "1.5 line spacing not configured (FOM §5.2.2)"
+    } else {
+        Write-Log "✓ Line spacing 1.5 configured"
+    }
+    
+    # Check 3: Required front matter sections (§5.1)
+    Write-Log "Checking required document sections..."
+    $requiredSections = @(
+        @{Name='Titelblatt'; Pattern='\\maketitle|Titelblatt'},
+        @{Name='Inhaltsverzeichnis'; Pattern='\\tableofcontents'},
+        @{Name='Abbildungsverzeichnis'; Pattern='\\listoffigures'},
+        @{Name='Tabellenverzeichnis'; Pattern='\\listoftables'},
+        @{Name='Abkürzungsverzeichnis'; Pattern='\\chapter\*?\{Abkürzungsverzeichnis\}|\\printacronyms'},
+        @{Name='Literaturverzeichnis'; Pattern='\\printbibliography|\\bibliography'}
+    )
+    
+    $missingSections = @()
+    foreach ($section in $requiredSections) {
+        if ($content -notmatch $section.Pattern) {
+            $missingSections += $section.Name
+        } else {
+            Write-Log "✓ Found: $($section.Name)"
+        }
+    }
+    
+    if ($missingSections.Count -gt 0) {
+        foreach ($missing in $missingSections) {
+            $violations += "Missing required section: $missing (FOM §5.1)"
+        }
+    }
+    
+    # Report results
+    if ($violations.Count -eq 0) {
+        Write-Success "Document is compliant with FOM guidelines"
+        return $true
+    } else {
+        Write-Host "`n⚠ FOM Guideline Compliance Issues:" -ForegroundColor Yellow
+        foreach ($violation in $violations) {
+            Write-Host "  • $violation" -ForegroundColor DarkYellow
+        }
+        Write-Host ""
+        
+        # Non-blocking warnings - return true to continue
+        Write-Log "FOM compliance check found $($violations.Count) issues (non-blocking)" "WARN"
+        return $true
+    }
+    } catch {
+        Write-ErrorMsg "FOM compliance check failed: $_"
+        Write-Log "FOM compliance error: $_" "ERROR"
+        return $true  # Non-blocking
+    }
+}
+
 function Test-DocumentStructure {
     Write-Stage "Validating document structure"
     Write-Log "Parsing main document and checking references"
@@ -134,6 +240,184 @@ function Test-DocumentStructure {
     
     Write-Success "Document structure is valid"
     return $true
+}
+
+function Test-FOMCompliance {
+    Write-Stage "Validating FOM Hochschule guidelines"
+    Write-Log "Checking document compliance with FOM requirements"
+    
+    $mainPath = Join-Path $paperDir $mainDoc
+    $content = Get-Content $mainPath -Raw
+    $violations = @()
+    $warnings = @()
+    
+    # Check 1: Page geometry (margins)
+    if ($content -match '\\usepackage\[([^\]]+)\]\{geometry\}') {
+        $geometryArgs = $matches[1]
+        Write-Log "Found geometry settings: $geometryArgs"
+        
+        if ($geometryArgs -match 'left=4cm' -and 
+            $geometryArgs -match 'right=2cm' -and 
+            $geometryArgs -match 'top=2\.5cm' -and 
+            $geometryArgs -match 'bottom=2cm') {
+            Write-Log "✓ Margins comply with FOM guidelines"
+        } else {
+            $violations += "Page margins don't match FOM requirements (left=4cm, right=2cm, top=2.5cm, bottom=2cm)"
+        }
+    } else {
+        $violations += "No geometry package found - cannot verify margins"
+    }
+    
+    # Check 2: Font (Times New Roman via mathptmx)
+    if ($content -match '\\usepackage\{mathptmx\}') {
+        Write-Log "✓ Times New Roman font configured (mathptmx)"
+    } else {
+        $violations += "Times New Roman font not configured (missing mathptmx package)"
+    }
+    
+    # Check 3: Line spacing (1.5x)
+    if ($content -match '\\usepackage\{setspace\}' -and $content -match '\\onehalfspacing') {
+        Write-Log "✓ 1.5x line spacing configured"
+    } else {
+        $violations += "1.5x line spacing not configured (missing setspace/onehalfspacing)"
+    }
+    
+    # Check 4: Font size (12pt in documentclass)
+    if ($content -match '\\documentclass\[([^\]]*12pt[^\]]*)\]') {
+        Write-Log "✓ 12pt font size configured"
+    } else {
+        $violations += "12pt font size not configured in documentclass"
+    }
+    
+    # Check 5: Required sections exist
+    $requiredSections = @{
+        'Titelblatt' = '(\\maketitle|Titelblatt)'
+        'Inhaltsverzeichnis' = '\\tableofcontents'
+        'Abbildungsverzeichnis' = '\\listoffigures'
+        'Abkürzungsverzeichnis' = '(\\chapter.*Abkürzungsverzeichnis|\\begin\{acronym\})'
+        'Literaturverzeichnis' = '(\\printbibliography|\\bibliography)'
+    }
+    
+    foreach ($section in $requiredSections.GetEnumerator()) {
+        if ($content -match $section.Value) {
+            Write-Log "✓ Found required section: $($section.Key)"
+        } else {
+            $warnings += "Missing or not detected: $($section.Key)"
+        }
+    }
+    
+    # Display results
+    if ($violations.Count -eq 0 -and $warnings.Count -eq 0) {
+        Write-Success "Document complies with FOM guidelines"
+        return $true
+    }
+    
+    if ($violations.Count -gt 0) {
+        Write-Host "`n⚠ FOM Guideline Violations:" -ForegroundColor Red
+        foreach ($violation in $violations) {
+            Write-Host "  ✗ $violation" -ForegroundColor Red
+        }
+    }
+    
+    if ($warnings.Count -gt 0) {
+        Write-Host "`n⚠ FOM Guideline Warnings:" -ForegroundColor Yellow
+        foreach ($warning in $warnings) {
+            Write-Host "  ! $warning" -ForegroundColor Yellow
+        }
+    }
+    
+    return ($violations.Count -eq 0)
+}
+
+function Test-AcronymUsage {
+    Write-Stage "Validating acronym usage"
+    Write-Log "Checking if all defined acronyms are used and all used acronyms are defined"
+    
+    $mainPath = Join-Path $paperDir $mainDoc
+    $content = Get-Content $mainPath -Raw
+    
+    # Extract defined acronyms from main.tex
+    $definedAcronyms = @{}
+    $acronymMatches = [regex]::Matches($content, '\\acro\{([^}]+)\}\{([^}]+)\}')
+    
+    foreach ($match in $acronymMatches) {
+        $shortForm = $match.Groups[1].Value
+        $longForm = $match.Groups[2].Value
+        $definedAcronyms[$shortForm] = $longForm
+        Write-Log "Defined acronym: $shortForm = $longForm"
+    }
+    
+    if ($definedAcronyms.Count -eq 0) {
+        Write-Host "  No acronyms defined (skipping usage check)" -ForegroundColor Gray
+        return $true
+    }
+    
+    # Collect all text content from chapters
+    $allText = $content
+    $chapterFiles = Get-ChildItem -Path $paperDir -Filter "chapters/*.tex" -Recurse -ErrorAction SilentlyContinue
+    
+    foreach ($file in $chapterFiles) {
+        $chapterContent = Get-Content $file.FullName -Raw
+        $allText += "`n" + $chapterContent
+        Write-Log "Scanning chapter: $($file.Name)"
+    }
+    
+    # Find acronym usage (\ac{ACRONYM})
+    $usedAcronyms = @{}
+    $usageMatches = [regex]::Matches($allText, '\\ac\{([^}]+)\}')
+    
+    foreach ($match in $usageMatches) {
+        $acronym = $match.Groups[1].Value
+        if (-not $usedAcronyms.ContainsKey($acronym)) {
+            $usedAcronyms[$acronym] = 0
+        }
+        $usedAcronyms[$acronym]++
+    }
+    
+    Write-Log "Found $($usedAcronyms.Count) unique acronyms used in text"
+    
+    # Check 1: Undefined acronyms being used
+    $undefinedUsed = @()
+    foreach ($used in $usedAcronyms.Keys) {
+        if (-not $definedAcronyms.ContainsKey($used)) {
+            $undefinedUsed += $used
+        }
+    }
+    
+    # Check 2: Defined but never used (with printonlyused, these won't appear)
+    $definedNotUsed = @()
+    foreach ($defined in $definedAcronyms.Keys) {
+        if (-not $usedAcronyms.ContainsKey($defined)) {
+            $definedNotUsed += $defined
+        }
+    }
+    
+    # Report results
+    $hasIssues = $false
+    
+    if ($undefinedUsed.Count -gt 0) {
+        Write-Host "`n⚠ Undefined Acronyms Used:" -ForegroundColor Red
+        foreach ($acr in $undefinedUsed) {
+            Write-Host "  ✗ \ac{$acr} used but not defined (used $($usedAcronyms[$acr]) times)" -ForegroundColor Red
+        }
+        $hasIssues = $true
+    }
+    
+    if ($definedNotUsed.Count -gt 0) {
+        Write-Host "`n⚠ Defined Acronyms Never Used:" -ForegroundColor Yellow
+        foreach ($acr in $definedNotUsed) {
+            Write-Host "  ! \acro{$acr}{$($definedAcronyms[$acr])} defined but never used" -ForegroundColor Yellow
+        }
+        Write-Host "  Note: With [printonlyused] option, unused acronyms won't appear in the list" -ForegroundColor DarkGray
+    }
+    
+    if (-not $hasIssues -and $definedNotUsed.Count -eq 0) {
+        Write-Success "All acronyms properly defined and used ($($usedAcronyms.Count) acronyms active)"
+    } elseif (-not $hasIssues) {
+        Write-Success "All used acronyms are properly defined"
+    }
+    
+    return (-not $hasIssues)
 }
 
 function Test-Environment {
@@ -404,45 +688,57 @@ try {
         exit 1
     }
     
-    # 3. Clean auxiliary files if requested
-    if ($Clean) {
-        Write-Log "Step 3: Cleaning auxiliary files (Clean mode)"
-        Clear-AuxiliaryFiles
-    } else {
-        Write-Log "Step 3: Skipping clean (auxiliary files preserved)"
+    # 3. FOM Guideline Compliance Check
+    Write-Log "Step 3: FOM guideline compliance check"
+    if (-not (Test-FOMCompliance)) {
+        Write-Host "`nNote: Compilation will continue despite guideline violations`n" -ForegroundColor Yellow
     }
     
-    # 4. Check if incremental build can skip
+    # 4. Acronym Usage Validation
+    Write-Log "Step 4: Acronym usage validation"
+    if (-not (Test-AcronymUsage)) {
+        Write-Host "`nNote: Compilation will continue despite acronym issues`n" -ForegroundColor Yellow
+    }
+    
+    # 5. Clean auxiliary files if requested
+    if ($Clean) {
+        Write-Log "Step 5: Cleaning auxiliary files (Clean mode)"
+        Clear-AuxiliaryFiles
+    } else {
+        Write-Log "Step 5: Skipping clean (auxiliary files preserved)"
+    }
+    
+    # 6. Check if incremental build can skip
     if ($Incremental) {
-        Write-Log "Step 4: Checking incremental build status"
+        Write-Log "Step 6: Checking incremental build status"
         if (-not (Test-IncrementalBuildNeeded)) {
             Write-Log "Incremental build: No changes detected, skipping compilation" "INFO"
             exit 0
         }
     } else {
-        Write-Log "Step 4: Incremental mode not enabled, proceeding with full build"
+        Write-Log "Step 6: Incremental mode not enabled, proceeding with full build"
     }
     
-    # 5. Validation only mode
+    # 7. Validation only mode
     if ($ValidateOnly) {
         Write-Success "Validation complete (no compilation performed)"
         Write-Log "Validation-only mode: Exiting without compilation" "INFO"
         exit 0
     }
     
-    # 6. Change to working directory
-    Write-Log "Step 5: Changing to working directory: $paperDir"
+    # 8. Change to working directory
+    Write-Log "Step 8: Changing to working directory: $paperDir"
     Push-Location $paperDir
     
-    # 7. Execute compilation pipeline
-    Write-Log "Step 6: Starting compilation pipeline"
+    # 9. Execute compilation pipeline
+    Write-Log "Step 9: Starting compilation pipeline"
     Invoke-CompilationPass -PassNumber 1 -Description "Initial compilation"
     Invoke-BibliographyProcessing
     Invoke-CompilationPass -PassNumber 2 -Description "Integrating references"
     Invoke-CompilationPass -PassNumber 3 -Description "Finalizing cross-references"
     
-    # 8. Copy output PDF
-    Write-Log "Step 7: Copying output PDF"
+    # 10. Copy output PDF
+    Write-Log "Step 10: Copying output PDF"
     if (Test-Path $outputPdf) {
         Write-Stage "Copying output PDF"
         Copy-Item $outputPdf "$rootDir\$outputName" -Force

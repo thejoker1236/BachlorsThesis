@@ -70,6 +70,72 @@ function Write-ErrorMsg {
     Write-Host "✗ $Message" -ForegroundColor Red
 }
 
+function Write-Log {
+    param([string]$Message, [string]$Level = "INFO")
+    if ($PSCmdlet.MyInvocation.BoundParameters.ContainsKey('Verbose') -or $VerbosePreference -eq 'Continue') {
+        $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+        Write-Host "[$timestamp] [$Level] $Message" -ForegroundColor DarkGray
+    }
+}
+
+function Test-DocumentStructure {
+    Write-Stage "Validating document structure"
+    Write-Log "Parsing main document and checking references"
+    
+    $mainPath = Join-Path $paperDir $mainDoc
+    if (-not (Test-Path $mainPath)) {
+        Write-ErrorMsg "Main document not found: $mainPath"
+        return $false
+    }
+    
+    $content = Get-Content $mainPath -Raw
+    $valid = $true
+    
+    # Check for bibliography file
+    if ($content -match '\\addbibresource\{([^}]+)\}') {
+        $bibFile = $matches[1]
+        $bibPath = Join-Path $paperDir $bibFile
+        if (-not (Test-Path $bibPath)) {
+            Write-ErrorMsg "Bibliography file not found: $bibFile"
+            $valid = $false
+        } else {
+            Write-Log "Found bibliography: $bibFile"
+        }
+    }
+    
+    # Extract chapter includes
+    $includes = [regex]::Matches($content, '\\input\{([^}]+)\}|\\include\{([^}]+)\}')
+    $missingFiles = @()
+    
+    foreach ($match in $includes) {
+        $file = if ($match.Groups[1].Success) { $match.Groups[1].Value } else { $match.Groups[2].Value }
+        
+        # Add .tex extension if not present
+        if ($file -notmatch '\.tex$') {
+            $file += '.tex'
+        }
+        
+        $filePath = Join-Path $paperDir $file
+        if (-not (Test-Path $filePath)) {
+            $missingFiles += $file
+            $valid = $false
+        } else {
+            Write-Log "Found chapter: $file"
+        }
+    }
+    
+    if ($missingFiles.Count -gt 0) {
+        Write-ErrorMsg "Missing chapter files:"
+        foreach ($file in $missingFiles) {
+            Write-Host "  - $file" -ForegroundColor Red
+        }
+        return $false
+    }
+    
+    Write-Success "Document structure is valid"
+    return $true
+}
+
 function Test-Environment {
     Write-Stage "Validating LaTeX environment"
     
@@ -117,20 +183,45 @@ function Test-IncrementalBuildNeeded {
     $pdfPath = Join-Path $rootDir $outputName
     
     if (-not (Test-Path $pdfPath)) {
+        Write-Log "Output PDF doesn't exist, full build required"
         return $true
     }
     
     $pdfTime = (Get-Item $pdfPath).LastWriteTime
-    $sourceFiles = Get-ChildItem -Path $paperDir -Include *.tex,*.bib -Recurse
+    Write-Log "Output PDF last modified: $pdfTime"
+    
+    # Check all source files
+    $sourceFiles = Get-ChildItem -Path $paperDir -Include *.tex,*.bib -Recurse -File
+    $modifiedFiles = @()
     
     foreach ($file in $sourceFiles) {
         if ($file.LastWriteTime -gt $pdfTime) {
-            Write-Host "Source modified: $($file.Name)" -ForegroundColor Yellow
+            $modifiedFiles += $file.Name
+            Write-Log "Modified: $($file.Name) ($($file.LastWriteTime))"
+        }
+    }
+    
+    if ($modifiedFiles.Count -gt 0) {
+        Write-Host "Modified files detected:" -ForegroundColor Yellow
+        foreach ($file in ($modifiedFiles | Select-Object -First 5)) {
+            Write-Host "  • $file" -ForegroundColor Yellow
+        }
+        if ($modifiedFiles.Count -gt 5) {
+            Write-Host "  • ... and $($modifiedFiles.Count - 5) more" -ForegroundColor Yellow
+        }
+        return $true
+    }
+    
+    # Check if any images changed
+    $imageFiles = Get-ChildItem -Path $paperDir -Include *.png,*.jpg,*.pdf,*.eps -Recurse -File -ErrorAction SilentlyContinue
+    foreach ($img in $imageFiles) {
+        if ($img.LastWriteTime -gt $pdfTime) {
+            Write-Host "Image modified: $($img.Name)" -ForegroundColor Yellow
             return $true
         }
     }
     
-    Write-Success "PDF is up-to-date, skipping compilation"
+    Write-Success "PDF is up-to-date (no source changes since $pdfTime)"
     return $false
 }
 
@@ -211,27 +302,46 @@ function Get-CompilationErrors {
     if (Test-Path $logFile) {
         Write-Host "`n=== Compilation Errors ===" -ForegroundColor Yellow
         
-        # Extract errors (lines starting with !)
+        # Extract errors with file and line info
         $content = Get-Content $logFile -Raw
+        
+        # Pattern for errors with file:line format (from -file-line-error)
+        $fileLineErrors = [regex]::Matches($content, '(?m)^(\.\/[^:]+):(\d+): (.+?)$')
+        
+        if ($fileLineErrors.Count -gt 0) {
+            foreach ($match in ($fileLineErrors | Select-Object -First 15)) {
+                $file = $match.Groups[1].Value
+                $line = $match.Groups[2].Value
+                $msg = $match.Groups[3].Value
+                
+                Write-Host "${file}:${line}" -ForegroundColor Cyan -NoNewline
+                Write-Host " $msg" -ForegroundColor Red
+            }
+            
+            if ($fileLineErrors.Count -gt 15) {
+                Write-Host "... and $($fileLineErrors.Count - 15) more errors" -ForegroundColor DarkRed
+            }
+            return
+        }
+        
+        # Fallback: Extract generic errors (lines starting with !)
         $errorPattern = '(?m)^!.*?(?=\r?\n\r?\n|\r?\n[^l\s]|\z)'
         $errors = [regex]::Matches($content, $errorPattern)
         
         if ($errors.Count -eq 0) {
-            Write-Host "No errors found in log file" -ForegroundColor Gray
-            
-            # Show warnings instead
-            $warnings = Select-String -Path $logFile -Pattern "^LaTeX Warning:" | Select-Object -First 10
-            if ($warnings) {
-                Write-Host "`n=== Warnings ===" -ForegroundColor Yellow
-                foreach ($warn in $warnings) {
-                    Write-Host $warn.Line -ForegroundColor DarkYellow
-                }
-            }
+            Write-Host "No critical errors found in log file" -ForegroundColor Gray
             return
         }
         
         foreach ($error in ($errors | Select-Object -First 10)) {
             $errorText = $error.Value
+            
+            # Try to extract file and line info from error context
+            if ($errorText -match 'l\.(\d+)') {
+                $lineNum = $matches[1]
+                Write-Host "Line ${lineNum}: " -ForegroundColor Cyan -NoNewline
+            }
+            
             Write-Host $errorText -ForegroundColor Red
             Write-Host ""
         }
@@ -274,53 +384,80 @@ function Get-BibliographyErrors {
 
 try {
     $startTime = Get-Date
+    Write-Log "Starting LaTeX thesis compilation workflow" "INFO"
     
     Write-Host "`n╔════════════════════════════════════════════════╗" -ForegroundColor Cyan
     Write-Host "║  LaTeX Thesis Compilation Workflow            ║" -ForegroundColor Cyan
     Write-Host "╚════════════════════════════════════════════════╝" -ForegroundColor Cyan
     
     # 1. Environment Validation
+    Write-Log "Step 1: Environment validation"
     if (-not (Test-Environment)) {
+        Write-Log "Environment validation failed" "ERROR"
         exit 1
     }
     
-    # 2. Clean auxiliary files if requested
+    # 2. Document Structure Validation
+    Write-Log "Step 2: Document structure validation"
+    if (-not (Test-DocumentStructure)) {
+        Write-Log "Document structure validation failed" "ERROR"
+        exit 1
+    }
+    
+    # 3. Clean auxiliary files if requested
     if ($Clean) {
+        Write-Log "Step 3: Cleaning auxiliary files (Clean mode)"
         Clear-AuxiliaryFiles
+    } else {
+        Write-Log "Step 3: Skipping clean (auxiliary files preserved)"
     }
     
-    # 3. Check if incremental build can skip
-    if ($Incremental -and -not (Test-IncrementalBuildNeeded)) {
-        exit 0
+    # 4. Check if incremental build can skip
+    if ($Incremental) {
+        Write-Log "Step 4: Checking incremental build status"
+        if (-not (Test-IncrementalBuildNeeded)) {
+            Write-Log "Incremental build: No changes detected, skipping compilation" "INFO"
+            exit 0
+        }
+    } else {
+        Write-Log "Step 4: Incremental mode not enabled, proceeding with full build"
     }
     
-    # 4. Validation only mode
+    # 5. Validation only mode
     if ($ValidateOnly) {
-        Write-Success "Validation complete"
+        Write-Success "Validation complete (no compilation performed)"
+        Write-Log "Validation-only mode: Exiting without compilation" "INFO"
         exit 0
     }
     
-    # 5. Change to working directory
+    # 6. Change to working directory
+    Write-Log "Step 5: Changing to working directory: $paperDir"
     Push-Location $paperDir
     
-    # 6. Execute compilation pipeline
+    # 7. Execute compilation pipeline
+    Write-Log "Step 6: Starting compilation pipeline"
     Invoke-CompilationPass -PassNumber 1 -Description "Initial compilation"
     Invoke-BibliographyProcessing
     Invoke-CompilationPass -PassNumber 2 -Description "Integrating references"
     Invoke-CompilationPass -PassNumber 3 -Description "Finalizing cross-references"
     
-    # 7. Copy output PDF
+    # 8. Copy output PDF
+    Write-Log "Step 7: Copying output PDF"
     if (Test-Path $outputPdf) {
         Write-Stage "Copying output PDF"
         Copy-Item $outputPdf "$rootDir\$outputName" -Force
         Write-Success "Copied to: $rootDir\$outputName"
+        Write-Log "Output PDF copied successfully to: $rootDir\$outputName"
     } else {
         Write-ErrorMsg "Output PDF not found: $outputPdf"
+        Write-Log "Output PDF not found: $outputPdf" "ERROR"
         exit 1
     }
     
-    # 8. Success summary
+    # 9. Success summary
     $duration = (Get-Date) - $startTime
+    Write-Log "Compilation completed successfully in $($duration.TotalSeconds) seconds" "INFO"
+    
     Write-Host "`n╔════════════════════════════════════════════════╗" -ForegroundColor Green
     Write-Host "║  Compilation Successful!                       ║" -ForegroundColor Green
     Write-Host "╚════════════════════════════════════════════════╝" -ForegroundColor Green
@@ -328,6 +465,7 @@ try {
     Write-Host "Output: $outputName`n" -ForegroundColor Green
     
 } catch {
+    Write-Log "Compilation failed with exception: $_" "ERROR"
     Write-Host "`n╔════════════════════════════════════════════════╗" -ForegroundColor Red
     Write-Host "║  Compilation Failed!                           ║" -ForegroundColor Red
     Write-Host "╚════════════════════════════════════════════════╝" -ForegroundColor Red
@@ -335,6 +473,7 @@ try {
     exit 1
 } finally {
     Pop-Location
+    Write-Log "Workflow ended"
 }
 
 #endregion

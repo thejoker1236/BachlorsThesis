@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "name": "Auto-compile LaTeX after tool edits",
-  "description": "Automatically compiles the thesis when .tex or .bib files are modified by tools like str_replace or fs_write",
+  "name": "Auto-compile LaTeX after edits",
+  "description": "Automatically compiles the thesis when .tex or .bib files are modified (by tools or manual saves), then sends a notification",
   "version": "1",
   "when": {
     "type": "postToolUse",
@@ -11,7 +11,7 @@
   },
   "then": {
     "type": "runCommand",
-    "command": "pwsh -ExecutionPolicy Bypass -File \".\\scripts\\compile.ps1\"",
+    "command": "pwsh -ExecutionPolicy Bypass -Command \"$result = & '.\\scripts\\compile.ps1'; $exitCode = $LASTEXITCODE; if ($exitCode -eq 0) { & '.\\scripts\\notify-compile-complete.ps1' -Status 'Success' } else { & '.\\scripts\\notify-compile-complete.ps1' -Status 'Failed' }; exit $exitCode\"",
     "timeout": 300
   }
 }

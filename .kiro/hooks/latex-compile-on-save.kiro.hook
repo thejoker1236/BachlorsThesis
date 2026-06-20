@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "name": "Compile LaTeX Thesis",
+  "description": "Automatically compiles the thesis using the compile.ps1 script when .tex or .bib files are saved",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.tex",
+      "*.bib"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "powershell -ExecutionPolicy Bypass -File \".\\scripts\\compile.ps1\"",
+    "timeout": 300
+  }
+}

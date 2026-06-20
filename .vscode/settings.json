@@ -13,6 +13,7 @@
     "BUG"
   ],
   "latex-workshop.formatting.latex": "latexindent",
+  "latex-workshop.latex.autoBuild.run": "onSave",
   "rewrap.wrappingColumn": 80,
   "[latex]": {
     "editor.defaultFormatter": "James-Yu.latex-workshop",

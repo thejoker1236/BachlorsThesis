@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "name": "Auto-compile LaTeX after tool edits",
+  "description": "Automatically compiles the thesis when .tex or .bib files are modified by tools like str_replace or fs_write",
+  "version": "1",
+  "when": {
+    "type": "postToolUse",
+    "toolTypes": [
+      "write"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "pwsh -ExecutionPolicy Bypass -File \".\\scripts\\compile.ps1\"",
+    "timeout": 300
+  }
+}

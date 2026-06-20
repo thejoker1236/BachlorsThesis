@@ -78,111 +78,7 @@ function Write-Log {
     }
 }
 
-function Test-FOMCompliance {
-    Write-Stage "Validating FOM Hochschule guidelines compliance"
-    Write-Log "Checking document compliance with FOM requirements"
-    
-    try {
-        $mainPath = Join-Path $paperDir $mainDoc
-        Write-Log "Main document path: $mainPath"
-        
-        if (-not (Test-Path $mainPath)) {
-            Write-ErrorMsg "Main document not found for validation: $mainPath"
-            return $false
-        }
-        
-        $content = Get-Content $mainPath -Raw -ErrorAction Stop
-    $violations = @()
-    
-    # Check 1: Page margins (§5.2.1)
-    Write-Log "Checking page margins..."
-    if ($content -match '\\usepackage\[([^\]]+)\]\{geometry\}') {
-        $geometryOptions = $matches[1]
-        
-        $expectedMargins = @{
-            'left' = '4cm'
-            'right' = '2cm'
-            'top' = '2.5cm'
-            'bottom' = '2cm'
-        }
-        
-        foreach ($margin in $expectedMargins.Keys) {
-            if ($geometryOptions -notmatch "$margin=$($expectedMargins[$margin])") {
-                $violations += "Margin '$margin' should be $($expectedMargins[$margin]) (FOM §5.2.1)"
-            }
-        }
-        
-        if ($violations.Count -eq 0) {
-            Write-Log "✓ Page margins are correct"
-        }
-    } else {
-        $violations += "geometry package not found - cannot verify margins (FOM §5.2.1)"
-    }
-    
-    # Check 2: Font settings (§5.2.2)
-    Write-Log "Checking font settings..."
-    
-    # Check for Times New Roman (mathptmx package)
-    if ($content -notmatch '\\usepackage\{mathptmx\}') {
-        $violations += "Times New Roman font (mathptmx package) not configured (FOM §5.2.2)"
-    } else {
-        Write-Log "✓ Times New Roman font configured"
-    }
-    
-    # Check for 1.5 line spacing
-    if ($content -notmatch '\\onehalfspacing|\\setstretch\{1\.5\}') {
-        $violations += "1.5 line spacing not configured (FOM §5.2.2)"
-    } else {
-        Write-Log "✓ Line spacing 1.5 configured"
-    }
-    
-    # Check 3: Required front matter sections (§5.1)
-    Write-Log "Checking required document sections..."
-    $requiredSections = @(
-        @{Name='Titelblatt'; Pattern='\\maketitle|Titelblatt'},
-        @{Name='Inhaltsverzeichnis'; Pattern='\\tableofcontents'},
-        @{Name='Abbildungsverzeichnis'; Pattern='\\listoffigures'},
-        @{Name='Tabellenverzeichnis'; Pattern='\\listoftables'},
-        @{Name='Abkürzungsverzeichnis'; Pattern='\\chapter\*?\{Abkürzungsverzeichnis\}|\\printacronyms'},
-        @{Name='Literaturverzeichnis'; Pattern='\\printbibliography|\\bibliography'}
-    )
-    
-    $missingSections = @()
-    foreach ($section in $requiredSections) {
-        if ($content -notmatch $section.Pattern) {
-            $missingSections += $section.Name
-        } else {
-            Write-Log "✓ Found: $($section.Name)"
-        }
-    }
-    
-    if ($missingSections.Count -gt 0) {
-        foreach ($missing in $missingSections) {
-            $violations += "Missing required section: $missing (FOM §5.1)"
-        }
-    }
-    
-    # Report results
-    if ($violations.Count -eq 0) {
-        Write-Success "Document is compliant with FOM guidelines"
-        return $true
-    } else {
-        Write-Host "`n⚠ FOM Guideline Compliance Issues:" -ForegroundColor Yellow
-        foreach ($violation in $violations) {
-            Write-Host "  • $violation" -ForegroundColor DarkYellow
-        }
-        Write-Host ""
-        
-        # Non-blocking warnings - return true to continue
-        Write-Log "FOM compliance check found $($violations.Count) issues (non-blocking)" "WARN"
-        return $true
-    }
-    } catch {
-        Write-ErrorMsg "FOM compliance check failed: $_"
-        Write-Log "FOM compliance error: $_" "ERROR"
-        return $true  # Non-blocking
-    }
-}
+
 
 function Test-DocumentStructure {
     Write-Stage "Validating document structure"
@@ -752,13 +648,14 @@ try {
     
     # 9. Success summary
     $duration = (Get-Date) - $startTime
+    $endTime = Get-Date
     Write-Log "Compilation completed successfully in $($duration.TotalSeconds) seconds" "INFO"
     
     Write-Host "`n╔════════════════════════════════════════════════╗" -ForegroundColor Green
     Write-Host "║  Compilation Successful!                       ║" -ForegroundColor Green
     Write-Host "╚════════════════════════════════════════════════╝" -ForegroundColor Green
     Write-Host "Total time: $($duration.TotalSeconds.ToString('0.0'))s" -ForegroundColor Green
-    Write-Host "Output: $outputName`n" -ForegroundColor Green
+    Write-Host "Output: $outputName" -ForegroundColor Green
     
 } catch {
     Write-Log "Compilation failed with exception: $_" "ERROR"
@@ -769,6 +666,7 @@ try {
     exit 1
 } finally {
     Pop-Location
+    Write-Host "Completed: $($endTime.ToString('yyyy-MM-dd HH:mm:ss'))`n" -ForegroundColor Green
     Write-Log "Workflow ended"
 }
 

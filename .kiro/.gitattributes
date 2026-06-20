@@ -1,0 +1,2 @@
+# Kiro hook files should maintain LF line endings
+*.kiro.hook text eol=lf

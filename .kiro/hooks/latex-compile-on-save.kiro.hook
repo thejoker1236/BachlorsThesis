@@ -12,7 +12,7 @@
   },
   "then": {
     "type": "runCommand",
-    "command": "powershell -ExecutionPolicy Bypass -File \".\\scripts\\compile.ps1\"",
+    "command": "pwsh -ExecutionPolicy Bypass -File \".\\scripts\\compile.ps1\"",
     "timeout": 300
   }
 }

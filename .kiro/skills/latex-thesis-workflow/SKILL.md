@@ -1,6 +1,6 @@
 ---
 name: latex-thesis-workflow
-description: Comprehensive workflow for LaTeX thesis operations including chapter updates, citation management, bulk editing, and compilation. Use when user provides thesis content updates, citations to convert, or requests compilation/git operations.
+description: Comprehensive workflow for LaTeX thesis operations with MANDATORY compilation and error-fixing. Includes chapter updates, citation management, automatic error detection/fixing loop, and git workflow. Always compiles after edits and fixes errors iteratively until successful.
 ---
 
 # LaTeX Thesis Workflow - Comprehensive Guide
@@ -9,9 +9,10 @@ description: Comprehensive workflow for LaTeX thesis operations including chapte
 This consolidated skill provides complete guidance for all LaTeX thesis operations:
 - **Chapter Updates**: Replacing/updating thesis sections with proper formatting
 - **Citation Management**: Converting inline citations to footnote format and managing bibliography
-- **Bulk Editing**: Disabling/enabling compilation hooks for multiple edits
-- **Compilation**: Multi-pass LaTeX compilation with FOM guideline validation
+- **Compilation with Error Fixing**: Multi-pass LaTeX compilation with automatic error detection and fixing loop
 - **Git Workflow**: Staging, committing changes with auto-generated PDFs
+
+**CRITICAL: This workflow now includes MANDATORY compilation and error-fixing (Phase 6). You must compile after finishing edits and fix any errors iteratively until compilation succeeds.**
 
 ## When to Use
 - User provides text content to replace/update a thesis section
@@ -19,29 +20,11 @@ This consolidated skill provides complete guidance for all LaTeX thesis operatio
 - User asks to update section numbers (e.g., "2.2.3", "3.1.2")
 - User asks about compilation, PDF generation, or bibliography
 - User asks to commit changes or stage PDFs
-- Making 5+ consecutive file edits (bulk operations)
+- Any thesis content modification (compilation is always mandatory afterward)
 
 ## Complete Workflow for Chapter Updates with Citations
 
-### Phase 1: Preparation - Disable Hook
-**Always start by disabling the auto-compilation hook to prevent multiple unnecessary compilations.**
-
-**Action:**
-1. Read `.kiro/hooks/latex-compile-after-tool-edit.kiro.hook`
-2. Change `"enabled": true` to `"enabled": false`
-3. Save the file
-
-```javascript
-// Hook file structure
-{
-  "enabled": false,  // ← Toggle this field only
-  "name": "Auto-compile LaTeX after edits",
-  "when": { "type": "postToolUse", "toolTypes": ["write"] },
-  "then": { "type": "runCommand", "command": "..." }
-}
-```
-
-### Phase 2: Identify Target Section
+### Phase 1: Identify Target Section (NO HOOK TO DISABLE ANYMORE)
 When user provides content like:
 ```
 2.2.3 Plattformökosysteme
@@ -61,16 +44,16 @@ Extract:
 - `05_kritische_betrachtung.tex` - Critical analysis
 - `06_fazit.tex` - Conclusion
 
-### Phase 3: Citation Analysis and Conversion
+### Phase 2: Citation Analysis and Conversion
 
-#### Step 3.1: Identify All Citations
+#### Step 2.1: Identify All Citations
 Parse the user's text for citation patterns:
 - `(vgl. Author 2016, S. 123)`
 - `(vgl. Author, Author2 und Author3 2020, S. 45)`
 - `(vgl. Author 2018)`
 - `¹ Vgl. Author (2016), S. 30.` (footnote format)
 
-#### Step 3.2: Read Bibliography and Match Citations
+#### Step 2.2: Read Bibliography and Match Citations
 1. Read `Paper/references.bib`
 2. Extract all BibTeX keys (e.g., `Tiwana2014`, `Parker2016`, `Srnicek2017`)
 3. Match each citation to existing keys
@@ -83,20 +66,20 @@ Cusumano, Gawer und Yoffie (2019), S. 18 → Cusumano2019
 Srnicek (2017), S. 29 → Srnicek2017
 ```
 
-#### Step 3.3: Handle Missing Sources
+#### Step 2.3: Handle Missing Sources
 If citation NOT found in references.bib:
 1. Create list of missing sources
 2. Ask user for complete bibliographic information:
    - **Books**: Authors, Title, Year, Edition, Publisher, Location
    - **Articles**: Authors, Title, Journal, Year, Volume, Number, Pages, DOI
 
-#### Step 3.4: Generate BibTeX Keys for New Sources
+#### Step 2.4: Generate BibTeX Keys for New Sources
 Follow existing convention:
 - Single author: `LastName+Year` (e.g., `Pasquale2015`)
 - Two authors: `LastName1LastName2+Year` (e.g., `RussellNorvig2010`)
 - Three+ authors: `FirstAuthorLastName+Year` (e.g., `Laudon2016`)
 
-#### Step 3.5: Add Missing Entries to references.bib
+#### Step 2.5: Add Missing Entries to references.bib
 1. Determine appropriate section (e.g., `% Kapitel 2 — ...`)
 2. Format entry according to existing style
 3. Insert in alphabetical order within section
@@ -112,7 +95,7 @@ Follow existing convention:
 }
 ```
 
-#### Step 3.6: Convert All Citations to \vglfootcite Format
+#### Step 2.6: Convert All Citations to \vglfootcite Format
 **Conversion Pattern:**
 ```
 (vgl. Author(s) Year, S. Page) → \vglfootcite[Page]{BibTeXKey}
@@ -141,9 +124,9 @@ Follow existing convention:
 - `S. 12\,ff.` = page 12 and several following
 - `S. 29--30` = pages 29 to 30
 
-### Phase 4: Format and Replace Section Content
+### Phase 3: Format and Replace Section Content
 
-#### Step 4.1: Format LaTeX Content
+#### Step 3.1: Format LaTeX Content
 Convert user's text to proper LaTeX:
 - Add proper section header: `\subsection{Title}`
 - Preserve paragraph breaks (double newlines)
@@ -152,13 +135,13 @@ Convert user's text to proper LaTeX:
 - Use `--` for en-dash (e.g., "den Plattformbetreiber, die Komplementoren sowie die Nutzer --")
 - Escape special chars: `\ac{KI}` for acronyms
 
-#### Step 4.2: Read Existing Section
+#### Step 3.2: Read Existing Section
 Read the target chapter file to find existing content:
 ```powershell
 grep -n "\\subsection{.*}" Paper/chapters/02_grundlagen.tex
 ```
 
-#### Step 4.3: Replace Section
+#### Step 3.3: Replace Section
 Use `str_replace` with:
 - **oldStr**: Complete original section (header + all content until next section)
 - **newStr**: New formatted section with proper citations
@@ -166,30 +149,27 @@ Use `str_replace` with:
 
 **Handle Duplicates:** If title appears multiple times, include parent section context.
 
-### Phase 5: Validation
+### Phase 4: Pre-Compilation Validation (OPTIONAL BUT RECOMMENDED)
 
-#### Step 5.1: Verify All Citations
+#### Step 4.1: Verify All Citations
 Cross-check all `\vglfootcite` commands:
 1. Extract all BibTeX keys used
 2. Verify each exists in `references.bib`
 3. Report any missing keys
 
-#### Step 5.2: Check for Duplicate Citations
+#### Step 4.2: Check for Duplicate Citations
 Ensure no citation appears twice in same sentence:
 ```
 ❌ WRONG: Text.\vglfootcite[30]{Key} More (vgl. Author 2016, S. 30).
 ✓ CORRECT: Text.\vglfootcite[30]{Key} More text.
 ```
 
-### Phase 6: Re-Enable Hook and Compile
+### Phase 6: Compile and Fix Errors (MANDATORY)
 
-#### Step 6.1: Re-Enable Hook
-1. Read `.kiro/hooks/latex-compile-after-tool-edit.kiro.hook`
-2. Change `"enabled": false` back to `"enabled": true`
-3. Save the file
+**CRITICAL: After completing all edits, you MUST compile the thesis and fix any errors until compilation succeeds.**
 
-#### Step 6.2: Compile Thesis
-Run compilation script:
+#### Step 6.1: Run Initial Compilation
+Execute the compilation script:
 ```powershell
 .\scripts\compile.ps1
 ```
@@ -201,11 +181,88 @@ Run compilation script:
 4. **Pass 3**: `pdflatex main.tex` (finalizes cross-refs)
 5. **Copy**: `main.pdf` → `Bachelor-Thesis_Fernando_KI-Monitoring-Systeme.pdf`
 
-**Check Output:**
+#### Step 6.2: Check Compilation Result
+
+**If Compilation Succeeds (Exit Code 0):**
 - ✓ All citations resolved (no "undefined reference" warnings)
 - ✓ Bibliography generated correctly
 - ✓ PDF created successfully
 - ✓ Complies with FOM guidelines
+- → **Proceed to Phase 7 (Git Workflow)**
+
+**If Compilation Fails (Exit Code ≠ 0):**
+- → **Execute Error Fix Loop (Step 6.3)**
+
+#### Step 6.3: Error Fix Loop (MANDATORY UNTIL SUCCESS)
+
+**DO NOT PROCEED until compilation succeeds. Follow this loop:**
+
+1. **Analyze Error Output:**
+   - Read the compilation script output
+   - Identify the specific error type:
+     - LaTeX syntax errors (missing braces, invalid commands)
+     - Undefined citations (citation key not in references.bib)
+     - Bibliography errors (biber warnings/errors)
+     - Missing packages or fonts
+     - File not found errors
+     - Cross-reference errors
+
+2. **Fix the Error:**
+   
+   **For Undefined Citation Errors:**
+   ```
+   Pattern: "Citation 'KeyName' undefined"
+   ```
+   - Check if BibTeX key exists in `Paper/references.bib`
+   - If missing: Ask user for source details and add entry
+   - If typo: Fix the citation key in the .tex file
+   - Verify key spelling matches exactly
+
+   **For LaTeX Syntax Errors:**
+   ```
+   Pattern: "! LaTeX Error: ..." or "! Undefined control sequence"
+   ```
+   - Read the error line number from output
+   - Open the file and go to that line
+   - Fix the syntax issue:
+     - Add missing closing braces `}`
+     - Escape special characters (`&`, `%`, `$`, `_`)
+     - Fix malformed commands
+     - Check for unmatched `\begin{...}` and `\end{...}`
+
+   **For Bibliography Errors:**
+   ```
+   Pattern: "WARN - I didn't find a database entry"
+   ```
+   - Check `Paper/references.bib` for the entry
+   - Verify BibTeX syntax is correct
+   - Ensure all required fields are present (author, title, year, publisher)
+   - Check for special character encoding issues
+
+   **For Missing Package Errors:**
+   ```
+   Pattern: "! LaTeX Error: File 'package.sty' not found"
+   ```
+   - Inform user that LaTeX package needs to be installed
+   - Provide installation command: `tlmgr install package-name`
+   - Suggest checking if TeX Live is up to date
+
+3. **Re-compile After Each Fix:**
+   ```powershell
+   .\scripts\compile.ps1
+   ```
+
+4. **Repeat Until Success:**
+   - If compilation still fails → Go back to step 1
+   - If compilation succeeds → Proceed to Phase 7
+   - **Maximum 5 iterations**: If still failing after 5 attempts, report the persistent error to user and ask for guidance
+
+#### Step 6.4: Verify Final Output
+Once compilation succeeds, verify:
+- ✓ PDF file exists: `Bachelor-Thesis_Fernando_KI-Monitoring-Systeme.pdf`
+- ✓ File size is reasonable (not empty or corrupted)
+- ✓ No remaining warnings about undefined citations
+- ✓ Compilation completed all 3 passes successfully
 
 ### Phase 7: Git Workflow
 
@@ -274,11 +331,11 @@ Git: ✓ Committed
 3. Ensure uniqueness (if `Author2020` exists, use `Author2020b`)
 4. Use CamelCase for multi-word last names
 
-### Hook Management Rules
-1. **Always disable hook** before bulk edits (5+ operations)
-2. **Always re-enable hook** after completing all edits
-3. Only toggle `"enabled"` field (true ↔ false)
-4. Hook file: `.kiro/hooks/latex-compile-after-tool-edit.kiro.hook`
+### Workflow Rules (NO MORE HOOKS)
+1. **Complete all edits first** before compiling
+2. **ALWAYS compile after finishing** (mandatory - see Phase 6)
+3. **Fix compilation errors** iteratively until success
+4. **Never skip compilation** - it's a mandatory step
 
 ### Git Workflow Rules
 1. **Always commit PDFs** along with .tex files
@@ -326,10 +383,11 @@ Git: ✓ Committed
 ### Error: Hook Not Triggering
 **Issue**: PDF not auto-generating after edits
 
+**Note**: Auto-compilation hooks have been removed. You must manually compile after finishing all edits (Phase 6).
+
 **Solution:**
-- Check hook is enabled: `.kiro/hooks/latex-compile-after-tool-edit.kiro.hook`
-- Verify `"enabled": true`
-- Manually compile: `.\scripts\compile.ps1`
+- Run compilation manually: `.\scripts\compile.ps1`
+- Follow Phase 6 error fix loop if needed
 
 ### Error: PDF Copy Failed
 **Issue**: Cannot overwrite `Bachelor-Thesis_*.pdf`
@@ -360,8 +418,6 @@ The `compile.ps1` script validates:
 ```
 BachlorsThesis/
 ├── .kiro/
-│   ├── hooks/
-│   │   └── latex-compile-after-tool-edit.kiro.hook  # Hook config
 │   └── skills/
 │       └── latex-thesis-workflow/                   # This skill
 ├── Paper/
@@ -381,16 +437,16 @@ BachlorsThesis/
 
 ## Best Practices Summary
 
-1. ✓ **Disable hook first** for bulk operations
+1. ✓ **Identify target section** and chapter file correctly
 2. ✓ **Analyze all citations** before converting
 3. ✓ **Verify bibliography entries** exist
 4. ✓ **Format LaTeX properly** (citations, paragraphs, special chars)
 5. ✓ **Include sufficient context** in str_replace
-6. ✓ **Re-enable hook** after all edits
-7. ✓ **Compile once** at the end
-8. ✓ **Stage PDFs** with chapter files
-9. ✓ **Commit with descriptive message** referencing section number
-10. ✓ **Report summary** to user
+6. ✓ **MANDATORY: Compile and fix errors** until successful (Phase 6)
+7. ✓ **Stage PDFs** with chapter files for git
+8. ✓ **Commit with descriptive message** referencing section number
+9. ✓ **Report summary** to user including compilation status
+10. ✓ **Never skip the compilation step** - it's mandatory
 
 ## Notes
 - The `\vglfootcite` command is custom-defined in `main.tex` (lines 118-127)
@@ -398,4 +454,5 @@ BachlorsThesis/
 - Bibliography uses `authoryear` style with `biber` backend
 - Ampersand (&) used between authors in citations (not "und" or "and")
 - Each LaTeX compilation takes ~10 seconds
-- Disabling hook saves 2-3 minutes during bulk edits
+- **Auto-compilation hooks have been removed** - you must manually compile after finishing edits (Phase 6)
+- **Compilation is mandatory** - never skip Phase 6

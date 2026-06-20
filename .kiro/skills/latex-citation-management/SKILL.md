@@ -1,3 +1,8 @@
+---
+name: latex-citation-management
+description: Comprehensive workflow for integrating new text with citations into the thesis. Use when user provides text with inline citations that need to be converted to footnote format, when adding new sources to references.bib, or when integrating research notes with multiple citations.
+---
+
 # LaTeX Citation Management & Text Integration
 
 ## Purpose

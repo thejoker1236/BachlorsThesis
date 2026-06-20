@@ -1,3 +1,8 @@
+---
+name: latex-thesis-compilation
+description: Guidance for automating LaTeX thesis compilation workflows at FOM Hochschule. Use when creating or modifying compilation scripts, debugging LaTeX errors, validating against FOM guidelines, or managing auxiliary files and incremental builds.
+---
+
 # LaTeX Thesis Compilation Skill
 
 ## Purpose

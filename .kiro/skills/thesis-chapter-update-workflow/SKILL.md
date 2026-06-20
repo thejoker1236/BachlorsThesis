@@ -1,3 +1,8 @@
+---
+name: thesis-chapter-update-workflow
+description: Guidance for updating thesis chapter content when user provides text replacements or updates for specific sections. Use when user provides content with section numbers, asks to replace sections, update chapters, or commit chapter changes with auto-generated PDFs.
+---
+
 # Thesis Chapter Update Workflow
 
 ## Purpose
@@ -214,5 +219,5 @@ Activate this skill when:
 
 ## Related Skills
 
-- `latex-thesis-compilation.md` - For PDF generation details
+- `latex-thesis-compilation` - For PDF generation details
 - Hooks: `latex-compile-after-tool-edit.kiro.hook` - Auto-compilation trigger

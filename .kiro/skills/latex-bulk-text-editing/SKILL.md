@@ -1,3 +1,8 @@
+---
+name: latex-bulk-text-editing
+description: Workflow for performing bulk text editing operations in LaTeX files while temporarily disabling auto-compilation hooks to prevent multiple unnecessary compilations. Use when converting multiple citations, making batch replacements, or performing 5+ consecutive file edits.
+---
+
 # LaTeX Bulk Text Editing Workflow
 
 ## Purpose

@@ -1,0 +1,1355 @@
+
+================================================================================
+AUTOMATISCHE ZITATIONS-KORREKTUR - 2026-06-22 01:29:05
+================================================================================
+
+📡 Teste Ollama...
+✓ Ollama läuft
+
+📚 Sammle Zitationen...
+✓ Gefunden: 426 Zitationen
+
+⚠️ TEST-MODUS: Nur 3 Zitationen
+
+🚀 Starte automatische Korrektur (Schwelle: 50%)
+
+================================================================================
+[1/3] Srnicek2017 - S. 4
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[2/3] Srnicek2017 - S. 4
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[3/3] Zuboff2019 - S. 4
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+
+
+
+================================================================================
+ZUSAMMENFASSUNG
+================================================================================
+Gesamte Zitationen: 3
+✓ Korrigiert:       0 (0.0%)
+⊘ Übersprungen:     0 (0.0%)
+✗ Fehler:           0 (0.0%)
+
+Dauer: 0:03:06.729065
+Fertig: 2026-06-22 01:32:12
+================================================================================
+
+
+================================================================================
+AUTOMATISCHE ZITATIONS-KORREKTUR - 2026-06-22 01:34:52
+================================================================================
+
+📡 Teste Ollama...
+✓ Ollama läuft
+
+📚 Sammle Zitationen...
+✓ Gefunden: 426 Zitationen
+
+⚠️ TEST-MODUS: Nur 2 Zitationen
+
+🚀 Starte automatische Korrektur (Schwelle: 50%)
+
+================================================================================
+[1/2] Srnicek2017 - S. 4
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[2/2] Srnicek2017 - S. 4
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+
+
+
+================================================================================
+ZUSAMMENFASSUNG
+================================================================================
+Gesamte Zitationen: 2
+✓ Korrigiert:       0 (0.0%)
+⊘ Übersprungen:     0 (0.0%)
+✗ Fehler:           0 (0.0%)
+
+Start:              2026-06-22 01:34:52
+Ende:               2026-06-22 01:36:34
+Gesamt-Zeit:        0:01:42.485056
+Ø pro Zitation:     51.2 Sekunden
+================================================================================
+
+
+================================================================================
+AUTOMATISCHE ZITATIONS-KORREKTUR - 2026-06-22 01:37:35
+================================================================================
+
+📡 Teste Ollama...
+✓ Ollama läuft
+
+📚 Sammle Zitationen...
+✓ Gefunden: 426 Zitationen
+
+🚀 Starte automatische Korrektur (Schwelle: 50%)
+
+================================================================================
+[1/426] Srnicek2017 - S. 4
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[2/426] Srnicek2017 - S. 4
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[3/426] Zuboff2019 - S. 4
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[4/426] Laudon2016 - S. 27
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.27 → S.17 (Konfidenz: 50.0%)
+[5/426] Pasquale2015 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[6/426] Kitchin2014 - S. 115
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.115 → S.1 (Konfidenz: 50.0%)
+[7/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[8/426] Laudon2016 - S. 30
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.30 → S.20 (Konfidenz: 50.0%)
+[9/426] Laudon2016 - S. 37
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.37 → S.27 (Konfidenz: 50.0%)
+[10/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[11/426] WoolleyHoward2017 - S. 7
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.7 → S.1 (Konfidenz: 50.0%)
+[12/426] Srnicek2017 - S. 29
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.29 → S.19 (Konfidenz: 50.0%)
+[13/426] Pasquale2015 - S. 14
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.14 → S.4 (Konfidenz: 50.0%)
+[14/426] ONeil2016 - S. 3
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.3 → S.2 (Konfidenz: 50.0%)
+[15/426] BradshawHoward2018 - S. 4
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.4 → S.1 (Konfidenz: 50.0%)
+[16/426] Pasquale2015 - S. 3
+      ✓ Geschrieben: 01_einleitung.tex
+      ✓ KORRIGIERT: S.3 → S.1 (Konfidenz: 50.0%)
+[17/426] RussellNorvig2010 - S. 1
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.1 → S.2 (Konfidenz: 50.0%)
+[18/426] RussellNorvig2010 - S. 34
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.34 → S.24 (Konfidenz: 50.0%)
+[19/426] Goodfellow2016 - S. 105
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.105 → S.95 (Konfidenz: 50.0%)
+[20/426] Goodfellow2016 - S. 105
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.105 → S.95 (Konfidenz: 50.0%)
+[21/426] Goodfellow2016 - S. 105
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.105 → S.95 (Konfidenz: 50.0%)
+[22/426] SuttonBarto2018 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[23/426] Laudon2016 - S. 148
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.148 → S.1 (Konfidenz: 50.0%)
+[24/426] Mitchell1997 - S. 14
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.14 → S.4 (Konfidenz: 50.0%)
+[25/426] Kitchin2014 - S. 115
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.115 → S.1 (Konfidenz: 50.0%)
+[26/426] Goodfellow2016 - S. 15
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.15 → S.5 (Konfidenz: 50.0%)
+[27/426] Mitchell1997 - S. 15
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.15 → S.5 (Konfidenz: 50.0%)
+[28/426] JordanMitchell2015 - S. 255
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.255 → S.1 (Konfidenz: 50.0%)
+[29/426] RussellNorvig2010 - S. 708
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.708 → S.698 (Konfidenz: 50.0%)
+[30/426] Goodfellow2016 - S. 105
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.105 → S.95 (Konfidenz: 50.0%)
+[31/426] RussellNorvig2010 - S. 865
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.865 → S.855 (Konfidenz: 50.0%)
+[32/426] RussellNorvig2010 - S. 566
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.566 → S.556 (Konfidenz: 50.0%)
+[33/426] Pasquale2015 - S. 6
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[34/426] Goodfellow2016 - S. 422
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.422 → S.412 (Konfidenz: 50.0%)
+[35/426] AIHLEG2019 - S. 28
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.28 → S.18 (Konfidenz: 50.0%)
+[36/426] NIST2023 - S. 29
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.29 → S.19 (Konfidenz: 50.0%)
+[37/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[38/426] Laudon2016 - S. 393
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.393 → S.1 (Konfidenz: 50.0%)
+[39/426] NIST2023 - S. 29
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.29 → S.19 (Konfidenz: 50.0%)
+[40/426] Adomavicius2005 - S. 734
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.734 → S.1 (Konfidenz: 50.0%)
+[41/426] Adomavicius2005 - S. 734
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.734 → S.1 (Konfidenz: 50.0%)
+[42/426] Laudon2016 - S. 393
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.393 → S.1 (Konfidenz: 50.0%)
+[43/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[44/426] NIST2023 - S. 29
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.29 → S.19 (Konfidenz: 50.0%)
+[45/426] Adomavicius2005 - S. 734
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.734 → S.1 (Konfidenz: 50.0%)
+[46/426] Laudon2016 - S. 30
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.30 → S.20 (Konfidenz: 50.0%)
+[47/426] Laudon2016 - S. 37
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.37 → S.27 (Konfidenz: 50.0%)
+[48/426] Laudon2016 - S. 30
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.30 → S.20 (Konfidenz: 50.0%)
+[49/426] Laudon2016 - S. 307
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.307 → S.1 (Konfidenz: 50.0%)
+[50/426] RussellNorvig2010 - S. 34
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.34 → S.24 (Konfidenz: 50.0%)
+[51/426] Laudon2016 - S. 148
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.148 → S.1 (Konfidenz: 50.0%)
+[52/426] Goodfellow2016 - S. 105
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.105 → S.95 (Konfidenz: 50.0%)
+[53/426] Pasquale2015 - S. 6
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[54/426] NIST2023 - S. 29
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.29 → S.19 (Konfidenz: 50.0%)
+[55/426] Laudon2016 - S. 37
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.37 → S.27 (Konfidenz: 50.0%)
+[56/426] Laudon2016 - S. 148
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.148 → S.1 (Konfidenz: 50.0%)
+[57/426] Pasquale2015 - S. 6
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[58/426] Laudon2016 - S. 393
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.393 → S.1 (Konfidenz: 50.0%)
+[59/426] NIST2023 - S. 26
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.26 → S.16 (Konfidenz: 50.0%)
+[60/426] Laudon2016 - S. 37
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.37 → S.27 (Konfidenz: 50.0%)
+[61/426] RussellNorvig2010 - S. 127
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.127 → S.117 (Konfidenz: 50.0%)
+[62/426] NIST2023 - S. 29
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.29 → S.19 (Konfidenz: 50.0%)
+[63/426] Tiwana2014 - S. 5
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[64/426] Tiwana2014 - S. 6
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[65/426] Parker2016 - S. 17
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.17 → S.20 (Konfidenz: 80.0%)
+[66/426] Tiwana2014 - S. 6
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[67/426] Cusumano2019 - S. 18
+      ⊘ PDF nicht gefunden
+[68/426] Tiwana2014 - S. 11
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.11 → S.1 (Konfidenz: 50.0%)
+[69/426] Parker2016 - S. 27
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.27 → S.17 (Konfidenz: 50.0%)
+[70/426] Parker2016 - S. 27
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.27 → S.17 (Konfidenz: 50.0%)
+[71/426] Cusumano2019 - S. 25
+      ⊘ PDF nicht gefunden
+[72/426] Parker2016 - S. 161
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.161 → S.3 (Konfidenz: 50.0%)
+[73/426] Tiwana2014 - S. 11
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.11 → S.1 (Konfidenz: 50.0%)
+[74/426] Srnicek2017 - S. 29
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.29 → S.19 (Konfidenz: 50.0%)
+[75/426] Srnicek2017 - S. 30
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.30 → S.20 (Konfidenz: 50.0%)
+[76/426] Srnicek2017 - S. 29
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.29 → S.19 (Konfidenz: 50.0%)
+[77/426] Lyon2012 - S. 12
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.12 → S.2 (Konfidenz: 50.0%)
+[78/426] Pasquale2015 - S. 6
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[79/426] Goodfellow2016 - S. 105
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.105 → S.95 (Konfidenz: 50.0%)
+[80/426] Adomavicius2005 - S. 734
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.734 → S.1 (Konfidenz: 50.0%)
+[81/426] Gillespie2014 - S. 167
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.167 → S.1 (Konfidenz: 50.0%)
+[82/426] RussellNorvig2010 - S. 34
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.34 → S.24 (Konfidenz: 50.0%)
+[83/426] VanDijck2014 - S. 198
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.198 → S.1 (Konfidenz: 50.0%)
+[84/426] Zuboff2019 - S. 233
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.233 → S.223 (Konfidenz: 50.0%)
+[85/426] Laudon2016 - S. 307
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.307 → S.1 (Konfidenz: 50.0%)
+[86/426] RussellNorvig2010 - S. 34
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.34 → S.24 (Konfidenz: 50.0%)
+[87/426] OECD2013 - S. 10
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.10 → S.1 (Konfidenz: 50.0%)
+[88/426] Kitchin2014 - S. 115
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.115 → S.1 (Konfidenz: 50.0%)
+[89/426] Kitchin2014 - S. 115
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.115 → S.1 (Konfidenz: 50.0%)
+[90/426] Gillespie2014 - S. 172
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.172 → S.1 (Konfidenz: 50.0%)
+[91/426] RussellNorvig2010 - S. 566
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.566 → S.556 (Konfidenz: 50.0%)
+[92/426] RussellNorvig2010 - S. 127
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.127 → S.117 (Konfidenz: 50.0%)
+[93/426] Goodfellow2016 - S. 105
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.105 → S.95 (Konfidenz: 50.0%)
+[94/426] Chandola2009 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[95/426] RussellNorvig2010 - S. 572
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.572 → S.562 (Konfidenz: 50.0%)
+[96/426] NIST2023 - S. 29
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.29 → S.19 (Konfidenz: 50.0%)
+[97/426] Pasquale2015 - S. 6
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[98/426] Pasquale2015 - S. 6
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[99/426] Gillespie2014 - S. 174
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.174 → S.1 (Konfidenz: 50.0%)
+[100/426] Laudon2016 - S. 393
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.393 → S.1 (Konfidenz: 50.0%)
+[101/426] NIST2023 - S. 26
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.26 → S.16 (Konfidenz: 50.0%)
+[102/426] VomBrocke2009 - S. 403
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.403 → S.1 (Konfidenz: 50.0%)
+[103/426] VomBrocke2009 - S. 402
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.402 → S.1 (Konfidenz: 50.0%)
+[104/426] VomBrocke2009 - S. 404
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.404 → S.1 (Konfidenz: 50.0%)
+[105/426] VomBrocke2009 - S. 415
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.415 → S.1 (Konfidenz: 50.0%)
+[106/426] VomBrocke2009 - S. 404
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.404 → S.1 (Konfidenz: 50.0%)
+[107/426] Pasquale2015 - S. 3
+      ✓ Geschrieben: 02_grundlagen.tex
+      ✓ KORRIGIERT: S.3 → S.1 (Konfidenz: 50.0%)
+[108/426] Srnicek2017 - S. 31
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.31 → S.21 (Konfidenz: 50.0%)
+[109/426] Zuboff2019 - S. 12
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.12 → S.4 (Konfidenz: 50.0%)
+[110/426] Laudon2016 - S. 307
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.307 → S.1 (Konfidenz: 50.0%)
+[111/426] Lyon2012 - S. 125
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.125 → S.2 (Konfidenz: 50.0%)
+[112/426] VanDijck2014 - S. 165
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.165 → S.1 (Konfidenz: 50.0%)
+[113/426] Narayanan2023 - S. 22
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.22 → S.12 (Konfidenz: 50.0%)
+[114/426] Zuboff2019 - S. 6
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.6 → S.4 (Konfidenz: 50.0%)
+[115/426] MetzlerGarcia2023 - S. 736
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.736 → S.1 (Konfidenz: 50.0%)
+[116/426] Narayanan2023 - S. 320
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.320 → S.1 (Konfidenz: 50.0%)
+[117/426] Zuboff2019 - S. 28
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.28 → S.18 (Konfidenz: 50.0%)
+[118/426] VanDijck2014 - S. 167
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.167 → S.1 (Konfidenz: 50.0%)
+[119/426] Lyon2012 - S. 343
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.343 → S.2 (Konfidenz: 50.0%)
+[120/426] Cusumano2019 - S. 664
+      ⊘ PDF nicht gefunden
+[121/426] Tiwana2014 - S. 6
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[122/426] Srnicek2017 - S. 30
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.30 → S.20 (Konfidenz: 50.0%)
+[123/426] Parker2016 - S. 161
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.161 → S.3 (Konfidenz: 50.0%)
+[124/426] Tiwana2014 - S. 11
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.11 → S.1 (Konfidenz: 50.0%)
+[125/426] Srnicek2017 - S. 61
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.61 → S.51 (Konfidenz: 50.0%)
+[126/426] Cusumano2019 - S. 712
+      ⊘ PDF nicht gefunden
+[127/426] Zuboff2019 - S. 13
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.13 → S.4 (Konfidenz: 50.0%)
+[128/426] Parker2016 - S. 685
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.685 → S.3 (Konfidenz: 50.0%)
+[129/426] Zuboff2019 - S. 38
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.38 → S.28 (Konfidenz: 50.0%)
+[130/426] OECD2011 - S. 375
+      ⊘ PDF nicht gefunden
+[131/426] VanDijck2014 - S. 168
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.168 → S.1 (Konfidenz: 50.0%)
+[132/426] Acquisti2016 - S. 445
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.445 → S.1 (Konfidenz: 50.0%)
+[133/426] Gillespie2014 - S. 225
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.225 → S.1 (Konfidenz: 50.0%)
+[134/426] Kitchin2014 - S. 117
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.117 → S.1 (Konfidenz: 50.0%)
+[135/426] Lyon2012 - S. 159
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.159 → S.2 (Konfidenz: 50.0%)
+[136/426] Zuboff2019 - S. 96
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.96 → S.86 (Konfidenz: 50.0%)
+[137/426] OECD2011 - S. 379
+      ⊘ PDF nicht gefunden
+[138/426] Gillespie2014 - S. 251
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.251 → S.1 (Konfidenz: 50.0%)
+[139/426] Zuboff2019 - S. 15
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.15 → S.5 (Konfidenz: 50.0%)
+[140/426] Adomavicius2005 - S. 741
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.741 → S.1 (Konfidenz: 50.0%)
+[141/426] Burke2002 - S. 345
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.345 → S.1 (Konfidenz: 50.0%)
+[142/426] Adomavicius2005 - S. 748
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.748 → S.1 (Konfidenz: 50.0%)
+[143/426] Burke2002 - S. 340
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.340 → S.1 (Konfidenz: 50.0%)
+[144/426] Pariser2011 - S. 710
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.710 → S.4 (Konfidenz: 50.0%)
+[145/426] Pariser2011 - S. 717
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.717 → S.4 (Konfidenz: 50.0%)
+[146/426] Zuboff2019 - S. 13
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.13 → S.4 (Konfidenz: 50.0%)
+[147/426] Gillespie2014 - S. 265
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.265 → S.1 (Konfidenz: 50.0%)
+[148/426] Gillespie2014 - S. 248
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.248 → S.2 (Konfidenz: 60.0%)
+[149/426] Gillespie2014 - S. 249
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.249 → S.1 (Konfidenz: 50.0%)
+[150/426] Pasquale2015 - S. 528
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.528 → S.1 (Konfidenz: 50.0%)
+[151/426] Narayanan2023 - S. 458
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.458 → S.1 (Konfidenz: 50.0%)
+[152/426] Narayanan2023 - S. 491
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.491 → S.1 (Konfidenz: 50.0%)
+[153/426] Gillespie2014 - S. 319
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.319 → S.1 (Konfidenz: 50.0%)
+[154/426] Narayanan2023 - S. 472
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.472 → S.1 (Konfidenz: 50.0%)
+[155/426] Gillespie2014 - S. 271
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.271 → S.1 (Konfidenz: 50.0%)
+[156/426] Pasquale2015 - S. 509
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.509 → S.1 (Konfidenz: 50.0%)
+[157/426] ONeil2016 - S. 857
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.857 → S.2 (Konfidenz: 50.0%)
+[158/426] OECD2011 - S. 519
+      ⊘ PDF nicht gefunden
+[159/426] ONeil2016 - S. 857
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.857 → S.2 (Konfidenz: 50.0%)
+[160/426] ONeil2016 - S. 850
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.850 → S.2 (Konfidenz: 50.0%)
+[161/426] Pasquale2015 - S. 523
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.523 → S.1 (Konfidenz: 50.0%)
+[162/426] ONeil2016 - S. 862
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.862 → S.2 (Konfidenz: 50.0%)
+[163/426] SuttonBarto2018 - S. 555
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.555 → S.1 (Konfidenz: 50.0%)
+[164/426] Narayanan2023 - S. 475
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.475 → S.1 (Konfidenz: 50.0%)
+[165/426] Fogg2009 - S. 198
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.198 → S.1 (Konfidenz: 50.0%)
+[166/426] Zuboff2019 - S. 30
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.30 → S.20 (Konfidenz: 50.0%)
+[167/426] Kramer2014 - S. 907
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.907 → S.1 (Konfidenz: 50.0%)
+[168/426] Isaak2018 - S. 843
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.843 → S.1 (Konfidenz: 50.0%)
+[169/426] Zuboff2019 - S. 17
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.17 → S.7 (Konfidenz: 50.0%)
+[170/426] Cinelli2021 - S. 873
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.873 → S.1 (Konfidenz: 50.0%)
+[171/426] MetzlerGarcia2023 - S. 642
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.642 → S.1 (Konfidenz: 50.0%)
+[172/426] Zuboff2019 - S. 40
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.40 → S.30 (Konfidenz: 50.0%)
+[173/426] Zuboff2019 - S. 12
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.12 → S.4 (Konfidenz: 50.0%)
+[174/426] Srnicek2017 - S. 29
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.29 → S.19 (Konfidenz: 50.0%)
+[175/426] Parker2016 - S. 18
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.18 → S.8 (Konfidenz: 50.0%)
+[176/426] Pariser2011 - S. 616
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.616 → S.4 (Konfidenz: 50.0%)
+[177/426] Adomavicius2005 - S. 612
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.612 → S.1 (Konfidenz: 50.0%)
+[178/426] Narayanan2023 - S. 308
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.308 → S.1 (Konfidenz: 50.0%)
+[179/426] Srnicek2017 - S. 30
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.30 → S.20 (Konfidenz: 50.0%)
+[180/426] Parker2016 - S. 27
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.27 → S.17 (Konfidenz: 50.0%)
+[181/426] Gillespie2014 - S. 273
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.273 → S.1 (Konfidenz: 50.0%)
+[182/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[183/426] Fogg2009 - S. 198
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.198 → S.1 (Konfidenz: 50.0%)
+[184/426] Creemers2018 - S. 925
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.925 → S.1 (Konfidenz: 50.0%)
+[185/426] Creemers2018 - S. 934
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.934 → S.1 (Konfidenz: 50.0%)
+[186/426] Qiang2019 - S. 412
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.412 → S.1 (Konfidenz: 50.0%)
+[187/426] Qiang2019 - S. 410
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.410 → S.1 (Konfidenz: 50.0%)
+[188/426] SFRC2020 - S. 9
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.9 → S.1 (Konfidenz: 50.0%)
+[189/426] Qiang2019 - S. 412
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.412 → S.1 (Konfidenz: 50.0%)
+[190/426] SFRC2020 - S. 14
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.14 → S.4 (Konfidenz: 50.0%)
+[191/426] Qiang2019 - S. 416
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.416 → S.1 (Konfidenz: 50.0%)
+[192/426] Creemers2018 - S. 924
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.924 → S.1 (Konfidenz: 50.0%)
+[193/426] Lyon2012 - S. 435
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.435 → S.2 (Konfidenz: 50.0%)
+[194/426] Pasquale2015 - S. 509
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.509 → S.1 (Konfidenz: 50.0%)
+[195/426] Creemers2018 - S. 941
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.941 → S.1 (Konfidenz: 50.0%)
+[196/426] Zuboff2019 - S. 26
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.26 → S.16 (Konfidenz: 50.0%)
+[197/426] Creemers2018 - S. 945
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.945 → S.1 (Konfidenz: 50.0%)
+[198/426] Narayanan2023 - S. 309
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.309 → S.1 (Konfidenz: 50.0%)
+[199/426] Creemers2018 - S. 925
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.925 → S.1 (Konfidenz: 50.0%)
+[200/426] Srnicek2017 - S. 30
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.30 → S.20 (Konfidenz: 50.0%)
+[201/426] SFRC2020 - S. 181
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.181 → S.1 (Konfidenz: 50.0%)
+[202/426] Zuboff2019 - S. 81
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.81 → S.71 (Konfidenz: 50.0%)
+[203/426] SFRC2020 - S. 9
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.9 → S.1 (Konfidenz: 50.0%)
+[204/426] Pasquale2015 - S. 344
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.344 → S.1 (Konfidenz: 50.0%)
+[205/426] Creemers2018 - S. 945
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.945 → S.1 (Konfidenz: 50.0%)
+[206/426] Lyon2012 - S. 458
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.458 → S.2 (Konfidenz: 50.0%)
+[207/426] Creemers2018 - S. 940
+      ✓ Geschrieben: 03_monitoring_systeme.tex
+      ✓ KORRIGIERT: S.940 → S.1 (Konfidenz: 50.0%)
+[208/426] Gillespie2014 - S. 387
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.387 → S.1 (Konfidenz: 50.0%)
+[209/426] Pasquale2015 - S. 540
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.540 → S.1 (Konfidenz: 50.0%)
+[210/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[211/426] OECD2011 - S. 531
+      ⊘ PDF nicht gefunden
+[212/426] VanDijck2014 - S. 358
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.358 → S.1 (Konfidenz: 50.0%)
+[213/426] Zuboff2019 - S. 4
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[214/426] Zuboff2019 - S. 69
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.69 → S.59 (Konfidenz: 50.0%)
+[215/426] Cusumano2019 - S. 812
+      ⊘ PDF nicht gefunden
+[216/426] AIHLEG2019 - S. 201
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.201 → S.1 (Konfidenz: 50.0%)
+[217/426] Zuboff2019 - S. 25
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.25 → S.15 (Konfidenz: 50.0%)
+[218/426] ONeil2016 - S. 798
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.798 → S.2 (Konfidenz: 50.0%)
+[219/426] Pasquale2015 - S. 536
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.536 → S.1 (Konfidenz: 50.0%)
+[220/426] Pasquale2015 - S. 533
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.533 → S.1 (Konfidenz: 50.0%)
+[221/426] Acquisti2016 - S. 326
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.326 → S.1 (Konfidenz: 50.0%)
+[222/426] AIHLEG2019 - S. 192
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.192 → S.1 (Konfidenz: 50.0%)
+[223/426] Lyon2012 - S. 689
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.689 → S.2 (Konfidenz: 50.0%)
+[224/426] Gillespie2014 - S. 168
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.168 → S.13 (Konfidenz: 80.0%)
+[225/426] VanDijck2014 - S. 198
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.198 → S.1 (Konfidenz: 50.0%)
+[226/426] VanDijck2014 - S. 198
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.198 → S.1 (Konfidenz: 50.0%)
+[227/426] Kitchin2014 - S. 115
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.115 → S.1 (Konfidenz: 50.0%)
+[228/426] Gillespie2014 - S. 172
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.172 → S.1 (Konfidenz: 50.0%)
+[229/426] Gillespie2014 - S. 173
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.173 → S.1 (Konfidenz: 50.0%)
+[230/426] Narayanan2023 - S. 18
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.18 → S.8 (Konfidenz: 50.0%)
+[231/426] Areeb2023 - S. 176
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.176 → S.1 (Konfidenz: 50.0%)
+[232/426] Areeb2023 - S. 177
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.177 → S.1 (Konfidenz: 50.0%)
+[233/426] Gillespie2014 - S. 174
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.174 → S.1 (Konfidenz: 50.0%)
+[234/426] Gillespie2014 - S. 168
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.168 → S.1 (Konfidenz: 50.0%)
+[235/426] Gillespie2014 - S. 188
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.188 → S.1 (Konfidenz: 50.0%)
+[236/426] Narayanan2023 - S. 9
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.9 → S.1 (Konfidenz: 50.0%)
+[237/426] Pariser2011 - S. 10
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.10 → S.4 (Konfidenz: 50.0%)
+[238/426] Gillespie2014 - S. 175
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.175 → S.1 (Konfidenz: 50.0%)
+[239/426] Narayanan2023 - S. 15
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.15 → S.5 (Konfidenz: 50.0%)
+[240/426] Cinelli2021 - S. 572
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.572 → S.1 (Konfidenz: 50.0%)
+[241/426] Gillespie2014 - S. 184
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.184 → S.1 (Konfidenz: 50.0%)
+[242/426] Pasquale2015 - S. 14
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.14 → S.4 (Konfidenz: 50.0%)
+[243/426] Areeb2023 - S. 183
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.183 → S.1 (Konfidenz: 50.0%)
+[244/426] Cinelli2021 - S. 572
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.572 → S.1 (Konfidenz: 50.0%)
+[245/426] Cinelli2021 - S. 575
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.575 → S.1 (Konfidenz: 50.0%)
+[246/426] Kelm2023 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[247/426] Kelm2023 - S. 4
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.4 → S.1 (Konfidenz: 50.0%)
+[248/426] MetzlerGarcia2023 - S. 736
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.736 → S.1 (Konfidenz: 50.0%)
+[249/426] Pasquale2015 - S. 15
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.15 → S.5 (Konfidenz: 50.0%)
+[250/426] Susser2019 - S. 3
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.3 → S.1 (Konfidenz: 50.0%)
+[251/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[252/426] Susser2019 - S. 11
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.11 → S.1 (Konfidenz: 50.0%)
+[253/426] Kaptein2015 - S. 38
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.38 → S.1 (Konfidenz: 50.0%)
+[254/426] Kaptein2015 - S. 40
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.40 → S.1 (Konfidenz: 50.0%)
+[255/426] Kaptein2015 - S. 41
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.41 → S.1 (Konfidenz: 50.0%)
+[256/426] SuttonBarto2018 - S. 6
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[257/426] SuttonBarto2018 - S. 56
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.56 → S.46 (Konfidenz: 50.0%)
+[258/426] MetzlerGarcia2023 - S. 735
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.735 → S.1 (Konfidenz: 50.0%)
+[259/426] Fogg2009 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[260/426] Fogg2009 - S. 2
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.2 → S.1 (Konfidenz: 50.0%)
+[261/426] Fogg2009 - S. 5
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[262/426] Susser2019 - S. 4
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.4 → S.1 (Konfidenz: 50.0%)
+[263/426] Narayanan2023 - S. 22
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.22 → S.12 (Konfidenz: 50.0%)
+[264/426] Narayanan2023 - S. 5
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[265/426] Zuboff2019 - S. 308
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.308 → S.298 (Konfidenz: 50.0%)
+[266/426] Kramer2014 - S. 8788
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8788 → S.1 (Konfidenz: 50.0%)
+[267/426] Kramer2014 - S. 8789
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8789 → S.1 (Konfidenz: 50.0%)
+[268/426] Susser2019 - S. 36
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.36 → S.26 (Konfidenz: 50.0%)
+[269/426] Susser2019 - S. 12
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.12 → S.2 (Konfidenz: 50.0%)
+[270/426] Susser2019 - S. 13
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.13 → S.3 (Konfidenz: 50.0%)
+[271/426] Susser2019 - S. 26
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.26 → S.16 (Konfidenz: 50.0%)
+[272/426] Susser2019 - S. 38
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.38 → S.28 (Konfidenz: 50.0%)
+[273/426] OrbenPrzybylski2019 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[274/426] OrbenPrzybylski2019 - S. 2
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.2 → S.1 (Konfidenz: 50.0%)
+[275/426] OrbenPrzybylski2019 - S. 16
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.16 → S.6 (Konfidenz: 50.0%)
+[276/426] MetzlerGarcia2023 - S. 737
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.737 → S.1 (Konfidenz: 50.0%)
+[277/426] Zuboff2019 - S. 293
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.293 → S.283 (Konfidenz: 50.0%)
+[278/426] Susser2019 - S. 4
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.4 → S.1 (Konfidenz: 50.0%)
+[279/426] Srnicek2017 - S. 28
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.28 → S.18 (Konfidenz: 50.0%)
+[280/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[281/426] Srnicek2017 - S. 31
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.31 → S.21 (Konfidenz: 50.0%)
+[282/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[283/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[284/426] Srnicek2017 - S. 28
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.28 → S.18 (Konfidenz: 50.0%)
+[285/426] VanDijck2014 - S. 198
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.198 → S.1 (Konfidenz: 50.0%)
+[286/426] MayerSchoenberger2013 - S. 30
+      ⊘ PDF nicht gefunden
+[287/426] Davenport2006 - S. 3
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.3 → S.1 (Konfidenz: 50.0%)
+[288/426] Parker2016 - S. 51
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.51 → S.3 (Konfidenz: 50.0%)
+[289/426] Cusumano2019 - S. 564
+      ⊘ PDF nicht gefunden
+[290/426] Tiwana2014 - S. 6
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[291/426] Parker2016 - S. 27
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.27 → S.17 (Konfidenz: 50.0%)
+[292/426] Srnicek2017 - S. 30
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.30 → S.20 (Konfidenz: 50.0%)
+[293/426] VanDijck2014 - S. 198
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.198 → S.1 (Konfidenz: 50.0%)
+[294/426] VanDijck2014 - S. 198
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.198 → S.1 (Konfidenz: 50.0%)
+[295/426] Cusumano2019 - S. 558
+      ⊘ PDF nicht gefunden
+[296/426] Srnicek2017 - S. 30
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.30 → S.20 (Konfidenz: 50.0%)
+[297/426] Tiwana2014 - S. 11
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.11 → S.1 (Konfidenz: 50.0%)
+[298/426] Parker2016 - S. 161
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.161 → S.3 (Konfidenz: 50.0%)
+[299/426] Pasquale2015 - S. 5
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[300/426] Acquisti2016 - S. 265
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.265 → S.1 (Konfidenz: 50.0%)
+[301/426] Pasquale2015 - S. 6
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[302/426] Acquisti2016 - S. 279
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.279 → S.1 (Konfidenz: 50.0%)
+[303/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[304/426] OECD2011 - S. 4
+      ⊘ PDF nicht gefunden
+[305/426] Acquisti2016 - S. 268
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.268 → S.1 (Konfidenz: 50.0%)
+[306/426] Srnicek2017 - S. 28
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.28 → S.18 (Konfidenz: 50.0%)
+[307/426] VanDijck2014 - S. 198
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.198 → S.1 (Konfidenz: 50.0%)
+[308/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[309/426] Zuboff2019 - S. 72
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.72 → S.62 (Konfidenz: 50.0%)
+[310/426] BradshawHoward2018 - S. 4
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.4 → S.1 (Konfidenz: 50.0%)
+[311/426] Narayanan2023 - S. 5
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[312/426] Feldstein2019 - S. 42
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.42 → S.32 (Konfidenz: 50.0%)
+[313/426] WoolleyHoward2017 - S. 3
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.3 → S.1 (Konfidenz: 50.0%)
+[314/426] Narayanan2023 - S. 5
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[315/426] Gillespie2014 - S. 168
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.168 → S.1 (Konfidenz: 50.0%)
+[316/426] Narayanan2023 - S. 16
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.16 → S.6 (Konfidenz: 50.0%)
+[317/426] Gillespie2014 - S. 174
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.174 → S.1 (Konfidenz: 50.0%)
+[318/426] Susser2019 - S. 11
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.11 → S.1 (Konfidenz: 50.0%)
+[319/426] Susser2019 - S. 10
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.10 → S.1 (Konfidenz: 50.0%)
+[320/426] Susser2019 - S. 4
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.4 → S.1 (Konfidenz: 50.0%)
+[321/426] BradshawHoward2018 - S. 4
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.4 → S.1 (Konfidenz: 50.0%)
+[322/426] WoolleyHoward2017 - S. 7
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.7 → S.1 (Konfidenz: 50.0%)
+[323/426] BradshawHoward2018 - S. 12
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.12 → S.2 (Konfidenz: 50.0%)
+[324/426] Narayanan2023 - S. 35
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.35 → S.25 (Konfidenz: 50.0%)
+[325/426] WoolleyHoward2017 - S. 8
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8 → S.1 (Konfidenz: 50.0%)
+[326/426] Kramer2014 - S. 8788
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8788 → S.1 (Konfidenz: 50.0%)
+[327/426] Creemers2018 - S. 924
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.924 → S.1 (Konfidenz: 50.0%)
+[328/426] Qiang2019 - S. 416
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.416 → S.1 (Konfidenz: 50.0%)
+[329/426] WoolleyHoward2017 - S. 8
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.8 → S.1 (Konfidenz: 50.0%)
+[330/426] BradshawHoward2018 - S. 326
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.326 → S.1 (Konfidenz: 50.0%)
+[331/426] BradshawHoward2018 - S. 4
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.4 → S.1 (Konfidenz: 50.0%)
+[332/426] Cinelli2021 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[333/426] Gillespie2014 - S. 184
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.184 → S.1 (Konfidenz: 50.0%)
+[334/426] MetzlerGarcia2023 - S. 735
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.735 → S.1 (Konfidenz: 50.0%)
+[335/426] Cinelli2021 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[336/426] MetzlerGarcia2023 - S. 522
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.522 → S.1 (Konfidenz: 50.0%)
+[337/426] BradshawHoward2018 - S. 321
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.321 → S.1 (Konfidenz: 50.0%)
+[338/426] BradshawHoward2018 - S. 322
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.322 → S.1 (Konfidenz: 50.0%)
+[339/426] Feldstein2019 - S. 44
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.44 → S.34 (Konfidenz: 50.0%)
+[340/426] Creemers2018 - S. 934
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.934 → S.1 (Konfidenz: 50.0%)
+[341/426] Qiang2019 - S. 412
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.412 → S.1 (Konfidenz: 50.0%)
+[342/426] Qiang2019 - S. 412
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.412 → S.1 (Konfidenz: 50.0%)
+[343/426] SFRC2020 - S. 9
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.9 → S.1 (Konfidenz: 50.0%)
+[344/426] AIHLEG2019 - S. 5
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[345/426] NIST2023 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[346/426] Pasquale2015 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[347/426] Pasquale2015 - S. 3
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.3 → S.1 (Konfidenz: 50.0%)
+[348/426] Zuboff2019 - S. 11
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.11 → S.4 (Konfidenz: 50.0%)
+[349/426] ONeil2016 - S. 3
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.3 → S.2 (Konfidenz: 50.0%)
+[350/426] Lyon2012 - S. 12
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.12 → S.2 (Konfidenz: 50.0%)
+[351/426] VanDijck2014 - S. 198
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.198 → S.1 (Konfidenz: 50.0%)
+[352/426] AIHLEG2019 - S. 14
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.14 → S.4 (Konfidenz: 50.0%)
+[353/426] Pasquale2015 - S. 6
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[354/426] GDPR2016 - S. 22
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.22 → S.1 (Konfidenz: 50.0%)
+[355/426] GDPR2016 - S. 5
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[356/426] Zuboff2019 - S. 481
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.481 → S.471 (Konfidenz: 50.0%)
+[357/426] AIAct2024 - S. 5
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[358/426] AIAct2024 - S. 6
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[359/426] AIAct2024 - S. 14
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.14 → S.4 (Konfidenz: 50.0%)
+[360/426] DSA2022 - S. 34
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.34 → S.24 (Konfidenz: 50.0%)
+[361/426] DSA2022 - S. 27
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.27 → S.17 (Konfidenz: 50.0%)
+[362/426] DSA2022 - S. 84
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.84 → S.93 (Konfidenz: 80.0%)
+[363/426] AIHLEG2019 - S. 2
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.2 → S.1 (Konfidenz: 50.0%)
+[364/426] AIHLEG2019 - S. 14
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.14 → S.4 (Konfidenz: 50.0%)
+[365/426] AIHLEG2019 - S. 5
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[366/426] NIST2023 - S. 12
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.12 → S.2 (Konfidenz: 50.0%)
+[367/426] NIST2023 - S. 20
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.20 → S.10 (Konfidenz: 50.0%)
+[368/426] NIST2023 - S. 21
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.21 → S.11 (Konfidenz: 50.0%)
+[369/426] NIST2023 - S. 28
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.28 → S.18 (Konfidenz: 50.0%)
+[370/426] ONeil2016 - S. 882
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.882 → S.2 (Konfidenz: 50.0%)
+[371/426] Pasquale2015 - S. 782
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.782 → S.1 (Konfidenz: 50.0%)
+[372/426] Lyon2012 - S. 377
+      ✓ Geschrieben: 04_implikationen.tex
+      ✓ KORRIGIERT: S.377 → S.2 (Konfidenz: 50.0%)
+[373/426] VomBrocke2009 - S. 431
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.431 → S.1 (Konfidenz: 50.0%)
+[374/426] Pasquale2015 - S. 3
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.3 → S.1 (Konfidenz: 50.0%)
+[375/426] NIST2023 - S. 5
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[376/426] Areeb2023 - S. 183
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.183 → S.1 (Konfidenz: 50.0%)
+[377/426] Kelm2023 - S. 4
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.4 → S.1 (Konfidenz: 50.0%)
+[378/426] OrbenPrzybylski2019 - S. 16
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.16 → S.6 (Konfidenz: 50.0%)
+[379/426] AIHLEG2019 - S. 14
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.14 → S.4 (Konfidenz: 50.0%)
+[380/426] RussellNorvig2010 - S. 34
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.34 → S.24 (Konfidenz: 50.0%)
+[381/426] Narayanan2023 - S. 374
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.374 → S.1 (Konfidenz: 50.0%)
+[382/426] Laudon2016 - S. 307
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.307 → S.1 (Konfidenz: 50.0%)
+[383/426] Pasquale2015 - S. 3
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.3 → S.1 (Konfidenz: 50.0%)
+[384/426] NIST2023 - S. 38
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.38 → S.28 (Konfidenz: 50.0%)
+[385/426] Pasquale2015 - S. 6
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[386/426] Lyon2012 - S. 12
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.12 → S.2 (Konfidenz: 50.0%)
+[387/426] Goodfellow2016 - S. 220
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.220 → S.210 (Konfidenz: 50.0%)
+[388/426] Lyon2012 - S. 15
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.15 → S.5 (Konfidenz: 50.0%)
+[389/426] NIST2023 - S. 12
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.12 → S.2 (Konfidenz: 50.0%)
+[390/426] Pasquale2015 - S. 3
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.3 → S.1 (Konfidenz: 50.0%)
+[391/426] VomBrocke2009 - S. 321
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.321 → S.1 (Konfidenz: 50.0%)
+[392/426] Areeb2023 - S. 183
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.183 → S.1 (Konfidenz: 50.0%)
+[393/426] Areeb2023 - S. 186
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.186 → S.1 (Konfidenz: 50.0%)
+[394/426] Cinelli2021 - S. 572
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.572 → S.1 (Konfidenz: 50.0%)
+[395/426] OrbenPrzybylski2019 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[396/426] Pasquale2015 - S. 6
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.6 → S.1 (Konfidenz: 50.0%)
+[397/426] Narayanan2023 - S. 301
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.301 → S.1 (Konfidenz: 50.0%)
+[398/426] VomBrocke2009 - S. 323
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.323 → S.1 (Konfidenz: 50.0%)
+[399/426] VomBrocke2009 - S. 298
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.298 → S.1 (Konfidenz: 50.0%)
+[400/426] Kelm2023 - S. 249
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.249 → S.1 (Konfidenz: 50.0%)
+[401/426] Areeb2023 - S. 183
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.183 → S.1 (Konfidenz: 50.0%)
+[402/426] Cinelli2021 - S. 572
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.572 → S.1 (Konfidenz: 50.0%)
+[403/426] NIST2023 - S. 12
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.12 → S.2 (Konfidenz: 50.0%)
+[404/426] OrbenPrzybylski2019 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[405/426] Pasquale2015 - S. 3
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.3 → S.1 (Konfidenz: 50.0%)
+[406/426] AIHLEG2019 - S. 14
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.14 → S.4 (Konfidenz: 50.0%)
+[407/426] AIAct2024 - S. 14
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.14 → S.4 (Konfidenz: 50.0%)
+[408/426] AIAct2024 - S. 13
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.13 → S.3 (Konfidenz: 50.0%)
+[409/426] NIST2023 - S. 15
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.15 → S.5 (Konfidenz: 50.0%)
+[410/426] GDPR2016 - S. 5
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.5 → S.1 (Konfidenz: 50.0%)
+[411/426] NIST2023 - S. 1
+      ✓ Bereits korrekt (Konfidenz: 50.0%)
+[412/426] Pasquale2015 - S. 3
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.3 → S.1 (Konfidenz: 50.0%)
+[413/426] Zuboff2019 - S. 11
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.11 → S.4 (Konfidenz: 50.0%)
+[414/426] Susser2019 - S. 4
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.4 → S.1 (Konfidenz: 50.0%)
+[415/426] OrbenPrzybylski2019 - S. 16
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.16 → S.6 (Konfidenz: 50.0%)
+[416/426] Kelm2023 - S. 4
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.4 → S.1 (Konfidenz: 50.0%)
+[417/426] Areeb2023 - S. 183
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.183 → S.1 (Konfidenz: 50.0%)
+[418/426] ONeil2016 - S. 3
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.3 → S.2 (Konfidenz: 50.0%)
+[419/426] DSA2022 - S. 40
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.40 → S.30 (Konfidenz: 50.0%)
+[420/426] NIST2023 - S. 28
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.28 → S.18 (Konfidenz: 50.0%)
+[421/426] Susser2019 - S. 38
+      ✓ Geschrieben: 05_kritische_betrachtung.tex
+      ✓ KORRIGIERT: S.38 → S.28 (Konfidenz: 50.0%)
+[422/426] Zuboff2019 - S. 8
+      ✓ Geschrieben: 06_fazit.tex
+      ✓ KORRIGIERT: S.8 → S.4 (Konfidenz: 50.0%)
+[423/426] Creemers2018 - S. 925
+      ✓ Geschrieben: 06_fazit.tex
+      ✓ KORRIGIERT: S.925 → S.1 (Konfidenz: 50.0%)
+[424/426] Susser2019 - S. 10
+      ✓ Geschrieben: 06_fazit.tex
+      ✓ KORRIGIERT: S.10 → S.1 (Konfidenz: 50.0%)
+[425/426] Qiang2019 - S. 412
+      ✓ Geschrieben: 06_fazit.tex
+      ✓ KORRIGIERT: S.412 → S.1 (Konfidenz: 50.0%)
+[426/426] DSA2022 - S. 40
+      ✓ Geschrieben: 06_fazit.tex
+      ✓ KORRIGIERT: S.40 → S.34 (Konfidenz: 60.0%)
+
+
+
+================================================================================
+ZUSAMMENFASSUNG
+================================================================================
+Gesamte Zitationen: 426
+✓ Korrigiert:       396 (93.0%)
+⊘ Übersprungen:     13 (3.1%)
+✗ Fehler:           0 (0.0%)
+
+Start:              2026-06-22 01:37:35
+Ende:               2026-06-22 08:01:11
+Gesamt-Zeit:        6:23:36.381644
+Ø pro Zitation:     54.0 Sekunden
+================================================================================
+
+
+✓ Progress-Datei gelöscht (alles fertig)

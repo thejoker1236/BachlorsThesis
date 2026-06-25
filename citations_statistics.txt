@@ -84,7 +84,7 @@ Qiang2019: 8 time(s)
 Rashidi2018: 2 time(s)
 RussellNorvig2010: 14 time(s)
 SFRC2020: 6 time(s)
-Shipsey2010: 4 time(s)
+Shipsey2010: 4 time(s) done
 Srnicek2017: 14 time(s) done
 StairReynolds2010: 4 time(s)
 Susser2019: 16 time(s)

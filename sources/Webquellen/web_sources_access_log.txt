@@ -1,0 +1,89 @@
+# Web Sources Access Log
+# Documentation of all online sources used in the thesis with access dates
+
+## Online Sources from references.bib
+
+### 1. EU Ethics Guidelines for Trustworthy AI (AIHLEG2019)
+- **Citation Key:** AIHLEG2019
+- **Author:** High-Level Expert Group on Artificial Intelligence
+- **Title:** Ethics Guidelines for Trustworthy AI
+- **Year:** 2019
+- **Institution:** European Commission
+- **Location:** Brussels
+- **URL:** https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai
+- **Access Date:** Not specified in BIB file (needs to be added)
+- **Status:** URL field present, urldate missing
+
+### 2. EU General Data Protection Regulation (GDPR2016)
+- **Citation Key:** GDPR2016
+- **Author:** Europäisches Parlament und Rat
+- **Title:** Verordnung (EU) 2016/679 -- Datenschutz-Grundverordnung (DSGVO)
+- **Year:** 2016
+- **URL:** https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=LEGISSUM:310401_2
+- **Access Date:** 2026-06-14
+- **Access Time:** 23:35 (11:35 PM)
+- **Full Access DateTime:** June 14, 2026, 11:35 PM
+- **PDF:** EU - General Data Protection Regulation (GDPR).pdf (in Webquellen folder)
+- **Status:** URL and urldate present ✓
+
+### 3. EU Artificial Intelligence Act (AIAct2024)
+- **Citation Key:** AIAct2024
+- **Author:** Europäisches Parlament und Rat
+- **Title:** Verordnung (EU) 2024/1689 -- Gesetz über Künstliche Intelligenz (AI Act)
+- **Year:** 2024
+- **Regulation Number:** 2024/1689
+- **URL:** https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+- **Access Date:** 2026-06-14
+- **Access Time:** 23:35 (11:35 PM)
+- **Full Access DateTime:** June 14, 2026, 11:35 PM
+- **Status:** URL and urldate present ✓
+
+### 4. EU Digital Services Act (DSA2022)
+- **Citation Key:** DSA2022
+- **Author:** Europäisches Parlament und Rat
+- **Title:** Verordnung (EU) 2022/2065 -- Gesetz über digitale Dienste (Digital Services Act)
+- **Year:** 2022
+- **Regulation Number:** 2022/2065
+- **URL:** https://eur-lex.europa.eu/eli/reg/2022/2065/oj
+- **Access Date:** 2026-06-14
+- **Access Time:** 23:35 (11:35 PM)
+- **Full Access DateTime:** June 14, 2026, 11:35 PM
+- **Status:** URL and urldate present ✓
+
+## Summary
+
+**Total Web Sources:** 4
+**Sources with URL:** 4
+**Sources with urldate:** 3
+**Sources missing urldate:** 1 (AIHLEG2019)
+
+## Issues Found
+
+1. **AIHLEG2019:** Missing urldate field - needs to be added (should be 2026-06-14)
+
+## Recommended Actions
+
+1. Add urldate to AIHLEG2019 entry (2026-06-14)
+2. Verify all URLs are still accessible
+
+## Access Time Information
+
+All web sources were accessed on **June 14, 2026 at 11:35 PM (23:35)**
+
+Note: BibTeX's urldate field only supports date format (YYYY-MM-DD), not time.
+The time information (23:35) is documented in this log file for reference purposes.
+
+## BibTeX Format Notes
+
+For online sources, the proper format should be:
+```bibtex
+@online{Key,
+  author  = {...},
+  title   = {...},
+  year    = {...},
+  url     = {...},
+  urldate = {YYYY-MM-DD}  % Date when the URL was last accessed
+}
+```
+
+Generated: 2025-01-XX

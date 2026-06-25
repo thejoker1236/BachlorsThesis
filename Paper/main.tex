@@ -186,12 +186,6 @@
     \addcontentsline{toc}{chapter}{\protect\numberline{\Roman{frontchap}}#1}%
 }
 
-% --- Abbildungsverzeichnis ---
-\cleardoublepage
-\frontchapter{Abbildungsverzeichnis}
-\renewcommand{\listfigurename}{\Roman{frontchap}~Abbildungsverzeichnis}
-\listoffigures
-
 % --- Abkürzungsverzeichnis ---
 \cleardoublepage
 \frontchapter{Abkürzungsverzeichnis}
@@ -213,17 +207,6 @@
     \acro{SOA}{Serviceorientierte Architektur}
     \acro{TPS}{Transaction Processing System}
 \end{acronym}
-
-% --- Formelverzeichnis ---
-\cleardoublepage
-\frontchapter{Formelverzeichnis}
-\listof{myequation}{\Roman{frontchap}~Formelverzeichnis}
-
-% --- Tabellenverzeichnis ---
-\cleardoublepage
-\frontchapter{Tabellenverzeichnis}
-\renewcommand{\listtablename}{\Roman{frontchap}~Tabellenverzeichnis}
-\listoftables
 
 % ============================================================
 % MAIN MATTER — Arabic numerals starting at 1

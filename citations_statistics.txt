@@ -90,7 +90,7 @@ StairReynolds2010: 3 time(s) done
 Susser2019: 16 time(s) done
 SuttonBarto2018: 4 time(s) done
 Tiwana2014: 11 time(s) done
-VanDijck2014: 9 time(s)
+VanDijck2014: 9 time(s) done
 VomBrocke2009: 9 time(s)
 WoolleyHoward2017: 5 time(s)
 Yeung2017: 8 time(s)

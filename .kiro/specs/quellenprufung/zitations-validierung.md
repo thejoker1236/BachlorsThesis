@@ -6,17 +6,17 @@
 
 ## Zusammenfassung
 
-- **Gesamt:** 461 Zitationen
-- **✓ OK:** 1 (0.2%)
-- **⚠️ Verdächtig:** 21 (4.6%)
-- **❌ Mismatch:** 340 (73.8%)
-- **⚠️ Fehler:** 99
+- **Gesamt:** 376 Zitationen
+- **✓ OK:** 0 (0.0%)
+- **⚠️ Verdächtig:** 10 (2.7%)
+- **❌ Mismatch:** 271 (72.1%)
+- **⚠️ Fehler:** 95
 
 ---
 
 ## ❌ Problematische Zitationen
 
-### Srnicek2017 (Seite 36)
+### Srnicek2017 (Seite 30)
 
 **Datei:** `01_einleitung.tex`
 
@@ -24,30 +24,13 @@
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-rden Inhalte personalisiert, Aufmerksamkeit kanalisiert und Interaktionsmuster systematisch gelenkt.\vglfootcite[36ff]{Srnicek2017}
+rden Inhalte personalisiert, Aufmerksamkeit kanalisiert und Interaktionsmuster systematisch gelenkt.\vglfootcite[30, 35, 58--60]{Srnicek2017}
 
-Moderne \ac{KI}-gestützte Personalisierungssysteme erzeugen individ...
-```
-
----
-
-### Srnicek2017 (Seite 9)
-
-**Datei:** `01_einleitung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/15
-
-**Kontext:**
-```
-gen, die Wahrnehmung, Meinungsbildung und Entscheidungsprozesse der Nutzer nachhaltig prägen können.\vglfootcite[9ff]{Srnicek2017} Die daraus resultierende Verhaltensbeeinflussung wirft Fragen hinsich...
+Moderne \ac{KI}-gestützte Personalisierungssysteme erzeug...
 ```
 
 ---
@@ -71,19 +54,6 @@ Gleichzeitig zeigen wissenschaftliche Untersuchungen, dass algorithmis...
 
 ---
 
-### Laudon2018 (Seite 17)
-
-**Datei:** `01_einleitung.tex`
-
-**Status:** PDF_NOT_FOUND
-
-**Kontext:**
-```
-zur Verbreitung von Desinformation sowie zur Fragmentierung öffentlicher Diskurse beitragen können.\vglfootcite[17]{Laudon2018} Im Kontext des von Zuboff beschriebenen Überwachungskapitalismus werden ...
-```
-
----
-
 ### Pasquale2015 (Seite 19)
 
 **Datei:** `01_einleitung.tex`
@@ -103,21 +73,17 @@ Zudem ist festzustellen, dass viele dieser Systeme bislang nur unzur...
 
 ---
 
-### Kitchin2014 (Seite 10)
+### Kitchin2014 (Seite 722)
 
 **Datei:** `01_einleitung.tex`
 
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
+**Status:** PDF_READ_ERROR
 
 **Kontext:**
 ```
-onen, in denen weder ausreichende Transparenzpflichten noch wirksame Kontrollmechanismen existieren.\vglfootcite[10]{Kitchin2014}
+onen, in denen weder ausreichende Transparenzpflichten noch wirksame Kontrollmechanismen existieren.\vglfootcite[722]{Kitchin2014}
 
-Vor diesem Hintergrund untersucht die vorliegende Arbeit, wie \ac{KI}...
+Vor diesem Hintergrund untersucht die vorliegende Arbeit, wie \ac{KI...
 ```
 
 ---
@@ -139,7 +105,7 @@ erhaltensbeeinflussung als strukturelles Merkmal moderner Plattformökonomien be
 
 ---
 
-### Laudon2018 (Seite 20)
+### Laudon2018 (Seite 418)
 
 **Datei:** `01_einleitung.tex`
 
@@ -147,14 +113,14 @@ erhaltensbeeinflussung als strukturelles Merkmal moderner Plattformökonomien be
 
 **Kontext:**
 ```
-erte Inhalte zu generieren, Nutzerverhalten zu prognostizieren und Interaktionen gezielt zu steuern.\vglfootcite[20]{Laudon2018}
+erte Inhalte zu generieren, Nutzerverhalten zu prognostizieren und Interaktionen gezielt zu steuern.\vglfootcite[418--420, 467, 493--494]{Laudon2018}
 
-Die dabei eingesetzten Mechanismen der Interaktionsoptimierung zielen ...
+Die dabei eingesetzten Mechanismen der Interaktio...
 ```
 
 ---
 
-### Laudon2018 (Seite 27)
+### Laudon2018 (Seite 419)
 
 **Datei:** `01_einleitung.tex`
 
@@ -162,9 +128,9 @@ Die dabei eingesetzten Mechanismen der Interaktionsoptimierung zielen ...
 
 **Kontext:**
 ```
-e einer umfassenden algorithmischen Steuerung, die über neutrale Informationsvermittlung hinausgeht.\vglfootcite[27]{Laudon2018}
+e einer umfassenden algorithmischen Steuerung, die über neutrale Informationsvermittlung hinausgeht.\vglfootcite[419--421, 467]{Laudon2018}
 
-Parallel dazu gewinnen staatlich geprägte Überwachungs- und Bewertungs...
+Parallel dazu gewinnen staatlich geprägte Überwachungs- und...
 ```
 
 ---
@@ -205,7 +171,7 @@ Aus wissenschaftlicher Perspektive ergeben sich hieraus mehrere ...
 
 ---
 
-### Srnicek2017 (Seite 27)
+### Srnicek2017 (Seite 59)
 
 **Datei:** `01_einleitung.tex`
 
@@ -217,7 +183,7 @@ Aus wissenschaftlicher Perspektive ergeben sich hieraus mehrere ...
 
 **Kontext:**
 ```
-ert die Intransparenz proprietärer Algorithmen eine unabhängige Bewertung ihrer Wirkungsmechanismen.\vglfootcite[27]{Srnicek2017} Zweitens werden Desinformationsdynamiken und soziale Fragmentierung du...
+ert die Intransparenz proprietärer Algorithmen eine unabhängige Bewertung ihrer Wirkungsmechanismen.\vglfootcite[59--60]{Srnicek2017} Zweitens werden Desinformationsdynamiken und soziale Fragmentierun...
 ```
 
 ---
@@ -239,7 +205,7 @@ nformationsdynamiken und soziale Fragmentierung durch algorithmische Verstärkun
 
 ---
 
-### ONeil2016 (Seite 145)
+### ONeil2016 (Seite 155)
 
 **Datei:** `01_einleitung.tex`
 
@@ -251,9 +217,9 @@ nformationsdynamiken und soziale Fragmentierung durch algorithmische Verstärkun
 
 **Kontext:**
 ```
-zureichend, um den Herausforderungen algorithmischer Verhaltensbeeinflussung angemessen zu begegnen.\vglfootcite[145]{ONeil2016}
+zureichend, um den Herausforderungen algorithmischer Verhaltensbeeinflussung angemessen zu begegnen.\vglfootcite[155--161]{ONeil2016}
 
-Die vorliegende Arbeit adressiert diese Problemstellung durch eine sys...
+Die vorliegende Arbeit adressiert diese Problemstellung durch ein...
 ```
 
 ---
@@ -294,43 +260,7 @@ ren interne Algorithmen und Datenstrukturen für externe Forschung nicht unmitte
 
 ---
 
-### RussellNorvig2010 (Seite 2)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/17
-
-**Kontext:**
-```
-er und komplizierter ist als sie selbst, wahrnehmen, verstehen, vorhersagen und manipulieren können.\vglfootcite[2]{RussellNorvig2010} Ein zentrales Konzept ist hierbei der rationale Agent, der seine ...
-```
-
----
-
-### RussellNorvig2010 (Seite 34)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 14.29% (SUSPICIOUS)
-
-- Gemeinsame Schlüsselwörter: 2/14
-
-**Kontext:**
-```
-z eine Aktion wählt, die unter Berücksichtigung seines Wissens das erwartete Leistungsmaß maximiert.\vglfootcite[34]{RussellNorvig2010}
-
-Machine Learning (\ac{ML}) ist ein Teilbereich der \ac{KI}, der...
-```
-
----
-
-### Goodfellow2016 (Seite 91)
+### RussellNorvig2010 (Seite 1)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -342,13 +272,32 @@ Machine Learning (\ac{ML}) ist ein Teilbereich der \ac{KI}, der...
 
 **Kontext:**
 ```
-ermöglicht, sich an neue Umstände anzupassen sowie Muster in Daten zu erkennen und zu extrapolieren.\vglfootcite[91ff]{Goodfellow2016} Die Quellen unterscheiden dabei drei wesentliche Lernparadigmen:
+z eine Aktion wählt, die unter Berücksichtigung seines Wissens das erwartete Leistungsmaß maximiert.\vglfootcite[1, 34, 37]{RussellNorvig2010}
+
+Machine Learning (\ac{ML}) ist ein Teilbereich der \ac{K...
+```
+
+---
+
+### Goodfellow2016 (Seite 2)
+
+**Datei:** `02_grundlagen.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/15
+
+**Kontext:**
+```
+ermöglicht, sich an neue Umstände anzupassen sowie Muster in Daten zu erkennen und zu extrapolieren.\vglfootcite[2--4]{Goodfellow2016} Die Quellen unterscheiden dabei drei wesentliche Lernparadigmen:
 ...
 ```
 
 ---
 
-### Goodfellow2016 (Seite 91)
+### Goodfellow2016 (Seite 104)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -360,13 +309,13 @@ ermöglicht, sich an neue Umstände anzupassen sowie Muster in Daten zu erkennen
 
 **Kontext:**
 ```
-ing):} Das System lernt Funktionen auf Basis von markierten Beispieldaten (Inputs und Zielvorgaben).\vglfootcite[91ff]{Goodfellow2016}
-    \item \textbf{Unüberwachtes Lernen (Unsupervised Learning):} ...
+ing):} Das System lernt Funktionen auf Basis von markierten Beispieldaten (Inputs und Zielvorgaben).\vglfootcite[104--105]{Goodfellow2016}
+    \item \textbf{Unüberwachtes Lernen (Unsupervised Learning...
 ```
 
 ---
 
-### Goodfellow2016 (Seite 91)
+### Goodfellow2016 (Seite 104)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -378,8 +327,8 @@ ing):} Das System lernt Funktionen auf Basis von markierten Beispieldaten (Input
 
 **Kontext:**
 ```
-en oder Strukturen in Sammlungen nicht etikettierter Daten erkannt, beispielsweise durch Clustering.\vglfootcite[91ff]{Goodfellow2016}
-    \item \textbf{Bestärkendes Lernen (Reinforcement Learning):} ...
+en oder Strukturen in Sammlungen nicht etikettierter Daten erkannt, beispielsweise durch Clustering.\vglfootcite[104--105]{Goodfellow2016}
+    \item \textbf{Bestärkendes Lernen (Reinforcement Learning...
 ```
 
 ---
@@ -404,7 +353,7 @@ r für seine Aktionen Belohnungen oder Bestrafungen erhält, um eine optimale St
 
 ---
 
-### Laudon2018 (Seite 16)
+### Laudon2018 (Seite 254)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -412,12 +361,76 @@ r für seine Aktionen Belohnungen oder Bestrafungen erhält, um eine optimale St
 
 **Kontext:**
 ```
-en, müssen unstrukturierte Informationen zunächst durch spezialisierte Verfahren erschlossen werden.\vglfootcite[16]{Laudon2018} In der Praxis sind diese Daten häufig mit Fehlern behaftet, enthalten I...
+en, müssen unstrukturierte Informationen zunächst durch spezialisierte Verfahren erschlossen werden.\vglfootcite[254--255, 259]{Laudon2018} In der Praxis sind diese Daten häufig mit Fehlern behaftet, ...
 ```
 
 ---
 
-### Kitchin2014 (Seite 10)
+### Kitchin2014 (Seite 722)
+
+**Datei:** `02_grundlagen.tex`
+
+**Status:** PDF_READ_ERROR
+
+**Kontext:**
+```
+r digitaler Fußabdrücke zu umfassenden Nutzungsprofilen, die eine ganzheitliche Analyse ermöglichen.\vglfootcite[722]{Kitchin2014}
+
+Die Transformation der aufbereiteten Daten in ein für Algorithmen nu...
+```
+
+---
+
+### Goodfellow2016 (Seite 4)
+
+**Datei:** `02_grundlagen.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/16
+
+**Kontext:**
+```
+te Repräsentationen direkt aus den Rohdaten zu erlernen, anstatt diese manuell definieren zu müssen.\vglfootcite[4--5]{Goodfellow2016} Wissenschaftlich ist zudem präzise zwischen dem Modelltraining un...
+```
+
+---
+
+### Mitchell1997 (Seite 9)
+
+**Datei:** `02_grundlagen.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/17
+
+**Kontext:**
+```
+System dieses gespeicherte Wissen, um neue, bisher unbekannte Datenpunkte automatisiert zu bewerten.\vglfootcite[9, 11--12]{Mitchell1997}
+
+Innerhalb des Monitorings kommen je nach Erkenntnisziel versc...
+```
+
+---
+
+### JordanMitchell2015 (Seite 255)
+
+**Datei:** `02_grundlagen.tex`
+
+**Status:** PDF_READ_ERROR
+
+**Kontext:**
+```
+dnet Datenpunkte vordefinierten Kategorien zu, beispielsweise zur Identifikation von Betrugsmustern.\vglfootcite[255]{JordanMitchell2015} Im Gegensatz dazu schätzen Regression und Wahrscheinlichkeitsp...
+```
+
+---
+
+### RussellNorvig2010 (Seite 718)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -429,84 +442,12 @@ en, müssen unstrukturierte Informationen zunächst durch spezialisierte Verfahr
 
 **Kontext:**
 ```
-r digitaler Fußabdrücke zu umfassenden Nutzungsprofilen, die eine ganzheitliche Analyse ermöglichen.\vglfootcite[10]{Kitchin2014}
-
-Die Transformation der aufbereiteten Daten in ein für Algorithmen nut...
+e Werte, um etwa die Klickwahrscheinlichkeit eines Nutzers für einen bestimmten Inhalt zu berechnen.\vglfootcite[718, 725--726]{RussellNorvig2010} Zur Identifikation natürlicher Gruppierungen oder zur...
 ```
 
 ---
 
-### Goodfellow2016 (Seite 2)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/16
-
-**Kontext:**
-```
-te Repräsentationen direkt aus den Rohdaten zu erlernen, anstatt diese manuell definieren zu müssen.\vglfootcite[2]{Goodfellow2016} Wissenschaftlich ist zudem präzise zwischen dem Modelltraining und d...
-```
-
----
-
-### Mitchell1997 (Seite 2)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/16
-
-**Kontext:**
-```
-System dieses gespeicherte Wissen, um neue, bisher unbekannte Datenpunkte automatisiert zu bewerten.\vglfootcite[2]{Mitchell1997}
-
-Innerhalb des Monitorings kommen je nach Erkenntnisziel verschiedene ...
-```
-
----
-
-### JordanMitchell2015 (Seite 1)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
-
-**Kontext:**
-```
-dnet Datenpunkte vordefinierten Kategorien zu, beispielsweise zur Identifikation von Betrugsmustern.\vglfootcite[1]{JordanMitchell2015} Im Gegensatz dazu schätzen Regression und Wahrscheinlichkeitspro...
-```
-
----
-
-### RussellNorvig2010 (Seite 698)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-e Werte, um etwa die Klickwahrscheinlichkeit eines Nutzers für einen bestimmten Inhalt zu berechnen.\vglfootcite[698]{RussellNorvig2010} Zur Identifikation natürlicher Gruppierungen oder zur Nutzerseg...
-```
-
----
-
-### Goodfellow2016 (Seite 143)
+### Goodfellow2016 (Seite 146)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -518,12 +459,12 @@ e Werte, um etwa die Klickwahrscheinlichkeit eines Nutzers für einen bestimmten
 
 **Kontext:**
 ```
-tzt, die Muster in Datenbeständen erkennen, ohne dass vorab definierte Kategorien existieren müssen.\vglfootcite[143ff]{Goodfellow2016} Ergänzt werden diese Verfahren durch das \ac{NLP}, das mittels S...
+tzt, die Muster in Datenbeständen erkennen, ohne dass vorab definierte Kategorien existieren müssen.\vglfootcite[146--147]{Goodfellow2016} Ergänzt werden diese Verfahren durch das \ac{NLP}, das mittel...
 ```
 
 ---
 
-### RussellNorvig2010 (Seite 860)
+### RussellNorvig2010 (Seite 578)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -535,26 +476,9 @@ tzt, die Muster in Datenbeständen erkennen, ohne dass vorab definierte Kategori
 
 **Kontext:**
 ```
-Sentiment Analysis emotionale Zustände oder Einstellungen aus Textdaten statistisch erfassbar macht.\vglfootcite[860ff]{RussellNorvig2010} Für die Analyse von Prozessen, die sich über die Zeit entwick...
-```
+Prozessen, die sich über die Zeit entwickeln, eignen sich zudem zeitbezogene Modelle wie \acp{HMM}.\vglfootcite[578, 865]{RussellNorvig2010}
 
----
-
-### RussellNorvig2010 (Seite 556)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-Prozessen, die sich über die Zeit entwickeln, eignen sich zudem zeitbezogene Modelle wie \acp{HMM}.\vglfootcite[556]{RussellNorvig2010}
-
-Ein zentraler Aspekt der algorithmischen Analyse ist die Erzeug...
+Ein zentraler Aspekt der algorithmischen Analyse ist die E...
 ```
 
 ---
@@ -576,7 +500,7 @@ olgt erst durch die Anwendung spezifischer Schwellenwerte oder Entscheidungsrege
 
 ---
 
-### Goodfellow2016 (Seite 417)
+### Goodfellow2016 (Seite 422)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -588,9 +512,9 @@ olgt erst durch die Anwendung spezifischer Schwellenwerte oder Entscheidungsrege
 
 **Kontext:**
 ```
-alse Positives und False Negatives, eine entscheidende Rolle für die Genauigkeit des Systems spielt.\vglfootcite[417ff]{Goodfellow2016}
+alse Positives und False Negatives, eine entscheidende Rolle für die Genauigkeit des Systems spielt.\vglfootcite[422--424]{Goodfellow2016}
 
-Aus technischer Perspektive stellt die Datenqualität eine dauer...
+Aus technischer Perspektive stellt die Datenqualität eine da...
 ```
 
 ---
@@ -612,7 +536,7 @@ alten, werden diese durch den algorithmischen Prozess verstärkt und führen zu 
 
 ---
 
-### NIST2023 (Seite 19)
+### NIST2023 (Seite 14)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -624,7 +548,7 @@ alten, werden diese durch den algorithmischen Prozess verstärkt und führen zu 
 
 **Kontext:**
 ```
-dellleistung kann zudem dazu führen, dass die Übertragbarkeit des Modells auf neue Kontexte abnimmt.\vglfootcite[19]{NIST2023} Zusammenfassend folgt die Analyse der Logik: Rohdaten $\rightarrow$ Aufbe...
+dellleistung kann zudem dazu führen, dass die Übertragbarkeit des Modells auf neue Kontexte abnimmt.\vglfootcite[14]{NIST2023} Zusammenfassend folgt die Analyse der Logik: Rohdaten $\rightarrow$ Aufbe...
 ```
 
 ---
@@ -646,22 +570,7 @@ en zu erstellen, wobei diese Vorhersagen umso wertvoller werden, je näher sie d
 
 ---
 
-### Laudon2018 (Seite 447)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** PDF_NOT_FOUND
-
-**Kontext:**
-```
-eiten zwischen Variablen darstellen, um auch unter Unsicherheit fundierte Schlüsse ziehen zu können.\vglfootcite[447ff]{Laudon2018}
-
-Die Grundlage moderner Predictive-Analytics-Systeme besteht häufig ...
-```
-
----
-
-### NIST2023 (Seite 19)
+### RussellNorvig2010 (Seite 510)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -669,13 +578,13 @@ Die Grundlage moderner Predictive-Analytics-Systeme besteht häufig ...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/15
+- Gemeinsame Schlüsselwörter: 0/17
 
 **Kontext:**
 ```
-ät solcher Vorhersagen steigt dabei in der Regel mit der Menge und Aktualität der verfügbaren Daten.\vglfootcite[19]{NIST2023}
+eiten zwischen Variablen darstellen, um auch unter Unsicherheit fundierte Schlüsse ziehen zu können.\vglfootcite[510]{RussellNorvig2010}
 
-Empfehlungssysteme sind eine spezifische Anwendung, bei der Algorithmen ...
+Die Grundlage moderner Predictive-Analytics-Systeme besteht hä...
 ```
 
 ---
@@ -710,7 +619,7 @@ Zwischen Nutzer und Plattform entstehen dabei kontinuierlic...
 
 ---
 
-### Laudon2018 (Seite 16)
+### Laudon2018 (Seite 493)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -718,9 +627,9 @@ Zwischen Nutzer und Plattform entstehen dabei kontinuierlic...
 
 **Kontext:**
 ```
-e Optimierung algorithmischer Modelle und eine zunehmend präzisere Analyse individuellen Verhaltens.\vglfootcite[16]{Laudon2018}
+e Optimierung algorithmischer Modelle und eine zunehmend präzisere Analyse individuellen Verhaltens.\vglfootcite[493--494]{Laudon2018}
 
-In der Logik des sogenannten Überwachungskapitalismus werden solche Sy...
+In der Logik des sogenannten Überwachungskapitalismus werden sol...
 ```
 
 ---
@@ -742,25 +651,6 @@ orhersageprodukte zu fertigen, die in speziellen Märkten für zukünftiges Verh
 
 ---
 
-### NIST2023 (Seite 19)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/16
-
-**Kontext:**
-```
-Vorhersage, sondern die Verhaltensmodifikation, um garantierte kommerzielle Ergebnisse zu erzielen.\vglfootcite[19]{NIST2023}
-
-Aus Sicht digitaler Plattformen beschränkt sich die Nutzung solcher Syste...
-```
-
----
-
 ### Adomavicius2005 (Seite 734)
 
 **Datei:** `02_grundlagen.tex`
@@ -778,7 +668,7 @@ Das Verständnis KI-gestü...
 
 ---
 
-### Laudon2018 (Seite 20)
+### Laudon2018 (Seite 56)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -786,14 +676,14 @@ Das Verständnis KI-gestü...
 
 **Kontext:**
 ```
-en technologische und organisatorische Komponenten zur Erreichung spezifischer Ziele zusammenwirken.\vglfootcite[20]{Laudon2018}
+en technologische und organisatorische Komponenten zur Erreichung spezifischer Ziele zusammenwirken.\vglfootcite[56--58]{Laudon2018}
 
-Im Zentrum steht das funktionale Zusammenspiel von Datenerfassung, Ver...
+Im Zentrum steht das funktionale Zusammenspiel von Datenerfassung,...
 ```
 
 ---
 
-### Laudon2018 (Seite 27)
+### Laudon2018 (Seite 491)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -801,7 +691,7 @@ Im Zentrum steht das funktionale Zusammenspiel von Datenerfassung, Ver...
 
 **Kontext:**
 ```
-e Daten, Infrastrukturen, organisatorische Ziele und menschliche Akteure miteinander verknüpft sind.\vglfootcite[27]{Laudon2018} Plattformökosysteme bilden dabei einen organisatorischen und technologi...
+e Daten, Infrastrukturen, organisatorische Ziele und menschliche Akteure miteinander verknüpft sind.\vglfootcite[491--492]{Laudon2018} Plattformökosysteme bilden dabei einen organisatorischen und tech...
 ```
 
 ---
@@ -819,7 +709,7 @@ erarbeiten, speichern und verteilen, um spezifische Ziele innerhalb einer Organi
 
 ---
 
-### Laudon2018 (Seite 30)
+### Laudon2018 (Seite 56)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -827,12 +717,12 @@ erarbeiten, speichern und verteilen, um spezifische Ziele innerhalb einer Organi
 
 **Kontext:**
 ```
-iese Systeme nicht als rein technologische Artefakte begriffen, sondern als soziotechnische Systeme.\vglfootcite[30]{Laudon2018} Diese Perspektive betont, dass ein Informationssystem ein komplexes Gef...
+iese Systeme nicht als rein technologische Artefakte begriffen, sondern als soziotechnische Systeme.\vglfootcite[56--58]{Laudon2018} Diese Perspektive betont, dass ein Informationssystem ein komplexes...
 ```
 
 ---
 
-### Shipsey2010 (Seite 6)
+### Shipsey2010 (Seite 8)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -840,20 +730,7 @@ iese Systeme nicht als rein technologische Artefakte begriffen, sondern als sozi
 
 **Kontext:**
 ```
-Daten, Prozessen und Menschen darstellt, die innerhalb einer organisationalen Struktur interagieren.\vglfootcite[6]{Shipsey2010} Die Leistungsfähigkeit resultiert dabei aus der wechselseitigen Abstimm...
-```
-
----
-
-### Shipsey2010 (Seite 13)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** PDF_NOT_FOUND
-
-**Kontext:**
-```
-tigen Abstimmung zwischen der technologischen Komponente und der sozialen Struktur der Organisation.\vglfootcite[13]{Shipsey2010} Ein umfassendes Verständnis von Informationssystemen setzt daher vorau...
+tigen Abstimmung zwischen der technologischen Komponente und der sozialen Struktur der Organisation.\vglfootcite[8--10, 13]{Shipsey2010} Ein umfassendes Verständnis von Informationssystemen setzt dahe...
 ```
 
 ---
@@ -881,7 +758,7 @@ Der funktionale Kern eines Informationssystems liegt in der...
 
 **Kontext:**
 ```
-ber die Einzeldaten hinausgehenden Mehrwert sowie eine Bedeutung für Entscheidungsprozesse besitzen.\vglfootcite[5]{StairReynolds2010}\vglfootcite[6]{Shipsey2010} Dieser Prozess der Datenverarbeitung ...
+ber die Einzeldaten hinausgehenden Mehrwert sowie eine Bedeutung für Entscheidungsprozesse besitzen.\vglfootcite[5]{StairReynolds2010} Dieser Prozess der Datenverarbeitung ist untrennbar mit der Organ...
 ```
 
 ---
@@ -894,12 +771,12 @@ ber die Einzeldaten hinausgehenden Mehrwert sowie eine Bedeutung für Entscheidu
 
 **Kontext:**
 ```
-Mehrwert sowie eine Bedeutung für Entscheidungsprozesse besitzen.\vglfootcite[5]{StairReynolds2010}\vglfootcite[6]{Shipsey2010} Dieser Prozess der Datenverarbeitung ist untrennbar mit der Organisation...
+ufe, sind in organisatorische Kulturen eingebettet und dienen dazu, strategische Ziele zu erreichen.\vglfootcite[6, 9--10]{Shipsey2010} Ein wesentlicher Zweck ist hierbei die Entscheidungsunterstützun...
 ```
 
 ---
 
-### Shipsey2010 (Seite 9)
+### Rashidi2018 (Seite 22)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -907,20 +784,7 @@ Mehrwert sowie eine Bedeutung für Entscheidungsprozesse besitzen.\vglfootcite[5
 
 **Kontext:**
 ```
-ufe, sind in organisatorische Kulturen eingebettet und dienen dazu, strategische Ziele zu erreichen.\vglfootcite[9, 11]{Shipsey2010} Ein wesentlicher Zweck ist hierbei die Entscheidungsunterstützung. ...
-```
-
----
-
-### Rashidi2018 (Seite 20)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** PDF_NOT_FOUND
-
-**Kontext:**
-```
-urierter oder semistrukturierter Probleme, für die keine vordefinierten Standardlösungen existieren.\vglfootcite[20]{Rashidi2018}\vglfootcite[20]{StairReynolds2010} Solche Systeme fungieren als Hilfsm...
+urierter oder semistrukturierter Probleme, für die keine vordefinierten Standardlösungen existieren.\vglfootcite[22]{Rashidi2018}\vglfootcite[20]{StairReynolds2010} Solche Systeme fungieren als Hilfsm...
 ```
 
 ---
@@ -933,7 +797,7 @@ urierter oder semistrukturierter Probleme, für die keine vordefinierten Standar
 
 **Kontext:**
 ```
-ter Probleme, für die keine vordefinierten Standardlösungen existieren.\vglfootcite[20]{Rashidi2018}\vglfootcite[20]{StairReynolds2010} Solche Systeme fungieren als Hilfsmittel, um die Fähigkeiten men...
+ter Probleme, für die keine vordefinierten Standardlösungen existieren.\vglfootcite[22]{Rashidi2018}\vglfootcite[20]{StairReynolds2010} Solche Systeme fungieren als Hilfsmittel, um die Fähigkeiten men...
 ```
 
 ---
@@ -946,14 +810,14 @@ ter Probleme, für die keine vordefinierten Standardlösungen existieren.\vglfoo
 
 **Kontext:**
 ```
-s Hilfsmittel, um die Fähigkeiten menschlicher Entscheider durch quantitative Analysen zu erweitern.\vglfootcite[19, 22]{Rashidi2018}
+s Hilfsmittel, um die Fähigkeiten menschlicher Entscheider durch quantitative Analysen zu erweitern.\vglfootcite[19]{Rashidi2018}
 
-Der Übergang von klassischen zu modernen digitalen Informationssy...
+Der Übergang von klassischen zu modernen digitalen Informationssystem...
 ```
 
 ---
 
-### Laudon2018 (Seite 15)
+### Laudon2018 (Seite 35)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -961,12 +825,12 @@ Der Übergang von klassischen zu modernen digitalen Informationssy...
 
 **Kontext:**
 ```
-wie Cloud Computing, mobile digitale Plattformen und die allgegenwärtige Vernetzung vorangetrieben.\vglfootcite[15ff]{Laudon2018} Diese digitalen Informationssysteme zeichnen sich durch eine kontinuie...
+wie Cloud Computing, mobile digitale Plattformen und die allgegenwärtige Vernetzung vorangetrieben.\vglfootcite[35--36]{Laudon2018} Diese digitalen Informationssysteme zeichnen sich durch eine kontinu...
 ```
 
 ---
 
-### Laudon2018 (Seite 11)
+### Laudon2018 (Seite 36)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -974,7 +838,7 @@ wie Cloud Computing, mobile digitale Plattformen und die allgegenwärtige Vernet
 
 **Kontext:**
 ```
-ezu sofortigen Zugriff auf präzise Informationen für datengetriebene Entscheidungsprozesse erhalten.\vglfootcite[11]{Laudon2018} Dieser Wandel wird durch Treiber wie die \enquote{Packetisierung} von P...
+ezu sofortigen Zugriff auf präzise Informationen für datengetriebene Entscheidungsprozesse erhalten.\vglfootcite[36, 493]{Laudon2018} Dieser Wandel wird durch Treiber wie die \enquote{Packetisierung} ...
 ```
 
 ---
@@ -996,7 +860,7 @@ unigt, welche Informationssysteme zu den de facto Motoren neuer wirtschaftlicher
 
 ---
 
-### Laudon2018 (Seite 11)
+### Laudon2018 (Seite 40)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1004,7 +868,7 @@ unigt, welche Informationssysteme zu den de facto Motoren neuer wirtschaftlicher
 
 **Kontext:**
 ```
-digitalen Firmen, in denen Kernprozesse und Geschäftsbeziehungen primär digital abgewickelt werden.\vglfootcite[11]{Laudon2018}
+digitalen Firmen, in denen Kernprozesse und Geschäftsbeziehungen primär digital abgewickelt werden.\vglfootcite[40]{Laudon2018}
 
 In diesem Kontext haben sich digitale Plattformen als moderne Form des ...
 ```
@@ -1028,43 +892,24 @@ uren, die Interaktionen zwischen verschiedenen Gruppen -- wie Anbietern und Nutz
 
 ---
 
-### Parker2016 (Seite 19)
+### Parker2016 (Seite 17)
 
 **Datei:** `02_grundlagen.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 23.53% (SUSPICIOUS)
+**Ähnlichkeit:** 11.76% (SUSPICIOUS)
 
-- Gemeinsame Schlüsselwörter: 4/17
+- Gemeinsame Schlüsselwörter: 2/17
 
 **Kontext:**
 ```
-near erzeugen, ermöglichen Plattformen komplexe, vernetzte Interaktionen innerhalb eines Ökosystems.\vglfootcite[19]{Parker2016} Diese Ökosysteme nutzen digitale Technologien und Daten-Feedbackschleif...
+near erzeugen, ermöglichen Plattformen komplexe, vernetzte Interaktionen innerhalb eines Ökosystems.\vglfootcite[17--18]{Parker2016} Diese Ökosysteme nutzen digitale Technologien und Daten-Feedbacksch...
 ```
 
 ---
 
-### Parker2016 (Seite 21)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 21.43% (SUSPICIOUS)
-
-- Gemeinsame Schlüsselwörter: 3/14
-
-**Kontext:**
-```
-r nur intern, sondern durch externe Beiträge und die Analyse massiver Nutzerdatenströme zu schaffen.\vglfootcite[21]{Parker2016}\vglfootcite[13]{EvansGawer2019}
-
-KI-gestützte Monitoring-Systeme lassen...
-```
-
----
-
-### EvansGawer2019 (Seite 13)
+### EvansGawer2019 (Seite 16)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1072,14 +917,14 @@ KI-gestützte Monitoring-Systeme lassen...
 
 **Kontext:**
 ```
-externe Beiträge und die Analyse massiver Nutzerdatenströme zu schaffen.\vglfootcite[21]{Parker2016}\vglfootcite[13]{EvansGawer2019}
+r nur intern, sondern durch externe Beiträge und die Analyse massiver Nutzerdatenströme zu schaffen.\vglfootcite[16--17, 41]{EvansGawer2019}
 
-KI-gestützte Monitoring-Systeme lassen sich vor diesem Hintergrund...
+KI-gestützte Monitoring-Systeme lassen sich vor diesem Hin...
 ```
 
 ---
 
-### Laudon2018 (Seite 16)
+### Laudon2018 (Seite 467)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1087,12 +932,12 @@ KI-gestützte Monitoring-Systeme lassen sich vor diesem Hintergrund...
 
 **Kontext:**
 ```
-atenströmen mittels Machine Learning, um Muster im Verhalten zu erkennen und Prognosen zu erstellen.\vglfootcite[16]{Laudon2018} Als soziotechnische Systeme sind sie tief in die ökonomischen Zielsetzu...
+atenströmen mittels Machine Learning, um Muster im Verhalten zu erkennen und Prognosen zu erstellen.\vglfootcite[467--468, 493]{Laudon2018} Als soziotechnische Systeme sind sie tief in die ökonomische...
 ```
 
 ---
 
-### Laudon2018 (Seite 27)
+### Laudon2018 (Seite 56)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1100,14 +945,14 @@ atenströmen mittels Machine Learning, um Muster im Verhalten zu erkennen und Pr
 
 **Kontext:**
 ```
-g -- etwa beim Behavioural Targeting -- eine gezielte Beeinflussung menschlicher Interaktionsmuster.\vglfootcite[27, 378]{Laudon2018}
+g -- etwa beim Behavioural Targeting -- eine gezielte Beeinflussung menschlicher Interaktionsmuster.\vglfootcite[56--58, 418--421]{Laudon2018}
 
-\subsection{Funktionale Architektur KI-gestützter Monitoring-Syst...
+\subsection{Funktionale Architektur KI-gestützter Monito...
 ```
 
 ---
 
-### Laudon2018 (Seite 20)
+### Laudon2018 (Seite 46)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1115,12 +960,12 @@ g -- etwa beim Behavioural Targeting -- eine gezielte Beeinflussung menschlicher
 
 **Kontext:**
 ```
-orischen Strukturen und menschlichen Akteuren, die zur Erreichung spezifischer Ziele zusammenwirken.\vglfootcite[20]{Laudon2018} Die funktionale Organisation beschreibt dabei, wie Daten erfasst, berei...
+orischen Strukturen und menschlichen Akteuren, die zur Erreichung spezifischer Ziele zusammenwirken.\vglfootcite[46--50, 56--58]{Laudon2018} Die funktionale Organisation beschreibt dabei, wie Daten er...
 ```
 
 ---
 
-### Laudon2018 (Seite 16)
+### Laudon2018 (Seite 254)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1128,12 +973,12 @@ orischen Strukturen und menschlichen Akteuren, die zur Erreichung spezifischer Z
 
 **Kontext:**
 ```
-ukturierte Text- und Bilddaten sowie zeitbezogene Interaktions- oder Sensordaten aufgenommen werden.\vglfootcite[16]{Laudon2018} Die Daten können beispielsweise aus Nutzerinteraktionen, digitalen Plat...
+ukturierte Text- und Bilddaten sowie zeitbezogene Interaktions- oder Sensordaten aufgenommen werden.\vglfootcite[254--255, 259]{Laudon2018} Die Daten können beispielsweise aus Nutzerinteraktionen, dig...
 ```
 
 ---
 
-### RussellNorvig2010 (Seite 34)
+### RussellNorvig2010 (Seite 50)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1141,18 +986,18 @@ ukturierte Text- und Bilddaten sowie zeitbezogene Interaktions- oder Sensordaten
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/12
+- Gemeinsame Schlüsselwörter: 0/13
 
 **Kontext:**
 ```
-len Modells bilden diese Beobachtungen die Eingabebasis für die nachfolgenden Verarbeitungsschritte.\vglfootcite[34]{RussellNorvig2010}
+len Modells bilden diese Beobachtungen die Eingabebasis für die nachfolgenden Verarbeitungsschritte.\vglfootcite[50--51, 55--56]{RussellNorvig2010}
 
-An die Erfassung schließt sich die Datenintegration und Bereits...
+An die Erfassung schließt sich die Datenintegration...
 ```
 
 ---
 
-### Laudon2018 (Seite 16)
+### Laudon2018 (Seite 47)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1160,14 +1005,14 @@ An die Erfassung schließt sich die Datenintegration und Bereits...
 
 **Kontext:**
 ```
-dete Speichertechnologie entscheidend, sondern die zuverlässige Bereitstellung der benötigten Daten.\vglfootcite[16]{Laudon2018}
+dete Speichertechnologie entscheidend, sondern die zuverlässige Bereitstellung der benötigten Daten.\vglfootcite[47--50, 492]{Laudon2018}
 
-Den analytischen Kern der Architektur bildet die Analyse- und Modellko...
+Den analytischen Kern der Architektur bildet die Analyse- und...
 ```
 
 ---
 
-### Goodfellow2016 (Seite 374)
+### Goodfellow2016 (Seite 99)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1175,11 +1020,11 @@ Den analytischen Kern der Architektur bildet die Analyse- und Modellko...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/15
+- Gemeinsame Schlüsselwörter: 0/16
 
 **Kontext:**
 ```
-zt, um Merkmale, Regelmäßigkeiten und Zusammenhänge in den bereitgestellten Daten zu identifizieren.\vglfootcite[374]{Goodfellow2016} Die daraus erzeugten Modelle stellen ausgewählte Aspekte der überw...
+zt, um Merkmale, Regelmäßigkeiten und Zusammenhänge in den bereitgestellten Daten zu identifizieren.\vglfootcite[99, 102--105]{Goodfellow2016} Die daraus erzeugten Modelle stellen ausgewählte Aspekte ...
 ```
 
 ---
@@ -1201,7 +1046,7 @@ zt, um Merkmale, Regelmäßigkeiten und Zusammenhänge in den bereitgestellten D
 
 ---
 
-### NIST2023 (Seite 19)
+### NIST2023 (Seite 14)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1209,18 +1054,18 @@ zt, um Merkmale, Regelmäßigkeiten und Zusammenhänge in den bereitgestellten D
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/14
+- Gemeinsame Schlüsselwörter: 0/15
 
 **Kontext:**
 ```
-Modellleistung und ihre Übertragbarkeit auf neue Daten müssen vielmehr regelmäßig überprüft werden.\vglfootcite[19]{NIST2023}
+Modellleistung und ihre Übertragbarkeit auf neue Daten müssen vielmehr regelmäßig überprüft werden.\vglfootcite[14, 29]{NIST2023}
 
-Die funktionalen Komponenten sind in organisatorische Zielsetzungen, Rege...
+Die funktionalen Komponenten sind in organisatorische Zielsetzungen, ...
 ```
 
 ---
 
-### Laudon2018 (Seite 27)
+### Laudon2018 (Seite 44)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1228,12 +1073,12 @@ Die funktionalen Komponenten sind in organisatorische Zielsetzungen, Rege...
 
 **Kontext:**
 ```
-d Verantwortlichkeiten eingebettet, die von menschlichen Akteuren gestaltet und kontrolliert werden.\vglfootcite[27]{Laudon2018} Welche Daten erhoben, welche Modelle eingesetzt und welche Systemreakti...
+d Verantwortlichkeiten eingebettet, die von menschlichen Akteuren gestaltet und kontrolliert werden.\vglfootcite[44--45, 254--260]{Laudon2018} Welche Daten erhoben, welche Modelle eingesetzt und welch...
 ```
 
 ---
 
-### Laudon2018 (Seite 16)
+### Laudon2018 (Seite 484)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1241,7 +1086,7 @@ d Verantwortlichkeiten eingebettet, die von menschlichen Akteuren gestaltet und 
 
 **Kontext:**
 ```
-nsaktionsprotokolle, oder unstrukturiert, beispielsweise als Text- oder Bilddaten, vorliegen können.\vglfootcite[16]{Laudon2018} Durch die anschließende Modellanwendung entstehen Analyseergebnisse, di...
+nsaktionsprotokolle, oder unstrukturiert, beispielsweise als Text- oder Bilddaten, vorliegen können.\vglfootcite[484--485, 490]{Laudon2018} Durch die anschließende Modellanwendung entstehen Analyseerg...
 ```
 
 ---
@@ -1263,7 +1108,7 @@ i wird den identifizierten Mustern eine Bedeutung im Kontext der organisatorisch
 
 ---
 
-### Laudon2018 (Seite 20)
+### Laudon2018 (Seite 484)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1271,59 +1116,12 @@ i wird den identifizierten Mustern eine Bedeutung im Kontext der organisatorisch
 
 **Kontext:**
 ```
-d komplexe oder folgenreiche Entscheidungen eine menschliche Prüfung oder Freigabe erfordern können.\vglfootcite[20]{Laudon2018} Dabei sind Kontrollinstanzen erforderlich, um die Grenzen algorithmisch...
+d komplexe oder folgenreiche Entscheidungen eine menschliche Prüfung oder Freigabe erfordern können.\vglfootcite[484--485, 490]{Laudon2018} Dabei sind Kontrollinstanzen erforderlich, um die Grenzen al...
 ```
 
 ---
 
-### NIST2023 (Seite 16)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-ustellen, dass automatisierte Bewertungen die menschliche Autonomie nicht unangemessen einschränken.\vglfootcite[16]{NIST2023} Eine Entscheidung kann schließlich in eine Intervention münden, die als s...
-```
-
----
-
-### Laudon2018 (Seite 27)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** PDF_NOT_FOUND
-
-**Kontext:**
-```
-iterien bei ihrer Bewertung angewendet werden und welche Optimierungsziele die Systemlogik verfolgt.\vglfootcite[27]{Laudon2018} Entscheidungen entstehen somit nicht allein aus technischen Modellen, s...
-```
-
----
-
-### RussellNorvig2010 (Seite 117)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/16
-
-**Kontext:**
-```
-rmationen können zur Aktualisierung eines Profils oder eines internen Systemzustands genutzt werden.\vglfootcite[117]{RussellNorvig2010} Diese Aktualisierung ist von einem erneuten Training des Modell...
-```
-
----
-
-### NIST2023 (Seite 19)
+### NIST2023 (Seite 26)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1335,9 +1133,56 @@ rmationen können zur Aktualisierung eines Profils oder eines internen Systemzus
 
 **Kontext:**
 ```
-rwachung der Modellleistung kann Hinweise darauf liefern, ob eine solche Anpassung erforderlich ist.\vglfootcite[19]{NIST2023}
+ustellen, dass automatisierte Bewertungen die menschliche Autonomie nicht unangemessen einschränken.\vglfootcite[26, 40]{NIST2023} Eine Entscheidung kann schließlich in eine Intervention münden, die a...
+```
 
-In der Praxis sind Datenflüsse und Entscheidungslogiken selten auf eine ...
+---
+
+### Laudon2018 (Seite 46)
+
+**Datei:** `02_grundlagen.tex`
+
+**Status:** PDF_NOT_FOUND
+
+**Kontext:**
+```
+iterien bei ihrer Bewertung angewendet werden und welche Optimierungsziele die Systemlogik verfolgt.\vglfootcite[46--50, 492]{Laudon2018} Entscheidungen entstehen somit nicht allein aus technischen Mo...
+```
+
+---
+
+### RussellNorvig2010 (Seite 50)
+
+**Datei:** `02_grundlagen.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/16
+
+**Kontext:**
+```
+rmationen können zur Aktualisierung eines Profils oder eines internen Systemzustands genutzt werden.\vglfootcite[50--51]{RussellNorvig2010} Diese Aktualisierung ist von einem erneuten Training des Mod...
+```
+
+---
+
+### NIST2023 (Seite 35)
+
+**Datei:** `02_grundlagen.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/16
+
+**Kontext:**
+```
+rwachung der Modellleistung kann Hinweise darauf liefern, ob eine solche Anpassung erforderlich ist.\vglfootcite[35--36, 38]{NIST2023}
+
+In der Praxis sind Datenflüsse und Entscheidungslogiken selten a...
 ```
 
 ---
@@ -1376,21 +1221,21 @@ en sowie die Nutzer --, die auf Basis dieser technologischen Infrastruktur mitei
 
 ---
 
-### Parker2016 (Seite 20)
+### Parker2016 (Seite 17)
 
 **Datei:** `02_grundlagen.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 7.14% (MISMATCH)
+**Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 1/14
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-dularer Rahmen, der wertschöpfende Interaktionen zwischen verschiedenen externen Gruppen ermöglicht.\vglfootcite[20]{Parker2016}
+dularer Rahmen, der wertschöpfende Interaktionen zwischen verschiedenen externen Gruppen ermöglicht.\vglfootcite[17--18]{Parker2016}
 
-Zentral für die Funktionsweise eines Plattformökosystems ist die Koord...
+Zentral für die Funktionsweise eines Plattformökosystems ist die K...
 ```
 
 ---
@@ -1444,36 +1289,19 @@ Ein wesentlicher ökonomischer Treiber dieser Ökosysteme sind Netzwerke...
 
 ---
 
-### Parker2016 (Seite 17)
+### Parker2016 (Seite 27)
 
 **Datei:** `02_grundlagen.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 10.53% (SUSPICIOUS)
+**Ähnlichkeit:** 5.56% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 2/19
-
-**Kontext:**
-```
-der Nutzen eines Systems für einen Teilnehmer von der Anzahl oder Aktivität anderer Nutzer abhängt.\vglfootcite[17]{Parker2016} Dabei wird zwischen direkten Netzwerkeffekten innerhalb einer Gruppe und...
-```
-
----
-
-### Parker2016 (Seite 17)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 23.53% (SUSPICIOUS)
-
-- Gemeinsame Schlüsselwörter: 4/17
+- Gemeinsame Schlüsselwörter: 1/18
 
 **Kontext:**
 ```
-ei denen die Zunahme einer Gruppe die Attraktivität der Plattform für eine andere Marktseite erhöht.\vglfootcite[17]{Parker2016} Solche positiven Rückkopplungen können zu einer Konzentration von Markt...
+ei denen die Zunahme einer Gruppe die Attraktivität der Plattform für eine andere Marktseite erhöht.\vglfootcite[27--28, 17]{Parker2016} Solche positiven Rückkopplungen können zu einer Konzentration v...
 ```
 
 ---
@@ -1493,7 +1321,7 @@ Die Steuerung dieser komplexen Gefüge erfolgt über die Plattform...
 
 ---
 
-### Parker2016 (Seite 5)
+### Tiwana2014 (Seite 10)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1505,7 +1333,7 @@ Die Steuerung dieser komplexen Gefüge erfolgt über die Plattform...
 
 **Kontext:**
 ```
-ilnehmen dürfen und nach welchen Kriterien Interaktionen oder ergänzende Angebote zugelassen werden.\vglfootcite[5]{Parker2016} Eine effektive Governance muss das Spannungsfeld zwischen technologische...
+ilnehmen dürfen und nach welchen Kriterien Interaktionen oder ergänzende Angebote zugelassen werden.\vglfootcite[10]{Tiwana2014} Eine effektive Governance muss das Spannungsfeld zwischen technologisch...
 ```
 
 ---
@@ -1527,7 +1355,7 @@ vationen und der notwendigen Kontrolle zur Sicherstellung von Qualität und Vert
 
 ---
 
-### Srnicek2017 (Seite 27)
+### Srnicek2017 (Seite 28)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1535,50 +1363,16 @@ vationen und der notwendigen Kontrolle zur Sicherstellung von Qualität und Vert
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/17
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-le Position bei der Zusammenführung von Daten aus unterschiedlichen Diensten und Akteursgruppen ein.\vglfootcite[27]{Srnicek2017} Diese Daten können als strategische Ressource genutzt werden, um digit...
+nd akteursübergreifend zusammengeführt und für weiterführende Analysen bereitgestellt werden können.\vglfootcite[28--32, 48--49]{Srnicek2017} Die konkrete Profilbildung und Verhaltensanalyse werden in...
 ```
 
 ---
 
-### Srnicek2017 (Seite 27)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/16
-
-**Kontext:**
-```
-tale Dienste anzupassen, Abläufe zu optimieren oder algorithmische Analyseverfahren zu unterstützen.\vglfootcite[27]{Srnicek2017} Plattformen schaffen damit eine Infrastruktur, innerhalb derer digital...
-```
-
----
-
-### Srnicek2017 (Seite 27)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-nd akteursübergreifend zusammengeführt und für weiterführende Analysen bereitgestellt werden können.\vglfootcite[27]{Srnicek2017} Die konkrete Profilbildung und Verhaltensanalyse werden in den folgend...
-```
-
----
-
-### Lyon2012 (Seite 2)
+### Lyon2012 (Seite 1)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1590,7 +1384,7 @@ nd akteursübergreifend zusammengeführt und für weiterführende Analysen berei
 
 **Kontext:**
 ```
-egelmäßigen Beobachtung und systematischen Auswertung von Zuständen, Prozessen oder Verhalten liegt.\vglfootcite[2]{Lyon2012} Während die allgemeine soziotechnische und funktionale Architektur KI-gest...
+egelmäßigen Beobachtung und systematischen Auswertung von Zuständen, Prozessen oder Verhalten liegt.\vglfootcite[1--2]{Lyon2012} Während die allgemeine soziotechnische und funktionale Architektur KI-g...
 ```
 
 ---
@@ -1614,7 +1408,7 @@ Von KI-gestütztem Monitoring wird in dieser Arbeit gesprochen, wenn ...
 
 ---
 
-### Goodfellow2016 (Seite 91)
+### Goodfellow2016 (Seite 99)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1626,7 +1420,7 @@ Von KI-gestütztem Monitoring wird in dieser Arbeit gesprochen, wenn ...
 
 **Kontext:**
 ```
-e Klassifikation von Objekten oder Verhaltensweisen und die Prognose zükünftiger Ereignisse gehören.\vglfootcite[91ff]{Goodfellow2016} Regelbasierte Komponenten können diese Modelle ergänzen, ohne das...
+e Klassifikation von Objekten oder Verhaltensweisen und die Prognose zükünftiger Ereignisse gehören.\vglfootcite[99--102]{Goodfellow2016} Regelbasierte Komponenten können diese Modelle ergänzen, ohne ...
 ```
 
 ---
@@ -1639,7 +1433,7 @@ e Klassifikation von Objekten oder Verhaltensweisen und die Prognose zükünftig
 
 **Kontext:**
 ```
-e übernehmen jeweils spezifische Funktionen, stellen jedoch nicht das gesamte Monitoring-System dar.\vglfootcite[734]{Adomavicius2005}\vglfootcite[167]{Gillespie2014} Sie können vielmehr als Komponent...
+e übernehmen jeweils spezifische Funktionen, stellen jedoch nicht das gesamte Monitoring-System dar.\vglfootcite[734]{Adomavicius2005}\vglfootcite[167--168]{Gillespie2014} Sie können vielmehr als Komp...
 ```
 
 ---
@@ -1652,12 +1446,25 @@ e übernehmen jeweils spezifische Funktionen, stellen jedoch nicht das gesamte M
 
 **Kontext:**
 ```
-unktionen, stellen jedoch nicht das gesamte Monitoring-System dar.\vglfootcite[734]{Adomavicius2005}\vglfootcite[167]{Gillespie2014} Sie können vielmehr als Komponenten in eine umfassendere Infrastruk...
+unktionen, stellen jedoch nicht das gesamte Monitoring-System dar.\vglfootcite[734]{Adomavicius2005}\vglfootcite[167--168]{Gillespie2014} Sie können vielmehr als Komponenten in eine umfassendere Infra...
 ```
 
 ---
 
-### RussellNorvig2010 (Seite 34)
+### Laudon2018 (Seite 44)
+
+**Datei:** `02_grundlagen.tex`
+
+**Status:** PDF_NOT_FOUND
+
+**Kontext:**
+```
+modell aus Input, Verarbeitung, Output und Feedback ein idealtypischer Monitoring-Zyklus entwickelt.\vglfootcite[44--45]{Laudon2018} Dieser umfasst die Phasen Datenerfassung $\rightarrow$ Datenaufbere...
+```
+
+---
+
+### RussellNorvig2010 (Seite 50)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1665,11 +1472,11 @@ unktionen, stellen jedoch nicht das gesamte Monitoring-System dar.\vglfootcite[7
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/15
+- Gemeinsame Schlüsselwörter: 0/16
 
 **Kontext:**
 ```
-ass die Parameter des zugrunde liegenden Modells kontinuierlich angepasst oder neu trainiert werden.\vglfootcite[34]{RussellNorvig2010} Die folgenden Abschnitte vertiefen mit der Datenerfassung, der A...
+ass die Parameter des zugrunde liegenden Modells kontinuierlich angepasst oder neu trainiert werden.\vglfootcite[50--51, 55--56]{RussellNorvig2010} Die folgenden Abschnitte vertiefen mit der Datenerfa...
 ```
 
 ---
@@ -1708,7 +1515,7 @@ ndition", durch die menschliche Erfahrungen für datenbasierte Auswertungen verf
 
 ---
 
-### Laudon2018 (Seite 16)
+### Laudon2018 (Seite 210)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1716,7 +1523,7 @@ ndition", durch die menschliche Erfahrungen für datenbasierte Auswertungen verf
 
 **Kontext:**
 ```
-arables und eingebettete Sensoren die Erfassung physischer, räumlicher oder zeitbezogener Parameter.\vglfootcite[16]{Laudon2018} Innerhalb eines funktionalen Agentenmodells bilden die auf diese Weise ...
+arables und eingebettete Sensoren die Erfassung physischer, räumlicher oder zeitbezogener Parameter.\vglfootcite[210--211, 254--255]{Laudon2018} Innerhalb eines funktionalen Agentenmodells bilden die ...
 ```
 
 ---
@@ -1752,46 +1559,12 @@ Monitoring-Systeme können unterschiedliche Datenarten verarbeit...
 
 **Kontext:**
 ```
-Daten, beobachteten Daten und aus vorhandenen Informationen abgeleiteten Daten differenziert werden.\vglfootcite[10]{OECD2013} Freiwillig bereitgestellte Daten entstehen beispielsweise durch Profilein...
+Daten, beobachteten Daten und aus vorhandenen Informationen abgeleiteten Daten differenziert werden.\vglfootcite[10--11]{OECD2013} Freiwillig bereitgestellte Daten entstehen beispielsweise durch Profi...
 ```
 
 ---
 
-### Kitchin2014 (Seite 10)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/15
-
-**Kontext:**
-```
-terschiedlichen Quellen zusammengeführt und für weitere Verarbeitungsschritte bereitgestellt werden.\vglfootcite[10]{Kitchin2014} Dabei entstehen jedoch noch keine vollständigen Nutzungsprofile oder b...
-```
-
----
-
-### Kitchin2014 (Seite 10)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/17
-
-**Kontext:**
-```
-digitaler Spuren entstehen umfassende Datensätze, die als digitale Dossiers charakterisiert werden.\vglfootcite[10]{Kitchin2014} Wissenschaftlich ist dabei zu betonen, dass solche Profile zweckgebunde...
-```
-
----
-
-### Gillespie2014 (Seite 167)
+### Kitchin2014 (Seite 722)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1799,12 +1572,38 @@ digitaler Spuren entstehen umfassende Datensätze, die als digitale Dossiers cha
 
 **Kontext:**
 ```
-nfachte Repräsentationen sind und keine vollständige oder objektive Identität einer Person abbilden.\vglfootcite[167]{Gillespie2014} Sie dienen dazu, komplexe Informationen in maschinenlesbare Kategor...
+terschiedlichen Quellen zusammengeführt und für weitere Verarbeitungsschritte bereitgestellt werden.\vglfootcite[722]{Kitchin2014} Dabei entstehen jedoch noch keine vollständigen Nutzungsprofile oder ...
 ```
 
 ---
 
-### RussellNorvig2010 (Seite 556)
+### Kitchin2014 (Seite 723)
+
+**Datei:** `02_grundlagen.tex`
+
+**Status:** PDF_READ_ERROR
+
+**Kontext:**
+```
+digitaler Spuren entstehen umfassende Datensätze, die als digitale Dossiers charakterisiert werden.\vglfootcite[723]{Kitchin2014} Wissenschaftlich ist dabei zu betonen, dass solche Profile zweckgebund...
+```
+
+---
+
+### Gillespie2014 (Seite 174)
+
+**Datei:** `02_grundlagen.tex`
+
+**Status:** PDF_READ_ERROR
+
+**Kontext:**
+```
+nfachte Repräsentationen sind und keine vollständige oder objektive Identität einer Person abbilden.\vglfootcite[174]{Gillespie2014} Sie dienen dazu, komplexe Informationen in maschinenlesbare Kategor...
+```
+
+---
+
+### RussellNorvig2010 (Seite 566)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1816,12 +1615,14 @@ nfachte Repräsentationen sind und keine vollständige oder objektive Identität
 
 **Kontext:**
 ```
-barer Variablen, um Wahrscheinlichkeiten für nicht direkt beobachtbare, latente Zustände abzuleiten.\vglfootcite[556]{RussellNorvig2010} Hierbei handelt es sich um probabilistische Schlussfolgerungen,...
+eitsverteilung über die Zustände, die auf Grundlage der bisherigen Beobachtungen als möglich gelten.\vglfootcite[566, 570]{RussellNorvig2010}
+
+Die Identifikation von Regelmäßigkeiten erfolgt durch Mus...
 ```
 
 ---
 
-### RussellNorvig2010 (Seite 117)
+### Goodfellow2016 (Seite 104)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1829,30 +1630,11 @@ barer Variablen, um Wahrscheinlichkeiten für nicht direkt beobachtbare, latente
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/14
+- Gemeinsame Schlüsselwörter: 0/16
 
 **Kontext:**
 ```
-eitsverteilung über die Zustände, die auf Grundlage der bisherigen Beobachtungen als möglich gelten.\vglfootcite[117]{RussellNorvig2010}
-
-Die Identifikation von Regelmäßigkeiten erfolgt durch Musterer...
-```
-
----
-
-### Goodfellow2016 (Seite 374)
-
-**Datei:** `02_grundlagen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/15
-
-**Kontext:**
-```
-Verhalten erkannt, die eine neutrale analytische Gruppierung von Objekten oder Nutzern ermöglichen.\vglfootcite[374]{Goodfellow2016} Davon abzugrenzen ist die Anomalieerkennung, die darauf abzielt, Da...
+Verhalten erkannt, die eine neutrale analytische Gruppierung von Objekten oder Nutzern ermöglichen.\vglfootcite[104--105, 146--147]{Goodfellow2016} Davon abzugrenzen ist die Anomalieerkennung, die dar...
 ```
 
 ---
@@ -1876,7 +1658,7 @@ Innerhalb der Modellanwendung muss methodisch präzise zwischen der Ak...
 
 ---
 
-### RussellNorvig2010 (Seite 562)
+### RussellNorvig2010 (Seite 570)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1888,12 +1670,12 @@ Innerhalb der Modellanwendung muss methodisch präzise zwischen der Ak...
 
 **Kontext:**
 ```
-rung den Belief State oder das Profil anhand neuer Beobachtungen an die aktuelle Evidenzlage anpasst\vglfootcite[562]{RussellNorvig2010}, umfasst ein erneutes Training die Anpassung der Modellparamete...
+rung den Belief State oder das Profil anhand neuer Beobachtungen an die aktuelle Evidenzlage anpasst\vglfootcite[570--572]{RussellNorvig2010}, umfasst ein erneutes Training die Anpassung der Modellpar...
 ```
 
 ---
 
-### NIST2023 (Seite 19)
+### NIST2023 (Seite 14)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1901,13 +1683,13 @@ rung den Belief State oder das Profil anhand neuer Beobachtungen an die aktuelle
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-odellleistung regelmäßig überwacht werden, um die Übertragbarkeit auf neue Kontexte sicherzustellen.\vglfootcite[19]{NIST2023}
+odellleistung regelmäßig überwacht werden, um die Übertragbarkeit auf neue Kontexte sicherzustellen.\vglfootcite[14, 29, 38]{NIST2023}
 
-Zusammenfassend lassen sich die erzeugten Analyseergebnisse als Informat...
+Zusammenfassend lassen sich die erzeugten Analyseergebnisse als ...
 ```
 
 ---
@@ -1950,7 +1732,7 @@ Das Ranking ordnet Informationen, Personen oder Objekte anhand eines...
 
 ---
 
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 175)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1958,12 +1740,12 @@ Das Ranking ordnet Informationen, Personen oder Objekte anhand eines...
 
 **Kontext:**
 ```
-d eines oder mehrerer Relevanz-, Risiko- oder Prioritätskriterien in eine hierarchische Reihenfolge.\vglfootcite[167]{Gillespie2014} Ein Ranking kann auf Scores oder anderen Modelloutputs beruhen, ste...
+d eines oder mehrerer Relevanz-, Risiko- oder Prioritätskriterien in eine hierarchische Reihenfolge.\vglfootcite[175--177]{Gillespie2014} Ein Ranking kann auf Scores oder anderen Modelloutputs beruhen...
 ```
 
 ---
 
-### Laudon2018 (Seite 20)
+### Laudon2018 (Seite 467)
 
 **Datei:** `02_grundlagen.tex`
 
@@ -1971,26 +1753,26 @@ d eines oder mehrerer Relevanz-, Risiko- oder Prioritätskriterien in eine hiera
 
 **Kontext:**
 ```
-inierten und standardisierten Aufgaben automatisierte Entscheidungen und Systemreaktionen ausführen.\vglfootcite[20]{Laudon2018} Dabei sollten Zuständigkeiten, Kontrollmöglichkeiten und Grenzen des Sy...
+inierten und standardisierten Aufgaben automatisierte Entscheidungen und Systemreaktionen ausführen.\vglfootcite[467, 493--494]{Laudon2018} Dabei sollten Zuständigkeiten, Kontrollmöglichkeiten und Gre...
 ```
 
 ---
 
-### NIST2023 (Seite 16)
+### NIST2023 (Seite 22)
 
 **Datei:** `02_grundlagen.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 0.00% (MISMATCH)
+**Ähnlichkeit:** 5.88% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/16
+- Gemeinsame Schlüsselwörter: 1/17
 
 **Kontext:**
 ```
-gkeiten, Kontrollmöglichkeiten und Grenzen des Systems dokumentiert und regelmäßig überprüft werden.\vglfootcite[16]{NIST2023}
+gkeiten, Kontrollmöglichkeiten und Grenzen des Systems dokumentiert und regelmäßig überprüft werden.\vglfootcite[22--23, 26, 29]{NIST2023}
 
-Algorithmische Bewertung und Klassifikation führen nicht zwangsläufig zu...
+Algorithmische Bewertung und Klassifikation führen nicht zwa...
 ```
 
 ---
@@ -2101,7 +1883,24 @@ Analysen oft auf einer \enquote{Black-Box}-Betrachtung oder auf Reverse Engineer
 
 ---
 
-### Srnicek2017 (Seite 21)
+### Srnicek2017 (Seite 28)
+
+**Datei:** `03_monitoring_systeme.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 7.14% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 1/14
+
+**Kontext:**
+```
+nen, die darauf ausgelegt sind, menschliche Erfahrung systematisch in Verhaltensdaten zu übersetzen.\vglfootcite[28--32, 48--49]{Srnicek2017}Soziotechnische Strukturen werden genutzt, um massive Volum...
+```
+
+---
+
+### Lyon2012 (Seite 1)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2109,58 +1908,11 @@ Analysen oft auf einer \enquote{Black-Box}-Betrachtung oder auf Reverse Engineer
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/14
+- Gemeinsame Schlüsselwörter: 0/15
 
 **Kontext:**
 ```
-nen, die darauf ausgelegt sind, menschliche Erfahrung systematisch in Verhaltensdaten zu übersetzen.\vglfootcite[21]{Srnicek2017}\vglfootcite[69]{Zuboff2019} Soziotechnische Strukturen werden genutzt,...
-```
-
----
-
-### Zuboff2019 (Seite 69)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
-
-**Kontext:**
-```
-d, menschliche Erfahrung systematisch in Verhaltensdaten zu übersetzen.\vglfootcite[21]{Srnicek2017}\vglfootcite[69]{Zuboff2019} Soziotechnische Strukturen werden genutzt, um massive Volumina an Verha...
-```
-
----
-
-### Laudon2018 (Seite 16)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** PDF_NOT_FOUND
-
-**Kontext:**
-```
-zu analysieren, was die Grundlage für Personalisierung, Empfehlungen und Vorhersageprozesse bildet.\vglfootcite[16]{Laudon2018}\vglfootcite[2]{Lyon2012} Diese Systeme lösen die Grenze zwischen digital...
-```
-
----
-
-### Lyon2012 (Seite 2)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-ndlage für Personalisierung, Empfehlungen und Vorhersageprozesse bildet.\vglfootcite[16]{Laudon2018}\vglfootcite[2]{Lyon2012} Diese Systeme lösen die Grenze zwischen digitaler Infrastruktur und sozial...
+zu analysieren, was die Grundlage für Personalisierung, Empfehlungen und Vorhersageprozesse bildet.\vglfootcite[1--2]{Lyon2012} Diese Systeme lösen die Grenze zwischen digitaler Infrastruktur und sozi...
 ```
 
 ---
@@ -2212,43 +1964,56 @@ und übersetzen menschliche Kommunikation sowie soziale Beziehungen in maschinen
 
 ---
 
-### Narayanan2023 (Seite 12)
+### Narayanan2023 (Seite 18)
 
 **Datei:** `03_monitoring_systeme.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 6.67% (MISMATCH)
+**Ähnlichkeit:** 7.14% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 1/15
+- Gemeinsame Schlüsselwörter: 1/14
 
 **Kontext:**
 ```
-eildauer auf einem Inhalt -- wird als Eingabewert in algorithmische Verarbeitungsprozesse überführt.\vglfootcite[12]{Narayanan2023} Plattformen wie Facebook, Instagram oder TikTok operieren dabei als ...
+eildauer auf einem Inhalt -- wird als Eingabewert in algorithmische Verarbeitungsprozesse überführt.\vglfootcite[18--19]{Narayanan2023} Plattformen wie Facebook oder Instagram operieren dabei als pers...
 ```
 
 ---
 
-### Zuboff2019 (Seite 69)
+### Srnicek2017 (Seite 30)
 
 **Datei:** `03_monitoring_systeme.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 13.33% (SUSPICIOUS)
+**Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 2/15
+- Gemeinsame Schlüsselwörter: 0/16
 
 **Kontext:**
 ```
-s (Behavioral Surplus) zu extrahieren, der als Grundlage algorithmischer Entscheidungslogiken dient.\vglfootcite[69]{Zuboff2019}
+s (Behavioral Surplus) zu extrahieren, der als Grundlage algorithmischer Entscheidungslogiken dient.\vglfootcite[30--31, 56--58]{Srnicek2017}
 
-Als digitale Informationssysteme verarbeiten diese Plattformen kontinu...
+Als digitale Informationssysteme verarbeiten diese Plattf...
 ```
 
 ---
 
-### MetzlerGarcia2023 (Seite 1)
+### MetzlerGarcia2023 (Seite 735)
+
+**Datei:** `03_monitoring_systeme.tex`
+
+**Status:** PDF_READ_ERROR
+
+**Kontext:**
+```
+ittels \ac{KI}-gestützter Analyse Muster in Präferenzen und emotionalen Zuständen zu identifizieren.\vglfootcite[735--736]{MetzlerGarcia2023} Beispielsweise nutzt TikTok einen rein algorithmisch geste...
+```
+
+---
+
+### Narayanan2023 (Seite 11)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2260,24 +2025,7 @@ Als digitale Informationssysteme verarbeiten diese Plattformen kontinu...
 
 **Kontext:**
 ```
-ittels \ac{KI}-gestützter Analyse Muster in Präferenzen und emotionalen Zuständen zu identifizieren.\vglfootcite[1]{MetzlerGarcia2023} Beispielsweise nutzt TikTok einen rein algorithmisch gesteuerten ...
-```
-
----
-
-### Narayanan2023 (Seite 1)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
--Verarbeitung hochfrequenter Interaktionsdatensätze basiert, um Interaktionsprognosen zu optimieren.\vglfootcite[1]{Narayanan2023} Systeme wie FBLearner Flow von Facebook trainieren täglich tausende v...
+-Verarbeitung hochfrequenter Interaktionsdatensätze basiert, um Interaktionsprognosen zu optimieren.\vglfootcite[11, 18--20, 23]{Narayanan2023} Systeme wie FBLearner Flow von Facebook trainieren tägli...
 ```
 
 ---
@@ -2299,27 +2047,6 @@ tausende von Modellen an Billionen von Datenpunkten, um personalisierte Relevanz
 
 ---
 
-### VanDijck2014 (Seite 1)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/10
-
-**Kontext:**
-```
-icherstellt, dass Informationsflüsse präzise auf die errechneten Nutzerprofile zugeschnitten werden.\vglfootcite[1]{VanDijck2014}\vglfootcite[2]{Lyon2012}
-
-\subsection{Plattformökosysteme}
-
-Die organi...
-```
-
----
-
 ### Lyon2012 (Seite 2)
 
 **Datei:** `03_monitoring_systeme.tex`
@@ -2328,15 +2055,15 @@ Die organi...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/12
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-sflüsse präzise auf die errechneten Nutzerprofile zugeschnitten werden.\vglfootcite[1]{VanDijck2014}\vglfootcite[2]{Lyon2012}
+icherstellt, dass Informationsflüsse präzise auf die errechneten Nutzerprofile zugeschnitten werden.\vglfootcite[2, 5]{Lyon2012}
 
 \subsection{Plattformökosysteme}
 
-Die organisatorische und technologische...
+Die organisatorische und technologis...
 ```
 
 ---
@@ -2371,7 +2098,7 @@ betreibenden und Anbietern von Zusatzdiensten (Apps) koordinieren.\vglfootcite[1
 
 ---
 
-### Srnicek2017 (Seite 27)
+### Srnicek2017 (Seite 38)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2379,64 +2106,30 @@ betreibenden und Anbietern von Zusatzdiensten (Apps) koordinieren.\vglfootcite[1
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/16
+- Gemeinsame Schlüsselwörter: 0/17
 
 **Kontext:**
 ```
-zu einer natürlichen Tendenz zur Monopolisierung und einer immer umfassenderen Datensammlung führt.\vglfootcite[27]{Srnicek2017}
+zu einer natürlichen Tendenz zur Monopolisierung und einer immer umfassenderen Datensammlung führt.\vglfootcite[38, 57, 62--63]{Srnicek2017}
 
-Innerhalb dieser digitalen Informationssysteme werden Verhaltensdaten ...
+Innerhalb dieser digitalen Informationssysteme werden Verh...
 ```
 
 ---
 
-### Parker2016 (Seite 5)
+### Parker2016 (Seite 17)
 
 **Datei:** `03_monitoring_systeme.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 6.67% (MISMATCH)
+**Ähnlichkeit:** 5.56% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 1/15
-
-**Kontext:**
-```
-rarbeitet und genutzt werden dürfen, wobei die Plattformbetreiber als zentrale Torwächter fungieren.\vglfootcite[5]{Parker2016}\vglfootcite[10]{Tiwana2014} Durch die systemische Integration verschiede...
-```
-
----
-
-### Tiwana2014 (Seite 10)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 6.67% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 1/15
+- Gemeinsame Schlüsselwörter: 1/18
 
 **Kontext:**
 ```
-n dürfen, wobei die Plattformbetreiber als zentrale Torwächter fungieren.\vglfootcite[5]{Parker2016}\vglfootcite[10]{Tiwana2014} Durch die systemische Integration verschiedener Dienste -- wie Suche, s...
-```
-
----
-
-### Srnicek2017 (Seite 48)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-anken aggregieren, was die Vorhersagekraft ihrer algorithmischen Entscheidungslogiken massiv erhöht.\vglfootcite[48]{Srnicek2017}\vglfootcite[94--95, 100--101]{Cusumano2019} Diese digitalen Informatio...
+rarbeitet und genutzt werden dürfen, wobei die Plattformbetreiber als zentrale Torwächter fungieren.\vglfootcite[17]{Parker2016} Durch die systemische Integration verschiedener Dienste -- wie Suche, s...
 ```
 
 ---
@@ -2449,7 +2142,7 @@ anken aggregieren, was die Vorhersagekraft ihrer algorithmischen Entscheidungslo
 
 **Kontext:**
 ```
-rhersagekraft ihrer algorithmischen Entscheidungslogiken massiv erhöht.\vglfootcite[48]{Srnicek2017}\vglfootcite[94--95, 100--101]{Cusumano2019} Diese digitalen Informationssysteme schaffen einen tech...
+anken aggregieren, was die Vorhersagekraft ihrer algorithmischen Entscheidungslogiken massiv erhöht.\vglfootcite[94--95, 100--101]{Cusumano2019} Diese digitalen Informationssysteme schaffen einen tech...
 ```
 
 ---
@@ -2462,34 +2155,15 @@ rhersagekraft ihrer algorithmischen Entscheidungslogiken massiv erhöht.\vglfoot
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/12
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-ktur erscheint, um durch algorithmische Optimierung garantierte kommerzielle Ergebnisse zu erzielen.\vglfootcite[69]{Zuboff2019}\vglfootcite[5]{Parker2016}
-
-\subsection{Digitale Fußabdrücke und Nutzun...
-```
-
----
-
-### Parker2016 (Seite 5)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
-
-**Kontext:**
-```
-orithmische Optimierung garantierte kommerzielle Ergebnisse zu erzielen.\vglfootcite[69]{Zuboff2019}\vglfootcite[5]{Parker2016}
+ktur erscheint, um durch algorithmische Optimierung garantierte kommerzielle Ergebnisse zu erzielen.\vglfootcite[69]{Zuboff2019}
 
 \subsection{Digitale Fußabdrücke und Nutzungsprofile}
 
-Das Resultat der...
+Das Resultat de...
 ```
 
 ---
@@ -2511,15 +2185,19 @@ des Lebens eines Individuums zeichnen können, als dies durch bewusste Selbstaus
 
 ---
 
-### OECD2011 (Seite 10)
+### OECD2013 (Seite 10)
 
 **Datei:** `03_monitoring_systeme.tex`
 
-**Status:** PDF_NOT_FOUND
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/17
 
 **Kontext:**
 ```
-ig bereitgestellten, beobachteten und erschlossenen Daten (Inferred Data) unterschieden werden muss.\vglfootcite[10]{OECD2011} Durch komplexe Daten-Mining-Verfahren und statistische Korrelationen könn...
+ig bereitgestellten, beobachteten und erschlossenen Daten (Inferred Data) unterschieden werden muss.\vglfootcite[10--11]{OECD2013} Durch komplexe Daten-Mining-Verfahren und statistische Korrelationen ...
 ```
 
 ---
@@ -2558,7 +2236,7 @@ Diese datengetriebene Repräsentation von Individuen führt zur Erste...
 
 ---
 
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 168)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2566,29 +2244,25 @@ Diese datengetriebene Repräsentation von Individuen führt zur Erste...
 
 **Kontext:**
 ```
-te einer Person betonen, die für die algorithmische Entscheidungslogik lesbar und verarbeitbar sind.\vglfootcite[167]{Gillespie2014} Die Aggregation von Verhaltensdaten über verschiedene digitale Info...
+te einer Person betonen, die für die algorithmische Entscheidungslogik lesbar und verarbeitbar sind.\vglfootcite[168]{Gillespie2014} Die Aggregation von Verhaltensdaten über verschiedene digitale Info...
 ```
 
 ---
 
-### Kitchin2014 (Seite 10)
+### Kitchin2014 (Seite 722)
 
 **Datei:** `03_monitoring_systeme.tex`
 
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/15
+**Status:** PDF_READ_ERROR
 
 **Kontext:**
 ```
-r lange Zeiträume zu modellieren und Individuen in immer feingranularere Segmente zu klassifizieren.\vglfootcite[10]{Kitchin2014}\vglfootcite[2]{Lyon2012} Diese Profile dienen nicht nur der Analyse de...
+r lange Zeiträume zu modellieren und Individuen in immer feingranularere Segmente zu klassifizieren.\vglfootcite[722]{Kitchin2014}\vglfootcite[4--5]{Lyon2012} Diese Profile dienen nicht nur der Analys...
 ```
 
 ---
 
-### Lyon2012 (Seite 2)
+### Lyon2012 (Seite 4)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2600,12 +2274,12 @@ r lange Zeiträume zu modellieren und Individuen in immer feingranularere Segmen
 
 **Kontext:**
 ```
-ren und Individuen in immer feingranularere Segmente zu klassifizieren.\vglfootcite[10]{Kitchin2014}\vglfootcite[2]{Lyon2012} Diese Profile dienen nicht nur der Analyse der Vergangenheit, sondern bild...
+en und Individuen in immer feingranularere Segmente zu klassifizieren.\vglfootcite[722]{Kitchin2014}\vglfootcite[4--5]{Lyon2012} Diese Profile dienen nicht nur der Analyse der Vergangenheit, sondern b...
 ```
 
 ---
 
-### Zuboff2019 (Seite 86)
+### OECD2013 (Seite 13)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2613,35 +2287,20 @@ ren und Individuen in immer feingranularere Segmente zu klassifizieren.\vglfootc
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/11
+- Gemeinsame Schlüsselwörter: 0/13
 
 **Kontext:**
 ```
-ersage und gezielte Beeinflussung zukünftigen Verhaltens durch algorithmische Steuerungsmechanismen.\vglfootcite[86]{Zuboff2019}\vglfootcite[33]{OECD2011}
-
-\section{Algorithmische Steuerungs- und Bewe...
-```
-
----
-
-### OECD2011 (Seite 33)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** PDF_NOT_FOUND
-
-**Kontext:**
-```
-ssung zukünftigen Verhaltens durch algorithmische Steuerungsmechanismen.\vglfootcite[86]{Zuboff2019}\vglfootcite[33]{OECD2011}
+ersage und gezielte Beeinflussung zukünftigen Verhaltens durch algorithmische Steuerungsmechanismen.\vglfootcite[13--15]{OECD2013}
 
 \section{Algorithmische Steuerungs- und Bewertungsmechanismen}
 
-Die syst...
+Die ...
 ```
 
 ---
 
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 172)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2649,32 +2308,11 @@ Die syst...
 
 **Kontext:**
 ```
-rn gezielt Relevanz konstruiert und so die digitalen Informationsumgebungen der Nutzer strukturiert.\vglfootcite[167]{Gillespie2014}\vglfootcite[5]{Zuboff2019}
+rn gezielt Relevanz konstruiert und so die digitalen Informationsumgebungen der Nutzer strukturiert.\vglfootcite[172]{Gillespie2014}
 
 \subsection{Personalisierung}
 
-Die tech...
-```
-
----
-
-### Zuboff2019 (Seite 5)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/10
-
-**Kontext:**
-```
-und so die digitalen Informationsumgebungen der Nutzer strukturiert.\vglfootcite[167]{Gillespie2014}\vglfootcite[5]{Zuboff2019}
-
-\subsection{Personalisierung}
-
-Die technische Realisierung einer indivi...
+Die technische Realisierung einer i...
 ```
 
 ---
@@ -2741,7 +2379,7 @@ Die Konsequenz dieser technologisch geschaffenen Umgebungen ist eine z...
 
 ---
 
-### Pariser2011 (Seite 1)
+### Pariser2011 (Seite 9)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2749,54 +2387,16 @@ Die Konsequenz dieser technologisch geschaffenen Umgebungen ist eine z...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/16
+- Gemeinsame Schlüsselwörter: 0/15
 
 **Kontext:**
 ```
-azu führt, dass Individuen primär mit dem vertrauten \enquote{Ghetto des Einen} konfrontiert werden.\vglfootcite[1]{Pariser2011} Da die Identität des Nutzers die Medieninhalte prägt und diese wiederum...
+des Nutzers bestärken, entsteht eine Feedback-Schleife, die als \enquote{You Loop} bezeichnet wird.\vglfootcite[9--10, 34]{Pariser2011} In der Logik des Überwachungskapitalismus dient diese Personalis...
 ```
 
 ---
 
-### Pariser2011 (Seite 1)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-des Nutzers bestärken, entsteht eine Feedback-Schleife, die als \enquote{You Loop} bezeichnet wird.\vglfootcite[1]{Pariser2011} In der Logik des Überwachungskapitalismus dient diese Personalisierung n...
-```
-
----
-
-### Zuboff2019 (Seite 69)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
-
-**Kontext:**
-```
-indem das Individuum in eine algorithmisch lesbare und damit vorhersagbare Identität gedrängt wird.\vglfootcite[69]{Zuboff2019}\vglfootcite[167]{Gillespie2014}
-
-\subsection{Ranking-Algorithmen}
-
-Währe...
-```
-
----
-
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 175)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2804,11 +2404,11 @@ Währe...
 
 **Kontext:**
 ```
-e algorithmisch lesbare und damit vorhersagbare Identität gedrängt wird.\vglfootcite[69]{Zuboff2019}\vglfootcite[167]{Gillespie2014}
+indem das Individuum in eine algorithmisch lesbare und damit vorhersagbare Identität gedrängt wird.\vglfootcite[175--176, 185]{Gillespie2014}
 
 \subsection{Ranking-Algorithmen}
 
-Während die Personalisierung den...
+Während die Personalisi...
 ```
 
 ---
@@ -2830,7 +2430,7 @@ hierarchische Ordnung und damit die Sichtbarkeit von Informationen innerhalb dig
 
 ---
 
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 188)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2838,7 +2438,7 @@ hierarchische Ordnung und damit die Sichtbarkeit von Informationen innerhalb dig
 
 **Kontext:**
 ```
-Torwächter, die den Fluss von Wissen nach spezifischen, oft proprietären Relevanzkriterien steuern.\vglfootcite[167]{Gillespie2014}\vglfootcite[19]{Pasquale2015} Ein zentraler Mechanismus moderner Pla...
+Torwächter, die den Fluss von Wissen nach spezifischen, oft proprietären Relevanzkriterien steuern.\vglfootcite[188--190]{Gillespie2014}\vglfootcite[19]{Pasquale2015} Ein zentraler Mechanismus moderne...
 ```
 
 ---
@@ -2851,16 +2451,16 @@ Torwächter, die den Fluss von Wissen nach spezifischen, oft proprietären Relev
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/12
+- Gemeinsame Schlüsselwörter: 0/11
 
 **Kontext:**
 ```
-issen nach spezifischen, oft proprietären Relevanzkriterien steuern.\vglfootcite[167]{Gillespie2014}\vglfootcite[19]{Pasquale2015} Ein zentraler Mechanismus moderner Plattformen ist hierbei die Intera...
+nach spezifischen, oft proprietären Relevanzkriterien steuern.\vglfootcite[188--190]{Gillespie2014}\vglfootcite[19]{Pasquale2015} Ein zentraler Mechanismus moderner Plattformen ist hierbei die Interak...
 ```
 
 ---
 
-### Narayanan2023 (Seite 1)
+### Narayanan2023 (Seite 18)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2872,12 +2472,12 @@ issen nach spezifischen, oft proprietären Relevanzkriterien steuern.\vglfootcit
 
 **Kontext:**
 ```
-welcher Wahrscheinlichkeit ein Nutzer eine Interaktion (Likes, Kommentare, Shares) vollziehen wird.\vglfootcite[1]{Narayanan2023} Ein prominentes Beispiel ist das Meaningful Social Interaction (MSI)-M...
+welcher Wahrscheinlichkeit ein Nutzer eine Interaktion (Likes, Kommentare, Shares) vollziehen wird.\vglfootcite[18--20]{Narayanan2023} Ein prominentes Beispiel ist das Meaningful Social Interaction (M...
 ```
 
 ---
 
-### Narayanan2023 (Seite 1)
+### Narayanan2023 (Seite 30)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2889,14 +2489,14 @@ welcher Wahrscheinlichkeit ein Nutzer eine Interaktion (Likes, Kommentare, Share
 
 **Kontext:**
 ```
-nlichkeiten für verschiedene Interaktionstypen berechnet und den News Feed entsprechend priorisiert.\vglfootcite[1]{Narayanan2023}
+nlichkeiten für verschiedene Interaktionstypen berechnet und den News Feed entsprechend priorisiert.\vglfootcite[30--31]{Narayanan2023}
 
-Die daraus resultierende algorithmische Priorisierung transformiert ...
+Die daraus resultierende algorithmische Priorisierung transform...
 ```
 
 ---
 
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 172)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2904,12 +2504,12 @@ Die daraus resultierende algorithmische Priorisierung transformiert ...
 
 **Kontext:**
 ```
-ed Publics), die politische Diskurse und gesellschaftliche Wahrnehmungen massiv beeinflussen können.\vglfootcite[167]{Gillespie2014} Die Konsequenz dieser Machtasymmetrie besteht darin, dass Plattform...
+ed Publics), die politische Diskurse und gesellschaftliche Wahrnehmungen massiv beeinflussen können.\vglfootcite[172, 176, 185]{Gillespie2014} Die Konsequenz dieser Machtasymmetrie besteht darin, dass...
 ```
 
 ---
 
-### Narayanan2023 (Seite 1)
+### Narayanan2023 (Seite 16)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2917,30 +2517,15 @@ ed Publics), die politische Diskurse und gesellschaftliche Wahrnehmungen massiv 
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/11
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-reiben können, ohne dass die zugrunde liegenden Bewertungskriterien für den Nutzer transparent sind.\vglfootcite[1]{Narayanan2023}\vglfootcite[167]{Gillespie2014}
-
-\subsection{Reputations- und Scoring...
-```
-
----
-
-### Gillespie2014 (Seite 167)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** PDF_READ_ERROR
-
-**Kontext:**
-```
-ugrunde liegenden Bewertungskriterien für den Nutzer transparent sind.\vglfootcite[1]{Narayanan2023}\vglfootcite[167]{Gillespie2014}
+reiben können, ohne dass die zugrunde liegenden Bewertungskriterien für den Nutzer transparent sind.\vglfootcite[16--18, 22]{Narayanan2023}
 
 \subsection{Reputations- und Scoring-Systeme}
 
-Eine spezifische Fo...
+Eine spezifi...
 ```
 
 ---
@@ -2962,7 +2547,7 @@ nsdaten in automatisierte Scores, die zur Klassifikation und Hierarchisierung vo
 
 ---
 
-### ONeil2016 (Seite 145)
+### ONeil2016 (Seite 104)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -2974,27 +2559,12 @@ nsdaten in automatisierte Scores, die zur Klassifikation und Hierarchisierung vo
 
 **Kontext:**
 ```
-ten, werden Profile erstellt, die beispielsweise die Kreditwürdigkeit oder Zuverlässigkeit bewerten.\vglfootcite[145]{ONeil2016} Solche e-Scores fungieren als Instrumente zur Reduktion von Unsicherhei...
+ten, werden Profile erstellt, die beispielsweise die Kreditwürdigkeit oder Zuverlässigkeit bewerten.\vglfootcite[104--111]{ONeil2016} Solche e-Scores fungieren als Instrumente zur Reduktion von Unsich...
 ```
 
 ---
 
-### OECD2011 (Seite 519)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** PDF_NOT_FOUND
-
-**Kontext:**
-```
-heit für Unternehmen, indem sie Individuen in mathematische Wahrscheinlichkeitskategorien einteilen.\vglfootcite[519\,f.]{OECD2011}\vglfootcite[145]{ONeil2016}
-
-Diese Scoring-Verfahren haben tiefgreif...
-```
-
----
-
-### ONeil2016 (Seite 145)
+### OECD2013 (Seite 10)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3002,18 +2572,18 @@ Diese Scoring-Verfahren haben tiefgreif...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/12
+- Gemeinsame Schlüsselwörter: 0/15
 
 **Kontext:**
 ```
-Individuen in mathematische Wahrscheinlichkeitskategorien einteilen.\vglfootcite[519\,f.]{OECD2011}\vglfootcite[145]{ONeil2016}
+heit für Unternehmen, indem sie Individuen in mathematische Wahrscheinlichkeitskategorien einteilen.\vglfootcite[10, 16]{OECD2013}
 
-Diese Scoring-Verfahren haben tiefgreifende Konsequenzen für die sozial...
+Diese Scoring-Verfahren haben tiefgreifende Konsequenzen für die soz...
 ```
 
 ---
 
-### ONeil2016 (Seite 145)
+### ONeil2016 (Seite 14)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3021,11 +2591,11 @@ Diese Scoring-Verfahren haben tiefgreifende Konsequenzen für die sozial...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/12
+- Gemeinsame Schlüsselwörter: 0/13
 
 **Kontext:**
 ```
-n Ausschluss von Finanzprodukten oder Arbeitsplätzen --, ohne dass Einspruchsmöglichkeiten bestehen.\vglfootcite[145]{ONeil2016} Die algorithmische Bewertung tarnt dabei diskriminierende Praktiken, wi...
+n Ausschluss von Finanzprodukten oder Arbeitsplätzen --, ohne dass Einspruchsmöglichkeiten bestehen.\vglfootcite[14, 104--110]{ONeil2016} Die algorithmische Bewertung tarnt dabei diskriminierende Prak...
 ```
 
 ---
@@ -3038,18 +2608,18 @@ n Ausschluss von Finanzprodukten oder Arbeitsplätzen --, ohne dass Einspruchsm�
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/9
+- Gemeinsame Schlüsselwörter: 0/10
 
 **Kontext:**
 ```
-e Form der algorithmischen Governance, die das Leben des Einzelnen permanent überwacht und bewertet.\vglfootcite[19]{Pasquale2015}\vglfootcite[145]{ONeil2016}
+e Form der algorithmischen Governance, die das Leben des Einzelnen permanent überwacht und bewertet.\vglfootcite[19]{Pasquale2015}\vglfootcite[106--107, 120--121]{ONeil2016}
 
-\subsection{Interaktionsoptimierung und ...
+\subsection{Interaktionso...
 ```
 
 ---
 
-### ONeil2016 (Seite 145)
+### ONeil2016 (Seite 106)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3057,15 +2627,13 @@ e Form der algorithmischen Governance, die das Leben des Einzelnen permanent üb
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/10
+- Gemeinsame Schlüsselwörter: 0/11
 
 **Kontext:**
 ```
-ernance, die das Leben des Einzelnen permanent überwacht und bewertet.\vglfootcite[19]{Pasquale2015}\vglfootcite[145]{ONeil2016}
+ernance, die das Leben des Einzelnen permanent überwacht und bewertet.\vglfootcite[19]{Pasquale2015}\vglfootcite[106--107, 120--121]{ONeil2016}
 
-\subsection{Interaktionsoptimierung und Verhaltensprognosen}
-
-Die Inte...
+\subsection{Interaktionsoptimierung und Verhaltensprogn...
 ```
 
 ---
@@ -3082,14 +2650,14 @@ Die Inte...
 
 **Kontext:**
 ```
-u identifizieren, die den erwarteten Reward -- in Form von Aufmerksamkeit oder Klicks -- maximieren.\vglfootcite[1]{SuttonBarto2018}\vglfootcite[1]{Narayanan2023}
+u identifizieren, die den erwarteten Reward -- in Form von Aufmerksamkeit oder Klicks -- maximieren.\vglfootcite[1]{SuttonBarto2018}\vglfootcite[18--20]{Narayanan2023}
 
-Reinforcement Learning ermöglicht es...
+Reinforcement Learning ermöglic...
 ```
 
 ---
 
-### Narayanan2023 (Seite 1)
+### Narayanan2023 (Seite 18)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3101,14 +2669,14 @@ Reinforcement Learning ermöglicht es...
 
 **Kontext:**
 ```
-eten Reward -- in Form von Aufmerksamkeit oder Klicks -- maximieren.\vglfootcite[1]{SuttonBarto2018}\vglfootcite[1]{Narayanan2023}
+eten Reward -- in Form von Aufmerksamkeit oder Klicks -- maximieren.\vglfootcite[1]{SuttonBarto2018}\vglfootcite[18--20]{Narayanan2023}
 
-Reinforcement Learning ermöglicht es Plattformen, Interaktionsmuster...
+Reinforcement Learning ermöglicht es Plattformen, Interaktionsm...
 ```
 
 ---
 
-### Narayanan2023 (Seite 4)
+### Narayanan2023 (Seite 18)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3116,28 +2684,11 @@ Reinforcement Learning ermöglicht es Plattformen, Interaktionsmuster...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/17
 
 **Kontext:**
 ```
-raktionsmuster kontinuierlich zu analysieren und erfolgreiche Maßnahmen algorithmisch zu verstärken.\vglfootcite[4]{Narayanan2023}\vglfootcite[202]{Zuboff2019} Um jedoch zu verstehen, warum bestimmte ...
-```
-
----
-
-### Zuboff2019 (Seite 202)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-zu analysieren und erfolgreiche Maßnahmen algorithmisch zu verstärken.\vglfootcite[4]{Narayanan2023}\vglfootcite[202]{Zuboff2019} Um jedoch zu verstehen, warum bestimmte Maßnahmen überhaupt wirksam si...
+raktionsmuster kontinuierlich zu analysieren und erfolgreiche Maßnahmen algorithmisch zu verstärken.\vglfootcite[18, 38]{Narayanan2023} Um jedoch zu verstehen, warum bestimmte Maßnahmen überhaupt wirk...
 ```
 
 ---
@@ -3163,32 +2714,15 @@ Das Fogg Behavior Model bietet hierfür einen konzeptionellen Rahmen: V...
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 11.11% (SUSPICIOUS)
-
-- Gemeinsame Schlüsselwörter: 2/18
-
-**Kontext:**
-```
-das gleichzeitige Zusammentreffen von Motivation, Fähigkeit (Ability) und einem Auslöser (Trigger).\vglfootcite[1]{Fogg2009} Digitale Monitoring-Systeme nutzen diese Erkenntnisse operativ, indem sie d...
-```
-
----
-
-### Fogg2009 (Seite 1)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-richtigungen oder personalisierte Inhaltsvorschläge -- ein gewünschtes Zielverhalten automatisieren.\vglfootcite[1]{Fogg2009}
+richtigungen oder personalisierte Inhaltsvorschläge -- ein gewünschtes Zielverhalten automatisieren.\vglfootcite[1, 3, 7]{Fogg2009}
 
-Praktische Anwendungen demonstrieren die operative Funktionsweise dieser ...
+Praktische Anwendungen demonstrieren die operative Funktionsweise d...
 ```
 
 ---
@@ -3201,66 +2735,41 @@ Praktische Anwendungen demonstrieren die operative Funktionsweise dieser ...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/12
 
 **Kontext:**
 ```
-alen Inhalten im News Feed die Stimmungslage von Millionen Nutzern ohne deren Wissen verändern kann.\vglfootcite[20]{Zuboff2019}\vglfootcite[1]{Kramer2014}
+alen Inhalten im News Feed die Stimmungslage von Millionen Nutzern ohne deren Wissen verändern kann.\vglfootcite[20]{Zuboff2019}\vglfootcite[8788--8789]{Kramer2014}
 
-Der Fall Cambridge Analytica illustriert ex...
+Der Fall Cambridge Analytica illus...
 ```
 
 ---
 
-### Kramer2014 (Seite 1)
+### Kramer2014 (Seite 8788)
 
 **Datei:** `03_monitoring_systeme.tex`
 
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
+**Status:** PDF_READ_ERROR
 
 **Kontext:**
 ```
-ie Stimmungslage von Millionen Nutzern ohne deren Wissen verändern kann.\vglfootcite[20]{Zuboff2019}\vglfootcite[1]{Kramer2014}
+ie Stimmungslage von Millionen Nutzern ohne deren Wissen verändern kann.\vglfootcite[20]{Zuboff2019}\vglfootcite[8788--8789]{Kramer2014}
 
-Der Fall Cambridge Analytica illustriert exemplarisch den vollständigen...
+Der Fall Cambridge Analytica illustriert exemplarisch den voll...
 ```
 
 ---
 
-### Isaak2018 (Seite 1)
+### Isaak2018 (Seite 56)
 
 **Datei:** `03_monitoring_systeme.tex`
 
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/16
+**Status:** PDF_READ_ERROR
 
 **Kontext:**
 ```
-ch Verhaltensdaten von Millionen Facebook-Nutzern durch eine scheinbar harmlose Persönlichkeits-App.\vglfootcite[1]{Isaak2018} Diese Rohdaten wurden mittels psychometrischer Verfahren analysiert, um d...
-```
-
----
-
-### Isaak2018 (Seite 1)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-m OCEAN-Modell (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism) zu erstellen.\vglfootcite[1]{Isaak2018}\vglfootcite[278]{Zuboff2019} Auf Basis dieser Profile erfolgte eine präzi...
+m OCEAN-Modell (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism) zu erstellen.\vglfootcite[56-57]{Isaak2018}\vglfootcite[278]{Zuboff2019} Auf Basis dieser Profile erfolgte eine p...
 ```
 
 ---
@@ -3277,7 +2786,7 @@ m OCEAN-Modell (Openness, Conscientiousness, Extraversion, Agreeableness, Neurot
 
 **Kontext:**
 ```
-Conscientiousness, Extraversion, Agreeableness, Neuroticism) zu erstellen.\vglfootcite[1]{Isaak2018}\vglfootcite[278]{Zuboff2019} Auf Basis dieser Profile erfolgte eine präzise Segmentierung der Nutze...
+cientiousness, Extraversion, Agreeableness, Neuroticism) zu erstellen.\vglfootcite[56-57]{Isaak2018}\vglfootcite[278]{Zuboff2019} Auf Basis dieser Profile erfolgte eine präzise Segmentierung der Nutze...
 ```
 
 ---
@@ -3339,51 +2848,13 @@ Schließlich führen diese Mechanismen zur Verstärkung von Echo-Kammern,...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/10
+- Gemeinsame Schlüsselwörter: 0/13
 
 **Kontext:**
 ```
-antreiben und die individuelle Autonomie zugunsten eines \enquote{Instrumentarianismus} untergraben.\vglfootcite[1, 5--6]{Cinelli2021}\vglfootcite[1]{MetzlerGarcia2023}\vglfootcite[30]{Zuboff2019}
+antreiben und die individuelle Autonomie zugunsten eines \enquote{Instrumentarianismus} untergraben.\vglfootcite[1, 5--6]{Cinelli2021}
 
-Di...
-```
-
----
-
-### MetzlerGarcia2023 (Seite 1)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/10
-
-**Kontext:**
-```
-onomie zugunsten eines \enquote{Instrumentarianismus} untergraben.\vglfootcite[1, 5--6]{Cinelli2021}\vglfootcite[1]{MetzlerGarcia2023}\vglfootcite[30]{Zuboff2019}
-
-Die hier analysierten Mechanismen --...
-```
-
----
-
-### Zuboff2019 (Seite 30)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/8
-
-**Kontext:**
-```
-strumentarianismus} untergraben.\vglfootcite[1, 5--6]{Cinelli2021}\vglfootcite[1]{MetzlerGarcia2023}\vglfootcite[30]{Zuboff2019}
-
-Die hier analysierten Mechanismen -- Personalisierung, Empfehlungssyst...
+Die hier analysierten Mechanismen -- Personalisierung, Empfehlun...
 ```
 
 ---
@@ -3400,7 +2871,7 @@ Die hier analysierten Mechanismen -- Personalisierung, Empfehlungssyst...
 
 **Kontext:**
 ```
-dar, sondern bilden funktionale Module eines integrierten digitalen Monitoring-Informationssystems.\vglfootcite[4]{Narayanan2023} Ihre operative Logik folgt einem kontinuierlichen Verarbeitungszyklus:...
+dar, sondern bilden funktionale Module eines integrierten digitalen Monitoring-Informationssystems.\vglfootcite[4--6]{Narayanan2023} Ihre operative Logik folgt einem kontinuierlichen Verarbeitungszykl...
 ```
 
 ---
@@ -3426,12 +2897,12 @@ als Grundlage algorithmischer Interventionen genutzt, die wiederum neue Verhalte
 
 **Kontext:**
 ```
-orisierte Rankings und verhaltensbasierte Bewertungen die Handlungsoptionen der Nutzer präformieren.\vglfootcite[118, 121]{Yeung2017}\vglfootcite[167\,f.]{Gillespie2014} Digitale Informationssysteme m...
+orisierte Rankings und verhaltensbasierte Bewertungen die Handlungsoptionen der Nutzer präformieren.\vglfootcite[118, 121]{Yeung2017}\vglfootcite[183--184]{Gillespie2014} Digitale Informationssysteme ...
 ```
 
 ---
 
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 183)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3439,7 +2910,7 @@ orisierte Rankings und verhaltensbasierte Bewertungen die Handlungsoptionen der 
 
 **Kontext:**
 ```
-basierte Bewertungen die Handlungsoptionen der Nutzer präformieren.\vglfootcite[118, 121]{Yeung2017}\vglfootcite[167\,f.]{Gillespie2014} Digitale Informationssysteme mit Monitoring-Funktion operieren ...
+basierte Bewertungen die Handlungsoptionen der Nutzer präformieren.\vglfootcite[118, 121]{Yeung2017}\vglfootcite[183--184]{Gillespie2014} Digitale Informationssysteme mit Monitoring-Funktion operieren...
 ```
 
 ---
@@ -3461,7 +2932,7 @@ he Erfahrung als kostenloses Rohmaterial für die systematische Extraktion von V
 
 ---
 
-### Srnicek2017 (Seite 27)
+### Srnicek2017 (Seite 32)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3469,47 +2940,11 @@ he Erfahrung als kostenloses Rohmaterial für die systematische Extraktion von V
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/15
 
 **Kontext:**
 ```
-sgelegt sind, einen kontinuierlichen Fluss an Verhaltensüberschüssen zu erfassen und zu verarbeiten.\vglfootcite[27]{Srnicek2017}\vglfootcite[8]{Parker2016} Diese Systeme nutzen Algorithmen zur Person...
-```
-
----
-
-### Parker2016 (Seite 8)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
-
-**Kontext:**
-```
-rlichen Fluss an Verhaltensüberschüssen zu erfassen und zu verarbeiten.\vglfootcite[27]{Srnicek2017}\vglfootcite[8]{Parker2016} Diese Systeme nutzen Algorithmen zur Personalisierung, um Informationsum...
-```
-
----
-
-### Pariser2011 (Seite 1)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-ie individuelle Relevanz maximieren und dadurch die Verweildauer sowie die Interaktionsrate erhöhen.\vglfootcite[1]{Pariser2011}\vglfootcite[734]{Adomavicius2005}
-
-Die zentralen Ziele dieser plattform...
+sgelegt sind, einen kontinuierlichen Fluss an Verhaltensüberschüssen zu erfassen und zu verarbeiten.\vglfootcite[32, 35, 48--49]{Srnicek2017} Diese Systeme nutzen Algorithmen zur Personalisierung, um ...
 ```
 
 ---
@@ -3522,14 +2957,14 @@ Die zentralen Ziele dieser plattform...
 
 **Kontext:**
 ```
-imieren und dadurch die Verweildauer sowie die Interaktionsrate erhöhen.\vglfootcite[1]{Pariser2011}\vglfootcite[734]{Adomavicius2005}
+ie individuelle Relevanz maximieren und dadurch die Verweildauer sowie die Interaktionsrate erhöhen.\vglfootcite[734]{Adomavicius2005}
 
 Die zentralen Ziele dieser plattformzentrierten Monitoring-Logik...
 ```
 
 ---
 
-### Narayanan2023 (Seite 1)
+### Narayanan2023 (Seite 8)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3541,12 +2976,12 @@ Die zentralen Ziele dieser plattformzentrierten Monitoring-Logik...
 
 **Kontext:**
 ```
-a ein engagierter Nutzer häufiger zur Plattform zurückkehrt und somit mehr Werbeeinnahmen generiert.\vglfootcite[1]{Narayanan2023} Netzwerkeffekte verstärken diesen Prozess, da ein steigendes Nutzerau...
+a ein engagierter Nutzer häufiger zur Plattform zurückkehrt und somit mehr Werbeeinnahmen generiert.\vglfootcite[8--9]{Narayanan2023} Netzwerkeffekte verstärken diesen Prozess, da ein steigendes Nutze...
 ```
 
 ---
 
-### Srnicek2017 (Seite 27)
+### Srnicek2017 (Seite 30)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3554,33 +2989,16 @@ a ein engagierter Nutzer häufiger zur Plattform zurückkehrt und somit mehr Wer
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/16
 
 **Kontext:**
 ```
-mmlungen ermöglicht, was wiederum die Vorhersagekraft der Algorithmen für Werbetreibende verbessert.\vglfootcite[27]{Srnicek2017}\vglfootcite[17]{Parker2016} Diese ökonomische Dynamik führt zur Entste...
+mmlungen ermöglicht, was wiederum die Vorhersagekraft der Algorithmen für Werbetreibende verbessert.\vglfootcite[30, 56--58]{Srnicek2017} Diese ökonomische Dynamik führt zur Entstehung von \enquote{be...
 ```
 
 ---
 
-### Parker2016 (Seite 17)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 8.33% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 1/12
-
-**Kontext:**
-```
-erum die Vorhersagekraft der Algorithmen für Werbetreibende verbessert.\vglfootcite[27]{Srnicek2017}\vglfootcite[17]{Parker2016} Diese ökonomische Dynamik führt zur Entstehung von \enquote{berechneten...
-```
-
----
-
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 168)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3588,7 +3006,7 @@ erum die Vorhersagekraft der Algorithmen für Werbetreibende verbessert.\vglfoot
 
 **Kontext:**
 ```
-n priorisieren, was oft zu einer Verengung des Informationshorizonts in Form von Filterblasen führt.\vglfootcite[167]{Gillespie2014} Die Konsequenz dieser Logik ist eine instrumentelle Macht, die das ...
+n priorisieren, was oft zu einer Verengung des Informationshorizonts in Form von Filterblasen führt.\vglfootcite[168]{Gillespie2014} Die Konsequenz dieser Logik ist eine instrumentelle Macht, die das ...
 ```
 
 ---
@@ -3601,34 +3019,15 @@ n priorisieren, was oft zu einer Verengung des Informationshorizonts in Form von
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/12
 
 **Kontext:**
 ```
-subtile algorithmische Anstöße und psychologische Trigger im Sinne der Plattformökonomie optimiert.\vglfootcite[69]{Zuboff2019}\vglfootcite[1]{Fogg2009}
-
-\subsection{Staatlich integrierte Monitoring-S...
-```
-
----
-
-### Fogg2009 (Seite 1)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 11.11% (SUSPICIOUS)
-
-- Gemeinsame Schlüsselwörter: 1/9
-
-**Kontext:**
-```
-öße und psychologische Trigger im Sinne der Plattformökonomie optimiert.\vglfootcite[69]{Zuboff2019}\vglfootcite[1]{Fogg2009}
+subtile algorithmische Anstöße und psychologische Trigger im Sinne der Plattformökonomie optimiert.\vglfootcite[69]{Zuboff2019}
 
 \subsection{Staatlich integrierte Monitoring-Systeme}
 
-Staatlich integrie...
+Staatlich integr...
 ```
 
 ---
@@ -3688,7 +3087,7 @@ Technologisch stützt sich dieser digitale Autoritarismus auf eine omnipr...
 
 ---
 
-### Qiang2019 (Seite 5)
+### SFRC2020 (Seite 9)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3696,28 +3095,11 @@ Technologisch stützt sich dieser digitale Autoritarismus auf eine omnipr...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/11
+- Gemeinsame Schlüsselwörter: 0/12
 
 **Kontext:**
 ```
-mit massiven Videonetzwerken wie dem \enquote{Skynet}- oder \enquote{Sharp Eyes}-Projekt kombiniert.\vglfootcite[5]{Qiang2019}\vglfootcite[1]{SFRC2020} Regierungsbehörden setzen Verfahren wie Gesichts...
-```
-
----
-
-### SFRC2020 (Seite 1)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/10
-
-**Kontext:**
-```
-en wie dem \enquote{Skynet}- oder \enquote{Sharp Eyes}-Projekt kombiniert.\vglfootcite[5]{Qiang2019}\vglfootcite[1]{SFRC2020} Regierungsbehörden setzen Verfahren wie Gesichtserkennung, Biometrie und B...
+mit massiven Videonetzwerken wie dem \enquote{Skynet}- oder \enquote{Sharp Eyes}-Projekt kombiniert.\vglfootcite[9--11]{SFRC2020} Regierungsbehörden setzen Verfahren wie Gesichtserkennung, Biometrie u...
 ```
 
 ---
@@ -3739,19 +3121,19 @@ tifizieren, zu klassifizieren und Profile zu erstellen, die eine prädiktive Üb
 
 ---
 
-### SFRC2020 (Seite 4)
+### SFRC2020 (Seite 14)
 
 **Datei:** `03_monitoring_systeme.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 7.14% (MISMATCH)
+**Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 1/14
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-chtige Verhaltensmuster automatisiert zu erkennen und präventive polizeiliche Maßnahmen einzuleiten.\vglfootcite[4]{SFRC2020}\vglfootcite[5]{Qiang2019} Diese Form der algorithmischen Governance zielt ...
+chtige Verhaltensmuster automatisiert zu erkennen und präventive polizeiliche Maßnahmen einzuleiten.\vglfootcite[14--15]{SFRC2020}\vglfootcite[5]{Qiang2019} Diese Form der algorithmischen Governance z...
 ```
 
 ---
@@ -3768,7 +3150,7 @@ chtige Verhaltensmuster automatisiert zu erkennen und präventive polizeiliche M
 
 **Kontext:**
 ```
-utomatisiert zu erkennen und präventive polizeiliche Maßnahmen einzuleiten.\vglfootcite[4]{SFRC2020}\vglfootcite[5]{Qiang2019} Diese Form der algorithmischen Governance zielt darauf ab, gesellschaftli...
+tisiert zu erkennen und präventive polizeiliche Maßnahmen einzuleiten.\vglfootcite[14--15]{SFRC2020}\vglfootcite[5]{Qiang2019} Diese Form der algorithmischen Governance zielt darauf ab, gesellschaftli...
 ```
 
 ---
@@ -3781,66 +3163,47 @@ utomatisiert zu erkennen und präventive polizeiliche Maßnahmen einzuleiten.\vg
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-und die Stabilität des Regimes durch eine lückenlose Erfassung des Bürgerverhaltens sicherzustellen.\vglfootcite[1--2, 26--28]{Creemers2018}\vglfootcite[2]{Lyon2012}
-
-\subsection{Vergleich westlicher ...
-```
-
----
-
-### Lyon2012 (Seite 2)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/11
-
-**Kontext:**
-```
-e lückenlose Erfassung des Bürgerverhaltens sicherzustellen.\vglfootcite[1--2, 26--28]{Creemers2018}\vglfootcite[2]{Lyon2012}
-
-\subsection{Vergleich westlicher Plattformlogiken und staatlicher Monitor...
-```
-
----
-
-### SFRC2020 (Seite 4)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-r Datenerfassung, Datenverarbeitung, algorithmischen Bewertung und systemischen Rückkopplung beruht.\vglfootcite[4]{SFRC2020}\vglfootcite[389]{Zuboff2019} Der wesentliche Unterschied besteht nicht in ...
-```
-
----
-
-### Zuboff2019 (Seite 389)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
 - Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-rarbeitung, algorithmischen Bewertung und systemischen Rückkopplung beruht.\vglfootcite[4]{SFRC2020}\vglfootcite[389]{Zuboff2019} Der wesentliche Unterschied besteht nicht in der technischen Funktions...
+und die Stabilität des Regimes durch eine lückenlose Erfassung des Bürgerverhaltens sicherzustellen.\vglfootcite[1--2, 26--28]{Creemers2018}
+
+\subsection{Vergleich westlicher Plattformlogiken und staa...
+```
+
+---
+
+### SFRC2020 (Seite 14)
+
+**Datei:** `03_monitoring_systeme.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/15
+
+**Kontext:**
+```
+r Datenerfassung, Datenverarbeitung, algorithmischen Bewertung und systemischen Rückkopplung beruht.\vglfootcite[14--15]{SFRC2020} Der wesentliche Unterschied besteht nicht in der technischen Funktion...
+```
+
+---
+
+### Srnicek2017 (Seite 30)
+
+**Datei:** `03_monitoring_systeme.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/15
+
+**Kontext:**
+```
+Systeme auf die Sicherstellung von Compliance, sozialer Kontrolle und administrativer Governance ab.\vglfootcite[30--31, 56--57]{Srnicek2017}\vglfootcite[25--28]{Creemers2018} Beide Systemvarianten tr...
 ```
 
 ---
@@ -3851,35 +3214,18 @@ rarbeitung, algorithmischen Bewertung und systemischen Rückkopplung beruht.\vgl
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 7.14% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 1/14
-
-**Kontext:**
-```
-Systeme auf die Sicherstellung von Compliance, sozialer Kontrolle und administrativer Governance ab.\vglfootcite[25--28]{Creemers2018}\vglfootcite[8]{Zuboff2019} Beide Systemvarianten transformieren j...
-```
-
----
-
-### Zuboff2019 (Seite 8)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
 - Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-Compliance, sozialer Kontrolle und administrativer Governance ab.\vglfootcite[25--28]{Creemers2018}\vglfootcite[8]{Zuboff2019} Beide Systemvarianten transformieren jedoch menschliches Verhalten in qua...
+ance, sozialer Kontrolle und administrativer Governance ab.\vglfootcite[30--31, 56--57]{Srnicek2017}\vglfootcite[25--28]{Creemers2018} Beide Systemvarianten transformieren jedoch menschliches Verhalte...
 ```
 
 ---
 
-### Pasquale2015 (Seite 10)
+### Lyon2012 (Seite 3)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -3887,32 +3233,13 @@ Compliance, sozialer Kontrolle und administrativer Governance ab.\vglfootcite[25
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/11
+- Gemeinsame Schlüsselwörter: 0/13
 
 **Kontext:**
 ```
-iner gemeinsamen soziotechnischen Infrastruktur der Verhaltenserfassung und -beeinflussung basieren.\vglfootcite[10]{Pasquale2015}\vglfootcite[19--22, 25--28]{Creemers2018}
+iner gemeinsamen soziotechnischen Infrastruktur der Verhaltenserfassung und -beeinflussung basieren.\vglfootcite[3--5]{Lyon2012}
 
-Ein Vergleich westlicher p...
-```
-
----
-
-### Creemers2018 (Seite 19)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
-
-**Kontext:**
-```
-hen Infrastruktur der Verhaltenserfassung und -beeinflussung basieren.\vglfootcite[10]{Pasquale2015}\vglfootcite[19--22, 25--28]{Creemers2018}
-
-Ein Vergleich westlicher plattformzentrierter Systeme mi...
+Ein Vergleich westlicher plattformzentrierter Systeme mit staatlich in...
 ```
 
 ---
@@ -3989,7 +3316,24 @@ Die wesentlichen Unterschiede liegen in den Zielsetzungen und den Ad...
 
 ---
 
-### Narayanan2023 (Seite 1)
+### Narayanan2023 (Seite 18)
+
+**Datei:** `03_monitoring_systeme.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/18
+
+**Kontext:**
+```
+n einer Werbeökonomie, während staatliche Systeme auf die Einhaltung von Normen und Gesetzen zielen.\vglfootcite[18--19, 35]{Narayanan2023} Dies spiegelt sich im Gegensatz von Wachstum vs. Governance ...
+```
+
+---
+
+### Srnicek2017 (Seite 31)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -4001,58 +3345,7 @@ Die wesentlichen Unterschiede liegen in den Zielsetzungen und den Ad...
 
 **Kontext:**
 ```
-n einer Werbeökonomie, während staatliche Systeme auf die Einhaltung von Normen und Gesetzen zielen.\vglfootcite[1]{Narayanan2023}\vglfootcite[8, 25]{Creemers2018} Dies spiegelt sich im Gegensatz von ...
-```
-
----
-
-### Creemers2018 (Seite 8)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 6.67% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 1/15
-
-**Kontext:**
-```
-staatliche Systeme auf die Einhaltung von Normen und Gesetzen zielen.\vglfootcite[1]{Narayanan2023}\vglfootcite[8, 25]{Creemers2018} Dies spiegelt sich im Gegensatz von Wachstum vs. Governance wider; ...
-```
-
----
-
-### Srnicek2017 (Seite 27)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-keffekte, wohingegen staatliches Monitoring der administrativen Effizienz und Risikokontrolle dient.\vglfootcite[27]{Srnicek2017}\vglfootcite[1]{SFRC2020} Der Adressat wird entsprechend unterschiedlic...
-```
-
----
-
-### SFRC2020 (Seite 1)
-
-**Datei:** `03_monitoring_systeme.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/11
-
-**Kontext:**
-```
-hes Monitoring der administrativen Effizienz und Risikokontrolle dient.\vglfootcite[27]{Srnicek2017}\vglfootcite[1]{SFRC2020} Der Adressat wird entsprechend unterschiedlich konstruiert: als Nutzer (Ko...
+keffekte, wohingegen staatliches Monitoring der administrativen Effizienz und Risikokontrolle dient.\vglfootcite[31, 33--35]{Srnicek2017} Der Adressat wird entsprechend unterschiedlich konstruiert: al...
 ```
 
 ---
@@ -4069,14 +3362,14 @@ hes Monitoring der administrativen Effizienz und Risikokontrolle dient.\vglfootc
 
 **Kontext:**
 ```
-uiert: als Nutzer (Konsument/Datenquelle) im Westen und als Bürger im staatlich integrierten Modell.\vglfootcite[71]{Zuboff2019}\vglfootcite[1]{SFRC2020}
+uiert: als Nutzer (Konsument/Datenquelle) im Westen und als Bürger im staatlich integrierten Modell.\vglfootcite[71]{Zuboff2019}\vglfootcite[9--10, 14--16]{SFRC2020}
 
-Ein weiterer markanter Unterschied besteht in...
+Ein weiterer markanter Unterschie...
 ```
 
 ---
 
-### SFRC2020 (Seite 1)
+### SFRC2020 (Seite 9)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -4084,13 +3377,13 @@ Ein weiterer markanter Unterschied besteht in...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-/Datenquelle) im Westen und als Bürger im staatlich integrierten Modell.\vglfootcite[71]{Zuboff2019}\vglfootcite[1]{SFRC2020}
+/Datenquelle) im Westen und als Bürger im staatlich integrierten Modell.\vglfootcite[71]{Zuboff2019}\vglfootcite[9--10, 14--16]{SFRC2020}
 
-Ein weiterer markanter Unterschied besteht in der Form der Überwachung un...
+Ein weiterer markanter Unterschied besteht in der Form der Üb...
 ```
 
 ---
@@ -4129,7 +3422,7 @@ ehmen teilweise öffentlich bekannt gemacht werden, um den sozialen Druck zur Ko
 
 ---
 
-### Lyon2012 (Seite 2)
+### Srnicek2017 (Seite 30)
 
 **Datei:** `03_monitoring_systeme.tex`
 
@@ -4137,11 +3430,11 @@ ehmen teilweise öffentlich bekannt gemacht werden, um den sozialen Druck zur Ko
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/6
+- Gemeinsame Schlüsselwörter: 0/7
 
 **Kontext:**
 ```
-en Überwachungskontext führt, in dem ökonomische und staatliche Steuerungslogiken ineinandergreifen.\vglfootcite[2]{Lyon2012}\vglfootcite[17ff.]{Creemers2018}...
+en Überwachungskontext führt, in dem ökonomische und staatliche Steuerungslogiken ineinandergreifen.\vglfootcite[30--31, 56--58]{Srnicek2017}\vglfootcite[17ff.]{Creemers2018}...
 ```
 
 ---
@@ -4154,26 +3447,11 @@ en Überwachungskontext führt, in dem ökonomische und staatliche Steuerungslog
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/4
+- Gemeinsame Schlüsselwörter: 0/5
 
 **Kontext:**
 ```
-hrt, in dem ökonomische und staatliche Steuerungslogiken ineinandergreifen.\vglfootcite[2]{Lyon2012}\vglfootcite[17ff.]{Creemers2018}...
-```
-
----
-
-### Gillespie2014 (Seite 167)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** PDF_READ_ERROR
-
-**Kontext:**
-```
-tionsumgebungen, die zunehmend Einfluss auf politische, soziale und wirtschaftliche Prozesse nehmen.\vglfootcite[167]{Gillespie2014}\vglfootcite[19]{Pasquale2015}
-
-Der Kern dieser Entwicklung liegt in...
+omische und staatliche Steuerungslogiken ineinandergreifen.\vglfootcite[30--31, 56--58]{Srnicek2017}\vglfootcite[17ff.]{Creemers2018}...
 ```
 
 ---
@@ -4186,11 +3464,11 @@ Der Kern dieser Entwicklung liegt in...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/15
 
 **Kontext:**
 ```
-influss auf politische, soziale und wirtschaftliche Prozesse nehmen.\vglfootcite[167]{Gillespie2014}\vglfootcite[19]{Pasquale2015}
+tionsumgebungen, die zunehmend Einfluss auf politische, soziale und wirtschaftliche Prozesse nehmen.\vglfootcite[19]{Pasquale2015}
 
 Der Kern dieser Entwicklung liegt in der wachsenden Bedeutung von Ve...
 ```
@@ -4205,24 +3483,28 @@ Der Kern dieser Entwicklung liegt in der wachsenden Bedeutung von Ve...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-achungskapitalismus als strategische Ressource für die Extraktion von Verhaltensüberschüssen dienen.\vglfootcite[69]{Zuboff2019}\vglfootcite[531]{OECD2011} Durch den Prozess der Datafizierung werden e...
+achungskapitalismus als strategische Ressource für die Extraktion von Verhaltensüberschüssen dienen.\vglfootcite[69]{Zuboff2019}\vglfootcite[4, 10, 14]{OECD2013} Durch den Prozess der Datafizierung we...
 ```
 
 ---
 
-### OECD2011 (Seite 531)
+### OECD2013 (Seite 4)
 
 **Datei:** `04_implikationen.tex`
 
-**Status:** PDF_NOT_FOUND
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/16
 
 **Kontext:**
 ```
-tegische Ressource für die Extraktion von Verhaltensüberschüssen dienen.\vglfootcite[69]{Zuboff2019}\vglfootcite[531]{OECD2011} Durch den Prozess der Datafizierung werden ehemals private Aspekte des m...
+tegische Ressource für die Extraktion von Verhaltensüberschüssen dienen.\vglfootcite[69]{Zuboff2019}\vglfootcite[4, 10, 14]{OECD2013} Durch den Prozess der Datafizierung werden ehemals private Aspekte...
 ```
 
 ---
@@ -4318,28 +3600,11 @@ z oder öffentlicher Verwaltung effizienter zu bewältigen und das menschliche W
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/9
+- Gemeinsame Schlüsselwörter: 0/12
 
 **Kontext:**
 ```
-hlichen Autonomie, der informationellen Selbstbestimmung und der Stabilität demokratischer Diskurse.\vglfootcite[15]{Zuboff2019}\vglfootcite[145]{ONeil2016}\vglfootcite[19]{Pasquale2015} Die algorithm...
-```
-
----
-
-### ONeil2016 (Seite 145)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/10
-
-**Kontext:**
-```
-mationellen Selbstbestimmung und der Stabilität demokratischer Diskurse.\vglfootcite[15]{Zuboff2019}\vglfootcite[145]{ONeil2016}\vglfootcite[19]{Pasquale2015} Die algorithmische Autorität, die oft hin...
+hlichen Autonomie, der informationellen Selbstbestimmung und der Stabilität demokratischer Diskurse.\vglfootcite[15]{Zuboff2019}\vglfootcite[19]{Pasquale2015} Die algorithmische Autorität, die oft hin...
 ```
 
 ---
@@ -4352,11 +3617,11 @@ mationellen Selbstbestimmung und der Stabilität demokratischer Diskurse.\vglfoo
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/10
+- Gemeinsame Schlüsselwörter: 0/12
 
 **Kontext:**
 ```
-und der Stabilität demokratischer Diskurse.\vglfootcite[15]{Zuboff2019}\vglfootcite[145]{ONeil2016}\vglfootcite[19]{Pasquale2015} Die algorithmische Autorität, die oft hinter undurchsichtigen \enquote...
+mationellen Selbstbestimmung und der Stabilität demokratischer Diskurse.\vglfootcite[15]{Zuboff2019}\vglfootcite[19]{Pasquale2015} Die algorithmische Autorität, die oft hinter undurchsichtigen \enquot...
 ```
 
 ---
@@ -4397,19 +3662,15 @@ Die Int...
 
 ---
 
-### Gillespie2014 (Seite 13)
+### Gillespie2014 (Seite 179)
 
 **Datei:** `04_implikationen.tex`
 
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
+**Status:** PDF_READ_ERROR
 
 **Kontext:**
 ```
-ie Verfügbarkeit und Wahrnehmung von Informationen durch algorithmische Logiken präfiguriert werden.\vglfootcite[13]{Gillespie2014} In der Wirtschaftsinformatik wird dieser Wandel als Übergang zu date...
+ie Verfügbarkeit und Wahrnehmung von Informationen durch algorithmische Logiken präfiguriert werden.\vglfootcite[179--182]{Gillespie2014} In der Wirtschaftsinformatik wird dieser Wandel als Übergang z...
 ```
 
 ---
@@ -4452,24 +3713,7 @@ n Klickmustern und Verweildauern bis hin zu sozialen Verknüpfungen -- in quanti
 
 ---
 
-### Kitchin2014 (Seite 10)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/15
-
-**Kontext:**
-```
-en Fußabdrücken} bildet das Rohmaterial für die Erstellung hochgradig detaillierter Nutzungsprofile.\vglfootcite[10]{Kitchin2014} Gillespie (2014) beschreibt diesen Vorgang als Vorbereitung der Daten ...
-```
-
----
-
-### Gillespie2014 (Seite 167)
+### Kitchin2014 (Seite 722)
 
 **Datei:** `04_implikationen.tex`
 
@@ -4477,12 +3721,12 @@ en Fußabdrücken} bildet das Rohmaterial für die Erstellung hochgradig detaill
 
 **Kontext:**
 ```
-hen Zugriff, wobei komplexe Informationen in maschinenlesbare Kategorien formalisiert werden müssen.\vglfootcite[167]{Gillespie2014} Solche Profile dienen als Grundlage für \enquote{Zyklen der Antizip...
+en Fußabdrücken} bildet das Rohmaterial für die Erstellung hochgradig detaillierter Nutzungsprofile.\vglfootcite[722]{Kitchin2014} Gillespie (2014) beschreibt diesen Vorgang als Vorbereitung der Daten...
 ```
 
 ---
 
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 173)
 
 **Datei:** `04_implikationen.tex`
 
@@ -4490,14 +3734,14 @@ hen Zugriff, wobei komplexe Informationen in maschinenlesbare Kategorien formali
 
 **Kontext:**
 ```
-etreiber versuchen, die Bedürfnisse und das zukünftige Verhalten ihrer Nutzer präzise vorherzusagen.\vglfootcite[167]{Gillespie2014}
+etreiber versuchen, die Bedürfnisse und das zukünftige Verhalten ihrer Nutzer präzise vorherzusagen.\vglfootcite[173--177]{Gillespie2014}
 
-Auf Basis dieser Profile operieren algorithmische Selektions- und ...
+Auf Basis dieser Profile operieren algorithmische Selektions-...
 ```
 
 ---
 
-### Narayanan2023 (Seite 8)
+### Narayanan2023 (Seite 18)
 
 **Datei:** `04_implikationen.tex`
 
@@ -4509,7 +3753,7 @@ Auf Basis dieser Profile operieren algorithmische Selektions- und ...
 
 **Kontext:**
 ```
-nologische Kern moderner Plattformen wie TikTok, Facebook oder YouTube ist die Interaktionsprognose.\vglfootcite[8]{Narayanan2023} Diese Systeme berechnen die Wahrscheinlichkeit, mit der ein Nutzer mi...
+nologische Kern moderner Plattformen wie TikTok, Facebook oder YouTube ist die Interaktionsprognose.\vglfootcite[18--21]{Narayanan2023} Diese Systeme berechnen die Wahrscheinlichkeit, mit der ein Nutz...
 ```
 
 ---
@@ -4550,7 +3794,7 @@ Die strukturelle Ordnung dieser Auswahl wird durch Ranking- und Filterpro...
 
 ---
 
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 168)
 
 **Datei:** `04_implikationen.tex`
 
@@ -4558,40 +3802,31 @@ Die strukturelle Ordnung dieser Auswahl wird durch Ranking- und Filterpro...
 
 **Kontext:**
 ```
-ormationen in Feeds oder Suchergebnissen und steuern damit maßgeblich die Sichtbarkeit von Inhalten.\vglfootcite[167]{Gillespie2014} Diese \enquote{Public Relevance Algorithms} besitzen die Macht, Wis...
+thmische Torwächter die traditionelle redaktionelle Logik menschlicher Experten weitgehend ersetzen.\vglfootcite[168, 175--177, 191--193]{Gillespie2014}
+
+\paragraph{Konsequenzen für die Informationsum...
 ```
 
 ---
 
-### Gillespie2014 (Seite 167)
+### Pariser2011 (Seite 88)
 
 **Datei:** `04_implikationen.tex`
 
-**Status:** PDF_READ_ERROR
+**Status:** CHECKED
+
+**Ähnlichkeit:** 6.25% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 1/16
 
 **Kontext:**
 ```
-Kriterien zu zertifizieren und so die Regeln für die Teilnahme am öffentlichen Diskurs festzulegen.\vglfootcite[167]{Gillespie2014} Der Zugriff auf Inhalte wird somit durch die Plattform mediiert, wob...
+Individuen primär mit Inhalten konfrontiert werden, die ihren bestehenden Überzeugungen entsprechen.\vglfootcite[88--89]{Pariser2011} Diese Form der algorithmischen Zugangskontrolle schafft eine ungle...
 ```
 
 ---
 
-### Gillespie2014 (Seite 167)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** PDF_READ_ERROR
-
-**Kontext:**
-```
-thmische Torwächter die traditionelle redaktionelle Logik menschlicher Experten weitgehend ersetzen.\vglfootcite[167]{Gillespie2014}\vglfootcite[1]{Narayanan2023}
-
-\paragraph{Konsequenzen für die Info...
-```
-
----
-
-### Narayanan2023 (Seite 1)
+### Narayanan2023 (Seite 31)
 
 **Datei:** `04_implikationen.tex`
 
@@ -4599,66 +3834,13 @@ thmische Torwächter die traditionelle redaktionelle Logik menschlicher Experten
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/15
 
 **Kontext:**
 ```
-nelle redaktionelle Logik menschlicher Experten weitgehend ersetzen.\vglfootcite[167]{Gillespie2014}\vglfootcite[1]{Narayanan2023}
+werden, während dissonante oder komplexe Perspektiven aus dem Aufmerksamkeitsfokus verdrängt werden.\vglfootcite[31--36]{Narayanan2023}
 
-\paragraph{Konsequenzen für die Informationsumgebung}
-
-Diese technol...
-```
-
----
-
-### Pariser2011 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/16
-
-**Kontext:**
-```
-Individuen primär mit Inhalten konfrontiert werden, die ihren bestehenden Überzeugungen entsprechen.\vglfootcite[1]{Pariser2011} Diese Form der algorithmischen Zugangskontrolle schafft eine ungleiche ...
-```
-
----
-
-### Gillespie2014 (Seite 167)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** PDF_READ_ERROR
-
-**Kontext:**
-```
-werden, während dissonante oder komplexe Perspektiven aus dem Aufmerksamkeitsfokus verdrängt werden.\vglfootcite[167]{Gillespie2014}\vglfootcite[1]{Narayanan2023}
-
-In der wissenschaftlichen Debatte we...
-```
-
----
-
-### Narayanan2023 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-komplexe Perspektiven aus dem Aufmerksamkeitsfokus verdrängt werden.\vglfootcite[167]{Gillespie2014}\vglfootcite[1]{Narayanan2023}
-
-In der wissenschaftlichen Debatte werden diese Phänomene häufig mit ...
+In der wissenschaftlichen Debatte werden diese Phänomene häufig...
 ```
 
 ---
@@ -4680,7 +3862,7 @@ sozialen Netzwerken, in denen sich Nutzer mit Gleichgesinnten um eine geteilte E
 
 ---
 
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 188)
 
 **Datei:** `04_implikationen.tex`
 
@@ -4688,7 +3870,7 @@ sozialen Netzwerken, in denen sich Nutzer mit Gleichgesinnten um eine geteilte E
 
 **Kontext:**
 ```
-insamen öffentlichen Diskurs erodiert, da Nutzer unterschiedliche Versionen der Realität wahrnehmen.\vglfootcite[167]{Gillespie2014} Pasquale (2015) betont in diesem Kontext die wachsende Informations...
+insamen öffentlichen Diskurs erodiert, da Nutzer unterschiedliche Versionen der Realität wahrnehmen.\vglfootcite[188--189]{Gillespie2014} Pasquale (2015) betont in diesem Kontext die wachsende Informa...
 ```
 
 ---
@@ -4748,7 +3930,7 @@ Zudem belegen Studien von Kelm et al. (2023), dass die algori...
 
 ---
 
-### Kelm2023 (Seite 1)
+### Kelm2023 (Seite 3)
 
 **Datei:** `04_implikationen.tex`
 
@@ -4756,47 +3938,26 @@ Zudem belegen Studien von Kelm et al. (2023), dass die algori...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/16
+- Gemeinsame Schlüsselwörter: 0/17
 
 **Kontext:**
 ```
-der Nutzer und ihr aktives Selektionsverhalten jedoch oft eine deutlich stärkere Wirkung entfalten.\vglfootcite[1]{Kelm2023} In ihren Experimenten verstärkten algorithmisch ausgewählte Argumente die b...
+wählte Argumente, was die Annahme einer automatischen Radikalisierung durch Algorithmen relativiert.\vglfootcite[3, 6--7]{Kelm2023} Es muss daher präzise zwischen dem Einfluss der Algorithmen, den Str...
 ```
 
 ---
 
-### Kelm2023 (Seite 1)
+### MetzlerGarcia2023 (Seite 735)
 
 **Datei:** `04_implikationen.tex`
 
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/16
+**Status:** PDF_READ_ERROR
 
 **Kontext:**
 ```
-wählte Argumente, was die Annahme einer automatischen Radikalisierung durch Algorithmen relativiert.\vglfootcite[1]{Kelm2023} Es muss daher präzise zwischen dem Einfluss der Algorithmen, den Strukture...
-```
+heidung differenziert werden, wobei alle drei Faktoren in komplexen Feedback-Schleifen interagieren.\vglfootcite[735--736]{MetzlerGarcia2023}
 
----
-
-### MetzlerGarcia2023 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-heidung differenziert werden, wobei alle drei Faktoren in komplexen Feedback-Schleifen interagieren.\vglfootcite[1]{MetzlerGarcia2023}
-
-Zusammenfassend lässt sich festhalten, dass \ac{KI}-gestützte Mo...
+Zusammenfassend lässt sich festhalten, dass \ac{KI}-gestü...
 ```
 
 ---
@@ -4876,7 +4037,7 @@ chen Erfassung und Analyse von Verhaltensdaten, die in hochpräzise Nutzungsprof
 
 ---
 
-### Kaptein2015 (Seite 38)
+### Kaptein2015 (Seite 41)
 
 **Datei:** `04_implikationen.tex`
 
@@ -4884,12 +4045,12 @@ chen Erfassung und Analyse von Verhaltensdaten, die in hochpräzise Nutzungsprof
 
 **Kontext:**
 ```
-rategien einzuschätzen, ein Konzept, das als \enquote{Überzeugungsprofilerstellung} bezeichnet wird.\vglfootcite[38]{Kaptein2015} Persuasion Profiles sind Sammlungen von Schätzungen über die erwartete...
+rategien einzuschätzen, ein Konzept, das als \enquote{Überzeugungsprofilerstellung} bezeichnet wird.\vglfootcite[41]{Kaptein2015} Persuasion Profiles sind Sammlungen von Schätzungen über die erwartete...
 ```
 
 ---
 
-### Kaptein2015 (Seite 38)
+### Kaptein2015 (Seite 41)
 
 **Datei:** `04_implikationen.tex`
 
@@ -4897,12 +4058,12 @@ rategien einzuschätzen, ein Konzept, das als \enquote{Überzeugungsprofilerstel
 
 **Kontext:**
 ```
-zungen über die erwarteten Effekte verschiedener Einflussprinzipien für ein spezifisches Individuum.\vglfootcite[38]{Kaptein2015} Diese Profile werden durch automatisierte Prozesse laufend aktualisier...
+zungen über die erwarteten Effekte verschiedener Einflussprinzipien für ein spezifisches Individuum.\vglfootcite[41]{Kaptein2015} Diese Profile werden durch automatisierte Prozesse laufend aktualisier...
 ```
 
 ---
 
-### Kaptein2015 (Seite 38)
+### Kaptein2015 (Seite 41)
 
 **Datei:** `04_implikationen.tex`
 
@@ -4910,9 +4071,9 @@ zungen über die erwarteten Effekte verschiedener Einflussprinzipien für ein sp
 
 **Kontext:**
 ```
-igitalen Stimulus als Feedback-Signal dient, um die Vorhersagegenauigkeit des Systems zu optimieren.\vglfootcite[38]{Kaptein2015}
+igitalen Stimulus als Feedback-Signal dient, um die Vorhersagegenauigkeit des Systems zu optimieren.\vglfootcite[41, 45]{Kaptein2015}
 
-Die technologische Basis für diese iterative Optimierung bilden oft V...
+Die technologische Basis für diese iterative Optimierung bilden o...
 ```
 
 ---
@@ -4951,21 +4112,17 @@ zupassen, dass zukünftige Reize exakter auf die psychologischen Trigger des Nut
 
 ---
 
-### MetzlerGarcia2023 (Seite 1)
+### MetzlerGarcia2023 (Seite 735)
 
 **Datei:** `04_implikationen.tex`
 
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
+**Status:** PDF_READ_ERROR
 
 **Kontext:**
 ```
-ch die Auswahl der präsentierten Inhalte aktiv die Wahrscheinlichkeit zukünftiger Handlungen erhöht.\vglfootcite[1]{MetzlerGarcia2023}
+ch die Auswahl der präsentierten Inhalte aktiv die Wahrscheinlichkeit zukünftiger Handlungen erhöht.\vglfootcite[735--736]{MetzlerGarcia2023}
 
-Ein wesentliches Element der gestalterischen Umsetzung ist das \...
+Ein wesentliches Element der gestalterischen Umsetzung is...
 ```
 
 ---
@@ -4976,47 +4133,13 @@ Ein wesentliches Element der gestalterischen Umsetzung ist das \...
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 13.33% (SUSPICIOUS)
+**Ähnlichkeit:** 6.25% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 2/15
-
-**Kontext:**
-```
-rhaltensdesign}, welches psychologische Modelle wie das Fogg Behavior Model (FBM) operationalisiert.\vglfootcite[1]{Fogg2009} Nach diesem Modell ist ein Verhalten das Produkt aus drei gleichzeitig auf...
-```
-
----
-
-### Fogg2009 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 10.53% (SUSPICIOUS)
-
-- Gemeinsame Schlüsselwörter: 2/19
+- Gemeinsame Schlüsselwörter: 1/16
 
 **Kontext:**
 ```
-ei gleichzeitig auftretenden Faktoren: Motivation, Fähigkeit (Ability) und einem Auslöser (Trigger).\vglfootcite[1]{Fogg2009} Digitale Systeme nutzen diese Erkenntnisse, um durch zeitlich und inhaltli...
-```
-
----
-
-### Fogg2009 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 6.67% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 1/15
-
-**Kontext:**
-```
-enntnisse, um durch zeitlich und inhaltlich präzise platzierte Trigger Handlungen zu automatisieren.\vglfootcite[1]{Fogg2009} Wenn diese Trigger durch Big-Data-Analysen und Echtzeit-Monitoring gesteue...
+enntnisse, um durch zeitlich und inhaltlich präzise platzierte Trigger Handlungen zu automatisieren.\vglfootcite[1, 3, 4, 7]{Fogg2009} Wenn diese Trigger durch Big-Data-Analysen und Echtzeit-Monitorin...
 ```
 
 ---
@@ -5055,7 +4178,7 @@ Die ...
 
 ---
 
-### Narayanan2023 (Seite 12)
+### Narayanan2023 (Seite 7)
 
 **Datei:** `04_implikationen.tex`
 
@@ -5063,28 +4186,11 @@ Die ...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/17
+- Gemeinsame Schlüsselwörter: 0/15
 
 **Kontext:**
 ```
-hrscheinlichkeit versprechen, werden bestehende Gewohnheiten und Präferenzen systematisch verstärkt.\vglfootcite[12]{Narayanan2023} Nutzer geraten dabei in Feedback-Schleifen, in denen das vergangene ...
-```
-
----
-
-### Narayanan2023 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-in Feedback-Schleifen, in denen das vergangene Verhalten die zukünftigen Möglichkeiten determiniert.\vglfootcite[1]{Narayanan2023} Diese Form der Habitualisierung kann dazu führen, dass die Erkundung ...
+in Feedback-Schleifen, in denen das vergangene Verhalten die zukünftigen Möglichkeiten determiniert.\vglfootcite[7--10, 20--23, 35--36]{Narayanan2023} Diese Form der Habitualisierung kann dazu führen,...
 ```
 
 ---
@@ -5108,36 +4214,15 @@ Darüber hinaus belegen Studien die Möglichkeit einer emotionalen Beei...
 
 ---
 
-### Kramer2014 (Seite 1)
+### Kramer2014 (Seite 8788)
 
 **Datei:** `04_implikationen.tex`
 
-**Status:** CHECKED
-
-**Ähnlichkeit:** 25.00% (SUSPICIOUS)
-
-- Gemeinsame Schlüsselwörter: 4/16
+**Status:** PDF_READ_ERROR
 
 **Kontext:**
 ```
-belegen Studien die Möglichkeit einer emotionalen Beeinflussung durch digital kuratierte Umgebungen.\vglfootcite[1]{Kramer2014} Das Experiment zur emotionalen Ansteckung (Emotional Contagion) auf Face...
-```
-
----
-
-### Kramer2014 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/15
-
-**Kontext:**
-```
-m die Stimmungslage und das eigene Posting-Verhalten von Millionen von Nutzern messbar zu verändern.\vglfootcite[1]{Kramer2014} Solche subliminalen Reize können die individuelle Autonomie beeinträchti...
+m die Stimmungslage und das eigene Posting-Verhalten von Millionen von Nutzern messbar zu verändern.\vglfootcite[8788--8790]{Kramer2014} Solche subliminalen Reize können die individuelle Autonomie bee...
 ```
 
 ---
@@ -5231,33 +4316,7 @@ Die Auswirkungen dieser Dynamiken variieren jedoch zwischen verschiede...
 
 ---
 
-### OrbenPrzybylski2019 (Seite 173)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** PDF_READ_ERROR
-
-**Kontext:**
-```
-nen Nutzergruppen, wobei insbesondere Jugendliche oft als vulnerable Zielgruppe thematisiert werden.\vglfootcite[173]{OrbenPrzybylski2019} Specification Curve Analysen von Orben und Przybylski zeigen ...
-```
-
----
-
-### OrbenPrzybylski2019 (Seite 173)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** PDF_READ_ERROR
-
-**Kontext:**
-```
-m Wohlbefinden bei Jugendlichen insgesamt sehr gering ist und höchstens 0,4\,\% der Varianz erklärt.\vglfootcite[173]{OrbenPrzybylski2019} Diese Effekte sind im Vergleich zu anderen Faktoren wie Schla...
-```
-
----
-
-### OrbenPrzybylski2019 (Seite 6)
+### OrbenPrzybylski2019 (Seite 2)
 
 **Datei:** `04_implikationen.tex`
 
@@ -5265,30 +4324,26 @@ m Wohlbefinden bei Jugendlichen insgesamt sehr gering ist und höchstens 0,4\,\%
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/15
+- Gemeinsame Schlüsselwörter: 0/16
 
 **Kontext:**
 ```
-e Effekte sind im Vergleich zu anderen Faktoren wie Schlafmangel oder Mobbing als klein einzustufen.\vglfootcite[6]{OrbenPrzybylski2019} Dennoch bleibt die Anfälligkeit für sozialen Vergleich und die ...
+e Effekte sind im Vergleich zu anderen Faktoren wie Schlafmangel oder Mobbing als klein einzustufen.\vglfootcite[2--3, 16]{OrbenPrzybylski2019} Dennoch bleibt die Anfälligkeit für sozialen Vergleich u...
 ```
 
 ---
 
-### MetzlerGarcia2023 (Seite 1)
+### MetzlerGarcia2023 (Seite 736)
 
 **Datei:** `04_implikationen.tex`
 
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/15
+**Status:** PDF_READ_ERROR
 
 **Kontext:**
 ```
-Suche nach Bestätigung ein Faktor, der durch algorithmische Feedback-Signale verstärkt werden kann.\vglfootcite[1]{MetzlerGarcia2023}
+Suche nach Bestätigung ein Faktor, der durch algorithmische Feedback-Signale verstärkt werden kann.\vglfootcite[736, 738]{MetzlerGarcia2023}
 
-Zusammenfassend lässt sich festhalten, dass Personalisierung weit...
+Zusammenfassend lässt sich festhalten, dass Personalisieru...
 ```
 
 ---
@@ -5338,45 +4393,11 @@ Die ökonomische D...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/11
+- Gemeinsame Schlüsselwörter: 0/18
 
 **Kontext:**
 ```
-nsdaten, Nutzeraufmerksamkeit und Vorhersagewissen systematisch in ökonomischen Wert transformieren.\vglfootcite[18]{Srnicek2017}\vglfootcite[69]{Zuboff2019} In der modernen Plattformökonomie fungiere...
-```
-
----
-
-### Zuboff2019 (Seite 69)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/11
-
-**Kontext:**
-```
-und Vorhersagewissen systematisch in ökonomischen Wert transformieren.\vglfootcite[18]{Srnicek2017}\vglfootcite[69]{Zuboff2019} In der modernen Plattformökonomie fungieren digitale Informationssysteme...
-```
-
----
-
-### Srnicek2017 (Seite 21)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/17
-
-**Kontext:**
-```
-te, deren primärer Zweck in der Erfassung und Verwertung von Daten als strategische Ressource liegt.\vglfootcite[21]{Srnicek2017} Dieser Abschnitt erläutert die ökonomischen Mechanismen dieser Transfo...
+te, deren primärer Zweck in der Erfassung und Verwertung von Daten als strategische Ressource liegt.\vglfootcite[18, 21]{Srnicek2017} Dieser Abschnitt erläutert die ökonomischen Mechanismen dieser Tra...
 ```
 
 ---
@@ -5415,7 +4436,7 @@ notwendigen Daten hinausgeht und als Rohmaterial für die Herstellung von Vorher
 
 ---
 
-### Srnicek2017 (Seite 18)
+### Srnicek2017 (Seite 28)
 
 **Datei:** `04_implikationen.tex`
 
@@ -5427,7 +4448,7 @@ notwendigen Daten hinausgeht und als Rohmaterial für die Herstellung von Vorher
 
 **Kontext:**
 ```
-Sie müssen extrahiert, raffiniert und in verschiedenen wertschöpfenden Prozessen eingesetzt werden.\vglfootcite[18]{Srnicek2017} Die Datafizierung ermöglicht es dabei, ehemals wertlose Nebenprodukte d...
+Sie müssen extrahiert, raffiniert und in verschiedenen wertschöpfenden Prozessen eingesetzt werden.\vglfootcite[28--35]{Srnicek2017} Die Datafizierung ermöglicht es dabei, ehemals wertlose Nebenproduk...
 ```
 
 ---
@@ -5440,33 +4461,18 @@ Sie müssen extrahiert, raffiniert und in verschiedenen wertschöpfenden Prozess
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/16
 
 **Kontext:**
 ```
-u verwandeln, die Aufschluss über Präferenzen, Stimmungen und zukünftige Absichten der Nutzer geben.\vglfootcite[1]{VanDijck2014}\vglfootcite[30]{MayerSchoenberger2013}
+u verwandeln, die Aufschluss über Präferenzen, Stimmungen und zukünftige Absichten der Nutzer geben.\vglfootcite[1]{VanDijck2014}
 
-Die ökonomische Überlegenheit ...
+Die ökonomische Überlegenheit moderner Plattformen basiert maßgeblich...
 ```
 
 ---
 
-### MayerSchoenberger2013 (Seite 30)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** PDF_NOT_FOUND
-
-**Kontext:**
-```
-über Präferenzen, Stimmungen und zukünftige Absichten der Nutzer geben.\vglfootcite[1]{VanDijck2014}\vglfootcite[30]{MayerSchoenberger2013}
-
-Die ökonomische Überlegenheit moderner Plattformen basiert ...
-```
-
----
-
-### Davenport2006 (Seite 1)
+### Davenport2006 (Seite 2)
 
 **Datei:** `04_implikationen.tex`
 
@@ -5478,12 +4484,12 @@ Die ökonomische Überlegenheit moderner Plattformen basiert ...
 
 **Kontext:**
 ```
-rozesse zu optimieren und individuelle Kundenbedürfnisse mit mathematischer Präzision vorherzusagen.\vglfootcite[1]{Davenport2006} Datengetriebene Wettbewerbsvorteile entstehen hierbei durch geschloss...
+rozesse zu optimieren und individuelle Kundenbedürfnisse mit mathematischer Präzision vorherzusagen.\vglfootcite[2--4]{Davenport2006} Datengetriebene Wettbewerbsvorteile entstehen hierbei durch geschl...
 ```
 
 ---
 
-### Parker2016 (Seite 5)
+### Parker2016 (Seite 22)
 
 **Datei:** `04_implikationen.tex`
 
@@ -5491,33 +4497,18 @@ rozesse zu optimieren und individuelle Kundenbedürfnisse mit mathematischer Pr�
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/11
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-men, was wiederum mehr Nutzer anzieht und den Wert der Vorhersageprodukte für Werbetreibende erhöht.\vglfootcite[5]{Parker2016}\vglfootcite[50--51]{Cusumano2019}
+men, was wiederum mehr Nutzer anzieht und den Wert der Vorhersageprodukte für Werbetreibende erhöht.\vglfootcite[22]{Parker2016}
 
-Die strukturelle Basis hierfür bilden...
+Die strukturelle Basis hierfür bilden Plattformökosysteme, die als meh...
 ```
 
 ---
 
-### Cusumano2019 (Seite 50)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** PDF_NOT_FOUND
-
-**Kontext:**
-```
-er anzieht und den Wert der Vorhersageprodukte für Werbetreibende erhöht.\vglfootcite[5]{Parker2016}\vglfootcite[50--51]{Cusumano2019}
-
-Die strukturelle Basis hierfür bilden Plattformökosysteme, die a...
-```
-
----
-
-### EvansSchmalensee2016 (Seite 82)
+### EvansSchmalensee2016 (Seite 5)
 
 **Datei:** `04_implikationen.tex`
 
@@ -5529,7 +4520,7 @@ Die strukturelle Basis hierfür bilden Plattformökosysteme, die a...
 
 **Kontext:**
 ```
-ktionen zwischen verschiedenen Gruppen wie Nutzern, Werbetreibenden und Drittanbietern koordinieren.\vglfootcite[82]{EvansSchmalensee2016}\vglfootcite[10]{Tiwana2014} Ein entscheidendes Merkmal sind N...
+ktionen zwischen verschiedenen Gruppen wie Nutzern, Werbetreibenden und Drittanbietern koordinieren.\vglfootcite[5]{EvansSchmalensee2016}\vglfootcite[10]{Tiwana2014} Ein entscheidendes Merkmal sind Ne...
 ```
 
 ---
@@ -5546,58 +4537,24 @@ ktionen zwischen verschiedenen Gruppen wie Nutzern, Werbetreibenden und Drittanb
 
 **Kontext:**
 ```
-wie Nutzern, Werbetreibenden und Drittanbietern koordinieren.\vglfootcite[82]{EvansSchmalensee2016}\vglfootcite[10]{Tiwana2014} Ein entscheidendes Merkmal sind Netzwerkeffekte, bei denen der Nutzen de...
+n wie Nutzern, Werbetreibenden und Drittanbietern koordinieren.\vglfootcite[5]{EvansSchmalensee2016}\vglfootcite[10]{Tiwana2014} Ein entscheidendes Merkmal sind Netzwerkeffekte, bei denen der Nutzen d...
 ```
 
 ---
 
-### Parker2016 (Seite 17)
+### Parker2016 (Seite 27)
 
 **Datei:** `04_implikationen.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 23.53% (SUSPICIOUS)
+**Ähnlichkeit:** 5.88% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 4/17
-
-**Kontext:**
-```
-r Plattform für einen Teilnehmer mit der Anzahl der Nutzer auf der anderen Seite des Marktes steigt.\vglfootcite[17]{Parker2016} Um diese Effekte zu maximieren, setzen Plattformen häufig auf Strategie...
-```
-
----
-
-### Srnicek2017 (Seite 27)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 1/17
 
 **Kontext:**
 ```
-u erreichen, während die Monetarisierung über die Werbeindustrie oder den Verkauf von Daten erfolgt.\vglfootcite[27]{Srnicek2017}\vglfootcite[1]{VanDijck2014} In dieser Logik werden Metadaten zur \enq...
-```
-
----
-
-### VanDijck2014 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
-
-**Kontext:**
-```
-tarisierung über die Werbeindustrie oder den Verkauf von Daten erfolgt.\vglfootcite[27]{Srnicek2017}\vglfootcite[1]{VanDijck2014} In dieser Logik werden Metadaten zur \enquote{Währung}, mit der Bürger...
+r Plattform für einen Teilnehmer mit der Anzahl der Nutzer auf der anderen Seite des Marktes steigt.\vglfootcite[27--28]{Parker2016} Um diese Effekte zu maximieren, setzen Plattformen häufig auf Strat...
 ```
 
 ---
@@ -5631,24 +4588,7 @@ Die beschriebenen Mec...
 
 **Kontext:**
 ```
-Dynamiken, in denen wenige dominante Akteure wie Alphabet, Amazon oder Meta den Markt kontrollieren.\vglfootcite[31--32, 49--50]{Cusumano2019}\vglfootcite[27]{Srnicek2017} Dies schafft eine tiefe Abhä...
-```
-
----
-
-### Srnicek2017 (Seite 27)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/11
-
-**Kontext:**
-```
-re wie Alphabet, Amazon oder Meta den Markt kontrollieren.\vglfootcite[31--32, 49--50]{Cusumano2019}\vglfootcite[27]{Srnicek2017} Dies schafft eine tiefe Abhängigkeit von Nutzern und Komplementoren (z...
+Dynamiken, in denen wenige dominante Akteure wie Alphabet, Amazon oder Meta den Markt kontrollieren.\vglfootcite[31--32, 49--50]{Cusumano2019} Dies schafft eine tiefe Abhängigkeit von Nutzern und Komp...
 ```
 
 ---
@@ -5661,32 +4601,13 @@ re wie Alphabet, Amazon oder Meta den Markt kontrollieren.\vglfootcite[31--32, 4
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/14
+- Gemeinsame Schlüsselwörter: 0/16
 
 **Kontext:**
 ```
-ungieren, welche die Regeln des Ökosystems und die Verteilung der Wertschöpfung einseitig festlegen.\vglfootcite[10]{Tiwana2014}\vglfootcite[5]{Parker2016}
+ungieren, welche die Regeln des Ökosystems und die Verteilung der Wertschöpfung einseitig festlegen.\vglfootcite[10]{Tiwana2014}
 
-Ein kritisches Resultat dieser Dominanz sin...
-```
-
----
-
-### Parker2016 (Seite 5)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 7.69% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 1/13
-
-**Kontext:**
-```
-des Ökosystems und die Verteilung der Wertschöpfung einseitig festlegen.\vglfootcite[10]{Tiwana2014}\vglfootcite[5]{Parker2016}
-
-Ein kritisches Resultat dieser Dominanz sind tiefgreifende Informations...
+Ein kritisches Resultat dieser Dominanz sind tiefgreifende Information...
 ```
 
 ---
@@ -5772,15 +4693,19 @@ Schließlich entsteht ein permanentes Spannungsfeld zwischen Personalis...
 
 ---
 
-### OECD2011 (Seite 4)
+### OECD2013 (Seite 9)
 
 **Datei:** `04_implikationen.tex`
 
-**Status:** PDF_NOT_FOUND
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/12
 
 **Kontext:**
 ```
-lückenlose Überwachung, die herkömmliche Konzepte der informationellen Selbstbestimmung untergräbt.\vglfootcite[4]{OECD2011}\vglfootcite[479–481]{Acquisti2016} Die ökonomischen Imperative des Plattfor...
+lückenlose Überwachung, die herkömmliche Konzepte der informationellen Selbstbestimmung untergräbt.\vglfootcite[9, 14, 17]{OECD2013}\vglfootcite[479–481]{Acquisti2016} Die ökonomischen Imperative des ...
 ```
 
 ---
@@ -5793,12 +4718,12 @@ lückenlose Überwachung, die herkömmliche Konzepte der informationellen Selbst
 
 **Kontext:**
 ```
-die herkömmliche Konzepte der informationellen Selbstbestimmung untergräbt.\vglfootcite[4]{OECD2011}\vglfootcite[479–481]{Acquisti2016} Die ökonomischen Imperative des Plattformkapitalismus verlangen ...
+ömmliche Konzepte der informationellen Selbstbestimmung untergräbt.\vglfootcite[9, 14, 17]{OECD2013}\vglfootcite[479–481]{Acquisti2016} Die ökonomischen Imperative des Plattformkapitalismus verlangen ...
 ```
 
 ---
 
-### Srnicek2017 (Seite 18)
+### Srnicek2017 (Seite 57)
 
 **Datei:** `04_implikationen.tex`
 
@@ -5806,32 +4731,13 @@ die herkömmliche Konzepte der informationellen Selbstbestimmung untergräbt.\vg
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-was dazu führt, dass ehemals private Handlungen zunehmend quantifiziert und kommerzialisiert werden.\vglfootcite[18]{Srnicek2017}\vglfootcite[1]{VanDijck2014}
+was dazu führt, dass ehemals private Handlungen zunehmend quantifiziert und kommerzialisiert werden.\vglfootcite[57--59]{Srnicek2017}
 
-Zusammenfassend lässt sich festhalten, d...
-```
-
----
-
-### VanDijck2014 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
-
-**Kontext:**
-```
-private Handlungen zunehmend quantifiziert und kommerzialisiert werden.\vglfootcite[18]{Srnicek2017}\vglfootcite[1]{VanDijck2014}
-
-Zusammenfassend lässt sich festhalten, dass \ac{KI}-gestützte Monitor...
+Zusammenfassend lässt sich festhalten, dass \ac{KI}-gestützte Mon...
 ```
 
 ---
@@ -5881,28 +4787,11 @@ Die Ein...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/15
+- Gemeinsame Schlüsselwörter: 0/17
 
 **Kontext:**
 ```
-die Kommunikation zwischen Akteuren und die emotionalen Reaktionen der Bürger gezielt beeinflussen.\vglfootcite[4, 11--13]{BradshawHoward2018}\vglfootcite[1]{Narayanan2023} Die politische Dimension di...
-```
-
----
-
-### Narayanan2023 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-e emotionalen Reaktionen der Bürger gezielt beeinflussen.\vglfootcite[4, 11--13]{BradshawHoward2018}\vglfootcite[1]{Narayanan2023} Die politische Dimension dieser technologischen Infrastrukturen manif...
+die Kommunikation zwischen Akteuren und die emotionalen Reaktionen der Bürger gezielt beeinflussen.\vglfootcite[4, 11--13]{BradshawHoward2018} Die politische Dimension dieser technologischen Infrastru...
 ```
 
 ---
@@ -5947,24 +4836,7 @@ Ein zentr...
 
 ---
 
-### Narayanan2023 (Seite 5)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 6.67% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 1/15
-
-**Kontext:**
-```
-lich, wer im digitalen Raum gehört wird und welche Themen die öffentliche Aufmerksamkeit dominieren.\vglfootcite[5]{Narayanan2023} Gillespie (2014) beschreibt diese Systeme als \enquote{Public Relevan...
-```
-
----
-
-### Gillespie2014 (Seite 167)
+### Gillespie2014 (Seite 169)
 
 **Datei:** `04_implikationen.tex`
 
@@ -5972,41 +4844,9 @@ lich, wer im digitalen Raum gehört wird und welche Themen die öffentliche Aufm
 
 **Kontext:**
 ```
-orithms}, die Wissen nicht nur organisieren, sondern durch spezifische Kriterien erst zertifizieren.\vglfootcite[167]{Gillespie2014} Diese Macht zur Priorisierung ermöglicht es, politische Symbole übe...
-```
+und durch Verfahren wie das \enquote{Downranking} unliebsame Stimmen faktisch unsichtbar zu machen.\vglfootcite[169--173]{Gillespie2014}
 
----
-
-### Narayanan2023 (Seite 6)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-und durch Verfahren wie das \enquote{Downranking} unliebsame Stimmen faktisch unsichtbar zu machen.\vglfootcite[6]{Narayanan2023}\vglfootcite[167]{Gillespie2014}
-
-Darauf aufbauend ermöglicht die syste...
-```
-
----
-
-### Gillespie2014 (Seite 167)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** PDF_READ_ERROR
-
-**Kontext:**
-```
-enquote{Downranking} unliebsame Stimmen faktisch unsichtbar zu machen.\vglfootcite[6]{Narayanan2023}\vglfootcite[167]{Gillespie2014}
-
-Darauf aufbauend ermöglicht die systematische Datenerfassung eine ...
+Darauf aufbauend ermöglicht die systematische Datenerfassung e...
 ```
 
 ---
@@ -6030,36 +4870,15 @@ Der Fall Cambridge Analytica verdeutlicht die demokratischen Risiken die...
 
 ---
 
-### Isaak2018 (Seite 1)
+### Isaak2018 (Seite 56)
 
 **Datei:** `04_implikationen.tex`
 
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
+**Status:** PDF_READ_ERROR
 
 **Kontext:**
 ```
-en Bedenken hinsichtlich der Informationsasymmetrie zwischen Plattformen, Datenhändlern und Bürgern.\vglfootcite[1]{Isaak2018}\vglfootcite[10]{Pasquale2015} Während die technische Funktionsweise des o...
-```
-
----
-
-### Pasquale2015 (Seite 10)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
-
-**Kontext:**
-```
-er Informationsasymmetrie zwischen Plattformen, Datenhändlern und Bürgern.\vglfootcite[1]{Isaak2018}\vglfootcite[10]{Pasquale2015} Während die technische Funktionsweise des operativen Zyklus -- von de...
+en Bedenken hinsichtlich der Informationsasymmetrie zwischen Plattformen, Datenhändlern und Bürgern.\vglfootcite[56, 58]{Isaak2018} Während die technische Funktionsweise des operativen Zyklus -- von d...
 ```
 
 ---
@@ -6196,41 +5015,7 @@ Die Wirksamkeit dieser Kampagnen wird durch die algorithmische B...
 
 ---
 
-### Narayanan2023 (Seite 25)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-s sensationelle oder empörende Informationen eine höhere Reichweite erzielen als sachliche Diskurse.\vglfootcite[25]{Narayanan2023}\vglfootcite[1]{WoolleyHoward2017} Experimentelle Studien zur emotion...
-```
-
----
-
 ### WoolleyHoward2017 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-Informationen eine höhere Reichweite erzielen als sachliche Diskurse.\vglfootcite[25]{Narayanan2023}\vglfootcite[1]{WoolleyHoward2017} Experimentelle Studien zur emotionalen Ansteckung (Emotional Cont...
-```
-
----
-
-### Kramer2014 (Seite 1)
 
 **Datei:** `04_implikationen.tex`
 
@@ -6242,7 +5027,20 @@ Informationen eine höhere Reichweite erzielen als sachliche Diskurse.\vglfootci
 
 **Kontext:**
 ```
-elte Manipulation des News Feeds die Stimmungslage von Millionen von Nutzern messbar verändern kann.\vglfootcite[1]{Kramer2014} In autoritären Staaten wie China wird diese technologische Kapazität zur...
+s sensationelle oder empörende Informationen eine höhere Reichweite erzielen als sachliche Diskurse.\vglfootcite[1]{WoolleyHoward2017} Experimentelle Studien zur emotionalen Ansteckung (Emotional Cont...
+```
+
+---
+
+### Kramer2014 (Seite 8788)
+
+**Datei:** `04_implikationen.tex`
+
+**Status:** PDF_READ_ERROR
+
+**Kontext:**
+```
+elte Manipulation des News Feeds die Stimmungslage von Millionen von Nutzern messbar verändern kann.\vglfootcite[8788--8790]{Kramer2014} In autoritären Staaten wie China wird diese technologische Kapa...
 ```
 
 ---
@@ -6331,16 +5129,16 @@ Ein weiteres viel diskutiertes Phänomen ist die Polarisierun...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/15
+- Gemeinsame Schlüsselwörter: 0/17
 
 **Kontext:**
 ```
-kammern soziale Strukturen, in denen sich Gleichgesinnte gegenseitig in ihren Weltbildern bestärken.\vglfootcite[1]{Cinelli2021}\vglfootcite[167]{Gillespie2014} Metzler und Garcia (2023) betonen jedoc...
+kammern soziale Strukturen, in denen sich Gleichgesinnte gegenseitig in ihren Weltbildern bestärken.\vglfootcite[1]{Cinelli2021} Metzler und Garcia (2023) betonen jedoch, dass Algorithmen hierbei oft ...
 ```
 
 ---
 
-### Gillespie2014 (Seite 167)
+### MetzlerGarcia2023 (Seite 736)
 
 **Datei:** `04_implikationen.tex`
 
@@ -6348,24 +5146,7 @@ kammern soziale Strukturen, in denen sich Gleichgesinnte gegenseitig in ihren We
 
 **Kontext:**
 ```
-in denen sich Gleichgesinnte gegenseitig in ihren Weltbildern bestärken.\vglfootcite[1]{Cinelli2021}\vglfootcite[167]{Gillespie2014} Metzler und Garcia (2023) betonen jedoch, dass Algorithmen hierbei ...
-```
-
----
-
-### MetzlerGarcia2023 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/17
-
-**Kontext:**
-```
-(2023) betonen jedoch, dass Algorithmen hierbei oft bestehende soziale Treiber lediglich verstärken.\vglfootcite[1]{MetzlerGarcia2023} Empirische Befunde zeigen, dass die Plattformarchitektur entschei...
+(2023) betonen jedoch, dass Algorithmen hierbei oft bestehende soziale Treiber lediglich verstärken.\vglfootcite[736, 738]{MetzlerGarcia2023} Empirische Befunde zeigen, dass die Plattformarchitektur e...
 ```
 
 ---
@@ -6387,21 +5168,17 @@ homophile Cluster begünstigt, fördern andere Strukturen eher den Kontakt mit d
 
 ---
 
-### MetzlerGarcia2023 (Seite 1)
+### MetzlerGarcia2023 (Seite 738)
 
 **Datei:** `04_implikationen.tex`
 
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/17
+**Status:** PDF_READ_ERROR
 
 **Kontext:**
 ```
-remen Positionen die wahrgenommene Polarisierung erhöhen und gemäßigte Mehrheiten unsichtbar machen.\vglfootcite[1]{MetzlerGarcia2023}
+remen Positionen die wahrgenommene Polarisierung erhöhen und gemäßigte Mehrheiten unsichtbar machen.\vglfootcite[738--739]{MetzlerGarcia2023}
 
-Diese Dynamiken beeinflussen auch die politische Partizipation u...
+Diese Dynamiken beeinflussen auch die politische Partizip...
 ```
 
 ---
@@ -6423,7 +5200,7 @@ rger aus Angst vor Repressionen oder sozialer Ausgrenzung auf die freie Meinungs
 
 ---
 
-### Feldstein2019 (Seite 34)
+### Feldstein2019 (Seite 14)
 
 **Datei:** `04_implikationen.tex`
 
@@ -6431,13 +5208,13 @@ rger aus Angst vor Repressionen oder sozialer Ausgrenzung auf die freie Meinungs
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/18
+- Gemeinsame Schlüsselwörter: 0/19
 
 **Kontext:**
 ```
-zu ersticken, indem Bewegungen prädiktiv analysiert und deren Anführer gezielt neutralisiert werden.\vglfootcite[34]{Feldstein2019}
+zu ersticken, indem Bewegungen prädiktiv analysiert und deren Anführer gezielt neutralisiert werden.\vglfootcite[14--15, 20--21]{Feldstein2019}
 
-Schließlich führt die flächendeckende Implementierung dieser System...
+Schließlich führt die flächendeckende Implementierung d...
 ```
 
 ---
@@ -6488,14 +5265,14 @@ er den Zugang zu grundlegenden Dienstleistungen entscheiden.\vglfootcite[3--4, 2
 
 **Kontext:**
 ```
-n Zwang allein, sondern auf die algorithmische Disziplinierung durch Belohnung und Bestrafung setzt.\vglfootcite[5]{Qiang2019}\vglfootcite[1]{SFRC2020}
+n Zwang allein, sondern auf die algorithmische Disziplinierung durch Belohnung und Bestrafung setzt.\vglfootcite[5]{Qiang2019}\vglfootcite[16]{SFRC2020}
 
-Zusammenfassend lässt sich festhalten, dass \ac...
+Zusammenfassend lässt sich festhalten, dass \a...
 ```
 
 ---
 
-### SFRC2020 (Seite 1)
+### SFRC2020 (Seite 16)
 
 **Datei:** `04_implikationen.tex`
 
@@ -6507,9 +5284,9 @@ Zusammenfassend lässt sich festhalten, dass \ac...
 
 **Kontext:**
 ```
-f die algorithmische Disziplinierung durch Belohnung und Bestrafung setzt.\vglfootcite[5]{Qiang2019}\vglfootcite[1]{SFRC2020}
+f die algorithmische Disziplinierung durch Belohnung und Bestrafung setzt.\vglfootcite[5]{Qiang2019}\vglfootcite[16]{SFRC2020}
 
-Zusammenfassend lässt sich festhalten, dass \ac{KI}-gestützte Monitoring-...
+Zusammenfassend lässt sich festhalten, dass \ac{KI}-gestützte Monitoring...
 ```
 
 ---
@@ -6526,12 +5303,12 @@ Zusammenfassend lässt sich festhalten, dass \ac{KI}-gestützte Monitoring-...
 
 **Kontext:**
 ```
-ischen Prinzipien, organisatorischen Risikomanagement-Prozessen und technischen Kontrollmechanismen.\vglfootcite[2]{AIHLEG2019}\vglfootcite[1]{NIST2023} Der folgende Abschnitt analysiert zunächst die ...
+ischen Prinzipien, organisatorischen Risikomanagement-Prozessen und technischen Kontrollmechanismen.\vglfootcite[2]{AIHLEG2019}\vglfootcite[21--24]{NIST2023} Der folgende Abschnitt analysiert zunächst...
 ```
 
 ---
 
-### NIST2023 (Seite 1)
+### NIST2023 (Seite 21)
 
 **Datei:** `04_implikationen.tex`
 
@@ -6543,7 +5320,7 @@ ischen Prinzipien, organisatorischen Risikomanagement-Prozessen und technischen 
 
 **Kontext:**
 ```
-torischen Risikomanagement-Prozessen und technischen Kontrollmechanismen.\vglfootcite[2]{AIHLEG2019}\vglfootcite[1]{NIST2023} Der folgende Abschnitt analysiert zunächst die zentralen Herausforderungen...
+torischen Risikomanagement-Prozessen und technischen Kontrollmechanismen.\vglfootcite[2]{AIHLEG2019}\vglfootcite[21--24]{NIST2023} Der folgende Abschnitt analysiert zunächst die zentralen Herausforder...
 ```
 
 ---
@@ -6603,7 +5380,7 @@ In diesem Kontext entstehen erhebliche Risiken für automatisierte Klas...
 
 ---
 
-### ONeil2016 (Seite 145)
+### ONeil2016 (Seite 7)
 
 **Datei:** `04_implikationen.tex`
 
@@ -6615,12 +5392,12 @@ In diesem Kontext entstehen erhebliche Risiken für automatisierte Klas...
 
 **Kontext:**
 ```
-eichheiten mathematisch zementieren, ohne dass für die Betroffenen Einspruchsmöglichkeiten bestehen.\vglfootcite[145]{ONeil2016} Die lückenlose Erfassung von Verhaltensdaten untergräbt zudem die mensc...
+eichheiten mathematisch zementieren, ohne dass für die Betroffenen Einspruchsmöglichkeiten bestehen.\vglfootcite[7--14]{ONeil2016} Die lückenlose Erfassung von Verhaltensdaten untergräbt zudem die men...
 ```
 
 ---
 
-### Lyon2012 (Seite 2)
+### Lyon2012 (Seite 3)
 
 **Datei:** `04_implikationen.tex`
 
@@ -6628,28 +5405,11 @@ eichheiten mathematisch zementieren, ohne dass für die Betroffenen Einspruchsm�
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-verlieren, wie ihre digitalen Fußabdrücke aggregiert und zur Verhaltensbeeinflussung genutzt werden.\vglfootcite[2]{Lyon2012}\vglfootcite[1]{VanDijck2014} Eine unklare Zuweisung von Verantwortung ersc...
-```
-
----
-
-### VanDijck2014 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
-
-**Kontext:**
-```
-alen Fußabdrücke aggregiert und zur Verhaltensbeeinflussung genutzt werden.\vglfootcite[2]{Lyon2012}\vglfootcite[1]{VanDijck2014} Eine unklare Zuweisung von Verantwortung erschwert zudem die Rechensch...
+verlieren, wie ihre digitalen Fußabdrücke aggregiert und zur Verhaltensbeeinflussung genutzt werden.\vglfootcite[3]{Lyon2012} Eine unklare Zuweisung von Verantwortung erschwert zudem die Rechenschafts...
 ```
 
 ---
@@ -6694,42 +5454,6 @@ Zur Bewält...
 
 ---
 
-### GDPR2016 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/17
-
-**Kontext:**
-```
-e ihnen gegenüber rechtliche Wirkung entfaltet oder sie in ähnlicher Weise erheblich beeinträchtigt.\vglfootcite[1]{GDPR2016} Die \ac{DSGVO} fordert zudem die Einhaltung zentraler Prinzipien wie Daten...
-```
-
----
-
-### GDPR2016 (Seite 1)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/11
-
-**Kontext:**
-```
-dung und Transparenz, was die extraktiven Praktiken des Überwachungskapitalismus rechtlich begrenzt.\vglfootcite[1]{GDPR2016}\vglfootcite[471]{Zuboff2019}
-
-Ergänzend dazu führt das Gesetz über Künstli...
-```
-
----
-
 ### Zuboff2019 (Seite 471)
 
 **Datei:** `04_implikationen.tex`
@@ -6742,9 +5466,9 @@ Ergänzend dazu führt das Gesetz über Künstli...
 
 **Kontext:**
 ```
-die extraktiven Praktiken des Überwachungskapitalismus rechtlich begrenzt.\vglfootcite[1]{GDPR2016}\vglfootcite[471]{Zuboff2019}
+was die extraktiven Praktiken des Überwachungskapitalismus rechtlich begrenzt.\vglfootcite{GDPR2016}\vglfootcite[471]{Zuboff2019}
 
-Ergänzend dazu führt das Gesetz über Künstliche Intelligenz (\ac{AI} A...
+Ergänzend dazu führt das Gesetz über Künstliche Intelligenz (\ac{AI} ...
 ```
 
 ---
@@ -6802,7 +5526,24 @@ Für digitale Plattformen schafft das Gesetz über digitale Dienste (Digi...
 
 ---
 
-### DSA2022 (Seite 17)
+### DSA2022 (Seite 22)
+
+**Datei:** `04_implikationen.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 13.33% (SUSPICIOUS)
+
+- Gemeinsame Schlüsselwörter: 2/15
+
+**Kontext:**
+```
+ndere im Hinblick auf die Verbreitung von Desinformation oder negative Auswirkungen auf Grundrechte.\vglfootcite[22--23, 64]{DSA2022} Der DSA fordert zudem eine erhöhte Transparenz für Empfehlungssyst...
+```
+
+---
+
+### DSA2022 (Seite 59)
 
 **Datei:** `04_implikationen.tex`
 
@@ -6814,28 +5555,26 @@ Für digitale Plattformen schafft das Gesetz über digitale Dienste (Digi...
 
 **Kontext:**
 ```
-enlegen und den Nutzern Optionen zur Verfügung stellen, die Reihenfolge der Inhalte zu beeinflussen.\vglfootcite[17]{DSA2022} Diese regulatorischen Maßnahmen zielen darauf ab, die algorithmische Kurat...
+enlegen und den Nutzern Optionen zur Verfügung stellen, die Reihenfolge der Inhalte zu beeinflussen.\vglfootcite[59]{DSA2022} Diese regulatorischen Maßnahmen zielen darauf ab, die algorithmische Kurat...
 ```
 
 ---
 
-### DSA2022 (Seite 93)
+### DSA2022 (Seite 26)
 
 **Datei:** `04_implikationen.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 0.00% (MISMATCH)
+**Ähnlichkeit:** 8.33% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/11
+- Gemeinsame Schlüsselwörter: 1/12
 
 **Kontext:**
 ```
-f ab, die algorithmische Kuratierung kontrollierbar zu machen und Informationsasymmetrien abzubauen.\vglfootcite[93]{DSA2022}
+f ab, die algorithmische Kuratierung kontrollierbar zu machen und Informationsasymmetrien abzubauen.\vglfootcite[26--27, 70--72]{DSA2022}
 
-\paragraph{Ethische Leitlinien und organisatorisches Risikomanagement}
-
-Ü...
+\paragraph{Ethische Leitlinien und organisatorisches Risikoma...
 ```
 
 ---
@@ -6874,7 +5613,7 @@ g menschlichen Handelns, technische Robustheit, Transparenz sowie Vielfalt und N
 
 ---
 
-### AIHLEG2019 (Seite 4)
+### NIST2023 (Seite 1)
 
 **Datei:** `04_implikationen.tex`
 
@@ -6886,50 +5625,14 @@ g menschlichen Handelns, technische Robustheit, Transparenz sowie Vielfalt und N
 
 **Kontext:**
 ```
-rganisationen und sollen sicherstellen, dass \ac{KI}-Systeme zum menschlichen Wohlergehen beitragen.\vglfootcite[4]{AIHLEG2019}\vglfootcite[2]{NIST2023}
+rganisationen und sollen sicherstellen, dass \ac{KI}-Systeme zum menschlichen Wohlergehen beitragen.\vglfootcite[1--2]{NIST2023}
 
-Die praktische Operationalisierung dieser Wert...
+Die praktische Operationalisierung dieser Werte erfolgt durch Rahmenwe...
 ```
 
 ---
 
-### NIST2023 (Seite 2)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/12
-
-**Kontext:**
-```
-cherstellen, dass \ac{KI}-Systeme zum menschlichen Wohlergehen beitragen.\vglfootcite[4]{AIHLEG2019}\vglfootcite[2]{NIST2023}
-
-Die praktische Operationalisierung dieser Werte erfolgt durch Rahmenwerke...
-```
-
----
-
-### NIST2023 (Seite 10)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 18.75% (SUSPICIOUS)
-
-- Gemeinsame Schlüsselwörter: 3/16
-
-**Kontext:**
-```
-r die Funktionen Regieren (Govern), Abbilden (Map), Messen (Measure) und Verwalten (Manage) umfasst.\vglfootcite[10]{NIST2023} Governance wird hierbei als querschnittliche Funktion verstanden, die ein...
-```
-
----
-
-### NIST2023 (Seite 11)
+### NIST2023 (Seite 20)
 
 **Datei:** `04_implikationen.tex`
 
@@ -6941,45 +5644,43 @@ r die Funktionen Regieren (Govern), Abbilden (Map), Messen (Measure) und Verwalt
 
 **Kontext:**
 ```
-nkert und klare Linien der Rechenschaftspflicht zwischen Management und technischen Teams etabliert.\vglfootcite[11]{NIST2023} Organisationen werden dazu angehalten, regelmäßige Audits, Folgenabschätz...
+r die Funktionen Regieren (Govern), Abbilden (Map), Messen (Measure) und Verwalten (Manage) umfasst.\vglfootcite[20--21]{NIST2023} Governance wird hierbei als querschnittliche Funktion verstanden, die...
 ```
 
 ---
 
-### NIST2023 (Seite 18)
+### NIST2023 (Seite 20)
 
 **Datei:** `04_implikationen.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 8.33% (MISMATCH)
+**Ähnlichkeit:** 6.25% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 1/12
+- Gemeinsame Schlüsselwörter: 1/16
 
 **Kontext:**
 ```
-ing durchzuführen, um unvorhergesehene negative Auswirkungen frühzeitig zu erkennen und abzumildern.\vglfootcite[18]{NIST2023}\vglfootcite[145]{ONeil2016}
-
-Zusammenfassend lässt sich festhalten, dass ...
+nkert und klare Linien der Rechenschaftspflicht zwischen Management und technischen Teams etabliert.\vglfootcite[20--23]{NIST2023} Organisationen werden dazu angehalten, regelmäßige Audits, Folgenabsc...
 ```
 
 ---
 
-### ONeil2016 (Seite 145)
+### NIST2023 (Seite 28)
 
 **Datei:** `04_implikationen.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 0.00% (MISMATCH)
+**Ähnlichkeit:** 6.67% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 1/15
 
 **Kontext:**
 ```
-rhergesehene negative Auswirkungen frühzeitig zu erkennen und abzumildern.\vglfootcite[18]{NIST2023}\vglfootcite[145]{ONeil2016}
+ing durchzuführen, um unvorhergesehene negative Auswirkungen frühzeitig zu erkennen und abzumildern.\vglfootcite[28--31, 35--36]{NIST2023}
 
-Zusammenfassend lässt sich festhalten, dass eine effektive Governance ...
+Zusammenfassend lässt sich festhalten, dass eine effektive G...
 ```
 
 ---
@@ -6992,28 +5693,11 @@ Zusammenfassend lässt sich festhalten, dass eine effektive Governance ...
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/15
+- Gemeinsame Schlüsselwörter: 0/16
 
 **Kontext:**
 ```
-llständige Lösung bieten, da technologische Innovationen die regulatorische Kapazität oft überholen.\vglfootcite[19]{Pasquale2015}\vglfootcite[2]{Lyon2012} Die ständige Spannung zwischen technologisch...
-```
-
----
-
-### Lyon2012 (Seite 2)
-
-**Datei:** `04_implikationen.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-echnologische Innovationen die regulatorische Kapazität oft überholen.\vglfootcite[19]{Pasquale2015}\vglfootcite[2]{Lyon2012} Die ständige Spannung zwischen technologischer Dynamik, ökonomischen Inter...
+llständige Lösung bieten, da technologische Innovationen die regulatorische Kapazität oft überholen.\vglfootcite[19]{Pasquale2015} Die ständige Spannung zwischen technologischer Dynamik, ökonomischen ...
 ```
 
 ---
@@ -7035,7 +5719,7 @@ de liegenden Annahmen, der synthetisierten Befunde und der methodischen Entschei
 
 ---
 
-### Pasquale2015 (Seite 19)
+### NIST2023 (Seite 6)
 
 **Datei:** `05_kritische_betrachtung.tex`
 
@@ -7043,28 +5727,11 @@ de liegenden Annahmen, der synthetisierten Befunde und der methodischen Entschei
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/16
+- Gemeinsame Schlüsselwörter: 0/19
 
 **Kontext:**
 ```
-teraturbasis, dem Fehlen eigener Primärdaten sowie der rasanten technologischen Entwicklung ergeben.\vglfootcite[19]{Pasquale2015}\vglfootcite[1]{NIST2023} Besondere Aufmerksamkeit verdient zudem die ...
-```
-
----
-
-### NIST2023 (Seite 1)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/15
-
-**Kontext:**
-```
-er Primärdaten sowie der rasanten technologischen Entwicklung ergeben.\vglfootcite[19]{Pasquale2015}\vglfootcite[1]{NIST2023} Besondere Aufmerksamkeit verdient zudem die Diskrepanz zwischen theoretisc...
+teraturbasis, dem Fehlen eigener Primärdaten sowie der rasanten technologischen Entwicklung ergeben.\vglfootcite[6, 38--39]{NIST2023} Besondere Aufmerksamkeit verdient zudem die Diskrepanz zwischen th...
 ```
 
 ---
@@ -7077,90 +5744,18 @@ er Primärdaten sowie der rasanten technologischen Entwicklung ergeben.\vglfootc
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/11
+- Gemeinsame Schlüsselwörter: 0/13
 
 **Kontext:**
 ```
-her Interventionen oft geringer ausfällt als konzeptionell angenommen und stark kontextabhängig ist.\vglfootcite[7--9, 17]{Areeb2023}\vglfootcite[1]{Kelm2023}\vglfootcite[6]{OrbenPrzybylski2019}
-
-\sec...
-```
-
----
-
-### Kelm2023 (Seite 1)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/11
-
-**Kontext:**
-```
-usfällt als konzeptionell angenommen und stark kontextabhängig ist.\vglfootcite[7--9, 17]{Areeb2023}\vglfootcite[1]{Kelm2023}\vglfootcite[6]{OrbenPrzybylski2019}
+her Interventionen oft geringer ausfällt als konzeptionell angenommen und stark kontextabhängig ist.\vglfootcite[7--9, 17]{Areeb2023}\vglfootcite[6--7]{Kelm2023}
 
 \section{Grenzen der technologischen ...
 ```
 
 ---
 
-### OrbenPrzybylski2019 (Seite 6)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/11
-
-**Kontext:**
-```
-angenommen und stark kontextabhängig ist.\vglfootcite[7--9, 17]{Areeb2023}\vglfootcite[1]{Kelm2023}\vglfootcite[6]{OrbenPrzybylski2019}
-
-\section{Grenzen der technologischen Analyse}
-
-Die technologisc...
-```
-
----
-
-### RussellNorvig2010 (Seite 34)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/15
-
-**Kontext:**
-```
-nde liegende Infrastruktur ist weitaus heterogener, als es das generalisierte Modell vermuten lässt.\vglfootcite[34]{RussellNorvig2010}
-
-Die Arbeit fokussiert sich auf die Ebenen der Analyse, Prognose...
-```
-
----
-
-### Laudon2018 (Seite 16)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** PDF_NOT_FOUND
-
-**Kontext:**
-```
-chnologien, Datenübertragungsprotokolle oder Hardwarearchitekturen -- weitgehend abstrahiert werden.\vglfootcite[16]{Laudon2018}\vglfootcite[1]{Narayanan2023} Ohne diese basale Infrastrukturebene blei...
-```
-
----
-
-### Narayanan2023 (Seite 1)
+### Kelm2023 (Seite 6)
 
 **Datei:** `05_kritische_betrachtung.tex`
 
@@ -7172,7 +5767,60 @@ chnologien, Datenübertragungsprotokolle oder Hardwarearchitekturen -- weitgehen
 
 **Kontext:**
 ```
-sprotokolle oder Hardwarearchitekturen -- weitgehend abstrahiert werden.\vglfootcite[16]{Laudon2018}\vglfootcite[1]{Narayanan2023} Ohne diese basale Infrastrukturebene bleibt die technologische Durchd...
+usfällt als konzeptionell angenommen und stark kontextabhängig ist.\vglfootcite[7--9, 17]{Areeb2023}\vglfootcite[6--7]{Kelm2023}
+
+\section{Grenzen der technologischen Analyse}
+
+Die technologische Anal...
+```
+
+---
+
+### Laudon2018 (Seite 254)
+
+**Datei:** `05_kritische_betrachtung.tex`
+
+**Status:** PDF_NOT_FOUND
+
+**Kontext:**
+```
+chnologien, Datenübertragungsprotokolle oder Hardwarearchitekturen -- weitgehend abstrahiert werden.\vglfootcite[254--255, 259]{Laudon2018} Ohne diese basale Infrastrukturebene bleibt die technologisc...
+```
+
+---
+
+### NIST2023 (Seite 15)
+
+**Datei:** `05_kritische_betrachtung.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/19
+
+**Kontext:**
+```
+tionell auf Basis veröffentlichter Literatur, technischer Whitepaper und Leaks rekonstruiert werden.\vglfootcite[15--16, 38]{NIST2023} Diese Arbeit bietet daher eine theoriegeleitete Synthese der syst...
+```
+
+---
+
+### Goodfellow2016 (Seite 19)
+
+**Datei:** `05_kritische_betrachtung.tex`
+
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/14
+
+**Kontext:**
+```
+es Deep Learning limitiert zudem die langfristige Validität spezifischer technischer Beschreibungen.\vglfootcite[19--26]{Goodfellow2016}
+
+Schließlich ist kritisch zu reflektieren, dass Nutzerreaktione...
 ```
 
 ---
@@ -7185,100 +5833,11 @@ sprotokolle oder Hardwarearchitekturen -- weitgehend abstrahiert werden.\vglfoot
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/15
-
-**Kontext:**
-```
-n ein allgemeines Prozessmodell zu einer Vernachlässigung sektoraler und geografischer Unterschiede.\vglfootcite[2]{Lyon2012}
-
-Eine zentrale Limitation bildet die konstitutive Opazität proprietärer Sy...
-```
-
----
-
-### Pasquale2015 (Seite 19)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
 - Gemeinsame Schlüsselwörter: 0/16
 
 **Kontext:**
 ```
-tionell auf Basis veröffentlichter Literatur, technischer Whitepaper und Leaks rekonstruiert werden.\vglfootcite[19]{Pasquale2015}\vglfootcite[18]{NIST2023} Diese Arbeit bietet daher eine theoriegelei...
-```
-
----
-
-### NIST2023 (Seite 18)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/15
-
-**Kontext:**
-```
-hter Literatur, technischer Whitepaper und Leaks rekonstruiert werden.\vglfootcite[19]{Pasquale2015}\vglfootcite[18]{NIST2023} Diese Arbeit bietet daher eine theoriegeleitete Synthese der systemischen...
-```
-
----
-
-### Goodfellow2016 (Seite 210)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/14
-
-**Kontext:**
-```
-es Deep Learning limitiert zudem die langfristige Validität spezifischer technischer Beschreibungen.\vglfootcite[210]{Goodfellow2016}
-
-Schließlich ist kritisch zu reflektieren, dass Nutzerreaktionen u...
-```
-
----
-
-### Lyon2012 (Seite 5)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-n, da Algorithmen permanent mit sozialen, organisatorischen und individuellen Faktoren interagieren.\vglfootcite[5]{Lyon2012}\vglfootcite[2]{NIST2023} Während die zentralen funktionalen Zusammenhänge ...
-```
-
----
-
-### NIST2023 (Seite 2)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-nt mit sozialen, organisatorischen und individuellen Faktoren interagieren.\vglfootcite[5]{Lyon2012}\vglfootcite[2]{NIST2023} Während die zentralen funktionalen Zusammenhänge und Systemlogiken präzise...
+n, da Algorithmen permanent mit sozialen, organisatorischen und individuellen Faktoren interagieren.\vglfootcite[2, 8]{Lyon2012} Während die zentralen funktionalen Zusammenhänge und Systemlogiken präz...
 ```
 
 ---
@@ -7355,15 +5914,19 @@ risierung erweisen sich als widersprüchlich oder stark kontextabhängig.\vglfoo
 
 ---
 
-### OrbenPrzybylski2019 (Seite 173)
+### OrbenPrzybylski2019 (Seite 2)
 
 **Datei:** `05_kritische_betrachtung.tex`
 
-**Status:** PDF_READ_ERROR
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/17
 
 **Kontext:**
 ```
-basieren, was zu statistisch signifikanten, aber praktisch vernachlässigbaren Effekten führen kann.\vglfootcite[173]{OrbenPrzybylski2019} Die Synthese umfasst zudem Quellen mit unterschiedlichen Evide...
+basieren, was zu statistisch signifikanten, aber praktisch vernachlässigbaren Effekten führen kann.\vglfootcite[2, 4--5]{OrbenPrzybylski2019} Die Synthese umfasst zudem Quellen mit unterschiedlichen E...
 ```
 
 ---
@@ -7412,13 +5975,13 @@ ion auf die systematische Rekonstruktion und Synthese des vorhandenen wissenscha
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 0/14
 
 **Kontext:**
 ```
-Beweiskraft für die unmittelbare Wirkung einzelner Algorithmen auf das Nutzerverhalten beanspruchen.\vglfootcite[1]{Kelm2023}
+Beweiskraft für die unmittelbare Wirkung einzelner Algorithmen auf das Nutzerverhalten beanspruchen.\vglfootcite[1, 3, 7]{Kelm2023}
 
-Ein wesentlicher limitierender Faktor ist die Abhängigkeit von der Qualit...
+Ein wesentlicher limitierender Faktor ist die Abhängigkeit von der ...
 ```
 
 ---
@@ -7459,7 +6022,7 @@ Die Isolation kausaler Beziehungen zwischen Algorithmen und m...
 
 ---
 
-### NIST2023 (Seite 2)
+### NIST2023 (Seite 1)
 
 **Datei:** `05_kritische_betrachtung.tex`
 
@@ -7471,20 +6034,24 @@ Die Isolation kausaler Beziehungen zwischen Algorithmen und m...
 
 **Kontext:**
 ```
-ionen sowie ökonomische und politische Rahmenbedingungen die rein technologische Wirkung überlagern.\vglfootcite[2]{NIST2023} Empirische Analysen zeigen, dass technologische Effekte auf das Wohlbefind...
+ionen sowie ökonomische und politische Rahmenbedingungen die rein technologische Wirkung überlagern.\vglfootcite[1]{NIST2023} Empirische Analysen zeigen, dass technologische Effekte auf das Wohlbefind...
 ```
 
 ---
 
-### OrbenPrzybylski2019 (Seite 173)
+### OrbenPrzybylski2019 (Seite 16)
 
 **Datei:** `05_kritische_betrachtung.tex`
 
-**Status:** PDF_READ_ERROR
+**Status:** CHECKED
+
+**Ähnlichkeit:** 0.00% (MISMATCH)
+
+- Gemeinsame Schlüsselwörter: 0/17
 
 **Kontext:**
 ```
-h zu basalen Faktoren wie Schlaf oder Ernährung oft nur einen minimalen Anteil der Varianz erklären.\vglfootcite[173]{OrbenPrzybylski2019} Die vorliegende Arbeit kann daher zwar plausible Zusammenhäng...
+h zu basalen Faktoren wie Schlaf oder Ernährung oft nur einen minimalen Anteil der Varianz erklären.\vglfootcite[16]{OrbenPrzybylski2019} Die vorliegende Arbeit kann daher zwar plausible Zusammenhänge...
 ```
 
 ---
@@ -7501,7 +6068,7 @@ h zu basalen Faktoren wie Schlaf oder Ernährung oft nur einen minimalen Anteil 
 
 **Kontext:**
 ```
-ht, Fairness und Datenschutz, die das Design und den Einsatz von Monitoring-Systemen leiten sollten.\vglfootcite[16]{AIHLEG2019}\vglfootcite[4]{AIAct2024}\vglfootcite[5]{NIST2023} Rechtliche Rahmenwer...
+ht, Fairness und Datenschutz, die das Design und den Einsatz von Monitoring-Systemen leiten sollten.\vglfootcite[16]{AIHLEG2019}\vglfootcite[4]{AIAct2024}Rechtliche Rahmenwerke wie die \ac{DSGVO} oder...
 ```
 
 ---
@@ -7514,33 +6081,16 @@ ht, Fairness und Datenschutz, die das Design und den Einsatz von Monitoring-Syst
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/9
-
-**Kontext:**
-```
-, die das Design und den Einsatz von Monitoring-Systemen leiten sollten.\vglfootcite[16]{AIHLEG2019}\vglfootcite[4]{AIAct2024}\vglfootcite[5]{NIST2023} Rechtliche Rahmenwerke wie die \ac{DSGVO} oder d...
-```
-
----
-
-### NIST2023 (Seite 5)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
 - Gemeinsame Schlüsselwörter: 0/10
 
 **Kontext:**
 ```
-insatz von Monitoring-Systemen leiten sollten.\vglfootcite[16]{AIHLEG2019}\vglfootcite[4]{AIAct2024}\vglfootcite[5]{NIST2023} Rechtliche Rahmenwerke wie die \ac{DSGVO} oder der \ac{AI} Act markieren e...
+, die das Design und den Einsatz von Monitoring-Systemen leiten sollten.\vglfootcite[16]{AIHLEG2019}\vglfootcite[4]{AIAct2024}Rechtliche Rahmenwerke wie die \ac{DSGVO} oder der \ac{AI} Act markieren e...
 ```
 
 ---
 
-### GDPR2016 (Seite 1)
+### NIST2023 (Seite 12)
 
 **Datei:** `05_kritische_betrachtung.tex`
 
@@ -7552,24 +6102,7 @@ insatz von Monitoring-Systemen leiten sollten.\vglfootcite[16]{AIHLEG2019}\vglfo
 
 **Kontext:**
 ```
-} Act markieren einen gesellschaftlichen Konsens über Standards der \enquote{Vertrauenswürdigen KI}.\vglfootcite[1]{GDPR2016}\vglfootcite[1]{NIST2023} Es muss jedoch kritisch reflektiert werden, dass ...
-```
-
----
-
-### NIST2023 (Seite 1)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/13
-
-**Kontext:**
-```
-ellschaftlichen Konsens über Standards der \enquote{Vertrauenswürdigen KI}.\vglfootcite[1]{GDPR2016}\vglfootcite[1]{NIST2023} Es muss jedoch kritisch reflektiert werden, dass die Existenz regulatorisc...
+gesellschaftlichen Konsens über Standards der \enquote{Vertrauenswürdigen KI}.\vglfootcite{GDPR2016}\vglfootcite[12]{NIST2023} Es muss jedoch kritisch reflektiert werden, dass die Existenz regulatoris...
 ```
 
 ---
@@ -7646,41 +6179,24 @@ von der individuellen Suszeptibilität und dem sozialen Kontext abhängen.\vglfo
 
 ---
 
-### Kelm2023 (Seite 1)
-
-**Datei:** `05_kritische_betrachtung.tex`
-
-**Status:** CHECKED
-
-**Ähnlichkeit:** 0.00% (MISMATCH)
-
-- Gemeinsame Schlüsselwörter: 0/15
-
-**Kontext:**
-```
-d politische Meinungsbildung auswirkt, da kausale Zusammenhänge methodisch schwer zu isolieren sind.\vglfootcite[1]{Kelm2023}\vglfootcite[7--9, 17]{Areeb2023} O'Neil (2016) betont zudem das Problem de...
-```
-
----
-
 ### Areeb2023 (Seite 7)
 
 **Datei:** `05_kritische_betrachtung.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 6.25% (MISMATCH)
+**Ähnlichkeit:** 5.56% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 1/16
+- Gemeinsame Schlüsselwörter: 1/18
 
 **Kontext:**
 ```
-ung auswirkt, da kausale Zusammenhänge methodisch schwer zu isolieren sind.\vglfootcite[1]{Kelm2023}\vglfootcite[7--9, 17]{Areeb2023} O'Neil (2016) betont zudem das Problem der Feedback-Schleifen, bei...
+d politische Meinungsbildung auswirkt, da kausale Zusammenhänge methodisch schwer zu isolieren sind.\vglfootcite[7--9, 17]{Areeb2023} O'Neil (2016) betont zudem das Problem der Feedback-Schleifen, bei...
 ```
 
 ---
 
-### ONeil2016 (Seite 145)
+### ONeil2016 (Seite 10)
 
 **Datei:** `05_kritische_betrachtung.tex`
 
@@ -7688,18 +6204,18 @@ ung auswirkt, da kausale Zusammenhänge methodisch schwer zu isolieren sind.\vgl
 
 **Ähnlichkeit:** 0.00% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/17
+- Gemeinsame Schlüsselwörter: 0/18
 
 **Kontext:**
 ```
-ale Ungleichheiten unbemerkt verstärken können, ohne dass ausreichende unabhängige Audits vorliegen.\vglfootcite[145]{ONeil2016}
+ale Ungleichheiten unbemerkt verstärken können, ohne dass ausreichende unabhängige Audits vorliegen.\vglfootcite[10--14, 157--160]{ONeil2016}
 
-Zukünftige Forschung muss die Lücke zwischen normativen Ansprüchen und...
+Zukünftige Forschung muss die Lücke zwischen normativen A...
 ```
 
 ---
 
-### DSA2022 (Seite 91)
+### DSA2022 (Seite 70)
 
 **Datei:** `05_kritische_betrachtung.tex`
 
@@ -7711,7 +6227,7 @@ Zukünftige Forschung muss die Lücke zwischen normativen Ansprüchen und...
 
 **Kontext:**
 ```
-ithmen erforderlich, wie ihn der Digital Services Act für zugelassene Forscher prinzipiell vorsieht.\vglfootcite[91]{DSA2022} Eine verantwortungsvolle Beantwortung der Forschungsfrage setzt voraus, da...
+ithmen erforderlich, wie ihn der Digital Services Act für zugelassene Forscher prinzipiell vorsieht.\vglfootcite[70--71]{DSA2022} Eine verantwortungsvolle Beantwortung der Forschungsfrage setzt voraus...
 ```
 
 ---
@@ -7822,384 +6338,317 @@ Dennoch muss betont werden, dass Algorithmen den freien Willen nicht aut...
 
 ---
 
-### DSA2022 (Seite 85)
+### DSA2022 (Seite 70)
 
 **Datei:** `06_fazit.tex`
 
 **Status:** CHECKED
 
-**Ähnlichkeit:** 0.00% (MISMATCH)
+**Ähnlichkeit:** 7.69% (MISMATCH)
 
-- Gemeinsame Schlüsselwörter: 0/13
+- Gemeinsame Schlüsselwörter: 1/13
 
 **Kontext:**
 ```
-setzen und den durch den Digital Services Act geschaffenen Datenzugang für die Wissenschaft nutzen.\vglfootcite[85]{DSA2022} Um die Langzeitfolgen von Interaktionsoptimierung und Personalisierung bess...
+setzen und den durch den Digital Services Act geschaffenen Datenzugang für die Wissenschaft nutzen.\vglfootcite[70--71]{DSA2022} Um die Langzeitfolgen von Interaktionsoptimierung und Personalisierung ...
 ```
 
 ---
 
 ## 📋 Alle Zitationen (Referenz)
 
-⚠️ **Srnicek2017** (S. 36) - `01_einleitung.tex`
-⚠️ **Srnicek2017** (S. 9) - `01_einleitung.tex`
+⚠️ **Srnicek2017** (S. 30) - `01_einleitung.tex`
 ⚠️ **Zuboff2019** (S. 69) - `01_einleitung.tex`
-⚠️ **Laudon2018** (S. 17) - `01_einleitung.tex`
 ⚠️ **Pasquale2015** (S. 19) - `01_einleitung.tex`
-⚠️ **Kitchin2014** (S. 10) - `01_einleitung.tex`
+⚠️ **Kitchin2014** (S. 722) - `01_einleitung.tex`
 ⚠️ **Zuboff2019** (S. 69) - `01_einleitung.tex`
-⚠️ **Laudon2018** (S. 20) - `01_einleitung.tex`
-⚠️ **Laudon2018** (S. 27) - `01_einleitung.tex`
+⚠️ **Laudon2018** (S. 418) - `01_einleitung.tex`
+⚠️ **Laudon2018** (S. 419) - `01_einleitung.tex`
 ⚠️ **Zuboff2019** (S. 69) - `01_einleitung.tex`
 ⚠️ **WoolleyHoward2017** (S. 1) - `01_einleitung.tex`
-⚠️ **Srnicek2017** (S. 27) - `01_einleitung.tex`
+⚠️ **Srnicek2017** (S. 59) - `01_einleitung.tex`
 ⚠️ **Pasquale2015** (S. 4) - `01_einleitung.tex`
-⚠️ **ONeil2016** (S. 145) - `01_einleitung.tex`
+⚠️ **ONeil2016** (S. 155) - `01_einleitung.tex`
 ⚠️ **BradshawHoward2018** (S. 4) - `01_einleitung.tex`
 ⚠️ **Pasquale2015** (S. 19) - `01_einleitung.tex`
-⚠️ **RussellNorvig2010** (S. 2) - `02_grundlagen.tex`
-⚠️ **RussellNorvig2010** (S. 34) - `02_grundlagen.tex`
-⚠️ **Goodfellow2016** (S. 91) - `02_grundlagen.tex`
-⚠️ **Goodfellow2016** (S. 91) - `02_grundlagen.tex`
-⚠️ **Goodfellow2016** (S. 91) - `02_grundlagen.tex`
-⚠️ **SuttonBarto2018** (S. 1) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 16) - `02_grundlagen.tex`
-⚠️ **Kitchin2014** (S. 10) - `02_grundlagen.tex`
+⚠️ **RussellNorvig2010** (S. 1) - `02_grundlagen.tex`
 ⚠️ **Goodfellow2016** (S. 2) - `02_grundlagen.tex`
-⚠️ **Mitchell1997** (S. 2) - `02_grundlagen.tex`
-⚠️ **JordanMitchell2015** (S. 1) - `02_grundlagen.tex`
-⚠️ **RussellNorvig2010** (S. 698) - `02_grundlagen.tex`
-⚠️ **Goodfellow2016** (S. 143) - `02_grundlagen.tex`
-⚠️ **RussellNorvig2010** (S. 860) - `02_grundlagen.tex`
-⚠️ **RussellNorvig2010** (S. 556) - `02_grundlagen.tex`
+⚠️ **Goodfellow2016** (S. 104) - `02_grundlagen.tex`
+⚠️ **Goodfellow2016** (S. 104) - `02_grundlagen.tex`
+⚠️ **SuttonBarto2018** (S. 1) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 254) - `02_grundlagen.tex`
+⚠️ **Kitchin2014** (S. 722) - `02_grundlagen.tex`
+⚠️ **Goodfellow2016** (S. 4) - `02_grundlagen.tex`
+⚠️ **Mitchell1997** (S. 9) - `02_grundlagen.tex`
+⚠️ **JordanMitchell2015** (S. 255) - `02_grundlagen.tex`
+⚠️ **RussellNorvig2010** (S. 718) - `02_grundlagen.tex`
+⚠️ **Goodfellow2016** (S. 146) - `02_grundlagen.tex`
+⚠️ **RussellNorvig2010** (S. 578) - `02_grundlagen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `02_grundlagen.tex`
-⚠️ **Goodfellow2016** (S. 417) - `02_grundlagen.tex`
+⚠️ **Goodfellow2016** (S. 422) - `02_grundlagen.tex`
 ⚠️ **AIHLEG2019** (S. 36) - `02_grundlagen.tex`
-⚠️ **NIST2023** (S. 19) - `02_grundlagen.tex`
+⚠️ **NIST2023** (S. 14) - `02_grundlagen.tex`
 ⚠️ **Zuboff2019** (S. 69) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 447) - `02_grundlagen.tex`
-⚠️ **NIST2023** (S. 19) - `02_grundlagen.tex`
+⚠️ **RussellNorvig2010** (S. 510) - `02_grundlagen.tex`
 ⚠️ **Adomavicius2005** (S. 734) - `02_grundlagen.tex`
 ⚠️ **Adomavicius2005** (S. 734) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 16) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 493) - `02_grundlagen.tex`
 ⚠️ **Zuboff2019** (S. 69) - `02_grundlagen.tex`
-⚠️ **NIST2023** (S. 19) - `02_grundlagen.tex`
 ⚠️ **Adomavicius2005** (S. 734) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 20) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 27) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 56) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 491) - `02_grundlagen.tex`
 ⚠️ **StairReynolds2010** (S. 10) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 30) - `02_grundlagen.tex`
-⚠️ **Shipsey2010** (S. 6) - `02_grundlagen.tex`
-⚠️ **Shipsey2010** (S. 13) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 56) - `02_grundlagen.tex`
+⚠️ **Shipsey2010** (S. 8) - `02_grundlagen.tex`
 ⚠️ **StairReynolds2010** (S. 30) - `02_grundlagen.tex`
 ⚠️ **StairReynolds2010** (S. 5) - `02_grundlagen.tex`
 ⚠️ **Shipsey2010** (S. 6) - `02_grundlagen.tex`
-⚠️ **Shipsey2010** (S. 9) - `02_grundlagen.tex`
-⚠️ **Rashidi2018** (S. 20) - `02_grundlagen.tex`
+⚠️ **Rashidi2018** (S. 22) - `02_grundlagen.tex`
 ⚠️ **StairReynolds2010** (S. 20) - `02_grundlagen.tex`
 ⚠️ **Rashidi2018** (S. 19) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 15) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 11) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 35) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 36) - `02_grundlagen.tex`
 ⚠️ **Tiwana2014** (S. 3) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 11) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 40) - `02_grundlagen.tex`
 ⚠️ **Tiwana2014** (S. 5) - `02_grundlagen.tex`
-⚠️ **Parker2016** (S. 19) - `02_grundlagen.tex`
-⚠️ **Parker2016** (S. 21) - `02_grundlagen.tex`
-⚠️ **EvansGawer2019** (S. 13) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 16) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 27) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 20) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 16) - `02_grundlagen.tex`
-⚠️ **RussellNorvig2010** (S. 34) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 16) - `02_grundlagen.tex`
-⚠️ **Goodfellow2016** (S. 374) - `02_grundlagen.tex`
+⚠️ **Parker2016** (S. 17) - `02_grundlagen.tex`
+⚠️ **EvansGawer2019** (S. 16) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 467) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 56) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 46) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 254) - `02_grundlagen.tex`
+⚠️ **RussellNorvig2010** (S. 50) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 47) - `02_grundlagen.tex`
+⚠️ **Goodfellow2016** (S. 99) - `02_grundlagen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `02_grundlagen.tex`
-⚠️ **NIST2023** (S. 19) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 27) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 16) - `02_grundlagen.tex`
+⚠️ **NIST2023** (S. 14) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 44) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 484) - `02_grundlagen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 20) - `02_grundlagen.tex`
-⚠️ **NIST2023** (S. 16) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 27) - `02_grundlagen.tex`
-⚠️ **RussellNorvig2010** (S. 117) - `02_grundlagen.tex`
-⚠️ **NIST2023** (S. 19) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 484) - `02_grundlagen.tex`
+⚠️ **NIST2023** (S. 26) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 46) - `02_grundlagen.tex`
+⚠️ **RussellNorvig2010** (S. 50) - `02_grundlagen.tex`
+⚠️ **NIST2023** (S. 35) - `02_grundlagen.tex`
 ⚠️ **Tiwana2014** (S. 10) - `02_grundlagen.tex`
 ⚠️ **Tiwana2014** (S. 10) - `02_grundlagen.tex`
-⚠️ **Parker2016** (S. 20) - `02_grundlagen.tex`
+⚠️ **Parker2016** (S. 17) - `02_grundlagen.tex`
 ⚠️ **Tiwana2014** (S. 10) - `02_grundlagen.tex`
 ⚠️ **Cusumano2019** (S. 18) - `02_grundlagen.tex`
 ⚠️ **Tiwana2014** (S. 10) - `02_grundlagen.tex`
-⚠️ **Parker2016** (S. 17) - `02_grundlagen.tex`
-⚠️ **Parker2016** (S. 17) - `02_grundlagen.tex`
+⚠️ **Parker2016** (S. 27) - `02_grundlagen.tex`
 ⚠️ **Cusumano2019** (S. 41) - `02_grundlagen.tex`
-⚠️ **Parker2016** (S. 5) - `02_grundlagen.tex`
 ⚠️ **Tiwana2014** (S. 10) - `02_grundlagen.tex`
-⚠️ **Srnicek2017** (S. 27) - `02_grundlagen.tex`
-⚠️ **Srnicek2017** (S. 27) - `02_grundlagen.tex`
-⚠️ **Srnicek2017** (S. 27) - `02_grundlagen.tex`
-⚠️ **Lyon2012** (S. 2) - `02_grundlagen.tex`
+⚠️ **Tiwana2014** (S. 10) - `02_grundlagen.tex`
+⚠️ **Srnicek2017** (S. 28) - `02_grundlagen.tex`
+⚠️ **Lyon2012** (S. 1) - `02_grundlagen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `02_grundlagen.tex`
-⚠️ **Goodfellow2016** (S. 91) - `02_grundlagen.tex`
+⚠️ **Goodfellow2016** (S. 99) - `02_grundlagen.tex`
 ⚠️ **Adomavicius2005** (S. 734) - `02_grundlagen.tex`
 ⚠️ **Gillespie2014** (S. 167) - `02_grundlagen.tex`
-⚠️ **RussellNorvig2010** (S. 34) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 44) - `02_grundlagen.tex`
+⚠️ **RussellNorvig2010** (S. 50) - `02_grundlagen.tex`
 ⚠️ **VanDijck2014** (S. 1) - `02_grundlagen.tex`
 ⚠️ **Zuboff2019** (S. 223) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 16) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 210) - `02_grundlagen.tex`
 ⚠️ **RussellNorvig2010** (S. 34) - `02_grundlagen.tex`
 ⚠️ **OECD2013** (S. 10) - `02_grundlagen.tex`
-⚠️ **Kitchin2014** (S. 10) - `02_grundlagen.tex`
-⚠️ **Kitchin2014** (S. 10) - `02_grundlagen.tex`
-⚠️ **Gillespie2014** (S. 167) - `02_grundlagen.tex`
-⚠️ **RussellNorvig2010** (S. 556) - `02_grundlagen.tex`
-⚠️ **RussellNorvig2010** (S. 117) - `02_grundlagen.tex`
-⚠️ **Goodfellow2016** (S. 374) - `02_grundlagen.tex`
+⚠️ **Kitchin2014** (S. 722) - `02_grundlagen.tex`
+⚠️ **Kitchin2014** (S. 723) - `02_grundlagen.tex`
+⚠️ **Gillespie2014** (S. 174) - `02_grundlagen.tex`
+⚠️ **RussellNorvig2010** (S. 566) - `02_grundlagen.tex`
+⚠️ **Goodfellow2016** (S. 104) - `02_grundlagen.tex`
 ⚠️ **Chandola2009** (S. 1) - `02_grundlagen.tex`
-⚠️ **RussellNorvig2010** (S. 562) - `02_grundlagen.tex`
-⚠️ **NIST2023** (S. 19) - `02_grundlagen.tex`
+⚠️ **RussellNorvig2010** (S. 570) - `02_grundlagen.tex`
+⚠️ **NIST2023** (S. 14) - `02_grundlagen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `02_grundlagen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `02_grundlagen.tex`
-⚠️ **Gillespie2014** (S. 167) - `02_grundlagen.tex`
-⚠️ **Laudon2018** (S. 20) - `02_grundlagen.tex`
-⚠️ **NIST2023** (S. 16) - `02_grundlagen.tex`
+⚠️ **Gillespie2014** (S. 175) - `02_grundlagen.tex`
+⚠️ **Laudon2018** (S. 467) - `02_grundlagen.tex`
+⚠️ **NIST2023** (S. 22) - `02_grundlagen.tex`
 ⚠️ **VomBrocke2009** (S. 1) - `02_grundlagen.tex`
 ⚠️ **VomBrocke2009** (S. 1) - `02_grundlagen.tex`
 ⚠️ **VomBrocke2009** (S. 1) - `02_grundlagen.tex`
 ⚠️ **VomBrocke2009** (S. 1) - `02_grundlagen.tex`
 ⚠️ **VomBrocke2009** (S. 1) - `02_grundlagen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `02_grundlagen.tex`
-⚠️ **Srnicek2017** (S. 21) - `03_monitoring_systeme.tex`
-⚠️ **Zuboff2019** (S. 69) - `03_monitoring_systeme.tex`
-⚠️ **Laudon2018** (S. 16) - `03_monitoring_systeme.tex`
-⚠️ **Lyon2012** (S. 2) - `03_monitoring_systeme.tex`
+⚠️ **Srnicek2017** (S. 28) - `03_monitoring_systeme.tex`
+⚠️ **Lyon2012** (S. 1) - `03_monitoring_systeme.tex`
 ⚠️ **VanDijck2014** (S. 198) - `03_monitoring_systeme.tex`
 ⚠️ **Yeung2017** (S. 122) - `03_monitoring_systeme.tex`
 ⚠️ **VanDijck2014** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Narayanan2023** (S. 12) - `03_monitoring_systeme.tex`
-⚠️ **Zuboff2019** (S. 69) - `03_monitoring_systeme.tex`
-⚠️ **MetzlerGarcia2023** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Narayanan2023** (S. 1) - `03_monitoring_systeme.tex`
+⚠️ **Narayanan2023** (S. 18) - `03_monitoring_systeme.tex`
+⚠️ **Srnicek2017** (S. 30) - `03_monitoring_systeme.tex`
+⚠️ **MetzlerGarcia2023** (S. 735) - `03_monitoring_systeme.tex`
+⚠️ **Narayanan2023** (S. 11) - `03_monitoring_systeme.tex`
 ⚠️ **Zuboff2019** (S. 18) - `03_monitoring_systeme.tex`
-⚠️ **VanDijck2014** (S. 1) - `03_monitoring_systeme.tex`
 ⚠️ **Lyon2012** (S. 2) - `03_monitoring_systeme.tex`
 ⚠️ **Cusumano2019** (S. 15) - `03_monitoring_systeme.tex`
 ⚠️ **Tiwana2014** (S. 10) - `03_monitoring_systeme.tex`
-⚠️ **Srnicek2017** (S. 27) - `03_monitoring_systeme.tex`
-⚠️ **Parker2016** (S. 5) - `03_monitoring_systeme.tex`
-⚠️ **Tiwana2014** (S. 10) - `03_monitoring_systeme.tex`
-⚠️ **Srnicek2017** (S. 48) - `03_monitoring_systeme.tex`
+⚠️ **Srnicek2017** (S. 38) - `03_monitoring_systeme.tex`
+⚠️ **Parker2016** (S. 17) - `03_monitoring_systeme.tex`
 ⚠️ **Cusumano2019** (S. 94) - `03_monitoring_systeme.tex`
 ⚠️ **Zuboff2019** (S. 69) - `03_monitoring_systeme.tex`
-⚠️ **Parker2016** (S. 5) - `03_monitoring_systeme.tex`
 ⚠️ **Zuboff2019** (S. 28) - `03_monitoring_systeme.tex`
-⚠️ **OECD2011** (S. 10) - `03_monitoring_systeme.tex`
+⚠️ **OECD2013** (S. 10) - `03_monitoring_systeme.tex`
 ⚠️ **VanDijck2014** (S. 1) - `03_monitoring_systeme.tex`
 ⚠️ **Acquisti2016** (S. 444) - `03_monitoring_systeme.tex`
-⚠️ **Gillespie2014** (S. 167) - `03_monitoring_systeme.tex`
-⚠️ **Kitchin2014** (S. 10) - `03_monitoring_systeme.tex`
-⚠️ **Lyon2012** (S. 2) - `03_monitoring_systeme.tex`
-⚠️ **Zuboff2019** (S. 86) - `03_monitoring_systeme.tex`
-⚠️ **OECD2011** (S. 33) - `03_monitoring_systeme.tex`
-⚠️ **Gillespie2014** (S. 167) - `03_monitoring_systeme.tex`
-⚠️ **Zuboff2019** (S. 5) - `03_monitoring_systeme.tex`
+⚠️ **Gillespie2014** (S. 168) - `03_monitoring_systeme.tex`
+⚠️ **Kitchin2014** (S. 722) - `03_monitoring_systeme.tex`
+⚠️ **Lyon2012** (S. 4) - `03_monitoring_systeme.tex`
+⚠️ **OECD2013** (S. 13) - `03_monitoring_systeme.tex`
+⚠️ **Gillespie2014** (S. 172) - `03_monitoring_systeme.tex`
 ⚠️ **Adomavicius2005** (S. 734) - `03_monitoring_systeme.tex`
 ⚠️ **Burke2002** (S. 2) - `03_monitoring_systeme.tex`
 ⚠️ **Adomavicius2005** (S. 734) - `03_monitoring_systeme.tex`
 ⚠️ **Burke2002** (S. 6) - `03_monitoring_systeme.tex`
-⚠️ **Pariser2011** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Pariser2011** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Zuboff2019** (S. 69) - `03_monitoring_systeme.tex`
-⚠️ **Gillespie2014** (S. 167) - `03_monitoring_systeme.tex`
+⚠️ **Pariser2011** (S. 9) - `03_monitoring_systeme.tex`
+⚠️ **Gillespie2014** (S. 175) - `03_monitoring_systeme.tex`
 ⚠️ **Gillespie2014** (S. 2) - `03_monitoring_systeme.tex`
-⚠️ **Gillespie2014** (S. 167) - `03_monitoring_systeme.tex`
+⚠️ **Gillespie2014** (S. 188) - `03_monitoring_systeme.tex`
 ⚠️ **Pasquale2015** (S. 19) - `03_monitoring_systeme.tex`
-⚠️ **Narayanan2023** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Narayanan2023** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Gillespie2014** (S. 167) - `03_monitoring_systeme.tex`
-⚠️ **Narayanan2023** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Gillespie2014** (S. 167) - `03_monitoring_systeme.tex`
+⚠️ **Narayanan2023** (S. 18) - `03_monitoring_systeme.tex`
+⚠️ **Narayanan2023** (S. 30) - `03_monitoring_systeme.tex`
+⚠️ **Gillespie2014** (S. 172) - `03_monitoring_systeme.tex`
+⚠️ **Narayanan2023** (S. 16) - `03_monitoring_systeme.tex`
 ⚠️ **Pasquale2015** (S. 19) - `03_monitoring_systeme.tex`
-⚠️ **ONeil2016** (S. 145) - `03_monitoring_systeme.tex`
-⚠️ **OECD2011** (S. 519) - `03_monitoring_systeme.tex`
-⚠️ **ONeil2016** (S. 145) - `03_monitoring_systeme.tex`
-⚠️ **ONeil2016** (S. 145) - `03_monitoring_systeme.tex`
+⚠️ **ONeil2016** (S. 104) - `03_monitoring_systeme.tex`
+⚠️ **OECD2013** (S. 10) - `03_monitoring_systeme.tex`
+⚠️ **ONeil2016** (S. 14) - `03_monitoring_systeme.tex`
 ⚠️ **Pasquale2015** (S. 19) - `03_monitoring_systeme.tex`
-⚠️ **ONeil2016** (S. 145) - `03_monitoring_systeme.tex`
+⚠️ **ONeil2016** (S. 106) - `03_monitoring_systeme.tex`
 ⚠️ **SuttonBarto2018** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Narayanan2023** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Narayanan2023** (S. 4) - `03_monitoring_systeme.tex`
-⚠️ **Zuboff2019** (S. 202) - `03_monitoring_systeme.tex`
+⚠️ **Narayanan2023** (S. 18) - `03_monitoring_systeme.tex`
+⚠️ **Narayanan2023** (S. 18) - `03_monitoring_systeme.tex`
 ⚠️ **Yeung2017** (S. 118) - `03_monitoring_systeme.tex`
 ⚠️ **Fogg2009** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Fogg2009** (S. 1) - `03_monitoring_systeme.tex`
 ⚠️ **Zuboff2019** (S. 20) - `03_monitoring_systeme.tex`
-⚠️ **Kramer2014** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Isaak2018** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Isaak2018** (S. 1) - `03_monitoring_systeme.tex`
+⚠️ **Kramer2014** (S. 8788) - `03_monitoring_systeme.tex`
+⚠️ **Isaak2018** (S. 56) - `03_monitoring_systeme.tex`
 ⚠️ **Zuboff2019** (S. 278) - `03_monitoring_systeme.tex`
 ⚠️ **Susser2019** (S. 38) - `03_monitoring_systeme.tex`
 ⚠️ **Zuboff2019** (S. 278) - `03_monitoring_systeme.tex`
 ⚠️ **Yeung2017** (S. 122) - `03_monitoring_systeme.tex`
 ⚠️ **Cinelli2021** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **MetzlerGarcia2023** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Zuboff2019** (S. 30) - `03_monitoring_systeme.tex`
 ⚠️ **Narayanan2023** (S. 4) - `03_monitoring_systeme.tex`
 ⚠️ **Yeung2017** (S. 122) - `03_monitoring_systeme.tex`
 ⚠️ **Yeung2017** (S. 118) - `03_monitoring_systeme.tex`
-⚠️ **Gillespie2014** (S. 167) - `03_monitoring_systeme.tex`
+⚠️ **Gillespie2014** (S. 183) - `03_monitoring_systeme.tex`
 ⚠️ **Zuboff2019** (S. 69) - `03_monitoring_systeme.tex`
-⚠️ **Srnicek2017** (S. 27) - `03_monitoring_systeme.tex`
-⚠️ **Parker2016** (S. 8) - `03_monitoring_systeme.tex`
-⚠️ **Pariser2011** (S. 1) - `03_monitoring_systeme.tex`
+⚠️ **Srnicek2017** (S. 32) - `03_monitoring_systeme.tex`
 ⚠️ **Adomavicius2005** (S. 734) - `03_monitoring_systeme.tex`
-⚠️ **Narayanan2023** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Srnicek2017** (S. 27) - `03_monitoring_systeme.tex`
-⚠️ **Parker2016** (S. 17) - `03_monitoring_systeme.tex`
-⚠️ **Gillespie2014** (S. 167) - `03_monitoring_systeme.tex`
+⚠️ **Narayanan2023** (S. 8) - `03_monitoring_systeme.tex`
+⚠️ **Srnicek2017** (S. 30) - `03_monitoring_systeme.tex`
+⚠️ **Gillespie2014** (S. 168) - `03_monitoring_systeme.tex`
 ⚠️ **Zuboff2019** (S. 69) - `03_monitoring_systeme.tex`
-⚠️ **Fogg2009** (S. 1) - `03_monitoring_systeme.tex`
 ⚠️ **Creemers2018** (S. 2) - `03_monitoring_systeme.tex`
 ⚠️ **Creemers2018** (S. 3) - `03_monitoring_systeme.tex`
 ⚠️ **Qiang2019** (S. 5) - `03_monitoring_systeme.tex`
+⚠️ **SFRC2020** (S. 9) - `03_monitoring_systeme.tex`
 ⚠️ **Qiang2019** (S. 5) - `03_monitoring_systeme.tex`
-⚠️ **SFRC2020** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Qiang2019** (S. 5) - `03_monitoring_systeme.tex`
-⚠️ **SFRC2020** (S. 4) - `03_monitoring_systeme.tex`
+⚠️ **SFRC2020** (S. 14) - `03_monitoring_systeme.tex`
 ⚠️ **Qiang2019** (S. 5) - `03_monitoring_systeme.tex`
 ⚠️ **Creemers2018** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Lyon2012** (S. 2) - `03_monitoring_systeme.tex`
-⚠️ **SFRC2020** (S. 4) - `03_monitoring_systeme.tex`
-⚠️ **Zuboff2019** (S. 389) - `03_monitoring_systeme.tex`
+⚠️ **SFRC2020** (S. 14) - `03_monitoring_systeme.tex`
+⚠️ **Srnicek2017** (S. 30) - `03_monitoring_systeme.tex`
 ⚠️ **Creemers2018** (S. 25) - `03_monitoring_systeme.tex`
-⚠️ **Zuboff2019** (S. 8) - `03_monitoring_systeme.tex`
-⚠️ **Pasquale2015** (S. 10) - `03_monitoring_systeme.tex`
-⚠️ **Creemers2018** (S. 19) - `03_monitoring_systeme.tex`
+⚠️ **Lyon2012** (S. 3) - `03_monitoring_systeme.tex`
 ⚠️ **Pasquale2015** (S. 19) - `03_monitoring_systeme.tex`
 ⚠️ **Creemers2018** (S. 19) - `03_monitoring_systeme.tex`
 ⚠️ **Zuboff2019** (S. 16) - `03_monitoring_systeme.tex`
 ⚠️ **Creemers2018** (S. 26) - `03_monitoring_systeme.tex`
-⚠️ **Narayanan2023** (S. 1) - `03_monitoring_systeme.tex`
-⚠️ **Creemers2018** (S. 8) - `03_monitoring_systeme.tex`
-⚠️ **Srnicek2017** (S. 27) - `03_monitoring_systeme.tex`
-⚠️ **SFRC2020** (S. 1) - `03_monitoring_systeme.tex`
+⚠️ **Narayanan2023** (S. 18) - `03_monitoring_systeme.tex`
+⚠️ **Srnicek2017** (S. 31) - `03_monitoring_systeme.tex`
 ⚠️ **Zuboff2019** (S. 71) - `03_monitoring_systeme.tex`
-⚠️ **SFRC2020** (S. 1) - `03_monitoring_systeme.tex`
+⚠️ **SFRC2020** (S. 9) - `03_monitoring_systeme.tex`
 ⚠️ **Pasquale2015** (S. 19) - `03_monitoring_systeme.tex`
 ⚠️ **Creemers2018** (S. 13) - `03_monitoring_systeme.tex`
-⚠️ **Lyon2012** (S. 2) - `03_monitoring_systeme.tex`
+⚠️ **Srnicek2017** (S. 30) - `03_monitoring_systeme.tex`
 ⚠️ **Creemers2018** (S. 17) - `03_monitoring_systeme.tex`
-⚠️ **Gillespie2014** (S. 167) - `04_implikationen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 69) - `04_implikationen.tex`
-⚠️ **OECD2011** (S. 531) - `04_implikationen.tex`
+⚠️ **OECD2013** (S. 4) - `04_implikationen.tex`
 ⚠️ **VanDijck2014** (S. 1) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 69) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 59) - `04_implikationen.tex`
 ⚠️ **Cusumano2019** (S. 159) - `04_implikationen.tex`
 ⚠️ **AIHLEG2019** (S. 19) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 15) - `04_implikationen.tex`
-⚠️ **ONeil2016** (S. 145) - `04_implikationen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `04_implikationen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `04_implikationen.tex`
 ⚠️ **Acquisti2016** (S. 448) - `04_implikationen.tex`
-⚠️ **Gillespie2014** (S. 13) - `04_implikationen.tex`
+⚠️ **Gillespie2014** (S. 179) - `04_implikationen.tex`
 ⚠️ **VanDijck2014** (S. 1) - `04_implikationen.tex`
 ⚠️ **VanDijck2014** (S. 1) - `04_implikationen.tex`
-⚠️ **Kitchin2014** (S. 10) - `04_implikationen.tex`
-⚠️ **Gillespie2014** (S. 167) - `04_implikationen.tex`
-⚠️ **Gillespie2014** (S. 167) - `04_implikationen.tex`
-⚠️ **Narayanan2023** (S. 8) - `04_implikationen.tex`
+⚠️ **Kitchin2014** (S. 722) - `04_implikationen.tex`
+⚠️ **Gillespie2014** (S. 173) - `04_implikationen.tex`
+⚠️ **Narayanan2023** (S. 18) - `04_implikationen.tex`
 ⚠️ **Areeb2023** (S. 1) - `04_implikationen.tex`
 ⚠️ **Areeb2023** (S. 1) - `04_implikationen.tex`
-⚠️ **Gillespie2014** (S. 167) - `04_implikationen.tex`
-⚠️ **Gillespie2014** (S. 167) - `04_implikationen.tex`
-⚠️ **Gillespie2014** (S. 167) - `04_implikationen.tex`
-⚠️ **Narayanan2023** (S. 1) - `04_implikationen.tex`
-⚠️ **Pariser2011** (S. 1) - `04_implikationen.tex`
-⚠️ **Gillespie2014** (S. 167) - `04_implikationen.tex`
-⚠️ **Narayanan2023** (S. 1) - `04_implikationen.tex`
+⚠️ **Gillespie2014** (S. 168) - `04_implikationen.tex`
+⚠️ **Pariser2011** (S. 88) - `04_implikationen.tex`
+⚠️ **Narayanan2023** (S. 31) - `04_implikationen.tex`
 ⚠️ **Cinelli2021** (S. 1) - `04_implikationen.tex`
-⚠️ **Gillespie2014** (S. 167) - `04_implikationen.tex`
+⚠️ **Gillespie2014** (S. 188) - `04_implikationen.tex`
 ⚠️ **Pasquale2015** (S. 4) - `04_implikationen.tex`
 ⚠️ **Areeb2023** (S. 7) - `04_implikationen.tex`
 ⚠️ **Cinelli2021** (S. 1) - `04_implikationen.tex`
-⚠️ **Kelm2023** (S. 1) - `04_implikationen.tex`
-⚠️ **Kelm2023** (S. 1) - `04_implikationen.tex`
-⚠️ **MetzlerGarcia2023** (S. 1) - `04_implikationen.tex`
+⚠️ **Kelm2023** (S. 3) - `04_implikationen.tex`
+⚠️ **MetzlerGarcia2023** (S. 735) - `04_implikationen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 1) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 69) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 1) - `04_implikationen.tex`
-⚠️ **Kaptein2015** (S. 38) - `04_implikationen.tex`
-⚠️ **Kaptein2015** (S. 38) - `04_implikationen.tex`
-⚠️ **Kaptein2015** (S. 38) - `04_implikationen.tex`
+⚠️ **Kaptein2015** (S. 41) - `04_implikationen.tex`
+⚠️ **Kaptein2015** (S. 41) - `04_implikationen.tex`
+⚠️ **Kaptein2015** (S. 41) - `04_implikationen.tex`
 ⚠️ **SuttonBarto2018** (S. 1) - `04_implikationen.tex`
 ⚠️ **SuttonBarto2018** (S. 46) - `04_implikationen.tex`
-⚠️ **MetzlerGarcia2023** (S. 1) - `04_implikationen.tex`
-⚠️ **Fogg2009** (S. 1) - `04_implikationen.tex`
-⚠️ **Fogg2009** (S. 1) - `04_implikationen.tex`
+⚠️ **MetzlerGarcia2023** (S. 735) - `04_implikationen.tex`
 ⚠️ **Fogg2009** (S. 1) - `04_implikationen.tex`
 ⚠️ **Yeung2017** (S. 118) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 1) - `04_implikationen.tex`
-⚠️ **Narayanan2023** (S. 12) - `04_implikationen.tex`
-⚠️ **Narayanan2023** (S. 1) - `04_implikationen.tex`
+⚠️ **Narayanan2023** (S. 7) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 298) - `04_implikationen.tex`
-⚠️ **Kramer2014** (S. 1) - `04_implikationen.tex`
-⚠️ **Kramer2014** (S. 1) - `04_implikationen.tex`
+⚠️ **Kramer2014** (S. 8788) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 16) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 2) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 3) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 26) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 28) - `04_implikationen.tex`
-⚠️ **OrbenPrzybylski2019** (S. 173) - `04_implikationen.tex`
-⚠️ **OrbenPrzybylski2019** (S. 173) - `04_implikationen.tex`
-⚠️ **OrbenPrzybylski2019** (S. 6) - `04_implikationen.tex`
-⚠️ **MetzlerGarcia2023** (S. 1) - `04_implikationen.tex`
+⚠️ **OrbenPrzybylski2019** (S. 2) - `04_implikationen.tex`
+⚠️ **MetzlerGarcia2023** (S. 736) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 283) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 1) - `04_implikationen.tex`
 ⚠️ **Srnicek2017** (S. 18) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 69) - `04_implikationen.tex`
-⚠️ **Srnicek2017** (S. 21) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 69) - `04_implikationen.tex`
-⚠️ **Zuboff2019** (S. 69) - `04_implikationen.tex`
-⚠️ **Srnicek2017** (S. 18) - `04_implikationen.tex`
+⚠️ **Srnicek2017** (S. 28) - `04_implikationen.tex`
 ⚠️ **VanDijck2014** (S. 1) - `04_implikationen.tex`
-⚠️ **MayerSchoenberger2013** (S. 30) - `04_implikationen.tex`
-⚠️ **Davenport2006** (S. 1) - `04_implikationen.tex`
-⚠️ **Parker2016** (S. 5) - `04_implikationen.tex`
-⚠️ **Cusumano2019** (S. 50) - `04_implikationen.tex`
-⚠️ **EvansSchmalensee2016** (S. 82) - `04_implikationen.tex`
+⚠️ **Davenport2006** (S. 2) - `04_implikationen.tex`
+⚠️ **Parker2016** (S. 22) - `04_implikationen.tex`
+⚠️ **EvansSchmalensee2016** (S. 5) - `04_implikationen.tex`
 ⚠️ **Tiwana2014** (S. 10) - `04_implikationen.tex`
-⚠️ **Parker2016** (S. 17) - `04_implikationen.tex`
-⚠️ **Srnicek2017** (S. 27) - `04_implikationen.tex`
-⚠️ **VanDijck2014** (S. 1) - `04_implikationen.tex`
+⚠️ **Parker2016** (S. 27) - `04_implikationen.tex`
 ⚠️ **VanDijck2014** (S. 1) - `04_implikationen.tex`
 ⚠️ **Cusumano2019** (S. 31) - `04_implikationen.tex`
-⚠️ **Srnicek2017** (S. 27) - `04_implikationen.tex`
 ⚠️ **Tiwana2014** (S. 10) - `04_implikationen.tex`
-⚠️ **Parker2016** (S. 5) - `04_implikationen.tex`
 ⚠️ **Pasquale2015** (S. 5) - `04_implikationen.tex`
 ⚠️ **Acquisti2016** (S. 477) - `04_implikationen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `04_implikationen.tex`
 ⚠️ **Acquisti2016** (S. 449) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 69) - `04_implikationen.tex`
-⚠️ **OECD2011** (S. 4) - `04_implikationen.tex`
+⚠️ **OECD2013** (S. 9) - `04_implikationen.tex`
 ⚠️ **Acquisti2016** (S. 479) - `04_implikationen.tex`
-⚠️ **Srnicek2017** (S. 18) - `04_implikationen.tex`
-⚠️ **VanDijck2014** (S. 1) - `04_implikationen.tex`
+⚠️ **Srnicek2017** (S. 57) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 69) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 62) - `04_implikationen.tex`
 ⚠️ **BradshawHoward2018** (S. 4) - `04_implikationen.tex`
-⚠️ **Narayanan2023** (S. 1) - `04_implikationen.tex`
 ⚠️ **Feldstein2019** (S. 5) - `04_implikationen.tex`
 ⚠️ **WoolleyHoward2017** (S. 1) - `04_implikationen.tex`
-⚠️ **Narayanan2023** (S. 5) - `04_implikationen.tex`
-⚠️ **Gillespie2014** (S. 167) - `04_implikationen.tex`
-⚠️ **Narayanan2023** (S. 6) - `04_implikationen.tex`
-⚠️ **Gillespie2014** (S. 167) - `04_implikationen.tex`
+⚠️ **Gillespie2014** (S. 169) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 1) - `04_implikationen.tex`
-⚠️ **Isaak2018** (S. 1) - `04_implikationen.tex`
-⚠️ **Pasquale2015** (S. 10) - `04_implikationen.tex`
+⚠️ **Isaak2018** (S. 56) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 1) - `04_implikationen.tex`
 ⚠️ **Susser2019** (S. 1) - `04_implikationen.tex`
 ⚠️ **Yeung2017** (S. 118) - `04_implikationen.tex`
@@ -8208,97 +6657,79 @@ setzen und den durch den Digital Services Act geschaffenen Datenzugang für die 
 ⚠️ **BradshawHoward2018** (S. 11) - `04_implikationen.tex`
 ⚠️ **WoolleyHoward2017** (S. 1) - `04_implikationen.tex`
 ⚠️ **BradshawHoward2018** (S. 6) - `04_implikationen.tex`
-⚠️ **Narayanan2023** (S. 25) - `04_implikationen.tex`
 ⚠️ **WoolleyHoward2017** (S. 1) - `04_implikationen.tex`
-⚠️ **Kramer2014** (S. 1) - `04_implikationen.tex`
+⚠️ **Kramer2014** (S. 8788) - `04_implikationen.tex`
 ⚠️ **Creemers2018** (S. 26) - `04_implikationen.tex`
 ⚠️ **Qiang2019** (S. 5) - `04_implikationen.tex`
 ⚠️ **WoolleyHoward2017** (S. 1) - `04_implikationen.tex`
 ⚠️ **BradshawHoward2018** (S. 3) - `04_implikationen.tex`
 ⚠️ **Cinelli2021** (S. 1) - `04_implikationen.tex`
-⚠️ **Gillespie2014** (S. 167) - `04_implikationen.tex`
-⚠️ **MetzlerGarcia2023** (S. 1) - `04_implikationen.tex`
+⚠️ **MetzlerGarcia2023** (S. 736) - `04_implikationen.tex`
 ⚠️ **Cinelli2021** (S. 3) - `04_implikationen.tex`
-⚠️ **MetzlerGarcia2023** (S. 1) - `04_implikationen.tex`
+⚠️ **MetzlerGarcia2023** (S. 738) - `04_implikationen.tex`
 ⚠️ **BradshawHoward2018** (S. 21) - `04_implikationen.tex`
-⚠️ **Feldstein2019** (S. 34) - `04_implikationen.tex`
+⚠️ **Feldstein2019** (S. 14) - `04_implikationen.tex`
 ⚠️ **Creemers2018** (S. 3) - `04_implikationen.tex`
 ⚠️ **Qiang2019** (S. 5) - `04_implikationen.tex`
 ⚠️ **Qiang2019** (S. 5) - `04_implikationen.tex`
-⚠️ **SFRC2020** (S. 1) - `04_implikationen.tex`
+⚠️ **SFRC2020** (S. 16) - `04_implikationen.tex`
 ⚠️ **AIHLEG2019** (S. 2) - `04_implikationen.tex`
-⚠️ **NIST2023** (S. 1) - `04_implikationen.tex`
+⚠️ **NIST2023** (S. 21) - `04_implikationen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `04_implikationen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 69) - `04_implikationen.tex`
-⚠️ **ONeil2016** (S. 145) - `04_implikationen.tex`
-⚠️ **Lyon2012** (S. 2) - `04_implikationen.tex`
-⚠️ **VanDijck2014** (S. 1) - `04_implikationen.tex`
+⚠️ **ONeil2016** (S. 7) - `04_implikationen.tex`
+⚠️ **Lyon2012** (S. 3) - `04_implikationen.tex`
 ⚠️ **AIHLEG2019** (S. 6) - `04_implikationen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `04_implikationen.tex`
-⚠️ **GDPR2016** (S. 1) - `04_implikationen.tex`
-⚠️ **GDPR2016** (S. 1) - `04_implikationen.tex`
 ⚠️ **Zuboff2019** (S. 471) - `04_implikationen.tex`
 ⚠️ **AIAct2024** (S. 51) - `04_implikationen.tex`
 ⚠️ **AIAct2024** (S. 52) - `04_implikationen.tex`
 ⚠️ **AIAct2024** (S. 58) - `04_implikationen.tex`
-✓ **DSA2022** (S. 24) - `04_implikationen.tex`
-⚠️ **DSA2022** (S. 17) - `04_implikationen.tex`
-⚠️ **DSA2022** (S. 93) - `04_implikationen.tex`
+⚠️ **DSA2022** (S. 22) - `04_implikationen.tex`
+⚠️ **DSA2022** (S. 59) - `04_implikationen.tex`
+⚠️ **DSA2022** (S. 26) - `04_implikationen.tex`
 ⚠️ **AIHLEG2019** (S. 2) - `04_implikationen.tex`
 ⚠️ **AIHLEG2019** (S. 14) - `04_implikationen.tex`
-⚠️ **AIHLEG2019** (S. 4) - `04_implikationen.tex`
-⚠️ **NIST2023** (S. 2) - `04_implikationen.tex`
-⚠️ **NIST2023** (S. 10) - `04_implikationen.tex`
-⚠️ **NIST2023** (S. 11) - `04_implikationen.tex`
-⚠️ **NIST2023** (S. 18) - `04_implikationen.tex`
-⚠️ **ONeil2016** (S. 145) - `04_implikationen.tex`
+⚠️ **NIST2023** (S. 1) - `04_implikationen.tex`
+⚠️ **NIST2023** (S. 20) - `04_implikationen.tex`
+⚠️ **NIST2023** (S. 20) - `04_implikationen.tex`
+⚠️ **NIST2023** (S. 28) - `04_implikationen.tex`
 ⚠️ **Pasquale2015** (S. 19) - `04_implikationen.tex`
-⚠️ **Lyon2012** (S. 2) - `04_implikationen.tex`
 ⚠️ **VomBrocke2009** (S. 1) - `05_kritische_betrachtung.tex`
-⚠️ **Pasquale2015** (S. 19) - `05_kritische_betrachtung.tex`
-⚠️ **NIST2023** (S. 1) - `05_kritische_betrachtung.tex`
+⚠️ **NIST2023** (S. 6) - `05_kritische_betrachtung.tex`
 ⚠️ **Areeb2023** (S. 7) - `05_kritische_betrachtung.tex`
-⚠️ **Kelm2023** (S. 1) - `05_kritische_betrachtung.tex`
-⚠️ **OrbenPrzybylski2019** (S. 6) - `05_kritische_betrachtung.tex`
-⚠️ **RussellNorvig2010** (S. 34) - `05_kritische_betrachtung.tex`
-⚠️ **Laudon2018** (S. 16) - `05_kritische_betrachtung.tex`
-⚠️ **Narayanan2023** (S. 1) - `05_kritische_betrachtung.tex`
+⚠️ **Kelm2023** (S. 6) - `05_kritische_betrachtung.tex`
+⚠️ **Laudon2018** (S. 254) - `05_kritische_betrachtung.tex`
+⚠️ **NIST2023** (S. 15) - `05_kritische_betrachtung.tex`
+⚠️ **Goodfellow2016** (S. 19) - `05_kritische_betrachtung.tex`
 ⚠️ **Lyon2012** (S. 2) - `05_kritische_betrachtung.tex`
-⚠️ **Pasquale2015** (S. 19) - `05_kritische_betrachtung.tex`
-⚠️ **NIST2023** (S. 18) - `05_kritische_betrachtung.tex`
-⚠️ **Goodfellow2016** (S. 210) - `05_kritische_betrachtung.tex`
-⚠️ **Lyon2012** (S. 5) - `05_kritische_betrachtung.tex`
-⚠️ **NIST2023** (S. 2) - `05_kritische_betrachtung.tex`
 ⚠️ **Pasquale2015** (S. 19) - `05_kritische_betrachtung.tex`
 ⚠️ **VomBrocke2009** (S. 1) - `05_kritische_betrachtung.tex`
 ⚠️ **Areeb2023** (S. 7) - `05_kritische_betrachtung.tex`
 ⚠️ **Cinelli2021** (S. 1) - `05_kritische_betrachtung.tex`
-⚠️ **OrbenPrzybylski2019** (S. 173) - `05_kritische_betrachtung.tex`
+⚠️ **OrbenPrzybylski2019** (S. 2) - `05_kritische_betrachtung.tex`
 ⚠️ **VomBrocke2009** (S. 1) - `05_kritische_betrachtung.tex`
 ⚠️ **VomBrocke2009** (S. 1) - `05_kritische_betrachtung.tex`
 ⚠️ **Kelm2023** (S. 1) - `05_kritische_betrachtung.tex`
 ⚠️ **Areeb2023** (S. 2) - `05_kritische_betrachtung.tex`
 ⚠️ **Cinelli2021** (S. 1) - `05_kritische_betrachtung.tex`
-⚠️ **NIST2023** (S. 2) - `05_kritische_betrachtung.tex`
-⚠️ **OrbenPrzybylski2019** (S. 173) - `05_kritische_betrachtung.tex`
+⚠️ **NIST2023** (S. 1) - `05_kritische_betrachtung.tex`
+⚠️ **OrbenPrzybylski2019** (S. 16) - `05_kritische_betrachtung.tex`
 ⚠️ **AIHLEG2019** (S. 16) - `05_kritische_betrachtung.tex`
 ⚠️ **AIAct2024** (S. 4) - `05_kritische_betrachtung.tex`
-⚠️ **NIST2023** (S. 5) - `05_kritische_betrachtung.tex`
-⚠️ **GDPR2016** (S. 1) - `05_kritische_betrachtung.tex`
-⚠️ **NIST2023** (S. 1) - `05_kritische_betrachtung.tex`
+⚠️ **NIST2023** (S. 12) - `05_kritische_betrachtung.tex`
 ⚠️ **Pasquale2015** (S. 19) - `05_kritische_betrachtung.tex`
 ⚠️ **Zuboff2019** (S. 69) - `05_kritische_betrachtung.tex`
 ⚠️ **Susser2019** (S. 1) - `05_kritische_betrachtung.tex`
 ⚠️ **OrbenPrzybylski2019** (S. 6) - `05_kritische_betrachtung.tex`
-⚠️ **Kelm2023** (S. 1) - `05_kritische_betrachtung.tex`
 ⚠️ **Areeb2023** (S. 7) - `05_kritische_betrachtung.tex`
-⚠️ **ONeil2016** (S. 145) - `05_kritische_betrachtung.tex`
-⚠️ **DSA2022** (S. 91) - `05_kritische_betrachtung.tex`
+⚠️ **ONeil2016** (S. 10) - `05_kritische_betrachtung.tex`
+⚠️ **DSA2022** (S. 70) - `05_kritische_betrachtung.tex`
 ⚠️ **NIST2023** (S. 28) - `05_kritische_betrachtung.tex`
 ⚠️ **Susser2019** (S. 28) - `05_kritische_betrachtung.tex`
 ⚠️ **Zuboff2019** (S. 69) - `06_fazit.tex`
 ⚠️ **Creemers2018** (S. 19) - `06_fazit.tex`
 ⚠️ **Susser2019** (S. 1) - `06_fazit.tex`
 ⚠️ **Qiang2019** (S. 5) - `06_fazit.tex`
-⚠️ **DSA2022** (S. 85) - `06_fazit.tex`
+⚠️ **DSA2022** (S. 70) - `06_fazit.tex`

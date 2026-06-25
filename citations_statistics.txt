@@ -2,7 +2,7 @@
 CITATION STATISTICS
 ============================================================
 
-Total citations: 379
+Total citations: 376
 Unique citation keys: 53
 
 ------------------------------------------------------------
@@ -10,20 +10,20 @@ CITATIONS PER FILE
 ------------------------------------------------------------
 Paper\chapters\04_implikationen.tex: 133 citations
 Paper\chapters\02_grundlagen.tex: 101 citations
-Paper\chapters\03_monitoring_systeme.tex: 93 citations
+Paper\chapters\03_monitoring_systeme.tex: 91 citations
 Paper\chapters\05_kritische_betrachtung.tex: 33 citations
-Paper\chapters\01_einleitung.tex: 14 citations
+Paper\chapters\01_einleitung.tex: 13 citations
 Paper\chapters\06_fazit.tex: 5 citations
 
 ------------------------------------------------------------
 MOST CITED SOURCES (Top 20)
 ------------------------------------------------------------
  1. Zuboff2019: 32 times
- 2. Pasquale2015: 28 times
+ 2. Pasquale2015: 26 times
  3. Laudon2018: 23 times
- 4. Gillespie2014: 16 times
- 5. NIST2023: 16 times
- 6. Susser2019: 16 times
+ 4. NIST2023: 16 times
+ 5. Susser2019: 16 times
+ 6. Gillespie2014: 15 times
  7. Srnicek2017: 14 times
  8. Narayanan2023: 13 times
  9. Creemers2018: 11 times
@@ -60,7 +60,7 @@ EvansSchmalensee2016: 1 time(s) done
 Feldstein2019: 2 time(s) done
 Fogg2009: 2 time(s) done
 GDPR2016: 3 time(s) done
-Gillespie2014: 16 time(s) done
+Gillespie2014: 15 time(s) done
 Goodfellow2016: 10 time(s) done
 Isaak2018: 2 time(s) done
 JordanMitchell2015: 1 time(s) done
@@ -79,7 +79,7 @@ ONeil2016: 6 time(s) done
 OrbenPrzybylski2019: 4 time(s) done
 Pariser2011: 2 time(s) done
 Parker2016: 6 time(s) done
-Pasquale2015: 28 time(s)
+Pasquale2015: 26 time(s) done
 Qiang2019: 7 time(s)
 Rashidi2018: 2 time(s) done
 RussellNorvig2010: 10 time(s) done

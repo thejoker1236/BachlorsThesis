@@ -64,7 +64,7 @@ Gillespie2014: 16 time(s) done
 Goodfellow2016: 10 time(s) done
 Isaak2018: 3 time(s) CORRECTED ✓
 JordanMitchell2015: 1 time(s) CORRECTED ✓
-Kaptein2015: 3 time(s)
+Kaptein2015: 3 time(s) CORRECTED ✓
 Kelm2023: 5 time(s)
 Kitchin2014: 6 time(s)
 Kramer2014: 4 time(s)

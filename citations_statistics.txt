@@ -44,7 +44,7 @@ ALL CITATION KEYS (Alphabetical)
 ------------------------------------------------------------
 AIAct2024: 4 time(s) done
 AIHLEG2019: 8 time(s) done
-Acquisti2016: 5 time(s)
+Acquisti2016: 5 time(s) done
 Adomavicius2005: 7 time(s)
 Areeb2023: 7 time(s)
 BradshawHoward2018: 9 time(s)

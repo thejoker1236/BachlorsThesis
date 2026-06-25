@@ -57,7 +57,7 @@ DSA2022: 5 time(s) done
 Davenport2006: 1 time(s) done
 EvansGawer2019: 1 time(s) done
 EvansSchmalensee2016: 1 time(s) done
-Feldstein2019: 2 time(s)
+Feldstein2019: 2 time(s) done
 Fogg2009: 6 time(s)
 GDPR2016: 3 time(s)
 Gillespie2014: 24 time(s)

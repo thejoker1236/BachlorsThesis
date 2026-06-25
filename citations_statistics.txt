@@ -80,7 +80,7 @@ OrbenPrzybylski2019: 4 time(s) done
 Pariser2011: 2 time(s) done
 Parker2016: 6 time(s) done
 Pasquale2015: 26 time(s) done
-Qiang2019: 7 time(s)
+Qiang2019: 7 time(s) done
 Rashidi2018: 2 time(s) done
 RussellNorvig2010: 10 time(s) done
 SFRC2020: 5 time(s) done

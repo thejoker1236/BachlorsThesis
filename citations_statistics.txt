@@ -53,7 +53,7 @@ Chandola2009: 1 time(s) done
 Cinelli2021: 8 time(s) done
 Creemers2018: 13 time(s) done
 Cusumano2019: 7 time(s) done
-DSA2022: 5 time(s)
+DSA2022: 5 time(s) done
 Davenport2006: 1 time(s)
 EvansGawer2019: 1 time(s)
 EvansSchmalensee2016: 1 time(s)

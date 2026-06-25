@@ -77,7 +77,7 @@ Narayanan2023: 13 time(s) done
 OECD2013: 6 time(s) done
 ONeil2016: 9 time(s) done
 OrbenPrzybylski2019: 7 time(s) done
-Pariser2011: 4 time(s)
+Pariser2011: 4 time(s) done
 Parker2016: 13 time(s)
 Pasquale2015: 28 time(s)
 Qiang2019: 8 time(s)

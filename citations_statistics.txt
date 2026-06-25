@@ -59,8 +59,8 @@ EvansGawer2019: 1 time(s) done
 EvansSchmalensee2016: 1 time(s) done
 Feldstein2019: 2 time(s) done
 Fogg2009: 6 time(s) done
-GDPR2016: 3 time(s) done done
-Gillespie2014: 24 time(s)
+GDPR2016: 3 time(s) done 
+Gillespie2014: 24 time(s) done 
 Goodfellow2016: 10 time(s)
 Isaak2018: 3 time(s)
 JordanMitchell2015: 1 time(s)

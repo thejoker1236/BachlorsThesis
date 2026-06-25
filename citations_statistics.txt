@@ -71,7 +71,7 @@ Kramer2014: 3 time(s) done
 Laudon2018: 23 time(s) done
 Lyon2012: 7 time(s) done
 MetzlerGarcia2023: 7 time(s) done
-Mitchell1997: 1 time(s)
+Mitchell1997: 1 time(s) done
 NIST2023: 19 time(s)
 Narayanan2023: 18 time(s)
 OECD2011: 5 time(s)

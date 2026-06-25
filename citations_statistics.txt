@@ -55,7 +55,7 @@ Creemers2018: 13 time(s) done
 Cusumano2019: 7 time(s) done
 DSA2022: 5 time(s) done
 Davenport2006: 1 time(s) done
-EvansGawer2019: 1 time(s)
+EvansGawer2019: 1 time(s) done
 EvansSchmalensee2016: 1 time(s)
 Feldstein2019: 2 time(s)
 Fogg2009: 6 time(s)

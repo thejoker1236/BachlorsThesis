@@ -2,16 +2,16 @@
 CITATION STATISTICS
 ============================================================
 
-Total citations: 374
+Total citations: 371
 Unique citation keys: 53
 
 ------------------------------------------------------------
 CITATIONS PER FILE
 ------------------------------------------------------------
 Paper\chapters\04_implikationen.tex: 132 citations
-Paper\chapters\02_grundlagen.tex: 100 citations
+Paper\chapters\02_grundlagen.tex: 99 citations
 Paper\chapters\03_monitoring_systeme.tex: 91 citations
-Paper\chapters\05_kritische_betrachtung.tex: 33 citations
+Paper\chapters\05_kritische_betrachtung.tex: 31 citations
 Paper\chapters\01_einleitung.tex: 13 citations
 Paper\chapters\06_fazit.tex: 5 citations
 
@@ -31,13 +31,13 @@ MOST CITED SOURCES (Top 20)
 11. Goodfellow2016: 10 times
 12. RussellNorvig2010: 10 times
 13. VanDijck2014: 9 times
-14. VomBrocke2009: 9 times
-15. Yeung2017: 8 times
-16. AIHLEG2019: 7 times
-17. Adomavicius2005: 7 times
-18. Areeb2023: 7 times
-19. BradshawHoward2018: 7 times
-20. Cinelli2021: 7 times
+14. Yeung2017: 8 times
+15. AIHLEG2019: 7 times
+16. Adomavicius2005: 7 times
+17. Areeb2023: 7 times
+18. BradshawHoward2018: 7 times
+19. Cinelli2021: 7 times
+20. Lyon2012: 7 times
 
 ------------------------------------------------------------
 ALL CITATION KEYS (Alphabetical)
@@ -91,7 +91,7 @@ Susser2019: 16 time(s) done
 SuttonBarto2018: 4 time(s) done
 Tiwana2014: 11 time(s) done
 VanDijck2014: 9 time(s) done
-VomBrocke2009: 9 time(s)
+VomBrocke2009: 6 time(s) done
 WoolleyHoward2017: 5 time(s) done
 Yeung2017: 8 time(s)
 Zuboff2019: 31 time(s) done

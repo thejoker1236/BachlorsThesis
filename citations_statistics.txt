@@ -2,15 +2,15 @@
 CITATION STATISTICS
 ============================================================
 
-Total citations: 464
+Total citations: 445
 Unique citation keys: 55
 
 ------------------------------------------------------------
 CITATIONS PER FILE
 ------------------------------------------------------------
-Paper\chapters\04_implikationen.tex: 170 citations
-Paper\chapters\03_monitoring_systeme.tex: 120 citations
-Paper\chapters\02_grundlagen.tex: 111 citations
+Paper\chapters\04_implikationen.tex: 156 citations
+Paper\chapters\03_monitoring_systeme.tex: 114 citations
+Paper\chapters\02_grundlagen.tex: 112 citations
 Paper\chapters\05_kritische_betrachtung.tex: 42 citations
 Paper\chapters\01_einleitung.tex: 16 citations
 Paper\chapters\06_fazit.tex: 5 citations
@@ -18,25 +18,25 @@ Paper\chapters\06_fazit.tex: 5 citations
 ------------------------------------------------------------
 MOST CITED SOURCES (Top 20)
 ------------------------------------------------------------
- 1. Zuboff2019: 42 times
+ 1. Zuboff2019: 39 times
  2. Pasquale2015: 32 times
- 3. Laudon2018: 25 times
- 4. Gillespie2014: 24 times
- 5. NIST2023: 20 times
- 6. Narayanan2023: 20 times
- 7. Srnicek2017: 18 times
+ 3. Laudon2018: 26 times
+ 4. NIST2023: 20 times
+ 5. Narayanan2023: 18 times
+ 6. Srnicek2017: 18 times
+ 7. Gillespie2014: 16 times
  8. Susser2019: 16 times
- 9. RussellNorvig2010: 13 times
+ 9. Creemers2018: 13 times
 10. Parker2016: 13 times
-11. VanDijck2014: 13 times
-12. Creemers2018: 13 times
+11. RussellNorvig2010: 13 times
+12. VanDijck2014: 13 times
 13. Tiwana2014: 11 times
 14. Goodfellow2016: 10 times
 15. Lyon2012: 10 times
 16. ONeil2016: 9 times
-17. BradshawHoward2018: 9 times
-18. VomBrocke2009: 9 times
-19. AIHLEG2019: 8 times
+17. VomBrocke2009: 9 times
+18. AIHLEG2019: 8 times
+19. Qiang2019: 8 times
 20. Yeung2017: 8 times
 
 ------------------------------------------------------------
@@ -47,10 +47,10 @@ AIHLEG2019: 8 time(s) done
 Acquisti2016: 5 time(s) done
 Adomavicius2005: 7 time(s) done
 Areeb2023: 7 time(s) done
-BradshawHoward2018: 9 time(s) done
+BradshawHoward2018: 7 time(s) done
 Burke2002: 2 time(s) done
 Chandola2009: 1 time(s) done
-Cinelli2021: 8 time(s) done
+Cinelli2021: 7 time(s) done
 Creemers2018: 13 time(s) done
 Cusumano2019: 7 time(s) done
 DSA2022: 5 time(s) done
@@ -58,23 +58,23 @@ Davenport2006: 1 time(s) done
 EvansGawer2019: 1 time(s) done
 EvansSchmalensee2016: 1 time(s) done
 Feldstein2019: 2 time(s) done
-Fogg2009: 6 time(s) done
-GDPR2016: 3 time(s) done 
-Gillespie2014: 24 time(s) CORRECTED ✓
-Goodfellow2016: 10 time(s) CORRECTED ✓
-Isaak2018: 3 time(s)
-JordanMitchell2015: 1 time(s)
+Fogg2009: 2 time(s) done
+GDPR2016: 3 time(s) done
+Gillespie2014: 16 time(s) done
+Goodfellow2016: 10 time(s) done
+Isaak2018: 3 time(s) CORRECTED ✓
+JordanMitchell2015: 1 time(s) CORRECTED ✓
 Kaptein2015: 3 time(s)
 Kelm2023: 5 time(s)
 Kitchin2014: 6 time(s)
 Kramer2014: 4 time(s)
-Laudon2018: 25 time(s)
+Laudon2018: 26 time(s)
 Lyon2012: 10 time(s)
 MayerSchoenberger2013: 1 time(s)
 MetzlerGarcia2023: 7 time(s)
 Mitchell1997: 1 time(s)
 NIST2023: 20 time(s)
-Narayanan2023: 20 time(s)
+Narayanan2023: 18 time(s)
 OECD2011: 5 time(s)
 OECD2013: 1 time(s)
 ONeil2016: 9 time(s)
@@ -96,4 +96,4 @@ VanDijck2014: 13 time(s)
 VomBrocke2009: 9 time(s)
 WoolleyHoward2017: 5 time(s)
 Yeung2017: 8 time(s)
-Zuboff2019: 42 time(s)
+Zuboff2019: 39 time(s)

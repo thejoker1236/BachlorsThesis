@@ -1,0 +1,99 @@
+============================================================
+CITATION STATISTICS
+============================================================
+
+Total citations: 464
+Unique citation keys: 55
+
+------------------------------------------------------------
+CITATIONS PER FILE
+------------------------------------------------------------
+Paper\chapters\04_implikationen.tex: 170 citations
+Paper\chapters\03_monitoring_systeme.tex: 120 citations
+Paper\chapters\02_grundlagen.tex: 111 citations
+Paper\chapters\05_kritische_betrachtung.tex: 42 citations
+Paper\chapters\01_einleitung.tex: 16 citations
+Paper\chapters\06_fazit.tex: 5 citations
+
+------------------------------------------------------------
+MOST CITED SOURCES (Top 20)
+------------------------------------------------------------
+ 1. Zuboff2019: 42 times
+ 2. Pasquale2015: 32 times
+ 3. Laudon2018: 25 times
+ 4. Gillespie2014: 24 times
+ 5. NIST2023: 20 times
+ 6. Narayanan2023: 20 times
+ 7. Srnicek2017: 18 times
+ 8. Susser2019: 16 times
+ 9. RussellNorvig2010: 13 times
+10. Parker2016: 13 times
+11. VanDijck2014: 13 times
+12. Creemers2018: 13 times
+13. Tiwana2014: 11 times
+14. Goodfellow2016: 10 times
+15. Lyon2012: 10 times
+16. ONeil2016: 9 times
+17. BradshawHoward2018: 9 times
+18. VomBrocke2009: 9 times
+19. AIHLEG2019: 8 times
+20. Yeung2017: 8 times
+
+------------------------------------------------------------
+ALL CITATION KEYS (Alphabetical)
+------------------------------------------------------------
+AIAct2024: 4 time(s) done
+AIHLEG2019: 8 time(s)
+Acquisti2016: 5 time(s)
+Adomavicius2005: 7 time(s)
+Areeb2023: 7 time(s)
+BradshawHoward2018: 9 time(s)
+Burke2002: 2 time(s)
+Chandola2009: 1 time(s)
+Cinelli2021: 8 time(s)
+Creemers2018: 13 time(s)
+Cusumano2019: 7 time(s)
+DSA2022: 5 time(s)
+Davenport2006: 1 time(s)
+EvansGawer2019: 1 time(s)
+EvansSchmalensee2016: 1 time(s)
+Feldstein2019: 2 time(s)
+Fogg2009: 6 time(s)
+GDPR2016: 3 time(s)
+Gillespie2014: 24 time(s)
+Goodfellow2016: 10 time(s)
+Isaak2018: 3 time(s)
+JordanMitchell2015: 1 time(s)
+Kaptein2015: 3 time(s)
+Kelm2023: 5 time(s)
+Kitchin2014: 6 time(s)
+Kramer2014: 4 time(s)
+Laudon2018: 25 time(s) done
+Lyon2012: 10 time(s)
+MayerSchoenberger2013: 1 time(s)
+MetzlerGarcia2023: 7 time(s)
+Mitchell1997: 1 time(s)
+NIST2023: 20 time(s)
+Narayanan2023: 20 time(s)
+OECD2011: 5 time(s)
+OECD2013: 1 time(s)
+ONeil2016: 9 time(s)
+OrbenPrzybylski2019: 7 time(s)
+Pariser2011: 4 time(s)
+Parker2016: 13 time(s)
+Pasquale2015: 32 time(s)
+Qiang2019: 8 time(s)
+Rashidi2018: 2 time(s)
+RussellNorvig2010: 13 time(s)
+SFRC2020: 6 time(s)
+Shipsey2010: 4 time(s)
+Srnicek2017: 18 time(s)
+StairReynolds2010: 4 time(s)
+Susser2019: 16 time(s)
+SuttonBarto2018: 4 time(s)
+Tiwana2014: 11 time(s)
+VanDijck2014: 13 time(s)
+VomBrocke2009: 9 time(s)
+WoolleyHoward2017: 5 time(s)
+Yeung2017: 8 time(s)
+Zuboff2019: 42 time(s)

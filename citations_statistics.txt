@@ -43,7 +43,7 @@ MOST CITED SOURCES (Top 20)
 ALL CITATION KEYS (Alphabetical)
 ------------------------------------------------------------
 AIAct2024: 4 time(s) done
-AIHLEG2019: 8 time(s)
+AIHLEG2019: 8 time(s) done
 Acquisti2016: 5 time(s)
 Adomavicius2005: 7 time(s)
 Areeb2023: 7 time(s)
@@ -68,7 +68,7 @@ Kaptein2015: 3 time(s)
 Kelm2023: 5 time(s)
 Kitchin2014: 6 time(s)
 Kramer2014: 4 time(s)
-Laudon2018: 25 time(s) done
+Laudon2018: 25 time(s)
 Lyon2012: 10 time(s)
 MayerSchoenberger2013: 1 time(s)
 MetzlerGarcia2023: 7 time(s)

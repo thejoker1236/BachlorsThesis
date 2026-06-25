@@ -2,14 +2,14 @@
 CITATION STATISTICS
 ============================================================
 
-Total citations: 375
+Total citations: 374
 Unique citation keys: 53
 
 ------------------------------------------------------------
 CITATIONS PER FILE
 ------------------------------------------------------------
 Paper\chapters\04_implikationen.tex: 132 citations
-Paper\chapters\02_grundlagen.tex: 101 citations
+Paper\chapters\02_grundlagen.tex: 100 citations
 Paper\chapters\03_monitoring_systeme.tex: 91 citations
 Paper\chapters\05_kritische_betrachtung.tex: 33 citations
 Paper\chapters\01_einleitung.tex: 13 citations
@@ -86,7 +86,7 @@ RussellNorvig2010: 10 time(s) done
 SFRC2020: 5 time(s) done
 Shipsey2010: 2 time(s) done
 Srnicek2017: 14 time(s) done
-StairReynolds2010: 4 time(s)
+StairReynolds2010: 3 time(s) done
 Susser2019: 16 time(s) done
 SuttonBarto2018: 4 time(s) done
 Tiwana2014: 11 time(s) done

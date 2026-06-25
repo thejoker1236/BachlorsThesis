@@ -2,13 +2,13 @@
 CITATION STATISTICS
 ============================================================
 
-Total citations: 376
+Total citations: 375
 Unique citation keys: 53
 
 ------------------------------------------------------------
 CITATIONS PER FILE
 ------------------------------------------------------------
-Paper\chapters\04_implikationen.tex: 133 citations
+Paper\chapters\04_implikationen.tex: 132 citations
 Paper\chapters\02_grundlagen.tex: 101 citations
 Paper\chapters\03_monitoring_systeme.tex: 91 citations
 Paper\chapters\05_kritische_betrachtung.tex: 33 citations
@@ -18,7 +18,7 @@ Paper\chapters\06_fazit.tex: 5 citations
 ------------------------------------------------------------
 MOST CITED SOURCES (Top 20)
 ------------------------------------------------------------
- 1. Zuboff2019: 32 times
+ 1. Zuboff2019: 31 times
  2. Pasquale2015: 26 times
  3. Laudon2018: 23 times
  4. NIST2023: 16 times
@@ -88,10 +88,10 @@ Shipsey2010: 2 time(s) done
 Srnicek2017: 14 time(s) done
 StairReynolds2010: 4 time(s)
 Susser2019: 16 time(s)
-SuttonBarto2018: 4 time(s)
+SuttonBarto2018: 4 time(s) done
 Tiwana2014: 11 time(s)
 VanDijck2014: 9 time(s)
 VomBrocke2009: 9 time(s)
 WoolleyHoward2017: 5 time(s)
 Yeung2017: 8 time(s)
-Zuboff2019: 32 time(s)
+Zuboff2019: 31 time(s) done

@@ -87,7 +87,7 @@ SFRC2020: 5 time(s) done
 Shipsey2010: 2 time(s) done
 Srnicek2017: 14 time(s) done
 StairReynolds2010: 4 time(s)
-Susser2019: 16 time(s)
+Susser2019: 16 time(s) done
 SuttonBarto2018: 4 time(s) done
 Tiwana2014: 11 time(s) done
 VanDijck2014: 9 time(s)

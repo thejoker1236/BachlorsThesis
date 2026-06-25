@@ -2,15 +2,15 @@
 CITATION STATISTICS
 ============================================================
 
-Total citations: 371
+Total citations: 368
 Unique citation keys: 53
 
 ------------------------------------------------------------
 CITATIONS PER FILE
 ------------------------------------------------------------
-Paper\chapters\04_implikationen.tex: 132 citations
+Paper\chapters\04_implikationen.tex: 130 citations
 Paper\chapters\02_grundlagen.tex: 99 citations
-Paper\chapters\03_monitoring_systeme.tex: 91 citations
+Paper\chapters\03_monitoring_systeme.tex: 90 citations
 Paper\chapters\05_kritische_betrachtung.tex: 31 citations
 Paper\chapters\01_einleitung.tex: 13 citations
 Paper\chapters\06_fazit.tex: 5 citations
@@ -22,8 +22,8 @@ MOST CITED SOURCES (Top 20)
  2. Pasquale2015: 26 times
  3. Laudon2018: 23 times
  4. NIST2023: 16 times
- 5. Susser2019: 16 times
- 6. Gillespie2014: 15 times
+ 5. Susser2019: 15 times
+ 6. Gillespie2014: 14 times
  7. Srnicek2017: 14 times
  8. Narayanan2023: 13 times
  9. Creemers2018: 11 times
@@ -31,13 +31,13 @@ MOST CITED SOURCES (Top 20)
 11. Goodfellow2016: 10 times
 12. RussellNorvig2010: 10 times
 13. VanDijck2014: 9 times
-14. Yeung2017: 8 times
-15. AIHLEG2019: 7 times
-16. Adomavicius2005: 7 times
-17. Areeb2023: 7 times
-18. BradshawHoward2018: 7 times
-19. Cinelli2021: 7 times
-20. Lyon2012: 7 times
+14. AIHLEG2019: 7 times
+15. Adomavicius2005: 7 times
+16. Areeb2023: 7 times
+17. BradshawHoward2018: 7 times
+18. Cinelli2021: 7 times
+19. Lyon2012: 7 times
+20. Qiang2019: 7 times
 
 ------------------------------------------------------------
 ALL CITATION KEYS (Alphabetical)
@@ -60,7 +60,7 @@ EvansSchmalensee2016: 1 time(s) done
 Feldstein2019: 2 time(s) done
 Fogg2009: 2 time(s) done
 GDPR2016: 3 time(s) done
-Gillespie2014: 15 time(s) done
+Gillespie2014: 14 time(s) done
 Goodfellow2016: 10 time(s) done
 Isaak2018: 2 time(s) done
 JordanMitchell2015: 1 time(s) done
@@ -87,11 +87,11 @@ SFRC2020: 5 time(s) done
 Shipsey2010: 2 time(s) done
 Srnicek2017: 14 time(s) done
 StairReynolds2010: 3 time(s) done
-Susser2019: 16 time(s) done
+Susser2019: 15 time(s) done
 SuttonBarto2018: 4 time(s) done
 Tiwana2014: 11 time(s) done
 VanDijck2014: 9 time(s) done
 VomBrocke2009: 6 time(s) done
 WoolleyHoward2017: 5 time(s) done
-Yeung2017: 8 time(s)
+Yeung2017: 7 time(s)
 Zuboff2019: 31 time(s) done

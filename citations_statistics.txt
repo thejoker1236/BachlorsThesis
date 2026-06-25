@@ -70,7 +70,7 @@ Kitchin2014: 6 time(s) done
 Kramer2014: 3 time(s) done
 Laudon2018: 23 time(s) done
 Lyon2012: 7 time(s) done
-MetzlerGarcia2023: 7 time(s)
+MetzlerGarcia2023: 7 time(s) done
 Mitchell1997: 1 time(s)
 NIST2023: 19 time(s)
 Narayanan2023: 18 time(s)

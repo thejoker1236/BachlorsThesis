@@ -52,7 +52,7 @@ Burke2002: 2 time(s) done
 Chandola2009: 1 time(s) done
 Cinelli2021: 8 time(s) done
 Creemers2018: 13 time(s) done
-Cusumano2019: 7 time(s)
+Cusumano2019: 7 time(s) done
 DSA2022: 5 time(s)
 Davenport2006: 1 time(s)
 EvansGawer2019: 1 time(s)

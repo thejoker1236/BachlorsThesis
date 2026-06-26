@@ -18,6 +18,9 @@
 # Keep compiled PDF
 !Paper/main.pdf
 
+# Large backup files
+sources/sources_backup.zip
+
 # Word temp/lock files
 ~$*
 
